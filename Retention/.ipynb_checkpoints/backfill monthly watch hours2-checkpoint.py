@@ -76,8 +76,6 @@ qry = '''
             , hb.viewable_id
             , sum(hb.stream_elapsed_play_seconds/3600) as hours_viewed
         from max_prod.viewership.max_user_stream_heartbeat hb
-        left join max_prod.identity.user_profile_dim_current up 
-            on up.hbo_uuid = hb.hbo_uuid
         where 1=1
             and hb.request_date between '{start_date}' and '{end_date}'
             and hb.viewable_id IS NOT NULL 

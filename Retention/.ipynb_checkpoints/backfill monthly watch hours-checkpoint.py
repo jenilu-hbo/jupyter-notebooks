@@ -76,8 +76,6 @@ qry = '''
             , hb.viewable_id
             , sum(hb.stream_elapsed_play_seconds/3600) as hours_viewed
         from max_prod.viewership.max_user_stream_heartbeat hb
-        left join max_prod.identity.user_profile_dim_current up 
-            on up.hbo_uuid = hb.hbo_uuid
         where 1=1
             and hb.request_date between '{start_date}' and '{end_date}'
             and hb.viewable_id IS NOT NULL 
@@ -102,7 +100,7 @@ qry = '''
 '''
 
 table = 'user_title_hours_watched_test2'
-t =  pd.to_datetime('2020-05-27')
+t =  pd.to_datetime('2020-05-01')
 
 while (t>=pd.to_datetime('2020-05-01') and t<=pd.to_datetime('2021-12-31')):
     print (t)
