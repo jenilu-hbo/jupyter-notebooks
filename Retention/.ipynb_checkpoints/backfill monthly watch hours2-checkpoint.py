@@ -92,10 +92,12 @@ qry = '''
             , ss.viewable_id
             , sum(hours_viewed) as hours_viewed
         FROM streaming_subset ss
-        JOIN max_dev.workspace.user_retain_churn_list_test c
+        JOIN (
+             SELECT DISTINCT tt.hbo_uuid
+             FROM max_dev.workspace.user_retain_churn_list_test tt
+             where '{end_date}' >= cycle_start_date 
+             and '{start_date}' <= cycle_expire_date) c
         ON   c.hbo_uuid = ss.hbo_uuid
-        and  ss.request_date >= cycle_start_date 
-        and ss.request_date <= cycle_expire_date
         group by 1, 2
 '''
 
