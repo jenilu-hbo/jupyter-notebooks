@@ -1,0 +1,812 @@
+,Type,Channel,Title,Year,Genre,Runtime,Bucket,MPM from Prior List,Tentpole,Additional Titles to Pull,PRODUCT ID,Product ID,Co-Fi?,Unnamed: 13,UPDATED PRODUCT ID,Different than Original?,imdb_id,MPM_NUMBER
+0,Movie,Action,"Matrix, The",1999.0,ACTION ,2.25,A,not in prior list,Yes,,2003656.0,1002779.0,Yes,,2003656.0,No,tt0133093,2003656.0
+1,Movie,Action,Terminator 4: Salvation,2009.0,ACTION ,1.92,A,not in prior list,Yes,,2047893.0,1029144.0,No,,2047893.0,No,tt0438488,2047893.0
+2,Movie,Action,Rush Hour,1998.0,ACTION ,1.62,A,not in prior list,Yes,,2017113.0,1013422.0,No,,2017113.0,No,tt0120812,2017113.0
+3,Movie,Action,Clash Of The Titans (2010),2010.0,ACTION ,1.77,A,not in prior list,Yes,,2043312.0,1026752.0,No,,2043312.0,No,tt0800320,2043312.0
+4,Movie,Action,"Fugitive, The",1993.0,ACTION ,2.13,A,not in prior list,Yes,,2005837.0,1004597.0,No,,2003257.0,Yes,tt0106977,2003257.0
+5,Movie,Action,Eraser,1996.0,ACTION ,1.92,A,not in prior list,Yes,,2003430.0,1002553.0,No,,2003430.0,No,tt0116213,2003430.0
+6,Movie,Action,Robin Hood: Prince of Thieves,1991.0,ACTION ,2.3,A,not in prior list,Yes,,2002526.0,1001864.0,No,,2002526.0,No,tt0102798,2002526.0
+7,Movie,Action,"Long Kiss Goodnight, The",1996.0,ACTION ,2.0,A,not in prior list,Yes,,2017002.0,1013312.0,No,,2017002.0,No,tt0116908,2017002.0
+8,Movie,Action,Under Siege,1992.0,ACTION ,1.72,B,not in prior list,Yes,,2003073.0,1002215.0,Yes,,2003073.0,No,tt0105690,2003073.0
+9,Movie,Action,Hard to Kill,1990.0,ACTION ,1.6,B,not in prior list,Yes,,2002469.0,1001807.0,No,,2002469.0,No,tt0099739,2002469.0
+10,Movie,Action,300 (2007),2007.0,ACTION ,1.95,A,not in prior list,Yes,,2035604.0,1024194.0,No,,2035604.0,No,tt0416449,2035604.0
+11,Movie,Action,Blade,1998.0,ACTION ,2.0,A,not in prior list,Yes,,2016978.0,1013292.0,No,,2016978.0,No,tt0120611,2016978.0
+12,Movie,Action,Shaft (2019),2019.0,ACTION ,1.85,A,not in prior list,Yes,,2074539.0,1041763.0,No,,2074539.0,No,tt4463894,2074539.0
+13,Movie,Action,Rampage (2018),2018.0,ACTION ,1.78,A,not in prior list,Yes,,2062504.0,1035795.0,No,,2062504.0,No,tt2231461,2062504.0
+14,Movie,Action,"Accountant, The",2016.0,ACTION ,2.13,A,not in prior list,Yes,,2063725.0,1036335.0,No,,2063725.0,No,tt2140479,2063725.0
+15,Movie,Action,Point Break (2015),2015.0,ACTION ,1.9,A,not in prior list,No,x,2067355.0,1037764.0,No,,2067355.0,No,tt2058673,2067355.0
+16,Movie,Action,Edge of Tomorrow,1905.0,ACTION ,1.88,A,not in prior list,No,x,2054390.0,1032708.0,Yes,,2054390.0,No,tt1631867,2054390.0
+17,Movie,Action,Getaway (2012),2013.0,ACTION ,1.61,B,not in prior list,No,x,2055986.0,1033665.0,No,,2055986.0,No,tt2167202,2055986.0
+18,Movie,Action,Bullet To The Head,2013.0,ACTION ,1.53,B,not in prior list,No,x,2051450.0,1031159.0,No,,2051450.0,No,tt1308729,2051450.0
+19,Movie,Action,RocknRolla,2008.0,ACTION ,1.91,B,not in prior list,No,x,2046370.0,1028312.0,No,,2046370.0,No,tt1032755,2046370.0
+20,Movie,Action,Shoot 'Em Up,2007.0,ACTION ,1.43,C,not in prior list,No,x,2042187.0,1026350.0,No,,2042187.0,No,tt0465602,2042187.0
+21,Movie,Action,Highwaymen,2004.0,ACTION ,1.3,C,not in prior list,No,x,2025304.0,1019483.0,No,,2025304.0,No,,
+22,Movie,Action,15 Minutes,2001.0,ACTION ,1.83,C,not in prior list,No,,2017124.0,1013433.0,No,,2017124.0,No,tt0179626,2017124.0
+23,Movie,Action,Get Carter (2000),2000.0,ACTION ,1.7,C,not in prior list,No,,2004596.0,1003687.0,No,,2004596.0,No,tt0208988,2004596.0
+24,Movie,Action,"Corruptor, The",1999.0,ACTION ,1.83,B,not in prior list,No,,2017126.0,1013435.0,No,,2017126.0,No,tt0142192,2017126.0
+25,Movie,Action,Fire Down Below,1997.0,ACTION,1.71,C,not in prior list,No,,2003571.0,1002694.0,No,,2003571.0,No,tt0119123,2003571.0
+26,Movie,Action,Jackie Chan's First Strike,1997.0,ACTION ,1.46,C,not in prior list,No,,2017077.0,1013386.0,No,,,,,
+27,Movie,Action,"Getaway, The (1994)",1994.0,ACTION ,1.9,C,not in prior list,No,,2003333.0,1002456.0,No,,2003333.0,No,,
+28,Movie,Action,Falling Down,1993.0,ACTION ,1.86,C,not in prior list,No,,2003246.0,1002369.0,Yes,,2003246.0,No,tt0106856,2003246.0
+29,Movie,Action,Fit to Kill,1993.0,ACTION ,1.56,C,not in prior list,No,,2002740.0,1002078.0,No,,2002740.0,No,,
+30,Movie,Action,"Hitman, The",1992.0,ACTION ,1.6,C,not in prior list,No,,2002630.0,1001968.0,No,,,,,
+31,Movie,Action,Showdown in Little Tokyo,1991.0,ACTION ,1.98,C,not in prior list,No,,2002541.0,1001879.0,No,,2002541.0,No,tt0102915,2002541.0
+32,Movie,Action,American Kickboxer,1991.0,ACTION ,1.6,C,not in prior list,No,,2002624.0,1001962.0,No,,2002624.0,No,,
+33,Movie,Action,Born to Ride,1991.0,ACTION ,1.5,C,not in prior list,No,,2002531.0,1001869.0,Yes,,,,,
+34,Movie,Action,If Looks Could Kill,1991.0,ACTION ,1.46,C,not in prior list,No,,2002530.0,1001868.0,No,,2002530.0,No,,
+35,Movie,Action,"Rookie, The",1990.0,ACTION ,2.01,C,not in prior list,No,,2020072.0,1015267.0,No,,2002485.0,Yes,tt0100514,2002485.0
+36,Movie,Action,Street Justice,1987.0,ACTION ,1.55,C,not in prior list,No,,2012965.0,1010504.0,No,,2012965.0,No,,
+37,Movie,Action,Hard Ticket to Hawaii,1987.0,ACTION ,1.6,C,not in prior list,No,,2012892.0,1010431.0,No,,2012892.0,No,,
+38,Movie,Action,Quiet Cool,1986.0,ACTION ,1.38,C,not in prior list,No,,2016780.0,1013106.0,No,,2016780.0,No,,
+39,Movie,Action,Cobra,1986.0,ACTION ,1.46,C,not in prior list,No,,2005034.0,1003981.0,No,,,,,
+40,Movie,Action,Red Sonja,1985.0,ACTION ,1.48,C,not in prior list,No,,2012573.0,1010146.0,No,,2012573.0,No,tt0089893,2012573.0
+41,Movie,Action,Gymkata,1985.0,ACTION ,1.5,C,2012570,No,,2012570.0,1010143.0,No,,2012570.0,No,,
+42,Movie,Action,City Heat,1984.0,ACTION ,1.63,C,not in prior list,No,,2002123.0,1001468.0,No,,2002123.0,No,,
+43,Movie,Action,Razorback,1984.0,ACTION ,1.58,C,not in prior list,No,,2002124.0,1001469.0,No,,2002124.0,No,,
+44,Movie,Action,Malibu Express,1984.0,ACTION ,1.68,C,not in prior list,No,,2012890.0,1010429.0,No,,2012890.0,No,,
+45,Movie,Action,Hearts and Armour,1983.0,ACTION ,1.68,C,not in prior list,No,,2002095.0,1001440.0,No,,2002095.0,No,,
+46,Movie,Action,Forced Vengeance,1982.0,ACTION ,1.71,C,not in prior list,No,,2011974.0,1009629.0,No,,2011974.0,No,,
+47,Movie,Action,Firefox,1982.0,ACTION ,2.16,C,not in prior list,No,,2002028.0,1001377.0,No,,2002028.0,No,tt0083943,2002028.0
+48,Movie,Action,Sharky's Machine,1981.0,ACTION ,2.03,C,not in prior list,No,,2002006.0,1001356.0,No,,2002006.0,No,tt0083064,2002006.0
+49,Movie,Action,Bronco Billy,1980.0,ACTION ,1.98,C,2001958,No,,2001958.0,1001308.0,No,,2001958.0,No,,
+50,Movie,Action,When Time Ran Out,1980.0,ACTION,2.41,CLASSIC,not in prior list,No,,2001932.0,1001283.0,No,,2001932.0,No,,
+51,Movie,Action,"In-Laws, The (1979)",1979.0,ACTION ,1.71,CLASSIC,not in prior list,No,,2001934.0,1001285.0,No,,2001934.0,No,,
+52,Movie,Action,Beyond the Poseidon Adventure,1979.0,ACTION ,2.03,CLASSIC,not in prior list,No,,2001921.0,1001273.0,No,,2001921.0,No,tt0078856,2001921.0
+53,Movie,Action,Avalanche Express,1979.0,ACTION ,1.46,CLASSIC,not in prior list,No,,2011347.0,1009069.0,No,,2011347.0,No,,
+54,Movie,Action,Every Which Way But Loose,1978.0,ACTION ,1.9,CLASSIC,2001886,No,,2001886.0,1001240.0,No,,2001886.0,No,tt0077523,2001886.0
+55,Movie,Action,"Gauntlet, The",1977.0,ACTION ,1.88,CLASSIC,not in prior list,No,,2001839.0,1001196.0,No,,2001839.0,No,tt0076070,2001839.0
+56,Movie,Action,Greased Lightning,1977.0,ACTION ,1.61,CLASSIC,not in prior list,No,,2001833.0,1001190.0,No,,2001833.0,No,tt0076106,2001833.0
+57,Movie,Action,Viva Knievel!,1977.0,ACTION ,1.76,CLASSIC,not in prior list,No,,2001830.0,1001187.0,No,,2001830.0,No,,
+58,Movie,Action,"Gumball Rally, The",1976.0,ACTION ,1.78,CLASSIC,not in prior list,No,,2001795.0,1001152.0,No,,2001795.0,No,,
+59,Movie,Action,Hot Potato,1976.0,ACTION ,1.45,CLASSIC,not in prior list,No,,2001778.0,1001136.0,No,,2001778.0,No,,
+60,Movie,Action,Fighting Black Kings,1976.0,ACTION ,1.48,CLASSIC,not in prior list,No,,2016929.0,1013243.0,No,,2016929.0,No,,
+61,Movie,Action,Logan's Run,1976.0,ACTION ,2.0,CLASSIC,2011101,No,,2031036.0,1023507.0,No,,,,,
+62,Movie,Action,St. Ives,1976.0,ACTION ,1.56,CLASSIC,not in prior list,No,,2001793.0,1001150.0,No,,2001793.0,No,,
+63,Movie,Action,Mitchell,1975.0,ACTION ,1.6,CLASSIC,not in prior list,No,,2000763.0,1000706.0,No,,2000763.0,No,,
+64,Movie,Action,Cleopatra Jones and the Casino of Gold,1975.0,ACTION ,1.61,C,2001676,No,,2001676.0,1001038.0,No,,2001676.0,No,tt0072791,2001676.0
+65,Movie,Action,"Four Musketeers, The",1975.0,ACTION,1.78,CLASSIC,2001898,No,,2004767.0,1003856.0,No,,,,,
+66,Movie,Action,Mr. Ricco,1975.0,ACTION ,1.63,CLASSIC,not in prior list,No,,2011021.0,1008767.0,No,,2011021.0,No,,
+67,Movie,Action,"Towering Inferno, The",1974.0,ACTION ,2.75,CLASSIC,not in prior list,No,,2001719.0,1001079.0,Yes,,2001719.0,No,tt0072308,2001719.0
+68,Movie,Action,"Street Fighter, The",1974.0,ACTION ,1.5,CLASSIC,not in prior list,No,,2016973.0,1013287.0,No,,2016973.0,No,,
+69,Movie,Action,Black Samson,1974.0,ACTION ,1.48,C,not in prior list,No,,2001711.0,1001072.0,No,,2001711.0,No,,
+70,Movie,Action,Black Eye,1974.0,ACTION ,1.63,C,2001701,No,,2001701.0,1001063.0,No,,2001701.0,No,,
+71,Movie,Action,Freebie and the Bean,1974.0,ACTION ,1.88,CLASSIC,not in prior list,No,,2001700.0,1001062.0,No,,2001700.0,No,,
+72,Movie,Action,McQ,1974.0,ACTION ,1.93,CLASSIC,not in prior list,No,,2001695.0,1001057.0,No,,2001695.0,No,,
+73,Movie,Action,Black Belt Jones,1974.0,ACTION ,1.43,C,2001694,No,,2001694.0,1001056.0,No,,2001694.0,No,,
+74,Movie,Action,"Outfit, The",1974.0,ACTION ,1.71,CLASSIC,not in prior list,No,,2010930.0,1008679.0,No,,,,,
+75,Movie,Action,"Super Cops, The",1974.0,ACTION ,1.56,CLASSIC,not in prior list,No,,2010932.0,1008681.0,No,,2010932.0,No,,
+76,Movie,Action,"Mackintosh Man, The",1973.0,ACTION ,1.65,CLASSIC,not in prior list,No,,2001651.0,1001014.0,No,,2001651.0,No,,
+77,Movie,Action,Doberman Gang,1972.0,ACTION ,1.41,CLASSIC,not in prior list,No,,2011349.0,1009071.0,No,,2011349.0,No,,
+78,Movie,Action,"Getaway, The (1972)",1972.0,ACTION ,2.03,CLASSIC,2003526,No,,2003526.0,1002649.0,No,,2003526.0,No,tt0068638,2003526.0
+79,Movie,Action,Melinda,1972.0,ACTION ,1.81,CLASSIC,not in prior list,No,,2010745.0,1008502.0,No,,2010745.0,No,,
+80,Movie,Action,Sitting Target,1972.0,ACTION ,1.55,CLASSIC,not in prior list,No,,2010731.0,1008488.0,No,,2010731.0,No,,
+81,Movie,Action,Skyjacked,1972.0,ACTION,1.68,CLASSIC,2010739,No,,2010739.0,1008496.0,No,,2010739.0,No,,
+82,Movie,Action,Snow Job,1972.0,ACTION ,1.5,CLASSIC,not in prior list,No,,2001615.0,1000980.0,No,,2001615.0,No,,
+83,Movie,Action,"Omega Man, The",1971.0,ACTION ,1.65,CLASSIC,not in prior list,No,,2001602.0,1000967.0,No,,2001602.0,No,tt0067525,2001602.0
+84,Movie,Action,Get Carter (1971),1971.0,ACTION ,1.86,CLASSIC,not in prior list,No,,2010604.0,1008370.0,No,,2010604.0,No,tt0067128,2010604.0
+85,Movie,Action,"Last Run, The",1971.0,ACTION ,1.65,CLASSIC,not in prior list,No,,2010622.0,1008387.0,No,,2010622.0,No,,
+86,Movie,Action,No Blade of Grass,1970.0,ACTION ,1.61,CLASSIC,not in prior list,No,,2010594.0,1008361.0,No,,2010594.0,No,tt0066154,2010594.0
+87,Movie,Action,Alfred the Great,1969.0,ACTION ,2.03,CLASSIC,not in prior list,No,,2010466.0,1008233.0,No,,2010466.0,No,,
+88,Movie,Action,"Green Berets, The",1969.0,ACTION ,2.35,C,not in prior list,No,,2001529.0,1000894.0,No,,,,,
+89,Movie,Action,Bullitt,1968.0,ACTION ,1.73,C,2001538,No,,2001538.0,1000903.0,No,,2001538.0,No,tt0062765,2001538.0
+90,Movie,Rom-Coms,Crazy Rich Asians,2018.0,COMEDY ,2.0,A,not in prior list,Yes,,2077273.0,1043373.0,Yes,,2077273.0,No,tt3104988,2077273.0
+91,Movie,Rom-Coms,Wedding Crashers,2005.0,COMEDY ,1.98,A,not in prior list,Yes,,2029440.0,1023260.0,No,,2029440.0,No,tt0396269,2029440.0
+92,Movie,Rom-Coms,Valentine's Day,2010.0,COMEDY ,2.08,A,not in prior list,Yes,,2049382.0,1030002.0,No,,2049382.0,No,tt0817230,2049382.0
+93,Movie,Rom-Coms,"CRAZY, STUPID, LOVE 2011",2011.0,COMEDY ,1.83,A,not in prior list,Yes,,2053676.0,1032338.0,No,,,,,
+94,Movie,Rom-Coms,"Wedding Singer, The",1998.0,COMEDY ,1.6,A,not in prior list,Yes,,2017099.0,1013408.0,No,,2017099.0,No,tt0120888,2017099.0
+95,Movie,Rom-Coms,He's Just Not That Into You,2009.0,COMEDY ,2.12,B,not in prior list,Yes,,2047069.0,1028735.0,No,,2047069.0,No,tt1001508,2047069.0
+96,Movie,Rom-Coms,Ghosts Of Girlfriends Past,2009.0,COMEDY ,1.68,B,not in prior list,Yes,,2046422.0,1028328.0,No,,2046422.0,No,tt0821640,2046422.0
+97,Movie,Rom-Coms,Life As We Know It,2010.0,COMEDY ,1.92,B,not in prior list,Yes,,2051950.0,1031408.0,No,,2051950.0,No,tt1055292,2051950.0
+98,Movie,Rom-Coms,Two Weeks Notice,2002.0,COMEDY ,1.7,A,not in prior list,Yes,,2004700.0,1003791.0,Yes,,2004700.0,No,tt0313737,2004700.0
+99,Movie,Rom-Coms,You've Got Mail,1998.0,COMEDY ,1.98,A,not in prior list,Yes,,2003667.0,1002790.0,No,,2003667.0,No,tt0128853,2003667.0
+100,Movie,Rom-Coms,Just Friends,2005.0,COMEDY ,1.57,A,not in prior list,Yes,,2021432.0,1016422.0,No,,2040158.0,Yes,tt0433400,2040158.0
+101,Movie,Rom-Coms,Love Don't Cost a Thing,2003.0,COMEDY ,1.75,B,not in prior list,Yes,,2024772.0,1018942.0,No,,2024772.0,No,tt0337592,2024772.0
+102,Movie,Rom-Coms,How To Be Single,2016.0,COMEDY ,1.83,A,not in prior list,Yes,,2051603.0,1031226.0,Yes,,2051603.0,No,tt1292566,2051603.0
+103,Movie,Rom-Coms,Blended,2014.0,COMEDY ,1.95,A,not in prior list,Yes,,2046990.0,1028676.0,No,,2046990.0,No,tt1086772,2046990.0
+104,Movie,Rom-Coms,Something Borrowed 2011,2011.0,COMEDY ,1.88,B,not in prior list,Yes,,2054357.0,1032677.0,No,,,,,
+105,Movie,Rom-Coms,Flipped,2010.0,COMEDY ,1.5,C,not in prior list,No,x,2051018.0,1030870.0,No,,2051018.0,No,tt0817177,2051018.0
+106,Movie,Rom-Coms,Chaos Theory,2008.0,COMEDY ,1.46,C,not in prior list,No,x,2037673.0,1024982.0,Yes,,2037673.0,No,tt0460745,2037673.0
+107,Movie,Rom-Coms,Over Her Dead Body,2008.0,COMEDY ,1.58,C,not in prior list,No,x,2047462.0,1028961.0,No,,,,,
+108,Movie,Rom-Coms,In the Land of Women,2007.0,COMEDY ,1.65,C,not in prior list,No,x,2031210.0,1023534.0,No,,,,,
+109,Movie,Rom-Coms,Full Of It,2007.0,COMEDY ,1.55,C,not in prior list,No,x,2044439.0,1027292.0,No,,2044439.0,No,tt0446752,2044439.0
+110,Movie,Rom-Coms,"Upside Of Anger, The",2005.0,COMEDY ,1.93,C,not in prior list,No,x,2034207.0,1023815.0,No,,2034207.0,No,tt0365885,2034207.0
+111,Movie,Rom-Coms,Laws Of Attraction,2004.0,COMEDY ,1.45,C,not in prior list,No,x,2026834.0,1020764.0,No,,2026834.0,No,tt0323033,2026834.0
+112,Movie,Rom-Coms,Chasing Liberty,2004.0,COMEDY ,1.85,C,not in prior list,No,x,2026972.0,1020892.0,No,,2026972.0,No,tt0360139,2026972.0
+113,Movie,Rom-Coms,How To Deal,2003.0,COMEDY ,1.68,C,not in prior list,No,x,2024499.0,1018680.0,No,,2024499.0,No,tt0319524,2024499.0
+114,Movie,Rom-Coms,Alex & Emma,2003.0,COMEDY ,1.66,C,not in prior list,No,x,2024154.0,1018482.0,No,,2024154.0,No,tt0318283,2024154.0
+115,Movie,Rom-Coms,Human Nature,2002.0,COMEDY ,1.6,C,not in prior list,No,x,2016888.0,1013210.0,No,,,,,
+116,Movie,Rom-Coms,Storytelling,2002.0,COMEDY ,1.45,C,not in prior list,No,,2016893.0,1013215.0,No,,,,,
+117,Movie,Rom-Coms,Town & Country,2001.0,COMEDY ,1.76,C,not in prior list,No,,2017123.0,1013432.0,No,,2017123.0,No,,
+118,Movie,Rom-Coms,"Bachelor, The (1999)",1999.0,COMEDY ,1.7,C,not in prior list,No,,2017132.0,1013441.0,No,,2017132.0,No,tt0120596,2017132.0
+119,Movie,Rom-Coms,Man Of The Century,1999.0,COMEDY ,1.3,C,not in prior list,No,,2017159.0,1013468.0,No,,2017159.0,No,,
+120,Movie,Rom-Coms,Three to Tango,1999.0,COMEDY ,1.63,C,not in prior list,No,,2003706.0,1002829.0,Yes,,2003706.0,No,tt0144640,2003706.0
+121,Movie,Rom-Coms,Lost And Found,1999.0,COMEDY ,1.66,C,not in prior list,No,,2003720.0,1002843.0,No,,2003720.0,No,,
+122,Movie,Rom-Coms,Theory Of Flight,1998.0,COMEDY ,1.63,C,not in prior list,No,,2017112.0,1013421.0,No,,2017112.0,No,,
+123,Movie,Rom-Coms,Home Fries,1998.0,COMEDY ,1.53,C,not in prior list,No,,2003568.0,1002691.0,No,,2003568.0,No,tt0119304,2003568.0
+124,Movie,Rom-Coms,Living Out Loud,1998.0,COMEDY ,1.66,C,not in prior list,No,,2017110.0,1013419.0,No,,2017110.0,No,tt0120722,2017110.0
+125,Movie,Rom-Coms,Trojan War,1997.0,COMEDY ,1.4,C,not in prior list,No,,2003559.0,1002682.0,No,,2003559.0,No,,
+126,Movie,Rom-Coms,Father's Day,1997.0,COMEDY ,1.7,C,not in prior list,No,,2005181.0,1004072.0,No,,,,,
+127,Movie,Rom-Coms,Twelfth Night,1996.0,COMEDY ,2.23,C,not in prior list,No,,2017054.0,1013363.0,No,,2017054.0,No,,
+128,Movie,Rom-Coms,Feeling Minnesota,1996.0,COMEDY ,1.58,C,not in prior list,No,,2017030.0,1013340.0,No,,2017030.0,No,,
+129,Movie,Rom-Coms,Forget Paris,1995.0,COMEDY ,1.68,C,not in prior list,No,,2015316.0,1011869.0,No,,2015316.0,No,tt0113097,2015316.0
+130,Movie,Rom-Coms,For Better or Worse,1995.0,COMEDY ,1.58,C,not in prior list,No,,2015315.0,1011868.0,No,,2015315.0,No,,
+131,Movie,Rom-Coms,Even Cowgirls Get The Blues,1994.0,COMEDY ,1.7,C,2016709,No,,2016709.0,1013035.0,No,,2016709.0,No,,
+132,Movie,Rom-Coms,With Honors,1994.0,COMEDY ,1.66,C,not in prior list,No,,2003297.0,1002420.0,No,,2003297.0,No,tt0111732,2003297.0
+133,Movie,Rom-Coms,Naked In New York,1994.0,COMEDY ,1.6,C,not in prior list,No,,2016764.0,1013090.0,No,,2016764.0,No,,
+134,Movie,Rom-Coms,Mr. Wonderful,1993.0,COMEDY ,1.65,C,not in prior list,No,,2003259.0,1002382.0,No,,2003259.0,No,tt0107613,2003259.0
+135,Movie,Rom-Coms,Three Of Hearts,1993.0,COMEDY ,1.71,C,not in prior list,No,,2016809.0,1013134.0,No,,2016809.0,No,,
+136,Movie,Rom-Coms,Used People,1992.0,COMEDY ,1.91,C,not in prior list,No,,2042180.0,1026345.0,No,,2042180.0,No,,
+137,Movie,Rom-Coms,Singles,1992.0,COMEDY ,1.65,C,not in prior list,No,,2002542.0,1001880.0,No,,2002542.0,No,tt0105415,2002542.0
+138,Movie,Rom-Coms,Book Of Love,1991.0,COMEDY ,1.36,C,not in prior list,No,,2016680.0,1013006.0,No,,2016680.0,No,tt0099166,2016680.0
+139,Movie,Rom-Coms,Sibling Rivalry,1990.0,COMEDY ,1.46,C,not in prior list,No,,2015277.0,1011838.0,No,,2015277.0,No,,
+140,Movie,Rom-Coms,Joe Versus the Volcano,1990.0,COMEDY ,1.7,C,2002470,No,,2002470.0,1001808.0,Yes,,2002470.0,No,tt0099892,2002470.0
+141,Movie,Rom-Coms,Her Alibi,1989.0,COMEDY ,1.58,C,not in prior list,No,,2002406.0,1001744.0,No,,2002406.0,No,,
+142,Movie,Rom-Coms,Crossing Delancey,1988.0,COMEDY ,1.6,C,not in prior list,No,,2002325.0,1001666.0,No,,2002325.0,No,tt0094921,2002325.0
+143,Movie,Rom-Coms,In the Mood,1987.0,COMEDY ,1.63,C,not in prior list,No,,2002292.0,1001635.0,No,,2002292.0,No,,
+144,Movie,Rom-Coms,Who's That Girl,1987.0,COMEDY ,1.53,C,not in prior list,No,,2002233.0,1001577.0,No,,2002233.0,No,tt0094321,2002233.0
+145,Movie,Rom-Coms,My Demon Lover,1987.0,COMEDY ,1.45,C,not in prior list,No,,2016761.0,1013087.0,No,,2016761.0,No,,
+146,Movie,Rom-Coms,Club Paradise,1986.0,COMEDY ,1.6,C,not in prior list,No,,2002193.0,1001538.0,No,,2002193.0,No,,
+147,Movie,Rom-Coms,Mr. Love,1986.0,COMEDY ,1.53,C,not in prior list,No,,2002190.0,1001535.0,Yes,,2002190.0,No,,
+148,Movie,Rom-Coms,French Lessons,1986.0,COMEDY ,1.51,C,not in prior list,No,,2002189.0,1001534.0,No,,,,,
+149,Movie,Rom-Coms,Lost in America,1985.0,COMEDY ,1.53,C,not in prior list,No,,2002122.0,1001467.0,No,,2002122.0,No,tt0089504,2002122.0
+150,Movie,Rom-Coms,Local Hero,1983.0,COMEDY ,1.9,C,not in prior list,No,,2002072.0,1001417.0,No,,2002072.0,No,,
+151,Movie,Rom-Coms,Lovesick,1983.0,COMEDY ,1.6,CLASSIC,not in prior list,No,,2002038.0,1001386.0,No,,2002038.0,No,,
+152,Movie,Rom-Coms,Best Friends,1982.0,COMEDY ,1.81,CLASSIC,not in prior list,No,,2002035.0,1001383.0,No,,2002035.0,No,,
+153,Movie,Rom-Coms,My Favorite Year,1982.0,COMEDY ,1.53,CLASSIC,2012126,No,,2012126.0,1009779.0,No,,2012126.0,No,tt0084370,2012126.0
+154,Movie,Rom-Coms,Night Shift,1982.0,COMEDY ,1.78,CLASSIC,not in prior list,No,,2002039.0,1001387.0,No,,2002039.0,No,tt0084412,2002039.0
+155,Movie,Rom-Coms,Soup for One,1982.0,COMEDY ,1.41,CLASSIC,not in prior list,No,,2002000.0,1001350.0,No,,,,,
+156,Movie,Rom-Coms,So Fine,1981.0,COMEDY ,1.53,CLASSIC,not in prior list,No,,2002001.0,1001351.0,No,,2002001.0,No,,
+157,Movie,Rom-Coms,Second Hand Hearts,1981.0,COMEDY ,1.61,CLASSIC,not in prior list,No,,2011636.0,1009328.0,No,,2011636.0,No,,
+158,Movie,Rom-Coms,Just Tell Me What You Want,1980.0,COMEDY ,1.86,CLASSIC,not in prior list,No,,2001929.0,1001280.0,No,,2001929.0,No,,
+159,Movie,Rom-Coms,"""10""",1979.0,COMEDY ,2.03,C,2001931,No,,2001931.0,1001282.0,No,,2001931.0,No,tt0078721,2001931.0
+160,Movie,Rom-Coms,"Little Romance, A",1979.0,COMEDY ,1.81,C,not in prior list,No,,2001919.0,1001271.0,No,,2001919.0,No,,
+161,Movie,Rom-Coms,"Goodbye Girl, The",1977.0,COMEDY ,1.83,CLASSIC,2001841,No,,2001841.0,1001198.0,No,,2001841.0,No,tt0076095,2001841.0
+162,Movie,Rom-Coms,Blume in Love,1973.0,COMEDY ,2.0,CLASSIC,not in prior list,No,,2001647.0,1001011.0,No,,2001647.0,No,,
+163,Movie,Rom-Coms,"THIEF  WHO CAME TO DINNER, THE",1973.0,COMEDY ,1.75,CLASSIC,not in prior list,No,,2001639.0,1001003.0,No,,2001639.0,No,,
+164,Movie,Rom-Coms,"What's Up, Doc?",1972.0,COMEDY ,1.56,C,not in prior list,No,,2021029.0,1016162.0,No,,,,,
+165,Movie,Rom-Coms,Summer of '42,1971.0,COMEDY ,1.75,CLASSIC,not in prior list,No,,2001596.0,1000961.0,No,,2001596.0,No,tt0067803,2001596.0
+166,Movie,Rom-Coms,"I Love You, Alice B. Toklas",1968.0,COMEDY ,1.56,CLASSIC,2001534,No,,2001534.0,1000899.0,No,,2001534.0,No,,
+167,Movie,Rom-Coms,"Live a Little, Love a Little",1968.0,COMEDY ,1.5,C,not in prior list,No,,2010301.0,1008158.0,No,,2010301.0,No,,
+168,Movie,Rom-Coms,Speedway,1968.0,COMEDY ,1.56,C,not in prior list,No,,2007044.0,1005562.0,No,,2010017.0,Yes,tt0063634,2010017.0
+169,Movie,Rom-Coms,Sweet November (1968),1968.0,COMEDY ,1.9,CLASSIC,not in prior list,No,,2001508.0,1000874.0,Yes,,2001508.0,No,,
+170,Movie,Rom-Coms,"Cool Ones, The",1967.0,COMEDY ,1.58,CLASSIC,not in prior list,No,,2001467.0,1000834.0,No,,2001467.0,No,,
+171,Movie,Rom-Coms,Don't Make Waves,1967.0,COMEDY ,1.61,CLASSIC,not in prior list,No,,2009932.0,1007821.0,No,,2009932.0,No,,
+172,Movie,Rom-Coms,Kaleidoscope,1967.0,COMEDY ,1.71,CLASSIC,not in prior list,No,,2001462.0,1000829.0,No,,,,,
+173,Movie,Rom-Coms,Not With My Wife You Don't,1967.0,COMEDY ,1.98,CLASSIC,not in prior list,No,,2001463.0,1000830.0,No,,,,,
+174,Movie,Rom-Coms,Three Bites of the Apple,1967.0,COMEDY ,1.75,CLASSIC,not in prior list,No,,2009921.0,1007810.0,No,,2009921.0,No,,
+175,Movie,Rom-Coms,You're a Big Boy Now,1967.0,COMEDY ,1.6,CLASSIC,not in prior list,No,,2001478.0,1000844.0,No,,,,,
+176,Movie,Rom-Coms,Any Wednesday,1966.0,COMEDY ,1.81,CLASSIC,not in prior list,No,,2001464.0,1000831.0,No,,2001464.0,No,,
+177,Movie,Rom-Coms,"Family Way, The",1966.0,COMEDY ,1.91,CLASSIC,not in prior list,No,,2001473.0,1000840.0,No,,,,,
+178,Movie,Rom-Coms,"Glass Bottom Boat, The",1966.0,COMEDY ,1.83,CLASSIC,2009844,No,,2009844.0,1007734.0,No,,2009844.0,No,,
+179,Movie,Rom-Coms,Made in Paris,1966.0,COMEDY ,1.68,CLASSIC,not in prior list,No,,2009827.0,1007717.0,No,,2009827.0,No,,
+180,Movie,Comedy,"Hangover, The",2009.0,COMEDY ,1.66,A,not in prior list,Yes,,2047417.0,1028917.0,Yes,,2047417.0,No,tt1119646,2047417.0
+181,Movie,Comedy,We're The Millers,2013.0,COMEDY ,1.82,A,not in prior list,Yes,,2054437.0,1032738.0,No,,2054437.0,No,tt1723121,2054437.0
+182,Movie,Comedy,Horrible Bosses 2011,2011.0,COMEDY ,1.55,A,not in prior list,Yes,,2050818.0,1030888.0,No,,,,,
+183,Movie,Comedy,Austin Powers: The Spy Who Shagged Me,1999.0,COMEDY ,1.58,A,not in prior list,Yes,,2017127.0,1013436.0,No,,,,,
+184,Movie,Comedy,Friday,1995.0,COMEDY ,1.48,A,not in prior list,Yes,,2012700.0,1010269.0,No,,2012700.0,No,,
+185,Movie,Comedy,Miss Congeniality,2000.0,COMEDY ,1.83,A,not in prior list,Yes,,2004597.0,1003688.0,Yes,,2004597.0,No,tt0212346,2004597.0
+186,Movie,Comedy,Tammy,2014.0,COMEDY ,1.62,A,not in prior list,Yes,,2060911.0,1035405.0,No,,2060911.0,No,tt2103254,2060911.0
+187,Movie,Comedy,"Mask, The (1994)",1994.0,COMEDY ,1.68,A,not in prior list,Yes,,2016956.0,1013270.0,No,,2016956.0,No,tt0110475,2016956.0
+188,Movie,Comedy,Analyze This,1999.0,COMEDY ,1.77,B,not in prior list,Yes,,2003583.0,1002706.0,Yes,,2003583.0,No,tt0122933,2003583.0
+189,Movie,Comedy,Cop Out,2010.0,COMEDY ,1.78,B,not in prior list,Yes,,2049086.0,1029786.0,No,,2049086.0,No,tt1385867,2049086.0
+190,Movie,Comedy,Observe And Report,2009.0,COMEDY ,1.43,B,not in prior list,Yes,,2043643.0,1026905.0,No,,2043643.0,No,tt1197628,2043643.0
+191,Movie,Comedy,"House, The",2017.0,COMEDY,1.46,B,not in prior list,Yes,,2027664.0,1021524.0,No,,,,,
+192,Movie,Comedy,Central Intelligence,2016.0,COMEDY ,1.78,A,not in prior list,Yes,,2061711.0,1035543.0,Yes,,2061711.0,No,tt1489889,2061711.0
+193,Movie,Comedy,Caddyshack,1980.0,COMEDY ,1.67,B,not in prior list,Yes,,2001961.0,1001311.0,Yes,,2001961.0,No,tt0080487,2001961.0
+194,Movie,Comedy,Fist Fight,2017.0,COMEDY ,1.51,B,not in prior list,Yes,,2068424.0,1038423.0,Yes,,2068424.0,No,tt3401882,2068424.0
+195,Movie,Comedy,War Dogs (2016),2016.0,COMEDY ,1.9,B,not in prior list,No,x,2058075.0,1034622.0,No,,2058075.0,No,tt2005151,2058075.0
+196,Movie,Comedy,Our Brand Is Crisis,2015.0,COMEDY ,1.78,C,not in prior list,No,x,2046605.0,1028494.0,Yes,,2046605.0,No,tt1018765,2046605.0
+197,Movie,Comedy,"Campaign, The",2012.0,COMEDY ,1.41,B,not in prior list,No,x,2056635.0,1033985.0,No,,2056635.0,No,tt1790886,2056635.0
+198,Movie,Comedy,Arthur (2011),2011.0,COMEDY ,1.83,C,2051903,No,,2051903.0,1031375.0,No,,2051903.0,No,tt1334512,2051903.0
+199,Movie,Comedy,"Invention Of Lying, The",2009.0,COMEDY,1.75,C,not in prior list,No,,2047946.0,1029180.0,No,,2047946.0,No,tt1058017,2047946.0
+200,Movie,Comedy,"Kiss Kiss, Bang Bang",2005.0,COMEDY ,1.71,C,not in prior list,No,,2026982.0,1020902.0,No,,2026982.0,No,tt0373469,2026982.0
+201,Movie,Comedy,Everything Is Illuminated,2005.0,COMEDY ,1.76,C,not in prior list,No,,2026954.0,1020874.0,No,,2026954.0,No,tt0404030,2026954.0
+202,Movie,Comedy,Criminal,2004.0,COMEDY ,1.45,C,not in prior list,No,,2025612.0,1019782.0,Yes,,2025612.0,No,tt0362526,2025612.0
+203,Movie,Comedy,Matchstick Men,2003.0,COMEDY ,1.93,C,not in prior list,No,,2024151.0,1018479.0,No,,2024151.0,No,tt0325805,2024151.0
+204,Movie,Comedy,"In-Laws, The (2003)",2003.0,COMEDY,1.63,C,not in prior list,No,,2024139.0,1018467.0,No,,2024139.0,No,tt0314786,2024139.0
+205,Movie,Comedy,About Schmidt,2002.0,COMEDY ,2.08,C,not in prior list,No,,2016904.0,1013226.0,No,,2016904.0,No,tt0257360,2016904.0
+206,Movie,Comedy,Real Women Have Curves,2002.0,COMEDY ,1.5,C,not in prior list,No,,2025622.0,1019802.0,No,,2025622.0,No,tt0296166,2025622.0
+207,Movie,Comedy,Eight Legged Freaks,2002.0,COMEDY ,1.65,C,2004680,No,,2004680.0,1003771.0,Yes,,2004680.0,No,tt0271367,2004680.0
+208,Movie,Comedy,Hedwig and the Angry Inch,2001.0,COMEDY ,1.46,C,2016887,No,,2016887.0,1013209.0,No,,2016887.0,No,tt0248845,2016887.0
+209,Movie,Comedy,Sugar and Spice,2001.0,COMEDY ,1.35,C,not in prior list,No,,2016845.0,1013170.0,No,,,,,
+210,Movie,Comedy,Detroit Rock City,1999.0,COMEDY ,1.56,C,not in prior list,No,,2017130.0,1013439.0,No,,2017130.0,No,tt0165710,2017130.0
+211,Movie,Comedy,Drop Dead Gorgeous,1999.0,COMEDY ,1.63,C,not in prior list,No,,2017128.0,1013437.0,No,,2017128.0,No,tt0157503,2017128.0
+212,Movie,Comedy,Almost Heroes,1998.0,COMEDY ,1.53,C,not in prior list,No,,2016424.0,1012750.0,No,,,,,
+213,Movie,Comedy,SubUrbia,1997.0,COMEDY ,2.01,C,not in prior list,No,,2015337.0,1011888.0,No,,2015337.0,No,,
+214,Movie,Comedy,DRACULA: DEAD & LOVING IT,1995.0,COMEDY,1.5,C,not in prior list,No,,2015321.0,1011874.0,No,,2015321.0,No,,
+215,Movie,Comedy,National Lampoon's Senior Trip,1995.0,COMEDY ,1.51,C,not in prior list,No,,2016994.0,1013304.0,No,,2016994.0,No,,
+216,Movie,Comedy,"Hudsucker Proxy, The",1994.0,COMEDY ,1.91,C,not in prior list,No,,2003263.0,1002386.0,No,,2003263.0,No,tt0110074,2003263.0
+217,Movie,Comedy,Hangin' With The Homeboys,1991.0,COMEDY ,1.46,C,not in prior list,No,,2016725.0,1013051.0,No,,2016725.0,No,,
+218,Movie,Comedy,Nothing But Trouble,1991.0,COMEDY ,1.55,C,not in prior list,No,,2002488.0,1001826.0,No,,2002488.0,No,tt0102558,2002488.0
+219,Movie,Comedy,Young Einstein,1989.0,COMEDY ,1.5,C,not in prior list,No,,2002326.0,1001667.0,No,,,,,
+220,Movie,Comedy,One Crazy Summer,1986.0,COMEDY ,1.55,C,not in prior list,No,,2002198.0,1001543.0,No,,2002198.0,No,tt0091680,2002198.0
+221,Movie,Comedy,Wise Guys (1986),1986.0,COMEDY ,1.51,C,not in prior list,No,,2012803.0,1010350.0,No,,2012803.0,No,,
+222,Movie,Comedy,Spies Like Us,1985.0,COMEDY,1.71,C,not in prior list,No,,2002158.0,1001503.0,No,,2002158.0,No,tt0090056,2002158.0
+223,Movie,Comedy,"OH GOD, YOU DEVIL",1984.0,COMEDY ,1.6,C,not in prior list,No,,2002114.0,1001459.0,No,,2002114.0,No,,
+224,Movie,Comedy,Strange Brew,1983.0,COMEDY ,1.5,C,2012132,No,,2012132.0,1009785.0,No,,2012132.0,No,,
+225,Movie,Comedy,"Man With Two Brains, The",1983.0,COMEDY ,1.5,C,not in prior list,No,,2002067.0,1001413.0,No,,2002067.0,No,tt0085894,2002067.0
+226,Movie,Comedy,Smorgasbord,1983.0,COMEDY,1.51,CLASSIC,not in prior list,No,,2002069.0,1001415.0,No,,2002069.0,No,,
+227,Movie,Comedy,Creepshow,1982.0,COMEDY ,2.01,C,not in prior list,No,,2002045.0,1001393.0,No,,2002045.0,No,tt0083767,2002045.0
+228,Movie,Comedy,"World According to Garp, The",1982.0,COMEDY ,2.28,CLASSIC,2002032,No,,2002032.0,1001380.0,No,,2002032.0,No,tt0084917,2002032.0
+229,Movie,Comedy,"Victor, Victoria",1982.0,COMEDY ,2.21,CLASSIC,not in prior list,No,,2011972.0,1009627.0,No,,2011972.0,No,tt0084865,2011972.0
+230,Movie,Comedy,Whose Life Is It Anyway,1981.0,COMEDY ,1.96,CLASSIC,not in prior list,No,,2011954.0,1009609.0,No,,2011954.0,No,,
+231,Movie,Comedy,Under the Rainbow,1981.0,COMEDY ,1.65,CLASSIC,not in prior list,No,,2001995.0,1001345.0,No,,2001995.0,No,,
+232,Movie,Comedy,Arthur,1981.0,COMEDY ,1.65,C,2001997,No,,2001997.0,1001347.0,No,,2001997.0,No,tt0082031,2001997.0
+233,Movie,Comedy,Polyester,1981.0,COMEDY ,1.43,CLASSIC,2016948,No,,2016948.0,1013262.0,No,,2016948.0,No,tt0082926,2016948.0
+234,Movie,Comedy,Going in Style (1979),1979.0,COMEDY ,1.65,CLASSIC,not in prior list,No,,2001940.0,1001291.0,No,,2001940.0,No,tt0079219,2001940.0
+235,Movie,Comedy,Being There,1979.0,COMEDY ,2.16,C,2002365,No,,2002365.0,1001706.0,No,,2002365.0,No,tt0078841,2002365.0
+236,Movie,Comedy,"Frisco Kid, The",1979.0,COMEDY,1.98,CLASSIC,not in prior list,No,,2001922.0,1001274.0,No,,2001922.0,No,tt0079180,2001922.0
+237,Movie,Comedy,"Oh, God!",1977.0,COMEDY ,1.73,C,2001837,No,,2001837.0,1001194.0,No,,2001837.0,No,,
+238,Movie,Comedy,Network,1976.0,COMEDY,2.01,C,2011172,No,,2011172.0,1008911.0,No,,2011172.0,No,tt0074958,2011172.0
+239,Movie,Comedy,Hearts of the West,1975.0,COMEDY,1.7,CLASSIC,not in prior list,No,,2011098.0,1008838.0,No,,2011098.0,No,,
+240,Movie,Comedy,"Sunshine Boys, The",1975.0,COMEDY ,1.85,C,not in prior list,No,,2011099.0,1008839.0,No,,2011099.0,No,,
+241,Movie,Comedy,Alice Doesn't Live Here Anymore,1974.0,COMEDY ,1.88,C,not in prior list,No,,2001735.0,1001095.0,No,,2001735.0,No,tt0071115,2001735.0
+242,Movie,Comedy,Uptown Saturday Night,1974.0,COMEDY ,1.73,C,not in prior list,No,,2001707.0,1001069.0,No,,2001707.0,No,,
+243,Movie,Comedy,"Cheyenne Social Club, The",1970.0,COMEDY,1.61,CLASSIC,not in prior list,No,,2003487.0,1002610.0,No,,2003487.0,No,,
+244,Movie,Comedy,"Great Bank Robbery, The",1969.0,COMEDY ,1.63,CLASSIC,not in prior list,No,,2001555.0,1000920.0,No,,2001555.0,No,,
+245,Movie,Comedy,"Big Hand for a Little Lady, A",1966.0,COMEDY,1.58,CLASSIC,not in prior list,No,,2001434.0,1000801.0,No,,2001434.0,No,,
+246,Movie,Comedy,"Alphabet Murders, The",1966.0,COMEDY ,1.5,CLASSIC,not in prior list,No,,2009814.0,1007706.0,No,,2009814.0,No,,
+247,Movie,Comedy,Hotel Paradiso,1966.0,COMEDY ,1.6,CLASSIC,not in prior list,No,,2009913.0,1007802.0,No,,2009913.0,No,,
+248,Movie,Comedy,Girl Happy,1965.0,COMEDY ,1.6,C,2009747,No,,2009747.0,1007644.0,No,,2009747.0,No,tt0059224,2009747.0
+249,Movie,Comedy,Having a Wild Weekend,1965.0,COMEDY ,1.53,CLASSIC,not in prior list,No,,2001383.0,1000751.0,No,,2001383.0,No,,
+250,Movie,Comedy,Kisses for My President,1965.0,COMEDY ,1.88,CLASSIC,not in prior list,No,,2001372.0,1000740.0,No,,,,,
+251,Movie,Comedy,Honeymoon Hotel,1964.0,COMEDY,1.48,CLASSIC,not in prior list,No,,2009665.0,1007566.0,No,,2009665.0,No,,
+252,Movie,Comedy,Kissin' Cousins,1964.0,COMEDY ,1.6,C,not in prior list,No,,2009635.0,1007538.0,No,,2009635.0,No,,
+253,Movie,Comedy,Robin and the Seven Hoods,1964.0,COMEDY ,1.71,CLASSIC,2001368,No,,2001368.0,1000736.0,No,,2001368.0,No,,
+254,Movie,Comedy,Viva Las Vegas,1964.0,COMEDY ,1.43,C,not in prior list,No,,2009657.0,1007559.0,No,,2009657.0,No,tt0058725,2009657.0
+255,Movie,Comedy,OCEAN'S 11 (1960),1960.0,COMEDY ,2.13,C,not in prior list,No,,2000655.0,1000634.0,No,,2000655.0,No,tt0054135,2000655.0
+256,Movie,Comedy,Bowery Boys: Master Minds,1959.0,COMEDY ,1.06,CLASSIC,not in prior list,No,,2056578.0,1015558.0,No,,,,,
+257,Movie,Comedy,Love in the Afternoon,1957.0,COMEDY ,2.1,CLASSIC,not in prior list,No,,2111945.0,1057107.0,No,,2000760.0,Yes,tt0050658,2000760.0
+258,Movie,Comedy,Top Secret Affair,1957.0,COMEDY ,1.66,CLASSIC,not in prior list,No,,2000536.0,1000515.0,No,,2000536.0,No,,
+259,Movie,Comedy,High Society,1956.0,COMEDY ,1.78,CLASSIC,not in prior list,No,,2021799.0,1016630.0,No,,2008760.0,Yes,tt0049314,2008760.0
+260,Movie,Comedy,Great Diamond Robbery,1954.0,COMEDY ,1.15,CLASSIC,not in prior list,No,,2008517.0,1006488.0,No,,2008517.0,No,,
+261,Movie,Comedy,"Long, Long Trailer, The",1954.0,COMEDY ,1.71,CLASSIC,not in prior list,No,,2008520.0,1006491.0,No,,2008520.0,No,,
+262,Movie,Comedy,April in Paris,1953.0,COMEDY ,1.68,CLASSIC,not in prior list,No,,2000407.0,1000389.0,No,,2000407.0,No,,
+263,Movie,Comedy,Band Wagon,1953.0,COMEDY ,1.86,CLASSIC,not in prior list,No,,2008421.0,1006396.0,No,,2008421.0,No,,
+264,Movie,Comedy,Kiss Me Kate,1953.0,COMEDY ,1.81,CLASSIC,2008512,No,,2008512.0,1006483.0,No,,2008512.0,No,,
+265,Movie,Comedy,"Belle of New York, The",1952.0,COMEDY ,1.36,CLASSIC,not in prior list,No,,2008317.0,1006300.0,No,,2008317.0,No,,
+266,Movie,Comedy,Two Tickets to Broadway,1951.0,COMEDY ,1.76,CLASSIC,not in prior list,No,,2013680.0,1011057.0,No,,2013680.0,No,,
+267,Movie,Comedy,Gold Raiders (1951),1951.0,COMEDY,0.93,CLASSIC,not in prior list,No,,2005928.0,1004680.0,No,,2005928.0,No,,
+268,Movie,Comedy,"Goodbye, My Fancy",1951.0,COMEDY ,1.78,CLASSIC,not in prior list,No,,2000364.0,1000346.0,No,,2000364.0,No,,
+269,Movie,Comedy,On Moonlight Bay,1951.0,COMEDY ,1.58,CLASSIC,2000368,No,,2000368.0,1000350.0,No,,2000368.0,No,tt0043880,2000368.0
+270,Movie,Family,Happy Feet,2006.0,COMEDY ,1.82,A,not in prior list,Yes,,2025080.0,1019250.0,No,,2025080.0,No,tt0366548,2025080.0
+271,Movie,Family,Journey 2: The Mysterious Island,2012.0,ADVENTURE ,1.57,A,not in prior list,Yes,,2053257.0,1032074.0,No,,2053257.0,No,tt1397514,2053257.0
+272,Movie,Family,"Goonies, The",1985.0,ACTION ,1.92,B,not in prior list,Yes,,2002146.0,1001491.0,No,,2002146.0,No,tt0089218,2002146.0
+273,Movie,Family,Yogi Bear,2010.0,ADVENTURE ,1.38,B,1012148,Yes,,2066931.0,1037554.0,No,,,,,
+274,Movie,Family,Tim Burton's Corpse Bride,2005.0,FANTASY ,1.28,B,not in prior list,Yes,,2025542.0,1019722.0,No,,2025542.0,No,,
+275,Movie,Family,Where The Wild Things Are,2009.0,ADVENTURE ,1.57,B,not in prior list,Yes,,2041498.0,1026086.0,Yes,,2041498.0,No,tt0386117,2041498.0
+276,Movie,Family,Dolphin Tale,2011.0,DRAMA ,1.88,B,not in prior list,Yes,,2054982.0,1033046.0,No,,,,,
+277,Movie,Family,"Golden Compass, The",2007.0,ADVENTURE ,1.88,B,2043529,Yes,,2043529.0,1026797.0,No,,2043529.0,No,tt0385752,2043529.0
+278,Movie,Family,Little Big League,1994.0,COMEDY ,1.98,B,not in prior list,Yes,,2015308.0,1011861.0,No,,2015308.0,No,tt0110363,2015308.0
+279,Movie,Family,Lost In Space (1998),1998.0,SCIFI ,2.17,B,not in prior list,Yes,,2017008.0,1013318.0,No,,2017008.0,No,tt0120738,2017008.0
+280,Movie,Family,"Ant Bully, The",2006.0,ADVENTURE ,1.48,B,2025709,Yes,,2025709.0,1019890.0,Yes,,2025709.0,No,tt0429589,2025709.0
+281,Movie,Family,Nancy Drew,2007.0,COMEDY ,1.65,B,not in prior list,Yes,,2017027.0,1013337.0,No,,,,,
+282,Movie,Family,Free Willy,1993.0,ADVENTURE ,1.87,B,not in prior list,Yes,,2003255.0,1002378.0,Yes,,2003255.0,No,tt0106965,2003255.0
+283,Movie,Family,Smallfoot,2018.0,ADVENTURE ,1.6,B,not in prior list,Yes,,2058073.0,1034610.0,No,,2058073.0,No,tt6182908,2058073.0
+284,Movie,Family,Paddington 2,2018.0,COMEDY ,1.73,A,not in prior list,Yes,,2075557.0,1042452.0,No,,,,,
+285,Movie,Family,Nancy Drew and the Hidden Staircase,2019.0,COMEDY ,1.48,B,not in prior list,No,x,2009239.0,1007162.0,No,,2078912.0,Yes,tt8323104,2078912.0
+286,Movie,Family,BORN TO BE WILD 3D - IMAX,2011.0,DOC ,0.66,C,not in prior list,No,x,2053366.0,1032136.0,No,,2053366.0,No,tt1680059,2053366.0
+287,Movie,Family,Shorts,2009.0,COMEDY ,1.48,C,not in prior list,No,x,2024436.0,1018630.0,No,,2048306.0,Yes,tt1100119,2048306.0
+288,Movie,Family,Kit Kittredge: An American Girl,2008.0,DRAMA ,1.56,C,not in prior list,No,x,2048748.0,1029583.0,No,,2048748.0,No,tt0846308,2048748.0
+289,Movie,Family,Martian Child,2007.0,COMEDY ,1.8,C,not in prior list,No,x,2038764.0,1025126.0,No,,2038764.0,No,tt0415965,2038764.0
+290,Movie,Family,"Last Mimzy, The",2007.0,SCIFI ,1.63,C,not in prior list,No,x,2042784.0,1026588.0,No,,2042784.0,No,tt0768212,2042784.0
+291,Movie,Family,"Astronaut Farmer, The",2007.0,DRAMA ,1.73,C,not in prior list,No,x,2039618.0,1025304.0,No,,2039618.0,No,tt0469263,2039618.0
+292,Movie,Family,"Nativity Story, The",2006.0,DRAMA ,1.61,C,not in prior list,No,x,2043270.0,1026732.0,No,,2043270.0,No,tt0762121,2043270.0
+293,Movie,Family,How To Eat Fried Worms,2006.0,COMEDY ,1.38,C,not in prior list,No,x,2039704.0,1025335.0,Yes,,2039704.0,No,tt0462346,2039704.0
+294,Movie,Family,Hoot,2006.0,ADVENTURE ,1.5,C,not in prior list,No,,2040161.0,1025510.0,No,,2040161.0,No,tt0453494,2040161.0
+295,Movie,Family,Duma,2005.0,ADVENTURE ,1.68,C,not in prior list,No,,2025983.0,1020143.0,Yes,,2025983.0,No,,
+296,Movie,Family,Funky Monkey,2004.0,COMEDY ,1.56,C,not in prior list,No,,2024156.0,1018484.0,No,,2024156.0,No,,
+297,Movie,Family,Moto X Kids,2004.0,ACTION ,1.38,C,not in prior list,No,,2034750.0,1023532.0,No,,2034750.0,No,,
+298,Movie,Family,Kangaroo Jack,2003.0,ADVENTURE ,1.48,C,not in prior list,No,,2004686.0,1003777.0,No,,2004686.0,No,tt0257568,2004686.0
+299,Movie,Family,Virginia's Run,2002.0,DRAMA ,1.75,C,not in prior list,No,,2024466.0,1018650.0,No,,2024466.0,No,,
+300,Movie,Family,Osmosis Jones,2001.0,ADVENTURE ,1.58,C,2004650,No,,2004650.0,1003741.0,No,,2004650.0,No,tt0181739,2004650.0
+301,Movie,Family,"Little Vampire, The (2000)",2000.0,ADVENTURE ,1.56,C,not in prior list,No,,,,No,,,,,
+302,Movie,Family,Family Tree,2000.0,DRAMA ,1.48,C,not in prior list,No,,2066282.0,1048183.0,Yes,,2003034.0,Yes,,
+303,Movie,Family,Quest for Camelot,1998.0,ADVENTURE ,1.33,C,not in prior list,No,,2003576.0,1002699.0,No,,,,,
+304,Movie,Family,Alaska,1996.0,ADVENTURE ,1.83,C,not in prior list,No,,2000798.0,1000706.0,No,,2015329.0,Yes,,
+305,Movie,Family,"Adventures Of Pinocchio, The",1996.0,FANTASY ,1.6,C,2017041,No,,2017041.0,1013351.0,No,,2017041.0,No,tt0115472,2017041.0
+306,Movie,Family,War of the Buttons,1995.0,ADVENTURE ,1.56,C,not in prior list,No,,2006425.0,1005169.0,No,,,,,
+307,Movie,Family,Summer Snow,1995.0,COMEDY ,1.68,CLASSIC,not in prior list,No,,2002939.0,1002165.0,No,,2002939.0,No,,
+308,Movie,Family,Widows' Peak,1994.0,COMEDY ,1.68,C,not in prior list,No,,2016823.0,1013148.0,No,,2016823.0,No,,
+309,Movie,Family,That's Entertainment III,1994.0,DOC ,1.8,CLASSIC,not in prior list,No,,2013807.0,1011180.0,No,,2013807.0,No,tt0111408,2013807.0
+310,Movie,Family,Monkey Trouble,1994.0,COMEDY ,1.58,C,not in prior list,No,,2016758.0,1013084.0,No,,2016758.0,No,tt0110557,2016758.0
+311,Movie,Family,Mr. Nanny,1993.0,COMEDY ,1.4,C,not in prior list,No,,2016760.0,1013086.0,No,,2016760.0,No,tt0107612,2016760.0
+312,Movie,Family,Airborne,1993.0,ADVENTURE ,1.45,C,not in prior list,No,,2020554.0,1015745.0,No,,,,,
+313,Movie,Family,Surf Ninjas,1993.0,COMEDY ,1.43,C,not in prior list,No,,2016801.0,1013126.0,No,,2016801.0,No,,
+314,Movie,Family,"Big Girls Don't Cry, They Get Even",1992.0,COMEDY ,1.6,C,not in prior list,No,,2016676.0,1013002.0,No,,2016676.0,No,,
+315,Movie,Family,Curly Sue,1991.0,COMEDY ,1.7,C,not in prior list,No,,2002533.0,1001871.0,No,,2002533.0,No,tt0101635,2002533.0
+316,Movie,Family,Suburban Commando,1991.0,COMEDY ,1.5,C,not in prior list,No,,2016799.0,1013124.0,No,,2016799.0,No,,
+317,Movie,Family,Funny Farm,1988.0,COMEDY ,1.7,C,not in prior list,No,,2005152.0,1004054.0,No,,2002310.0,Yes,tt0095188,2002310.0
+318,Movie,Family,Lionheart,1986.0,ADVENTURE ,1.73,CLASSIC,not in prior list,No,,2002212.0,1001557.0,No,,2002212.0,No,,
+319,Movie,Family,"Beniker Gang, The",1986.0,DRAMA ,1.45,CLASSIC,not in prior list,No,,2012479.0,1010074.0,No,,2012479.0,No,,
+320,Movie,Family,Rainbow Brite and the Star Stealer,1985.0,ADVENTURE ,1.41,CLASSIC,2002165,No,,2002165.0,1001510.0,No,,2002165.0,No,,
+321,Movie,Family,Follow That Bird,1985.0,ADVENTURE ,1.48,C,not in prior list,No,,2002149.0,1001494.0,No,,,,,
+322,Movie,Family,Twice Upon a Time,1983.0,FANTASY ,1.25,CLASSIC,not in prior list,No,,2002040.0,1001388.0,No,,2002040.0,No,,
+323,Movie,Family,Shipwreck,1978.0,ADVENTURE ,1.7,CLASSIC,not in prior list,No,,,,No,,,,,
+324,Movie,Family,From the Mixed Up Files of Mrs. Basil E. Frankweiler,1973.0,COMEDY ,1.75,CLASSIC,not in prior list,No,,,,No,,,,,
+325,Movie,Family,"Phantom Tollbooth, The",1969.0,ADVENTURE ,1.5,CLASSIC,not in prior list,No,,2010479.0,1008246.0,No,,2010479.0,No,,
+326,Movie,Family,How Sweet It Is!,1968.0,COMEDY ,1.63,CLASSIC,not in prior list,No,,2003469.0,1002592.0,No,,2003469.0,No,,
+327,Movie,Family,Zebra in the Kitchen,1965.0,COMEDY ,1.55,CLASSIC,not in prior list,No,,2009753.0,1007650.0,No,,2009753.0,No,,
+328,Movie,Family,Family Diary,1964.0,DRAMA ,1.91,CLASSIC,not in prior list,No,,2009628.0,1007532.0,No,,,,,
+329,Movie,Family,Spencer's Mountain,1963.0,DRAMA ,1.98,CLASSIC,not in prior list,No,,2001340.0,1000708.0,No,,2001340.0,No,,
+330,Movie,Family,Days of Wine and Roses,1962.0,DRAMA ,1.95,CLASSIC,2000724,No,,2000724.0,1000702.0,No,,2000724.0,No,tt0055895,2000724.0
+331,Movie,Family,"Wonderful World of the Brothers Grimm, The",1962.0,ADVENTURE ,2.15,CLASSIC,not in prior list,No,,2009571.0,1007478.0,No,,2009571.0,No,,
+332,Movie,Family,Home from the Hill,1960.0,DRAMA ,2.5,CLASSIC,2009199,No,,2009199.0,1007124.0,No,,2009199.0,No,,
+333,Movie,Family,Magic Boy,1960.0,ADVENTURE ,1.38,CLASSIC,not in prior list,No,,2009299.0,1007221.0,No,,,,,
+334,Movie,Family,Please Don't Eat the Daisies,1960.0,COMEDY ,1.85,CLASSIC,2009201,No,,2009201.0,1007126.0,No,,2009201.0,No,,
+335,Movie,Family,Andy Hardy Comes Home,1958.0,COMEDY ,1.35,CLASSIC,not in prior list,No,,2006827.0,1005557.0,No,,2006827.0,No,tt0051360,2006827.0
+336,Movie,Family,Escapade in Japan,1957.0,ADVENTURE ,1.55,CLASSIC,not in prior list,No,,2008838.0,1006791.0,No,,2008838.0,No,,
+337,Movie,Family,"Happy Road, The",1957.0,COMEDY ,1.66,CLASSIC,not in prior list,No,,2008880.0,1006828.0,No,,2008880.0,No,,
+338,Movie,Family,"Invisible Boy, The",1957.0,DRAMA ,1.41,CLASSIC,not in prior list,No,,2008974.0,1006914.0,No,,2008974.0,No,,
+339,Movie,Family,Man on Fire (1957),1957.0,DRAMA ,1.58,CLASSIC,not in prior list,No,,2008873.0,1006822.0,No,,2008873.0,No,,
+340,Movie,Family,"Young Stranger, The",1957.0,DRAMA ,1.4,CLASSIC,not in prior list,No,,2008846.0,1006798.0,No,,2008846.0,No,,
+341,Movie,Family,It's a Dog's Life,1955.0,COMEDY ,1.45,CLASSIC,not in prior list,No,,2004298.0,1003401.0,No,,2004298.0,No,,
+342,Movie,Family,Her Twelve Men,1954.0,COMEDY ,1.51,CLASSIC,not in prior list,No,,2008531.0,1006502.0,No,,2008531.0,No,,
+343,Movie,Family,Bright Road,1953.0,DRAMA ,1.15,CLASSIC,not in prior list,No,,2008400.0,1006377.0,No,,2008400.0,No,,
+344,Movie,Family,Room for One More,1952.0,COMEDY ,1.63,CLASSIC,not in prior list,No,,2000384.0,1000366.0,No,,2000384.0,No,tt0045102,2000384.0
+345,Movie,Family,Young Man with Ideas,1952.0,COMEDY ,1.4,CLASSIC,not in prior list,No,,2008324.0,1006307.0,No,,2008324.0,No,,
+346,Movie,Family,Gunplay,1951.0,ACTION ,1.0,CLASSIC,not in prior list,No,,2005931.0,1004683.0,No,,2005931.0,No,,
+347,Movie,Family,"Happy Years, The",1950.0,COMEDY ,1.43,CLASSIC,not in prior list,No,,2008158.0,1006159.0,No,,2008158.0,No,,
+348,Movie,Family,"Secret Garden, The (1949)",1949.0,DRAMA ,1.53,CLASSIC,not in prior list,No,,2008121.0,1006131.0,No,,2008121.0,No,,
+349,Movie,Family,"Story of Seabiscuit, The",1949.0,DRAMA ,1.63,CLASSIC,not in prior list,No,,2012131.0,1009784.0,No,,2012131.0,No,,
+350,Movie,Family,"Boy with Green Hair, The",1948.0,DRAMA ,1.36,CLASSIC,not in prior list,No,,2003551.0,1002674.0,No,,2003551.0,No,,
+351,Movie,Family,I Remember Mama,1948.0,COMEDY ,2.23,CLASSIC,2007622,No,,2007622.0,1005693.0,No,,2007622.0,No,,
+352,Movie,Family,Tenth Avenue Angel,1948.0,DRAMA ,1.23,CLASSIC,not in prior list,No,,2008023.0,1006042.0,No,,2008023.0,No,,
+353,Movie,Family,High school Hero,1946.0,COMEDY ,1.15,CLASSIC,not in prior list,No,,2000960.0,1000706.0,No,,2000960.0,No,,
+354,Movie,Family,Freddie Steps Out,1946.0,COMEDY ,1.25,CLASSIC,not in prior list,No,,2000925.0,1000706.0,No,,2000925.0,No,,
+355,Movie,Family,My Brother Talks to Horses,1946.0,COMEDY ,1.55,CLASSIC,not in prior list,No,,2007963.0,1005992.0,No,,,,,
+356,Movie,Family,"Yearling, The",1946.0,DRAMA ,2.23,CLASSIC,not in prior list,No,,2007965.0,1005994.0,No,,2007965.0,No,,
+357,Movie,Family,"My Pal, Wolf",1944.0,DRAMA ,1.25,CLASSIC,not in prior list,No,,2009177.0,1007103.0,No,,2009177.0,No,,
+358,Movie,Family,"Canterville Ghost, The",1944.0,COMEDY ,1.58,CLASSIC,not in prior list,No,,2007803.0,1005857.0,No,,2007803.0,No,,
+359,Movie,Family,"Human Comedy, The",1943.0,COMEDY ,1.95,CLASSIC,not in prior list,No,,2007979.0,1006007.0,No,,2007979.0,No,,
+360,Movie,Crime/Noir,"Departed, The",2006.0,DRAMA ,2.51,A,not in prior list,Yes,,2025893.0,1020047.0,No,,2025893.0,No,tt0407887,2025893.0
+361,Movie,Crime/Noir,"Town, The",2010.0,THRILLER,2.08,A,not in prior list,Yes,,2044344.0,1027239.0,No,,2044344.0,No,tt0840361,2044344.0
+362,Movie,Crime/Noir,Training Day,2001.0,DRAMA ,2.03,A,not in prior list,Yes,,2004652.0,1003743.0,Yes,,2004652.0,No,tt0139654,2004652.0
+363,Movie,Crime/Noir,Seven,1995.0,THRILLER ,2.17,A,not in prior list,Yes,,2017015.0,1013325.0,Yes,,2017015.0,No,tt0114369,2017015.0
+364,Movie,Crime/Noir,"Dead Pool, The",1988.0,THRILLER ,1.53,B,not in prior list,Yes,,2002311.0,1001652.0,No,,2002311.0,No,tt0094963,2002311.0
+365,Movie,Crime/Noir,Sudden Impact,1983.0,THRILLER ,1.95,B,not in prior list,Yes,,2002091.0,1001436.0,No,,2002091.0,No,tt0086383,2002091.0
+366,Movie,Crime/Noir,"Brave One, The",2007.0,THRILLER ,2.03,B,not in prior list,Yes,,2009557.0,1007468.0,No,,2024997.0,Yes,tt0476964,2024997.0
+367,Movie,Crime/Noir,Ricochet,1991.0,DRAMA ,1.62,B,not in prior list,Yes,,2002550.0,1001888.0,Yes,,2002550.0,No,tt0102789,2002550.0
+368,Movie,Crime/Noir,"Perfect World, A",1993.0,DRAMA ,2.3,C,not in prior list,Yes,,2003266.0,1002389.0,No,,2003266.0,No,tt0107808,2003266.0
+369,Movie,Crime/Noir,Insomnia,2002.0,THRILLER ,1.97,C,not in prior list,Yes,,2004689.0,1003780.0,No,,2004689.0,No,tt0278504,2004689.0
+370,Movie,Crime/Noir,City By the Sea,2002.0,DRAMA ,1.8,C,not in prior list,Yes,,2004649.0,1003740.0,No,,2004649.0,No,tt0269095,2004649.0
+371,Movie,Crime/Noir,Dog Day Afternoon,1975.0,DRAMA ,2.08,C,not in prior list,Yes,,2001744.0,1001104.0,No,,2001744.0,No,tt0072890,2001744.0
+372,Movie,Crime/Noir,"Public Enemy, The",1931.0,DRAMA ,1.4,C,not in prior list,Yes,,2010273.0,1008130.0,No,,2010273.0,No,tt0022286,2010273.0
+373,Movie,Crime/Noir,"Big Sleep, The",1946.0,DRAMA ,1.9,C,2010684,Yes,,2010684.0,1008443.0,No,,2010684.0,No,tt0038355,2010684.0
+374,Movie,Crime/Noir,"Postman Always Rings Twice, The",1946.0,DRAMA ,1.88,C,not in prior list,Yes,,2007906.0,1005939.0,No,,2007906.0,No,tt0038854,2007906.0
+375,Movie,Crime/Noir,Cast a Dark Shadow,1955.0,DRAMA ,1.36,CLASSIC,not in prior list,No,x,2008633.0,1006597.0,No,,2008633.0,No,,
+376,Movie,Crime/Noir,Death of a Scoundrel,1955.0,DRAMA ,1.98,CLASSIC,not in prior list,No,x,2008290.0,1006277.0,No,,,,,
+377,Movie,Crime/Noir,Postmark for Danger,1955.0,DRAMA ,1.4,CLASSIC,not in prior list,No,x,2008637.0,1006601.0,No,,2008637.0,No,,
+378,Movie,Crime/Noir,Betrayed (1954),1954.0,DRAMA ,1.8,CLASSIC,not in prior list,No,x,2008624.0,1006589.0,No,,2008624.0,No,,
+379,Movie,Crime/Noir,Crime Wave,1954.0,DRAMA ,1.23,CLASSIC,not in prior list,No,x,2000434.0,1000413.0,No,,2000434.0,No,,
+380,Movie,Crime/Noir,Angel Face,1953.0,DRAMA ,1.51,CLASSIC,not in prior list,No,x,2000159.0,1000151.0,No,,2000159.0,No,,
+381,Movie,Crime/Noir,Code Two,1953.0,DRAMA ,1.15,CLASSIC,not in prior list,No,x,2008403.0,1006380.0,No,,2008403.0,No,,
+382,Movie,Crime/Noir,On Dangerous Ground,1952.0,DRAMA ,1.36,CLASSIC,not in prior list,No,x,2009495.0,1007410.0,No,,,,,
+383,Movie,Crime/Noir,"Devil Makes Three, The",1952.0,DRAMA ,1.5,CLASSIC,not in prior list,No,x,2008370.0,1006350.0,No,,,,,
+384,Movie,Crime/Noir,"Hour of 13, The",1952.0,DRAMA ,1.31,CLASSIC,not in prior list,No,x,2008377.0,1006357.0,No,,2008377.0,No,,
+385,Movie,Crime/Noir,"Light Touch, The",1951.0,DRAMA ,1.78,CLASSIC,not in prior list,No,x,2008304.0,1006289.0,No,,2008304.0,No,,
+386,Movie,Crime/Noir,"Man with a Cloak, The",1951.0,DRAMA ,1.35,CLASSIC,not in prior list,No,x,2008294.0,1006280.0,No,,2008294.0,No,,
+387,Movie,Crime/Noir,No Questions Asked,1951.0,DRAMA ,1.33,CLASSIC,not in prior list,No,,2008241.0,1006236.0,No,,2008241.0,No,,
+388,Movie,Crime/Noir,"Sellout, The (1951)",1951.0,DRAMA ,1.36,CLASSIC,not in prior list,No,,2008312.0,1006296.0,No,,2008312.0,No,,
+389,Movie,Crime/Noir,"Strip, The",1951.0,DRAMA ,1.41,CLASSIC,not in prior list,No,,2008250.0,1006244.0,No,,2008250.0,No,,
+390,Movie,Crime/Noir,"Tall Target, The",1951.0,DRAMA ,1.3,CLASSIC,not in prior list,No,,2008248.0,1006243.0,No,,2008248.0,No,,
+391,Movie,Crime/Noir,Tomorrow Is Another Day,1951.0,DRAMA ,1.5,CLASSIC,not in prior list,No,,2000375.0,1000357.0,No,,2000375.0,No,,
+392,Movie,Crime/Noir,"Unknown Man, The",1951.0,DRAMA ,1.43,CLASSIC,not in prior list,No,,2008301.0,1006286.0,No,,2008301.0,No,,
+393,Movie,Crime/Noir,"Damned Don't Cry, The",1950.0,DRAMA ,1.73,CLASSIC,not in prior list,No,,2000338.0,1000320.0,No,,2000338.0,No,,
+394,Movie,Crime/Noir,"Dangerous Profession, A",1950.0,DRAMA ,1.31,CLASSIC,not in prior list,No,,2004481.0,1003577.0,No,,,,,
+395,Movie,Crime/Noir,Destination Murder,1950.0,DRAMA ,1.2,CLASSIC,not in prior list,No,,2004511.0,1003607.0,No,,2004511.0,No,,
+396,Movie,Crime/Noir,Double Deal,1950.0,DRAMA ,1.08,CLASSIC,not in prior list,No,,2004745.0,1003834.0,No,,2004745.0,No,,
+397,Movie,Crime/Noir,Mystery Street,1950.0,DRAMA ,1.55,CLASSIC,not in prior list,No,,2008160.0,1006161.0,No,,2008160.0,No,,
+398,Movie,Crime/Noir,Outrage,1950.0,DRAMA ,1.25,CLASSIC,not in prior list,No,,2052847.0,1031916.0,No,,2008171.0,Yes,,
+399,Movie,Crime/Noir,Scene of the Crime,1950.0,DRAMA ,1.56,CLASSIC,not in prior list,No,,2008096.0,1006110.0,No,,,,,
+400,Movie,Crime/Noir,"Secret Fury, The",1950.0,DRAMA ,1.43,CLASSIC,not in prior list,No,,2008172.0,1006170.0,No,,2008172.0,No,,
+401,Movie,Crime/Noir,Shadow on the Wall,1950.0,DRAMA ,1.4,CLASSIC,not in prior list,No,,2008151.0,1006154.0,No,,2008151.0,No,,
+402,Movie,Crime/Noir,"Woman on Pier 13, The",1950.0,DRAMA ,1.21,CLASSIC,not in prior list,No,,2014236.0,1011577.0,No,,,,,
+403,Movie,Crime/Noir,Incident,1949.0,DRAMA ,1.13,CLASSIC,not in prior list,No,,2000974.0,1000706.0,No,,2000974.0,No,,
+404,Movie,Crime/Noir,"Bribe, The",1949.0,DRAMA ,1.63,CLASSIC,not in prior list,No,,2008078.0,1006095.0,No,,2008078.0,No,,
+405,Movie,Crime/Noir,Brothers in the Saddle,1949.0,DRAMA ,1.0,CLASSIC,not in prior list,No,,2003881.0,1003001.0,No,,2003881.0,No,,
+406,Movie,Crime/Noir,They Live by Night,1949.0,DRAMA ,1.6,CLASSIC,2012761,No,,2012761.0,1010321.0,No,,2012761.0,No,tt0040872,2012761.0
+407,Movie,Crime/Noir,"Threat, The",1949.0,DRAMA ,1.08,CLASSIC,not in prior list,No,,2000647.0,1000626.0,No,,,,,
+408,Movie,Crime/Noir,"Velvet Touch, The",1949.0,DRAMA ,1.61,CLASSIC,not in prior list,No,,2013782.0,1011156.0,No,,,,,
+409,Movie,Crime/Noir,White Heat,1949.0,DRAMA ,1.9,CLASSIC,2014183,No,,2023805.0,1018134.0,No,,2014183.0,Yes,,
+410,Movie,Crime/Noir,"Woman's Secret, A",1949.0,DRAMA ,1.41,CLASSIC,not in prior list,No,,2014246.0,1011584.0,No,,2014246.0,No,,
+411,Movie,Crime/Noir,"Hunted, The",1948.0,DRAMA ,1.1,CLASSIC,not in prior list,No,,2000967.0,1000706.0,No,,2000967.0,No,,
+412,Movie,Crime/Noir,Bodyguard (1949),1948.0,DRAMA ,1.03,CLASSIC,not in prior list,No,,2002224.0,1001568.0,No,,2002224.0,No,,
+413,Movie,Crime/Noir,Key Largo,1948.0,DRAMA ,1.68,CLASSIC,not in prior list,No,,2007879.0,1005916.0,No,,2007879.0,No,tt0040506,2007879.0
+414,Movie,Crime/Noir,Mystery in Mexico,1948.0,DRAMA ,1.1,CLASSIC,not in prior list,No,,2009184.0,1007110.0,No,,2009184.0,No,,
+415,Movie,Crime/Noir,Race Street,1948.0,DRAMA ,1.31,CLASSIC,not in prior list,No,,2010290.0,1008147.0,No,,2010290.0,No,,
+416,Movie,Crime/Noir,Smart Girls Don't Talk,1948.0,DRAMA ,1.35,CLASSIC,not in prior list,No,,2011431.0,1009131.0,No,,2011431.0,No,,
+417,Movie,Crime/Noir,"Gangster, The",1947.0,DRAMA ,1.4,CLASSIC,not in prior list,No,,2000929.0,1000706.0,No,,2000929.0,No,,
+418,Movie,Crime/Noir,Crossfire (1947),1947.0,DRAMA ,1.43,CLASSIC,not in prior list,No,,2004425.0,1003525.0,No,,2004425.0,No,,
+419,Movie,Crime/Noir,Violence,1947.0,DRAMA ,1.2,CLASSIC,not in prior list,No,,2001216.0,1000706.0,No,,2001216.0,No,,
+420,Movie,Crime/Noir,Cry Wolf (1947),1947.0,DRAMA ,1.38,CLASSIC,not in prior list,No,,2004507.0,1003603.0,No,,2004507.0,No,,
+421,Movie,Crime/Noir,Dark Passage,1947.0,DRAMA ,1.76,CLASSIC,not in prior list,No,,2004542.0,1003638.0,No,,2004542.0,No,tt0039302,2004542.0
+422,Movie,Crime/Noir,Desperate,1947.0,DRAMA ,1.21,CLASSIC,not in prior list,No,,2004508.0,1003604.0,No,,2004508.0,No,,
+423,Movie,Crime/Noir,High Wall,1947.0,DRAMA ,1.65,CLASSIC,not in prior list,No,,2008021.0,1006041.0,No,,2008021.0,No,,
+424,Movie,Crime/Noir,Los Que Volvieron,1947.0,DRAMA ,1.31,CLASSIC,not in prior list,No,,2008115.0,1006125.0,No,,2008115.0,No,,
+425,Movie,Crime/Noir,Out of the Past,1947.0,DRAMA ,1.61,CLASSIC,2009590,No,,2009590.0,1007496.0,No,,2009590.0,No,tt0039689,2009590.0
+426,Movie,Crime/Noir,Possessed (1947),1947.0,DRAMA ,1.8,CLASSIC,not in prior list,No,,2010074.0,1007960.0,No,,2010074.0,No,,
+427,Movie,Crime/Noir,They Won't Believe Me,1947.0,DRAMA ,1.58,CLASSIC,not in prior list,No,,2012823.0,1010366.0,No,,2012823.0,No,,
+428,Movie,Crime/Noir,"Two Mrs. Carrolls, The",1947.0,DRAMA ,1.65,CLASSIC,not in prior list,No,,2013753.0,1011128.0,No,,2013753.0,No,tt0039926,2013753.0
+429,Movie,Crime/Noir,"Unfaithful, The",1947.0,DRAMA ,1.81,CLASSIC,not in prior list,No,,2012880.0,1010421.0,No,,2012880.0,No,,
+430,Movie,Crime/Noir,"Unsuspected, The",1947.0,DRAMA ,1.71,CLASSIC,not in prior list,No,,2013786.0,1011160.0,No,,2013786.0,No,,
+431,Movie,Crime/Noir,"Woman on the Beach, The",1947.0,DRAMA ,1.18,CLASSIC,not in prior list,No,,2014238.0,1011579.0,No,,2014238.0,No,,
+432,Movie,Crime/Noir,"Falcon's Adventure, The",1946.0,DRAMA ,1.03,CLASSIC,not in prior list,No,,2005673.0,1004445.0,No,,2005673.0,No,,
+433,Movie,Crime/Noir,Decoy,1946.0,DRAMA ,1.26,CLASSIC,not in prior list,No,,2013919.0,1011271.0,No,,,,,
+434,Movie,Crime/Noir,Below The Deadline (1946),1946.0,DRAMA ,1.08,CLASSIC,not in prior list,No,,2000820.0,1000706.0,No,,2000820.0,No,,
+435,Movie,Crime/Noir,Crack-Up,1946.0,DRAMA ,1.55,CLASSIC,not in prior list,No,,2004320.0,1003422.0,No,,2004320.0,No,,
+436,Movie,Crime/Noir,Criminal Court,1946.0,DRAMA ,1.05,CLASSIC,not in prior list,No,,2004345.0,1003446.0,No,,2004345.0,No,,
+437,Movie,Crime/Noir,Deadline at Dawn,1946.0,DRAMA ,1.38,CLASSIC,not in prior list,No,,2004502.0,1003598.0,No,,2004502.0,No,,
+438,Movie,Crime/Noir,Deception,1946.0,DRAMA ,1.86,CLASSIC,not in prior list,No,,2004567.0,1003661.0,No,,2004567.0,No,,
+439,Movie,Crime/Noir,"Falcon's Alibi, The",1946.0,DRAMA ,1.03,CLASSIC,not in prior list,No,,2005675.0,1004447.0,No,,2005675.0,No,,
+440,Movie,Crime/Noir,Her Kind of Man,1946.0,DRAMA ,1.3,CLASSIC,not in prior list,No,,2006764.0,1005505.0,No,,2006764.0,No,,
+441,Movie,Crime/Noir,"Hoodlum Saint, The",1946.0,DRAMA ,1.51,CLASSIC,not in prior list,No,,2007904.0,1005937.0,No,,2007904.0,No,,
+442,Movie,Crime/Noir,Hotel Reserve,1946.0,DRAMA ,1.31,CLASSIC,not in prior list,No,,2006781.0,1005520.0,No,,2006781.0,No,,
+443,Movie,Crime/Noir,Johnny Angel,1946.0,DRAMA ,1.31,CLASSIC,not in prior list,No,,2007704.0,1005767.0,No,,,,,
+444,Movie,Crime/Noir,Lady in the Lake,1946.0,DRAMA ,1.71,CLASSIC,2007961,No,,2007961.0,1005990.0,No,,,,,
+445,Movie,Crime/Noir,"Locket, The",1946.0,DRAMA ,1.43,CLASSIC,not in prior list,No,,2008101.0,1006113.0,No,,2008101.0,No,,
+446,Movie,Crime/Noir,"Mighty McGurk, The",1946.0,DRAMA ,1.41,CLASSIC,not in prior list,No,,2007960.0,1005989.0,No,,,,,
+447,Movie,Crime/Noir,Nobody Lives Forever,1946.0,DRAMA ,1.66,CLASSIC,not in prior list,No,,2009430.0,1007346.0,No,,2009430.0,No,,
+448,Movie,Crime/Noir,Shadow of a Woman,1946.0,DRAMA ,1.3,CLASSIC,not in prior list,No,,2011127.0,1008867.0,No,,2011127.0,No,,
+449,Movie,Crime/Noir,Step by Step,1946.0,DRAMA ,1.03,CLASSIC,not in prior list,No,,2011980.0,1009635.0,No,,2011980.0,No,,
+450,Movie,Romance (drama),"STAR IS BORN, A (2018)",2018.0,DRAMA ,2.26,A,not in prior list,Yes,,2024779.0,1018949.0,Yes,,2024779.0,No,tt1517451,2024779.0
+451,Movie,Romance (drama),"Notebook, The",2004.0,DRAMA ,2.02,A,not in prior list,Yes,,2016856.0,1013181.0,No,,2016856.0,No,tt0332280,2016856.0
+452,Movie,Romance (drama),"Lucky One, The",2012.0,DRAMA ,1.68,A,not in prior list,Yes,,2051484.0,1031174.0,Yes,,2051484.0,No,tt1327194,2051484.0
+453,Movie,Romance (drama),P.S. I Love You,2007.0,DRAMA ,2.12,A,not in prior list,Yes,,2026267.0,1020317.0,No,,2026267.0,No,tt0431308,2026267.0
+454,Movie,Romance (drama),"Bridges of Madison County, The",1995.0,DRAMA ,2.25,A,not in prior list,Yes,,2003320.0,1002443.0,No,,2003320.0,No,tt0112579,2003320.0
+455,Movie,Romance (drama),Love & Basketball,2000.0,DRAMA ,2.08,A,not in prior list,Yes,,2016840.0,1013165.0,No,,2016840.0,No,tt0199725,2016840.0
+456,Movie,Romance (drama),"Time Traveler's Wife, The",2009.0,DRAMA ,1.75,A,not in prior list,Yes,,2047070.0,1028736.0,No,,2047070.0,No,tt0452694,2047070.0
+457,Movie,Romance (drama),"American President, The",1995.0,DRAMA ,1.92,A,not in prior list,Yes,,2015319.0,1011872.0,No,,2015319.0,No,tt0112346,2015319.0
+458,Movie,Romance (drama),Practical Magic,1998.0,DRAMA ,1.75,A,not in prior list,Yes,,2003662.0,1002785.0,Yes,,2003662.0,No,tt0120791,2003662.0
+459,Movie,Romance (drama),"Lake House, The",2006.0,DRAMA ,1.63,A,not in prior list,Yes,,2025472.0,1019662.0,Yes,,2025472.0,No,tt0410297,2025472.0
+460,Movie,Romance (drama),Message in a Bottle,1999.0,DRAMA ,2.1,A,not in prior list,Yes,,2003668.0,1002791.0,No,,2003668.0,No,tt0139462,2003668.0
+461,Movie,Romance (drama),Tin Cup,1996.0,DRAMA ,2.25,A,not in prior list,Yes,,2003423.0,1002546.0,Yes,,2003423.0,No,tt0117918,2003423.0
+462,Movie,Romance (drama),City of Angels,1998.0,FANTASY ,1.93,A,not in prior list,Yes,,2003647.0,1002770.0,Yes,,2003647.0,No,tt0120632,2003647.0
+463,Movie,Romance (drama),Me Before You,2016.0,DRAMA ,1.83,B,not in prior list,Yes,,2068798.0,1038618.0,Yes,,2068798.0,No,tt2674426,2068798.0
+464,Movie,Romance (drama),"Great Gatsby, The",2013.0,DRAMA ,2.36,A,not in prior list,Yes,,2064057.0,1036487.0,No,,2056944.0,Yes,tt1343092,2056944.0
+465,Movie,Romance (drama),Winter's Tale,2014.0,DRAMA ,1.96,B,not in prior list,No,x,2039295.0,1025244.0,No,,2039295.0,No,tt1837709,2039295.0
+466,Movie,Romance (drama),Snow Angels,2008.0,DRAMA ,1.8,C,not in prior list,No,x,2045497.0,1027873.0,No,,,,,
+467,Movie,Romance (drama),Love in the Time of Cholera,2007.0,DRAMA ,2.3,C,not in prior list,No,x,2046390.0,1028326.0,No,,2046390.0,No,tt0484740,2046390.0
+468,Movie,Romance (drama),"Fountain, The",2006.0,DRAMA ,1.61,C,not in prior list,No,x,2005781.0,1004547.0,No,,2034811.0,Yes,tt0414993,2034811.0
+469,Movie,Romance (drama),Little Children,2006.0,DRAMA ,2.3,C,not in prior list,No,x,2040155.0,1025504.0,No,,2040155.0,No,tt0404203,2040155.0
+470,Movie,Romance (drama),"Science of Sleep, The",2006.0,DRAMA ,1.78,C,not in prior list,No,x,2041944.0,1026217.0,No,,2041944.0,No,tt0354899,2041944.0
+471,Movie,Romance (drama),Eros,2005.0,DRAMA ,1.8,C,not in prior list,No,x,2025658.0,1019838.0,No,,,,,
+472,Movie,Romance (drama),MAR ADENTRO AKA THE SEA INSIDE,2004.0,DRAMA ,2.11,C,not in prior list,No,x,2035950.0,1024275.0,No,,2035950.0,No,tt0369702,2035950.0
+473,Movie,Romance (drama),A Very Long Engagement,2004.0,DRAMA ,2.23,C,not in prior list,No,x,2026535.0,1020535.0,No,,,,,
+474,Movie,Romance (drama),We Don't Live Here Anymore,2004.0,DRAMA ,1.65,C,not in prior list,No,x,2027316.0,1021222.0,No,,2027316.0,No,,
+475,Movie,Romance (drama),"Home at the End of the World, A",2004.0,DRAMA ,1.61,C,not in prior list,No,x,2026744.0,1020663.0,No,,2026744.0,No,tt0359423,2026744.0
+476,Movie,Romance (drama),"Majestic, The",2001.0,DRAMA ,2.5,C,not in prior list,No,,2004656.0,1003747.0,Yes,,2004656.0,No,tt0268995,2004656.0
+477,Movie,Romance (drama),Sweet November,2001.0,DRAMA ,1.9,B,not in prior list,No,,2004605.0,1003696.0,No,,,,,
+478,Movie,Romance (drama),Proof of Life,2000.0,DRAMA ,2.26,C,not in prior list,No,,2004603.0,1003694.0,No,,,,,
+479,Movie,Romance (drama),Liberty Heights,1999.0,DRAMA ,2.03,C,not in prior list,No,,2003714.0,1002837.0,No,,2003714.0,No,,
+480,Movie,Romance (drama),One Night Stand,1997.0,DRAMA ,1.71,C,not in prior list,No,,2017088.0,1013397.0,No,,2017088.0,No,,
+481,Movie,Romance (drama),Julian Po,1997.0,DRAMA ,1.5,C,not in prior list,No,,2017066.0,1013375.0,No,,2017066.0,No,,
+482,Movie,Romance (drama),For Roseanna,1997.0,DRAMA ,1.66,C,not in prior list,No,,2017091.0,1013400.0,No,,2017091.0,No,,
+483,Movie,Romance (drama),Addicted to Love,1997.0,DRAMA ,1.6,C,not in prior list,No,,2003561.0,1002684.0,No,,,,,
+484,Movie,Romance (drama),Carried Away,1996.0,DRAMA ,1.78,C,not in prior list,No,,2017025.0,1013335.0,No,,2017025.0,No,,
+485,Movie,Romance (drama),Bed Of Roses (1996),1996.0,DRAMA ,1.46,C,not in prior list,No,,2016669.0,1012995.0,No,,2016669.0,No,,
+486,Movie,Romance (drama),Othello (1995),1995.0,DRAMA ,2.06,C,2015320,No,,2015320.0,1011873.0,No,,2015320.0,No,,
+487,Movie,Romance (drama),Frankie Starlight,1995.0,DRAMA ,1.66,C,not in prior list,No,,2017018.0,1013328.0,No,,2017018.0,No,,
+488,Movie,Romance (drama),"Run of the Country, The",1995.0,DRAMA ,1.81,C,not in prior list,No,,2015317.0,1011870.0,No,,2015317.0,No,,
+489,Movie,Romance (drama),Something to Talk About,1995.0,DRAMA ,1.7,C,not in prior list,No,,2003382.0,1002505.0,No,,2003382.0,No,tt0114496,2003382.0
+490,Movie,Romance (drama),Don Juan Demarco,1995.0,DRAMA ,1.5,C,not in prior list,No,,2016992.0,1013302.0,No,,2016992.0,No,tt0112883,2016992.0
+491,Movie,Romance (drama),"Last Ride, The",1995.0,DRAMA ,1.63,C,not in prior list,No,,2008047.0,1006065.0,No,,,,,
+492,Movie,Romance (drama),Love Affair (1994),1994.0,DRAMA ,1.8,C,2003269,No,,2003269.0,1002392.0,No,,2003269.0,No,,
+493,Movie,Romance (drama),Arizona Dream,1994.0,DRAMA ,1.98,C,not in prior list,No,,2003328.0,1002451.0,No,,,,,
+494,Movie,Romance (drama),Fearless,1993.0,DRAMA ,2.03,C,not in prior list,No,,2063070.0,1036075.0,No,,,,,
+495,Movie,Romance (drama),M. Butterfly,1993.0,DRAMA ,1.66,C,not in prior list,No,,2003264.0,1002387.0,No,,2003264.0,No,tt0107468,2003264.0
+496,Movie,Romance (drama),Damage,1992.0,DRAMA ,1.85,C,not in prior list,No,,2016694.0,1013020.0,No,,2016694.0,No,,
+497,Movie,Romance (drama),Pure Country,1992.0,DRAMA ,1.86,C,not in prior list,No,,2003084.0,1002226.0,No,,2003084.0,No,tt0105191,2003084.0
+498,Movie,Romance (drama),Simple Men,1992.0,DRAMA ,1.75,C,not in prior list,No,,2016791.0,1013117.0,No,,2016791.0,No,,
+499,Movie,Romance (drama),Where Angels Fear To Tread,1992.0,DRAMA ,1.86,C,not in prior list,No,,2016819.0,1013144.0,No,,2016819.0,No,,
+500,Movie,Romance (drama),Meeting Venus,1991.0,DRAMA ,1.96,C,not in prior list,No,,2002539.0,1001877.0,No,,2002539.0,No,,
+501,Movie,Romance (drama),My Own Private Idaho,1991.0,DRAMA ,1.7,C,2016762,No,,2016762.0,1013088.0,No,,2016762.0,No,tt0102494,2016762.0
+502,Movie,Romance (drama),Dogfight,1991.0,DRAMA ,1.56,C,not in prior list,No,,2002532.0,1001870.0,No,,2002532.0,No,tt0101748,2002532.0
+503,Movie,Romance (drama),Defending Your Life,1991.0,DRAMA ,1.85,C,not in prior list,No,,2002480.0,1001818.0,No,,2002480.0,No,tt0101698,2002480.0
+504,Movie,Romance (drama),Men Don't Leave,1990.0,DRAMA ,1.91,C,not in prior list,No,,2002422.0,1001760.0,No,,2002422.0,No,,
+505,Movie,Romance (drama),See You in the Morning,1989.0,DRAMA ,1.98,C,not in prior list,No,,2002407.0,1001745.0,No,,2002407.0,No,,
+506,Movie,Romance (drama),"Accidental Tourist, The",1988.0,DRAMA ,2.08,C,not in prior list,No,,2002321.0,1001662.0,No,,2002321.0,No,tt0094606,2002321.0
+507,Movie,Romance (drama),Dangerous Liaisons,1988.0,DRAMA ,2.0,C,not in prior list,No,,2002335.0,1001676.0,No,,2002335.0,No,tt0094947,2002335.0
+508,Movie,Romance (drama),Made in Heaven,1987.0,DRAMA ,1.71,CLASSIC,not in prior list,No,,2058850.0,1034635.0,No,,2002294.0,Yes,,
+509,Movie,Romance (drama),"MAN AND A WOMAN, A: 20 YEARS LATER",1986.0,DRAMA ,1.88,CLASSIC,not in prior list,No,,2002208.0,1001553.0,No,,2002208.0,No,,
+510,Movie,Romance (drama),Seven Minutes in Heaven,1986.0,DRAMA ,1.48,C,2002155,No,,2002155.0,1001500.0,No,,2002155.0,No,,
+511,Movie,Romance (drama),Revolution,1985.0,DRAMA ,2.11,C,not in prior list,No,,2002157.0,1001502.0,No,,2002157.0,No,,
+512,Movie,Romance (drama),Twice In a Lifetime,1985.0,DRAMA ,1.95,CLASSIC,not in prior list,No,,2026852.0,1020782.0,No,,2026852.0,No,,
+513,Movie,Romance (drama),Love and Money,1982.0,DRAMA ,1.5,CLASSIC,not in prior list,No,,2011635.0,1009327.0,No,,2011635.0,No,,
+514,Movie,Romance (drama),Rich and Famous,1981.0,DRAMA ,1.95,CLASSIC,not in prior list,No,,2011948.0,1009603.0,No,,2011948.0,No,tt0082992,2011948.0
+515,Movie,Romance (drama),"Postman Always Rings Twice, The",1981.0,DRAMA ,2.05,C,not in prior list,No,,2007906.0,1005939.0,No,,2032885.0,Yes,tt0082934,2032885.0
+516,Movie,Romance (drama),Honeysuckle Rose,1980.0,DRAMA ,2.0,CLASSIC,not in prior list,No,,2001959.0,1001309.0,No,,2001959.0,No,,
+517,Movie,Romance (drama),McCabe and Mrs. Miller,1971.0,DRAMA ,1.78,CLASSIC,2001599,No,,2001599.0,1000964.0,No,,2001599.0,No,tt0067411,2001599.0
+518,Movie,Romance (drama),Death in Venice,1971.0,DRAMA ,2.18,CLASSIC,not in prior list,No,,2001597.0,1000962.0,No,,2001597.0,No,,
+519,Movie,Romance (drama),House of Dark Shadows,1970.0,DRAMA ,1.6,CLASSIC,not in prior list,No,,2010590.0,1008357.0,No,,2010590.0,No,,
+520,Movie,Romance (drama),Double Trouble,1967.0,DRAMA ,1.5,CLASSIC,not in prior list,No,,2008547.0,1006516.0,No,,2009929.0,Yes,tt0061595,2009929.0
+521,Movie,Romance (drama),More Than a Miracle,1967.0,DRAMA ,1.75,CLASSIC,not in prior list,No,,2009925.0,1007814.0,No,,2009925.0,No,,
+522,Movie,Romance (drama),Gentle Rain,1966.0,DRAMA ,1.63,CLASSIC,not in prior list,No,,2000752.0,1000706.0,No,,2000752.0,No,,
+523,Movie,Romance (drama),"Young Lovers, The",1964.0,DRAMA ,1.81,CLASSIC,not in prior list,No,,2009727.0,1007624.0,No,,2009727.0,No,,
+524,Movie,Romance (drama),In the Cool of the Day,1963.0,DRAMA ,1.48,CLASSIC,2009544,No,,2009544.0,1007455.0,No,,2009544.0,No,,
+525,Movie,Romance (drama),Sweet Bird of Youth,1962.0,DRAMA ,2.0,CLASSIC,2009412,No,,2009412.0,1007328.0,No,,2009412.0,No,tt0056541,2009412.0
+526,Movie,Romance (drama),Two Weeks in Another Town,1962.0,DRAMA ,1.78,CLASSIC,not in prior list,No,,2009422.0,1007338.0,No,,2009422.0,No,,
+527,Movie,Romance (drama),"Roman Spring of Mrs. Stone, The",1961.0,DRAMA ,1.73,CLASSIC,not in prior list,No,,2000700.0,1000678.0,No,,2000700.0,No,,
+528,Movie,Romance (drama),Splendor in the Grass,1961.0,DRAMA ,2.06,CLASSIC,not in prior list,No,,2000695.0,1000673.0,No,,2000695.0,No,tt0055471,2000695.0
+529,Movie,Romance (drama),Angel Baby,1961.0,DRAMA ,1.61,CLASSIC,not in prior list,No,,2066372.0,1037308.0,No,,2000737.0,Yes,,
+530,Movie,Romance (drama),Parrish,1961.0,DRAMA ,2.3,CLASSIC,not in prior list,No,,2000677.0,1000655.0,No,,2000677.0,No,,
+531,Movie,Romance (drama),"Sins of Rachel Cade, The",1961.0,DRAMA ,2.06,CLASSIC,not in prior list,No,,2000664.0,1000643.0,No,,2000664.0,No,,
+532,Movie,Romance (drama),Butterfield 8,1960.0,DRAMA ,1.81,CLASSIC,not in prior list,No,,2009298.0,1007220.0,No,,2009298.0,No,tt0053622,2009298.0
+533,Movie,Romance (drama),"Miracle, The (1959)",1960.0,DRAMA ,2.01,CLASSIC,not in prior list,No,,2000642.0,1000621.0,No,,2000642.0,No,,
+534,Movie,Romance (drama),For the First Time,1959.0,DRAMA ,1.61,CLASSIC,not in prior list,No,,2009188.0,1007114.0,No,,2009188.0,No,,
+535,Movie,Romance (drama),"American in Paris, An",1951.0,DRAMA ,1.91,B,not in prior list,No,,2008299.0,1006284.0,No,,2008299.0,No,tt0043278,2008299.0
+536,Movie,Romance (drama),"Company She Keeps, The",1951.0,DRAMA ,1.36,CLASSIC,not in prior list,No,,2004189.0,1003296.0,No,,2004189.0,No,,
+537,Movie,Romance (drama),"Life of Her Own, A",1950.0,DRAMA ,1.8,CLASSIC,not in prior list,No,,2008202.0,1006200.0,No,,2008202.0,No,,
+538,Movie,Romance (drama),"Miniver Story, The",1950.0,DRAMA ,1.73,CLASSIC,not in prior list,No,,2008213.0,1006210.0,No,,2008213.0,No,,
+539,Movie,Romance (drama),Little Women (1949),1949.0,DRAMA ,2.03,CLASSIC,not in prior list,No,,2008083.0,1006100.0,No,,2008083.0,No,tt0041594,2008083.0
+540,Movie,Westerns,Unforgiven,1992.0,WESTERN,2.18,A,not in prior list,Yes,,2003070.0,1002212.0,No,,2003070.0,No,tt0105695,2003070.0
+541,Movie,Westerns,"Outlaw Josey Wales, The",1976.0,WESTERN,2.25,A,not in prior list,Yes,,2001792.0,1001149.0,No,,2001792.0,No,tt0075029,2001792.0
+542,Movie,Westerns,Wild Wild West,1999.0,ADVENTURE ,1.78,A,not in prior list,Yes,,2003709.0,1002832.0,No,,,,,
+543,Movie,Westerns,City Slickers,1991.0,COMEDY ,1.9,B,not in prior list,Yes,,2015288.0,1011841.0,No,,2015288.0,No,tt0101587,2015288.0
+544,Movie,Westerns,Maverick (1994),1994.0,COMEDY ,2.15,B,not in prior list,Yes,,2003311.0,1002434.0,No,,2003311.0,No,tt0110478,2003311.0
+545,Movie,Westerns,City Slickers II: The Legend of Curly's Gold,1994.0,COMEDY ,1.98,B,not in prior list,Yes,,2015302.0,1011855.0,No,,2015302.0,No,tt0109439,2015302.0
+546,Movie,Westerns,Appaloosa,2008.0,DRAMA ,1.93,C,not in prior list,Yes,,2047827.0,1029085.0,No,,2047827.0,No,tt0800308,2047827.0
+547,Movie,Westerns,Flashpoint,1984.0,ACTION ,1.58,C,not in prior list,Yes,,2018073.0,1014091.0,Yes,,2018073.0,No,tt0087268,2018073.0
+548,Movie,Westerns,"Silent Stranger, The",1975.0,WESTERN ,1.53,CLASSIC,not in prior list,No,x,2011028.0,1008774.0,No,,,,,
+549,Movie,Westerns,Pocket Money,1974.0,WESTERN,1.7,CLASSIC,not in prior list,No,x,2003511.0,1002634.0,No,,,,,
+550,Movie,Westerns,Red Sun,1974.0,WESTERN,1.86,CLASSIC,not in prior list,No,x,2003517.0,1002640.0,No,,2003517.0,No,,
+551,Movie,Westerns,"Deadly Trackers, The",1973.0,WESTERN ,1.83,CLASSIC,not in prior list,No,x,2001656.0,1001019.0,No,,2001656.0,No,,
+552,Movie,Westerns,"Train Robbers, The",1973.0,WESTERN,1.53,C,2001638,No,x,2001638.0,1001002.0,No,,2001638.0,No,,
+553,Movie,Westerns,Pat Garrett & Billy The Kid,1973.0,WESTERN,1.75,CLASSIC,not in prior list,No,x,2010839.0,1008595.0,No,,2010839.0,No,,
+554,Movie,Westerns,"Life and Times of Judge Roy Bean, The",1972.0,WESTERN,2.0,CLASSIC,not in prior list,No,x,2003528.0,1002651.0,No,,2003528.0,No,tt0068853,2003528.0
+555,Movie,Westerns,There Was a Crooked Man,1971.0,WESTERN,2.06,CLASSIC,not in prior list,No,x,2001589.0,1000954.0,No,,,,,
+556,Movie,Westerns,El Condor,1970.0,WESTERN ,1.63,CLASSIC,not in prior list,No,x,2003488.0,1002611.0,No,,2003488.0,No,,
+557,Movie,Westerns,"Good Guys and the Bad Guys, The",1969.0,WESTERN,1.51,CLASSIC,not in prior list,No,x,2001560.0,1000925.0,No,,2001560.0,No,,
+558,Movie,Westerns,"Five Man Army, The",1969.0,WESTERN ,1.78,CLASSIC,not in prior list,No,x,2010478.0,1008245.0,No,,2010478.0,No,,
+559,Movie,Westerns,Charro,1969.0,WESTERN ,1.63,C,not in prior list,No,x,2003474.0,1002597.0,No,,2003474.0,No,,
+560,Movie,Westerns,Guns for San Sebastian,1968.0,WESTERN,1.85,CLASSIC,not in prior list,No,x,2010013.0,1007900.0,No,,2010013.0,No,,
+561,Movie,Westerns,White Comanche,1968.0,WESTERN,1.5,CLASSIC,not in prior list,No,x,2009994.0,1007881.0,No,,2009994.0,No,,
+562,Movie,Westerns,Hate for Hate,1967.0,WESTERN,1.31,CLASSIC,not in prior list,No,x,2010043.0,1007929.0,No,,,,,
+563,Movie,Westerns,"Last Challenge, The",1967.0,WESTERN ,1.75,CLASSIC,not in prior list,No,x,2010000.0,1007887.0,No,,2010000.0,No,,
+564,Movie,Westerns,Return of the Gunfighter,1967.0,WESTERN,1.66,CLASSIC,not in prior list,No,,2012025.0,1009679.0,No,,2009945.0,Yes,,
+565,Movie,Westerns,Ringo and his Golden Pistol,1966.0,WESTERN,1.46,CLASSIC,not in prior list,No,,2009861.0,1007751.0,No,,2009861.0,No,tt0060563,2009861.0
+566,Movie,Westerns,Son of a Gunfighter,1966.0,WESTERN,1.53,CLASSIC,not in prior list,No,,2009839.0,1007729.0,No,,,,,
+567,Movie,Westerns,"Distant Trumpet, A",1964.0,WESTERN ,1.91,CLASSIC,not in prior list,No,,2001367.0,1000735.0,No,,2001367.0,No,,
+568,Movie,Westerns,"Outrage, The",1964.0,WESTERN,1.61,CLASSIC,not in prior list,No,,2009731.0,1007628.0,No,,2009731.0,No,,
+569,Movie,Westerns,"Gunfight at Comanche Creek, The",1963.0,WESTERN,1.5,CLASSIC,not in prior list,No,,2002372.0,1001713.0,No,,2002372.0,No,,
+570,Movie,Westerns,"Gun Hawk, The",1963.0,WESTERN,1.53,CLASSIC,not in prior list,No,,2000754.0,1000706.0,No,,2000754.0,No,,
+571,Movie,Westerns,Cattle King,1963.0,WESTERN,1.46,CLASSIC,not in prior list,No,,2009550.0,1007461.0,No,,2009550.0,No,,
+572,Movie,Westerns,Rider on a Dead Horse,1962.0,WESTERN,1.2,CLASSIC,not in prior list,No,,2001106.0,1000706.0,No,,2001106.0,No,,
+573,Movie,Westerns,Ride the High Country,1962.0,WESTERN ,1.56,CLASSIC,not in prior list,No,,2009417.0,1007333.0,No,,2009417.0,No,tt0056412,2009417.0
+574,Movie,Westerns,"Plunderers, The",1960.0,WESTERN,1.56,CLASSIC,not in prior list,No,,2001081.0,1000706.0,No,,2001081.0,No,,
+575,Movie,Westerns,Yellowstone Kelly,1960.0,WESTERN ,1.51,CLASSIC,not in prior list,No,,2000637.0,1000616.0,No,,2000637.0,No,,
+576,Movie,Westerns,Rio Bravo,1959.0,WESTERN,2.36,C,2000620,No,,2000620.0,1000599.0,No,,2000620.0,No,tt0053221,2000620.0
+577,Movie,Westerns,Born Reckless,1959.0,WESTERN ,1.31,CLASSIC,not in prior list,No,,2000623.0,1000602.0,No,,,,,
+578,Movie,Westerns,Westbound,1959.0,WESTERN ,1.15,CLASSIC,not in prior list,No,,2000622.0,1000601.0,No,,2000622.0,No,,
+579,Movie,Westerns,Gunsmoke in Tucson,1958.0,WESTERN,1.31,CLASSIC,not in prior list,No,,2000953.0,1000706.0,No,,2000953.0,No,,
+580,Movie,Westerns,Snowfire,1958.0,WESTERN ,1.21,CLASSIC,not in prior list,No,,2004246.0,1003350.0,No,,2004246.0,No,,
+581,Movie,Westerns,Quantrill's Raiders,1958.0,WESTERN ,1.2,CLASSIC,not in prior list,No,,2001083.0,1000706.0,No,,2001083.0,No,,
+582,Movie,Westerns,"Cole Younger, Gunfighter",1958.0,WESTERN,1.3,CLASSIC,not in prior list,No,,2000865.0,1000706.0,No,,2000865.0,No,,
+583,Movie,Westerns,"Left Handed Gun, The",1958.0,WESTERN ,1.7,CLASSIC,not in prior list,No,,2000596.0,1000575.0,No,,2000596.0,No,,
+584,Movie,Westerns,Badman's Country,1958.0,WESTERN,1.2,CLASSIC,not in prior list,No,,2000602.0,1000581.0,No,,2000602.0,No,,
+585,Movie,Westerns,Black Patch,1958.0,WESTERN,1.38,CLASSIC,not in prior list,No,,2000583.0,1000562.0,No,,,,,
+586,Movie,Westerns,Fort Dobbs,1958.0,WESTERN ,1.5,CLASSIC,not in prior list,No,,2000590.0,1000569.0,No,,2000590.0,No,,
+587,Movie,Westerns,Saddle the Wind,1958.0,WESTERN,1.4,CLASSIC,not in prior list,No,,2008991.0,1006927.0,No,,2008991.0,No,,
+588,Movie,Westerns,Oregon Passage,1957.0,WESTERN ,1.36,CLASSIC,not in prior list,No,,2000765.0,1000706.0,No,,2000765.0,No,,
+589,Movie,Westerns,"Oklahoman, The",1957.0,WESTERN,1.33,CLASSIC,not in prior list,No,,2001057.0,1000706.0,No,,2001057.0,No,,
+590,Movie,Westerns,"Burning Hills, The",1957.0,WESTERN ,1.56,CLASSIC,not in prior list,No,,2000530.0,1000509.0,No,,,,,
+591,Movie,Westerns,"Hired Gun, The",1957.0,WESTERN ,1.05,CLASSIC,not in prior list,No,,2008969.0,1006910.0,No,,2008969.0,No,,
+592,Movie,Westerns,Run of the Arrow,1957.0,WESTERN ,1.43,CLASSIC,not in prior list,No,,2008844.0,1006796.0,No,,2008844.0,No,,
+593,Movie,Westerns,Shoot Out at Medicine Bend,1957.0,WESTERN,1.45,CLASSIC,not in prior list,No,,2000540.0,1000519.0,No,,2000540.0,No,,
+594,Movie,Westerns,Young Guns,1956.0,WESTERN,1.4,CLASSIC,not in prior list,No,,2003045.0,1002187.0,No,,,,,
+595,Movie,Westerns,Canyon River,1956.0,WESTERN,1.33,CLASSIC,not in prior list,No,,2000744.0,1000706.0,No,,2000744.0,No,,
+596,Movie,Westerns,"First Texan, The",1956.0,WESTERN ,1.36,CLASSIC,not in prior list,No,,2000913.0,1000706.0,No,,2000913.0,No,,
+597,Movie,Westerns,"Naked Hills, The",1956.0,WESTERN,1.21,CLASSIC,not in prior list,No,,2001045.0,1000706.0,No,,2001045.0,No,,
+598,Movie,Westerns,"Searchers, The",1956.0,WESTERN,1.98,C,not in prior list,No,,2000488.0,1000467.0,No,,2000488.0,No,tt0049730,2000488.0
+599,Movie,Westerns,Wichita,1955.0,WESTERN,1.35,CLASSIC,not in prior list,No,,2001237.0,1000706.0,No,,2001237.0,No,,
+600,Movie,Westerns,"Bounty Hunter, the",1955.0,WESTERN,1.31,CLASSIC,not in prior list,No,,2000454.0,1000433.0,No,,,,,
+601,Movie,Westerns,Strange Lady in Town,1955.0,WESTERN ,1.88,CLASSIC,not in prior list,No,,2000462.0,1000441.0,No,,2000462.0,No,,
+602,Movie,Westerns,Tall Man Riding,1955.0,WESTERN ,1.38,CLASSIC,not in prior list,No,,2000464.0,1000443.0,No,,2000464.0,No,,
+603,Movie,Westerns,Desperado,1954.0,WESTERN,1.36,CLASSIC,not in prior list,No,,2032401.0,1023532.0,No,,2000887.0,Yes,,
+604,Movie,Westerns,"Forty-Niners, The",1954.0,WESTERN,1.18,CLASSIC,not in prior list,No,,2000922.0,1000706.0,No,,2000922.0,No,,
+605,Movie,Westerns,"Boy from Oklahoma, The",1954.0,WESTERN ,1.46,CLASSIC,not in prior list,No,,2000441.0,1000420.0,No,,2000441.0,No,,
+606,Movie,Westerns,"Command, The",1954.0,WESTERN ,1.56,CLASSIC,not in prior list,No,,2000440.0,1000419.0,No,,2000440.0,No,,
+607,Movie,Westerns,Riding Shotgun,1954.0,WESTERN,1.25,CLASSIC,not in prior list,No,,2000443.0,1000422.0,No,,2000443.0,No,,
+608,Movie,Westerns,Thunder Over the Plains,1954.0,WESTERN ,1.36,CLASSIC,not in prior list,No,,2000436.0,1000415.0,No,,,,,
+609,Movie,Westerns,"Fighting Lawman, The",1953.0,WESTERN ,1.18,CLASSIC,not in prior list,No,,2000912.0,1000706.0,No,,2000912.0,No,,
+610,Movie,Westerns,Son of Belle Star,1953.0,WESTERN,1.21,CLASSIC,not in prior list,No,,2000776.0,1000706.0,No,,2000776.0,No,,
+611,Movie,Westerns,Cow Country,1953.0,WESTERN,1.36,CLASSIC,not in prior list,No,,2000870.0,1000706.0,No,,2000870.0,No,,
+612,Movie,Westerns,"Homesteaders, The",1953.0,WESTERN,1.03,CLASSIC,not in prior list,No,,2000962.0,1000706.0,No,,2000962.0,No,,
+613,Movie,Westerns,Calamity Jane,1953.0,WESTERN ,1.68,CLASSIC,not in prior list,No,,2016538.0,1012864.0,No,,2000496.0,Yes,,
+614,Movie,Westerns,Cattle Town,1953.0,WESTERN,0.86,CLASSIC,not in prior list,No,,2000405.0,1000387.0,No,,,,,
+615,Movie,Westerns,"Moonlighter, The",1953.0,WESTERN ,1.28,CLASSIC,not in prior list,No,,2000430.0,1000409.0,No,,2000430.0,No,,
+616,Movie,Westerns,"Ride, Vaquero",1953.0,WESTERN,1.5,CLASSIC,not in prior list,No,,2008419.0,1006394.0,No,,2008419.0,No,,
+617,Movie,Westerns,Springfield Rifle,1953.0,WESTERN ,1.55,CLASSIC,not in prior list,No,,2000402.0,1000384.0,No,,,,,
+618,Movie,Westerns,Wyoming Roundup,1952.0,WESTERN,0.88,CLASSIC,not in prior list,No,,2001245.0,1000706.0,No,,2001245.0,No,,
+619,Movie,Westerns,"Gunman, The",1952.0,WESTERN,0.86,CLASSIC,not in prior list,No,,2067793.0,1038013.0,No,,2000949.0,Yes,,
+620,Movie,Westerns,Carson City,1952.0,WESTERN,1.46,CLASSIC,not in prior list,No,,2000393.0,1000375.0,No,,2000393.0,No,,
+621,Movie,Westerns,Desert Passage,1952.0,WESTERN,1.03,CLASSIC,not in prior list,No,,2004506.0,1003602.0,No,,2004506.0,No,,
+622,Movie,Westerns,Fort Osage,1952.0,WESTERN,1.25,CLASSIC,not in prior list,No,,2000920.0,1000706.0,No,,2000920.0,No,,
+623,Movie,Westerns,"Half-Breed, The",1952.0,WESTERN ,1.35,CLASSIC,not in prior list,No,,2005947.0,1004693.0,No,,2005947.0,No,,
+624,Movie,Westerns,Pistol Harvest,1952.0,WESTERN,1.0,CLASSIC,not in prior list,No,,2009877.0,1007767.0,No,,,,,
+625,Movie,Westerns,Rancho Notorious,1952.0,WESTERN ,1.48,CLASSIC,not in prior list,No,,2008298.0,1006283.0,No,,2008298.0,No,tt0045070,2008298.0
+626,Movie,Westerns,Road Agent,1952.0,WESTERN ,1.0,CLASSIC,not in prior list,No,,2010782.0,1008539.0,No,,2010782.0,No,,
+627,Movie,Westerns,Saddle Legion,1952.0,WESTERN,1.01,CLASSIC,not in prior list,No,,2010944.0,1008691.0,No,,,,,
+628,Movie,Westerns,Target (1952),1952.0,WESTERN,1.0,CLASSIC,not in prior list,No,,2012459.0,1010059.0,No,,2012459.0,No,,
+629,Movie,Westerns,Trail Guide,1952.0,WESTERN,1.0,CLASSIC,not in prior list,No,,2013558.0,1010947.0,No,,2013558.0,No,,
+630,Movie,Sports,42 (2013),2013.0,DRAMA ,2.13,A,not in prior list,Yes,,2062442.0,1035784.0,No,,2062442.0,No,tt0453562,2062442.0
+631,Movie,Sports,Space Jam,1996.0,COMEDY ,1.45,A,not in prior list,Yes,,2003431.0,1002554.0,No,,2003431.0,No,tt0117705,2003431.0
+632,Movie,Sports,"Replacements, The",2000.0,COMEDY ,1.97,A,not in prior list,Yes,,2004598.0,1003689.0,No,,,,,
+633,Movie,Sports,We Are Marshall,2006.0,DRAMA ,2.2,A,not in prior list,Yes,,2036909.0,1024674.0,Yes,,2036909.0,No,tt0758794,2036909.0
+634,Movie,Sports,Any Given Sunday,1999.0,DRAMA ,2.63,A,not in prior list,Yes,,2003713.0,1002836.0,No,,2003713.0,No,tt0146838,2003713.0
+635,Movie,Sports,Million Dollar Baby,2004.0,DRAMA ,2.22,B,not in prior list,Yes,,2008808.0,1006761.0,No,,2028163.0,Yes,tt0405159,2028163.0
+636,Movie,Sports,Trouble With The Curve,2012.0,DRAMA ,1.85,B,not in prior list,Yes,,2059722.0,1034992.0,No,,2059722.0,No,tt2083383,2059722.0
+637,Movie,Sports,Semi-Pro,2008.0,COMEDY ,1.53,A,not in prior list,Yes,,2046388.0,1028121.0,No,,2046388.0,No,tt0839980,2046388.0
+638,Movie,Sports,Point Break,1991.0,ACTION ,2.0,B,not in prior list,Yes,,2041547.0,1023532.0,No,,2041547.0,No,tt0102685,2041547.0
+639,Movie,Sports,Torque,2004.0,ACTION ,1.4,C,not in prior list,Yes,,2024153.0,1018481.0,Yes,,2024153.0,No,tt0329691,2024153.0
+640,Movie,Sports,American Wrestler: The Wizard (2016),2017.0,DRAMA ,1.95,C,not in prior list,No,x,2077725.0,1043645.0,No,,2077725.0,No,tt4303202,2077725.0
+641,Movie,Sports,Grudge Match,2013.0,COMEDY ,1.95,B,not in prior list,No,x,2054937.0,1033015.0,No,,2054937.0,No,tt1661382,2054937.0
+642,Movie,Sports,Thunderstruck,2012.0,COMEDY ,1.56,C,not in prior list,No,x,2033128.0,1023532.0,No,,2057997.0,Yes,tt2041488,2057997.0
+643,Movie,Sports,Speed Racer,2008.0,ACTION ,2.25,B,not in prior list,No,x,2002833.0,1002164.0,No,,2024975.0,Yes,tt0811080,2024975.0
+644,Movie,Sports,"Year Of The Yao, The",2005.0,DOC ,1.5,C,not in prior list,No,x,2036674.0,1024593.0,No,,2036674.0,No,tt0360216,2036674.0
+645,Movie,Sports,Racing Stripes,2005.0,COMEDY ,1.68,C,not in prior list,No,x,2025674.0,1019854.0,No,,2025674.0,No,tt0376105,2025674.0
+646,Movie,Sports,"NASCAR, VOL. 1",2004.0,DOC ,0.81,C,not in prior list,No,x,2029452.0,1023249.0,No,,2029452.0,No,,
+647,Movie,Sports,Ready to Rumble,2000.0,COMEDY ,1.66,C,not in prior list,No,x,2004588.0,1003679.0,No,,,,,
+648,Movie,Sports,Price Of Glory,2000.0,DRAMA ,1.96,C,not in prior list,No,x,2017153.0,1013462.0,No,,2017153.0,No,,
+649,Movie,Sports,My Giant,1998.0,COMEDY ,1.76,C,not in prior list,No,x,2015348.0,1011899.0,No,,2015348.0,No,,
+650,Movie,Sports,Thunderbolt,1995.0,ACTION ,1.8,C,not in prior list,No,x,2017095.0,1013404.0,No,,2017095.0,No,,
+651,Movie,Sports,8 Seconds,1994.0,DRAMA ,1.73,C,not in prior list,No,x,2016661.0,1012987.0,No,,2016661.0,No,,
+652,Movie,Sports,Hot to Trot,1988.0,COMEDY ,1.38,C,not in prior list,No,x,2002307.0,1001648.0,No,,2002307.0,No,,
+653,Movie,Sports,Stealing Home,1988.0,DRAMA ,1.63,C,not in prior list,No,x,2002314.0,1001655.0,No,,2002314.0,No,,
+654,Movie,Sports,American Anthem,1986.0,DRAMA ,1.83,C,not in prior list,No,x,2002390.0,1001729.0,No,,2002390.0,No,,
+655,Movie,Sports,American Flyers,1985.0,DRAMA ,1.88,C,not in prior list,No,x,2002151.0,1001496.0,No,,2002151.0,No,,
+656,Movie,Sports,Vision Quest,1985.0,DRAMA ,1.65,C,not in prior list,No,,2002113.0,1001458.0,No,,2002113.0,No,,
+657,Movie,Sports,Personal Best,1985.0,DRAMA ,2.15,CLASSIC,not in prior list,No,,2002026.0,1001375.0,No,,,,,
+658,Movie,Sports,Cannonball Run II,1984.0,ACTION ,1.81,CLASSIC,not in prior list,No,,2002084.0,1001429.0,No,,2002084.0,No,tt0087032,2002084.0
+659,Movie,Sports,All the Marbles,1981.0,COMEDY ,1.88,CLASSIC,not in prior list,No,,2011951.0,1009606.0,No,,2011951.0,No,,
+660,Movie,Sports,"Main Event, The",1979.0,COMEDY ,1.83,CLASSIC,2001923,No,,2001923.0,1001275.0,No,,2001923.0,No,,
+661,Movie,Sports,"Champ, The (1979)",1979.0,DRAMA ,2.01,CLASSIC,not in prior list,No,,2011356.0,1009077.0,No,,2011356.0,No,tt0078950,2011356.0
+662,Movie,Sports,Big Wednesday,1978.0,DRAMA ,1.73,CLASSIC,not in prior list,No,,2001873.0,1001229.0,No,,2001873.0,No,,
+663,Movie,Sports,One On One,1977.0,DRAMA ,1.63,CLASSIC,not in prior list,No,,2001828.0,1001185.0,No,,2001828.0,No,,
+664,Movie,Sports,"All American Boy, The",1973.0,DRAMA ,1.98,CLASSIC,not in prior list,No,,2001653.0,1001016.0,No,,2001653.0,No,,
+665,Movie,Sports,Kansas City Bomber,1972.0,DRAMA ,1.65,CLASSIC,not in prior list,No,,2010744.0,1008501.0,No,,2010744.0,No,,
+666,Movie,Sports,"Great Race, The",1965.0,ADVENTURE ,2.55,CLASSIC,2001428,No,,2001428.0,1000795.0,No,,2001428.0,No,tt0059243,2001428.0
+667,Movie,Sports,Loneliness of the Long Distance Runner,1962.0,DRAMA ,1.73,CLASSIC,not in prior list,No,,2020325.0,1015520.0,No,,2020325.0,No,tt0056194,2020325.0
+668,Movie,Sports,Jim Thorpe: All American,1957.0,DRAMA ,1.78,CLASSIC,not in prior list,No,,2000548.0,1000527.0,No,,,,,
+669,Movie,Sports,White Lightning,1953.0,DRAMA ,1.0,CLASSIC,not in prior list,No,,2010882.0,1008636.0,No,,,,,
+670,Movie,Sports,Arena,1953.0,DRAMA ,1.38,CLASSIC,not in prior list,No,,2008414.0,1006389.0,No,,2008414.0,No,,
+671,Movie,Sports,Dangerous When Wet,1953.0,COMEDY ,1.58,CLASSIC,not in prior list,No,,2008416.0,1006391.0,No,,2008416.0,No,,
+672,Movie,Sports,Glory Alley,1952.0,DRAMA ,1.31,CLASSIC,not in prior list,No,,2008329.0,1006311.0,No,,2008329.0,No,,
+673,Movie,Sports,"Lusty Men, The",1952.0,DRAMA ,1.88,CLASSIC,not in prior list,No,,2008295.0,1006281.0,No,,2008295.0,No,,
+674,Movie,Sports,Right Cross,1951.0,DRAMA ,1.5,CLASSIC,not in prior list,No,,2008209.0,1006206.0,No,,,,,
+675,Movie,Sports,To Please a Lady,1950.0,ACTION ,1.51,CLASSIC,not in prior list,No,,2008211.0,1006208.0,No,,2008211.0,No,,
+676,Movie,Sports,Easy Living (1949),1949.0,DRAMA ,1.28,CLASSIC,not in prior list,No,,2005573.0,1004349.0,No,,2005573.0,No,,
+677,Movie,Sports,"Set-Up, The",1949.0,DRAMA ,1.2,CLASSIC,2011135,No,,2011135.0,1008875.0,No,,2011135.0,No,tt0041859,2011135.0
+678,Movie,Sports,"Stratton Story, The",1949.0,DRAMA ,1.76,CLASSIC,not in prior list,No,,2008090.0,1006106.0,No,,2008090.0,No,,
+679,Movie,Sports,Whiplash (1948),1948.0,DRAMA ,1.51,CLASSIC,not in prior list,No,,2014174.0,1011516.0,No,,2014174.0,No,,
+680,Movie,Sports,Black Gold (1947),1947.0,DRAMA ,1.53,CLASSIC,not in prior list,No,,2000825.0,1000706.0,No,,2000825.0,No,tt0039191,2000825.0
+681,Movie,Sports,Killer McCoy,1947.0,DRAMA ,1.73,CLASSIC,not in prior list,No,,2008015.0,1006036.0,No,,2008015.0,No,,
+682,Movie,Sports,Harrigan's Kid,1943.0,DRAMA ,1.33,CLASSIC,not in prior list,No,,2007745.0,1005802.0,No,,2007745.0,No,,
+683,Movie,Sports,"Iron Major, The",1943.0,DRAMA ,1.41,CLASSIC,not in prior list,No,,2007626.0,1005696.0,No,,2007626.0,No,,
+684,Movie,Sports,Gentleman Jim,1942.0,DRAMA ,1.73,CLASSIC,not in prior list,No,,2005871.0,1004628.0,No,,2005871.0,No,,
+685,Movie,Sports,Knockout,1941.0,DRAMA ,1.21,CLASSIC,not in prior list,No,,2007982.0,1006009.0,No,,2007982.0,No,,
+686,Movie,Sports,City for Conquest (1940),1940.0,DRAMA ,1.76,CLASSIC,not in prior list,No,,2004419.0,1003519.0,No,,2004419.0,No,,
+687,Movie,Sports,KNUTE ROCKNE ALL AMERICAN,1940.0,DRAMA ,1.63,CLASSIC,not in prior list,No,,2007983.0,1006010.0,No,,2007983.0,No,,
+688,Movie,Sports,Burn 'em Up O'Connor,1939.0,ACTION ,1.16,CLASSIC,not in prior list,No,,2007433.0,1005562.0,No,,2007433.0,No,,
+689,Movie,Sports,Cowboy Quarterback,1939.0,COMEDY ,0.93,CLASSIC,not in prior list,No,,2004492.0,1003588.0,No,,2004492.0,No,,
+690,Movie,Sports,"Day the Bookies Wept, The",1939.0,COMEDY ,1.06,CLASSIC,not in prior list,No,,2004493.0,1003589.0,No,,2004493.0,No,,
+691,Movie,Sports,Sweepstakes Winner,1939.0,COMEDY ,0.98,CLASSIC,not in prior list,No,,2012420.0,1010024.0,No,,2012420.0,No,,
+692,Movie,Sports,Mr. Doodle Kicks Off,1938.0,COMEDY ,1.25,CLASSIC,not in prior list,No,,2008958.0,1006902.0,No,,2008958.0,No,,
+693,Movie,Sports,"Crowd Roars, The (1932)",1938.0,ACTION ,1.53,CLASSIC,not in prior list,No,,2004505.0,1003601.0,No,,,,,
+694,Movie,Sports,"Kid Comes Back, The",1938.0,DRAMA ,1.01,CLASSIC,not in prior list,No,,2007921.0,1005953.0,No,,2007921.0,No,,
+695,Movie,Sports,Little Miss Thoroughbred,1938.0,DRAMA ,1.05,CLASSIC,not in prior list,No,,2008176.0,1006174.0,No,,2008176.0,No,,
+696,Movie,Sports,Saturday's Heroes,1938.0,DRAMA ,1.0,CLASSIC,not in prior list,No,,2011051.0,1008795.0,No,,,,,
+697,Movie,Sports,Stablemates,1938.0,DRAMA ,1.48,CLASSIC,not in prior list,No,,2007421.0,1005562.0,No,,2007421.0,No,,
+698,Movie,Sports,Swing Your Lady,1938.0,COMEDY ,1.31,CLASSIC,not in prior list,No,,2012440.0,1010041.0,No,,2012440.0,No,,
+699,Movie,Sports,Kid Galahad,1937.0,DRAMA ,1.68,CLASSIC,not in prior list,No,,2007925.0,1005957.0,No,,2007925.0,No,,
+700,Movie,Sports,Racing Lady,1937.0,DRAMA ,0.98,CLASSIC,not in prior list,No,,2010332.0,1008188.0,No,,2010332.0,No,,
+701,Movie,Sports,Thoroughbreds Don't Cry,1937.0,COMEDY ,1.33,CLASSIC,not in prior list,No,,2007387.0,1005562.0,No,,2007387.0,No,,
+702,Movie,Sports,King of Hockey,1936.0,DRAMA ,0.91,CLASSIC,not in prior list,No,,2007932.0,1005964.0,No,,2007932.0,No,,
+703,Movie,Sports,Alibi Ike,1935.0,COMEDY ,1.21,CLASSIC,not in prior list,No,,2000141.0,1000134.0,No,,2000141.0,No,,
+704,Movie,Sports,"Gridiron Flash, The",1935.0,COMEDY ,1.03,CLASSIC,not in prior list,No,,2005909.0,1004663.0,No,,,,,
+705,Movie,Sports,"Band Plays On, The",1934.0,DRAMA ,1.45,CLASSIC,not in prior list,No,,2007285.0,1005562.0,No,,2007285.0,No,,
+706,Movie,Sports,"Personality Kid, The",1934.0,DRAMA ,1.16,CLASSIC,not in prior list,No,,2009885.0,1007775.0,No,,2009885.0,No,,
+707,Movie,Sports,College Coach,1933.0,COMEDY ,1.25,CLASSIC,not in prior list,No,,2004447.0,1003546.0,No,,2004447.0,No,,
+708,Movie,Sports,Elmer the Great,1933.0,COMEDY ,1.23,CLASSIC,not in prior list,No,,2005632.0,1004404.0,No,,2005632.0,No,,
+709,Movie,Sports,"Crowd Roars, The (1932)",1932.0,ACTION ,1.41,CLASSIC,not in prior list,No,,2004505.0,1003601.0,No,,2004505.0,No,,
+710,Movie,Sports,Fireman Save My Child,1932.0,COMEDY ,1.11,CLASSIC,not in prior list,No,,2005737.0,1004506.0,No,,2005737.0,No,,
+711,Movie,Sports,Flesh,1932.0,DRAMA ,1.58,CLASSIC,not in prior list,No,,2007181.0,1005562.0,No,,2007181.0,No,,
+712,Movie,Sports,"Sport Parade, The",1932.0,DRAMA ,1.08,CLASSIC,not in prior list,No,,2011694.0,1009374.0,No,,2011694.0,No,,
+713,Movie,Sports,"Champ, The (1931)",1931.0,DRAMA ,1.45,CLASSIC,not in prior list,No,,2007135.0,1005562.0,No,,2007135.0,No,,
+714,Movie,Sports,Sporting Blood (1931),1931.0,DRAMA ,1.36,CLASSIC,not in prior list,No,,2007120.0,1005562.0,No,,2007120.0,No,,
+715,Movie,Sports,Sweepstakes,1931.0,COMEDY ,1.28,CLASSIC,not in prior list,No,,2012388.0,1009998.0,No,,2012388.0,No,,
+716,Movie,Sports,Night Parade,1930.0,DRAMA ,1.2,CLASSIC,not in prior list,No,,2009287.0,1007209.0,No,,,,,
+717,Movie,Sports,"Great American Pastime, The",1956.0,COMEDY ,1.48,CLASSIC,not in prior list,No,,2008849.0,1006800.0,No,,2008849.0,No,tt0049277,2008849.0
+718,Movie,Sports,"BIG LEAGUER, THE",1953.0,DRAMA ,1.21,CLASSIC,not in prior list,No,,2008423.0,1006398.0,No,,2008423.0,No,,
+719,Movie,Sports,Angels in the Outfield,1951.0,COMEDY ,1.7,CLASSIC,not in prior list,No,,2008282.0,1006271.0,No,,2008282.0,No,tt0043286,2008282.0
+720,Movie,War,American Sniper,2014.0,DRAMA ,2.2,A,not in prior list,Yes,,2062723.0,1035942.0,Yes,,2062723.0,No,tt2179136,2062723.0
+721,Movie,War,"Good German, The",2006.0,DRAMA ,1.8,C,not in prior list,Yes,,2025003.0,1019173.0,Yes,,2025003.0,No,tt0452624,2025003.0
+722,Movie,War,Three Kings,1999.0,COMEDY ,1.95,B,not in prior list,Yes,,2003716.0,1002839.0,Yes,,2003716.0,No,tt0120188,2003716.0
+723,Movie,War,Heartbreak Ridge,1986.0,ACTION ,2.17,B,not in prior list,Yes,,2002199.0,1001544.0,No,,2002199.0,No,tt0091187,2002199.0
+724,Movie,War,"Water Diviner, The",2015.0,DRAMA ,1.85,C,not in prior list,No,x,2071074.0,1039630.0,No,,2071074.0,No,tt3007512,2071074.0
+725,Movie,War,Collateral Damage,2002.0,ACTION ,1.81,C,not in prior list,No,x,2004599.0,1003690.0,No,,,,,
+726,Movie,War,Beyond Rangoon,1995.0,DRAMA ,1.65,C,not in prior list,No,x,2015313.0,1011866.0,No,,2015313.0,No,,
+727,Movie,War,Fifty/Fifty,1993.0,ACTION ,1.6,C,not in prior list,No,x,2002634.0,1001972.0,No,,,,,
+728,Movie,War,"Human Shield, The",1992.0,ACTION ,1.6,C,not in prior list,No,x,2002633.0,1001971.0,No,,,,,
+729,Movie,War,DELTA FORCE 3: THE KILLING GAME,1991.0,ACTION ,1.6,C,not in prior list,No,x,2002626.0,1001964.0,No,,2002626.0,No,,
+730,Movie,War,Code Name: Emerald,1985.0,ACTION ,1.58,C,not in prior list,No,x,2012760.0,1010320.0,No,,2012760.0,No,,
+731,Movie,War,Victory,1981.0,ACTION ,1.83,CLASSIC,not in prior list,No,x,2074442.0,1023532.0,No,,,,,
+732,Movie,War,Private Benjamin,1980.0,COMEDY ,1.83,C,1017067,No,x,2001968.0,1001318.0,No,,2001968.0,No,tt0081375,2001968.0
+733,Movie,War,"Big Red One, The",1980.0,ACTION ,1.88,C,not in prior list,No,x,2011494.0,1009189.0,No,,2011494.0,No,,
+734,Movie,War,Zeppelin,1971.0,ADVENTURE ,1.68,CLASSIC,not in prior list,No,x,2010635.0,1008400.0,No,,2010635.0,No,,
+735,Movie,War,Which Way to the Front?,1970.0,COMEDY ,1.6,CLASSIC,not in prior list,No,x,2001572.0,1000937.0,No,,2001572.0,No,,
+736,Movie,War,Kelly's Heroes,1970.0,ACTION ,2.41,CLASSIC,2010487,No,,2010487.0,1008254.0,No,,2010487.0,No,,
+737,Movie,War,"Five Man Army, The",1969.0,WESTERN ,1.78,CLASSIC,not in prior list,No,,2010478.0,1008245.0,No,,2010478.0,No,,
+738,Movie,War,Where Eagles Dare,1969.0,ACTION ,2.63,CLASSIC,2010259,No,,2010259.0,1008116.0,No,,2010259.0,No,tt0065207,2010259.0
+739,Movie,War,Dark of the Sun,1968.0,ACTION ,1.68,CLASSIC,not in prior list,No,,2010020.0,1007907.0,No,,2010020.0,No,,
+740,Movie,War,First to Fight,1967.0,DRAMA ,1.11,CLASSIC,not in prior list,No,,2001471.0,1000838.0,No,,2001471.0,No,,
+741,Movie,War,Triple Cross,1967.0,ACTION ,2.1,CLASSIC,not in prior list,No,,2001469.0,1000836.0,No,,2001469.0,No,,
+742,Movie,War,"Twenty-Fifth Hour, The",1967.0,DRAMA ,1.98,CLASSIC,not in prior list,No,,2009919.0,1007808.0,No,,2009919.0,No,,
+743,Movie,War,Battle of the Bulge,1966.0,ADVENTURE ,2.63,CLASSIC,not in prior list,No,,2001430.0,1000797.0,No,,2001430.0,No,,
+744,Movie,War,36 Hours,1965.0,DRAMA ,1.91,CLASSIC,2009741,No,,2009741.0,1007638.0,No,,2009741.0,No,,
+745,Movie,War,"Hercules, Samson and Ulysses",1965.0,ACTION ,1.41,CLASSIC,not in prior list,No,,2009749.0,1007646.0,No,,2009749.0,No,,
+746,Movie,War,Operation Crossbow,1965.0,ACTION ,1.93,CLASSIC,not in prior list,No,,2009757.0,1007654.0,No,,2009757.0,No,tt0059549,2009757.0
+747,Movie,War,"Castilian, The",1964.0,ADVENTURE ,2.15,CLASSIC,not in prior list,No,,2001356.0,1000724.0,No,,,,,
+748,Movie,War,Kissin' Cousins,1964.0,COMEDY ,1.6,CLASSIC,not in prior list,No,,2009635.0,1007538.0,No,,2009635.0,No,,
+749,Movie,War,To Kill a Man,1964.0,DRAMA ,2.15,CLASSIC,not in prior list,No,,2009775.0,1007669.0,No,,2009775.0,No,,
+750,Movie,War,"Four Days of Naples, The",1963.0,DRAMA ,1.93,CLASSIC,not in prior list,No,,2009536.0,1007447.0,No,,2009536.0,No,,
+751,Movie,War,Guns of Darkness,1962.0,DRAMA ,1.58,CLASSIC,not in prior list,No,,2018130.0,1014147.0,No,,2018130.0,No,,
+752,Movie,War,Operation Eichmann,1961.0,DRAMA ,1.55,CLASSIC,not in prior list,No,,2001060.0,1000706.0,No,,2001060.0,No,,
+753,Movie,War,Hell to Eternity,1960.0,DRAMA ,2.2,CLASSIC,2000957,No,,2000957.0,1000706.0,No,,2000957.0,No,,
+754,Movie,War,"Angry Hills, The",1959.0,ACTION ,1.75,CLASSIC,not in prior list,No,,2009111.0,1007041.0,No,,2009111.0,No,,
+755,Movie,War,Frontier Rangers,1959.0,DRAMA ,1.05,CLASSIC,not in prior list,No,,2009134.0,1007061.0,No,,2009134.0,No,,
+756,Movie,War,John Paul Jones,1959.0,ACTION ,2.1,CLASSIC,not in prior list,No,,2000629.0,1000608.0,No,,2000629.0,No,tt0052946,2000629.0
+757,Movie,War,Mission of Danger,1959.0,ADVENTURE ,1.1,CLASSIC,not in prior list,No,,2009225.0,1007148.0,No,,,,,
+758,Movie,War,Westbound,1959.0,WESTERN ,1.15,CLASSIC,not in prior list,No,,2000622.0,1000601.0,No,,2000622.0,No,,
+759,Movie,War,"Accursed, The",1958.0,THRILLER ,1.3,CLASSIC,not in prior list,No,,2000793.0,1000706.0,No,,2000793.0,No,,
+760,Movie,War,Quantrill's Raiders,1958.0,WESTERN ,1.2,CLASSIC,not in prior list,No,,2001083.0,1000706.0,No,,2001083.0,No,,
+761,Movie,War,Imitation General,1958.0,COMEDY ,1.46,CLASSIC,not in prior list,No,,2009008.0,1006942.0,No,,2009008.0,No,,
+762,Movie,War,Lafayette Escadrille,1958.0,ADVENTURE ,1.55,CLASSIC,not in prior list,No,,2000592.0,1000571.0,No,,2000592.0,No,,
+763,Movie,War,"Naked and the Dead, The",1958.0,DRAMA ,2.18,CLASSIC,not in prior list,No,,2008973.0,1006913.0,No,,2008973.0,No,,
+764,Movie,War,Torpedo Run,1958.0,ADVENTURE ,1.63,CLASSIC,not in prior list,No,,2009094.0,1007024.0,No,,2009094.0,No,tt0052303,2009094.0
+765,Movie,War,Underwater Warrior,1958.0,ADVENTURE ,1.51,CLASSIC,not in prior list,No,,2008984.0,1006923.0,No,,2008984.0,No,,
+766,Movie,War,Bowery Boys: Looking for Danger,1957.0,COMEDY ,1.03,CLASSIC,not in prior list,No,,2056575.0,1015558.0,No,,2056575.0,No,,
+767,Movie,War,"D.I., The",1957.0,DRAMA ,1.76,CLASSIC,not in prior list,No,,2000541.0,1000520.0,No,,2000541.0,No,,
+768,Movie,War,Run of the Arrow,1957.0,WESTERN ,1.43,CLASSIC,not in prior list,No,,2008844.0,1006796.0,No,,2008844.0,No,,
+769,Movie,War,Something of Value,1957.0,DRAMA ,1.88,CLASSIC,not in prior list,No,,2008871.0,1006820.0,No,,2008871.0,No,,
+770,Movie,War,Screaming Eagles,1956.0,DRAMA ,1.36,CLASSIC,not in prior list,No,,2001126.0,1000706.0,No,,2001126.0,No,tt0049728,2001126.0
+771,Movie,War,"Rack, The",1956.0,DRAMA ,1.66,CLASSIC,not in prior list,No,,2008842.0,1006795.0,No,,2008842.0,No,,
+772,Movie,War,"Warriors, The",1955.0,ADVENTURE ,1.41,CLASSIC,not in prior list,No,,2001222.0,1000706.0,No,,2001222.0,No,,
+773,Movie,War,Target Zero,1955.0,DRAMA ,1.53,CLASSIC,not in prior list,No,,2000479.0,1000458.0,No,,2000479.0,No,,
+774,Movie,War,Men of the Fighting Lady,1954.0,ACTION ,1.33,CLASSIC,not in prior list,No,,2008528.0,1006499.0,No,,2008528.0,No,,
+775,Movie,War,Prisoner of War,1954.0,DRAMA ,1.33,CLASSIC,not in prior list,No,,2008530.0,1006501.0,No,,2008530.0,No,,
+776,Movie,War,Thunder Over the Plains,1954.0,WESTERN ,1.36,CLASSIC,not in prior list,No,,2000436.0,1000415.0,No,,,,,
+777,Movie,War,Above and Beyond,1953.0,DRAMA ,2.03,CLASSIC,not in prior list,No,,2008382.0,1006362.0,No,,,,,
+778,Movie,War,Rogue's March,1953.0,ADVENTURE ,1.4,CLASSIC,not in prior list,No,,2008392.0,1006370.0,No,,2008392.0,No,,
+779,Movie,War,Springfield Rifle,1953.0,WESTERN ,1.55,CLASSIC,not in prior list,No,,2000402.0,1000384.0,No,,,,,
+780,Movie,War,Battle Zone,1952.0,ADVENTURE ,1.36,CLASSIC,not in prior list,No,,2000814.0,1000706.0,No,,2000814.0,No,,
+781,Movie,War,Flying Leathernecks,1951.0,ACTION ,1.7,CLASSIC,2005765,No,,2005765.0,1004532.0,No,,2005765.0,No,tt0043547,2005765.0
+782,Movie,War,"Red Badge of Courage, The",1951.0,DRAMA ,1.15,CLASSIC,not in prior list,No,,2008285.0,1006274.0,No,,2008285.0,No,,
+783,Movie,War,Rocky Mountain,1951.0,WESTERN ,1.38,CLASSIC,not in prior list,No,,2000352.0,1000334.0,No,,,,,
+784,Movie,War,Teresa,1951.0,DRAMA ,1.7,CLASSIC,not in prior list,No,,2008246.0,1006241.0,No,,2008246.0,No,,
+785,Movie,War,Breakthrough,1950.0,DRAMA ,1.53,CLASSIC,not in prior list,No,,2000353.0,1000335.0,No,,2000353.0,No,,
+786,Movie,War,DALLAS (1950 THEATRICAL),1950.0,DRAMA ,1.58,CLASSIC,not in prior list,No,,2000491.0,1000470.0,No,,2000491.0,No,,
+787,Movie,War,Devil's Doorway,1950.0,WESTERN ,1.4,CLASSIC,not in prior list,No,,2008204.0,1006202.0,No,,2008204.0,No,,
+788,Movie,War,Malaya,1949.0,ACTION ,1.63,CLASSIC,not in prior list,No,,2008134.0,1006141.0,No,,2008134.0,No,,
+789,Movie,War,She Wore a Yellow Ribbon,1949.0,DRAMA ,1.71,CLASSIC,not in prior list,No,,2011219.0,1008956.0,No,,2011219.0,No,tt0041866,2011219.0
+790,Movie,War,Betrayal From the East,1945.0,ACTION ,1.38,CLASSIC,not in prior list,No,,2001637.0,1001001.0,No,,2001637.0,No,,
+791,Movie,War,China Sky,1945.0,ADVENTURE ,1.3,CLASSIC,not in prior list,No,,2004135.0,1003251.0,No,,2004135.0,No,,
+792,Movie,War,First Yank into Tokyo,1945.0,ACTION ,1.36,CLASSIC,not in prior list,No,,2005729.0,1004498.0,No,,2005729.0,No,,
+793,Movie,War,This Man's Navy,1945.0,ADVENTURE ,1.66,CLASSIC,not in prior list,No,,2007849.0,1005890.0,No,,2007849.0,No,,
+794,Movie,War,"What Next, Corporal Hargrove?",1945.0,COMEDY ,1.58,CLASSIC,not in prior list,No,,2007890.0,1005924.0,No,,2007890.0,No,,
+795,Movie,War,Passage to Marseille,1944.0,ADVENTURE ,1.83,CLASSIC,not in prior list,No,,2009803.0,1007696.0,No,,2009803.0,No,,
+796,Movie,War,Passport to Destiny,1944.0,COMEDY ,1.08,CLASSIC,not in prior list,No,,2009711.0,1007612.0,No,,2009711.0,No,,
+797,Movie,War,"See Here, Private Hargrove",1944.0,COMEDY ,1.66,CLASSIC,not in prior list,No,,2009636.0,1007539.0,No,,2007793.0,Yes,,
+798,Movie,War,To Have and Have Not,1944.0,ADVENTURE ,1.66,CLASSIC,not in prior list,No,,2013565.0,1010953.0,No,,,,,
+799,Movie,War,Adventures of Tartu,1943.0,ADVENTURE ,1.71,CLASSIC,not in prior list,No,,2007779.0,1005835.0,No,,2007779.0,No,,
+800,Movie,War,Air Force,1943.0,ACTION ,2.06,CLASSIC,not in prior list,No,,2000128.0,1000122.0,No,,2000128.0,No,,
+801,Movie,War,Bombardier,1943.0,ACTION ,1.65,CLASSIC,not in prior list,No,,2002404.0,1001743.0,No,,2002404.0,No,,
+802,Movie,War,Pilot No. 5,1943.0,ACTION ,1.16,CLASSIC,not in prior list,No,,2007748.0,1005805.0,No,,2007748.0,No,,
+803,Movie,War,Across the Pacific,1942.0,ACTION ,1.61,CLASSIC,not in prior list,No,,2000018.0,1000016.0,No,,2000018.0,No,,
+804,Movie,War,Captains of the Clouds,1942.0,ACTION ,1.88,CLASSIC,not in prior list,No,,2003975.0,1003092.0,No,,2003975.0,No,,
+805,Movie,War,Desperate Journey,1942.0,ACTION ,1.81,CLASSIC,not in prior list,No,,2004735.0,1003826.0,No,,2004735.0,No,,
+806,Movie,War,Mrs. Miniver,1942.0,DRAMA ,2.23,CLASSIC,not in prior list,No,,2007693.0,1005757.0,No,,2007693.0,No,,
+807,Movie,War,They Died with Their Boots On,1942.0,DRAMA ,2.3,CLASSIC,not in prior list,No,,2012885.0,1010426.0,No,,2012885.0,No,tt0034277,2012885.0
+808,Movie,War,"Man from Dakota, The",1940.0,ACTION ,1.25,CLASSIC,not in prior list,No,,2007514.0,1005594.0,No,,2007514.0,No,,
+809,Movie,War,Gunga Din,1939.0,ACTION ,1.95,CLASSIC,not in prior list,No,,2005926.0,1004679.0,No,,2005926.0,No,,
+810,Movie,CNN Films,List of Films TBD,,DOC ,,,not in prior list,No,,,,No,,,,,
