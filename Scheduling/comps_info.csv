@@ -1,0 +1,782 @@
+,title_name,title_id,primary_genre_desc,program_type,air_date,theatrical_release_date,asset_run_time,offering_start_date,offering_end_date,territory,licensor
+0,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 06:00:00,2100-01-01 05:59:00,MEXICO,"Warner Bros. Inc., Warner Media Direct, LLC"
+1,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 08:01:00,2032-11-23 22:59:00,HUNGARY,"Warner Bros. Inc., Warner Media Direct, LLC"
+2,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 06:00:00,2100-01-01 02:59:00,REST OF LATAM,"Warner Bros. Inc., Warner Media Direct, LLC"
+3,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 08:01:00,2032-11-23 21:59:00,BULGARIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+4,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 06:00:00,2100-01-01 04:59:00,COLOMBIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+5,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 08:01:00,2032-11-23 22:59:00,POLAND,"Warner Bros. Inc., Warner Media Direct, LLC"
+6,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 06:00:00,2100-01-01 03:59:00,CARIBBEAN,"Warner Bros. Inc., Warner Media Direct, LLC"
+7,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 08:01:00,2032-11-23 22:59:00,ADRIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+8,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 06:00:00,2100-01-01 02:59:00,BRAZIL,"Warner Bros. Inc., Warner Media Direct, LLC"
+9,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 06:00:00,2100-01-01 02:59:00,ARGENTINA,"Warner Bros. Inc., Warner Media Direct, LLC"
+10,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 08:01:00,2032-11-23 23:59:00,PORTUGAL,"Warner Bros. Inc., Warner Media Direct, LLC"
+11,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 08:01:00,2032-11-23 22:59:00,NORDICS,"Warner Bros. Inc., Warner Media Direct, LLC"
+12,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 08:01:00,2032-11-23 21:59:00,ROMANIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+13,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 08:01:00,2026-05-06 03:59:00,HBO MAX DOMESTIC,"Warner Bros. Inc., Warner Media Direct, LLC"
+14,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 08:01:00,2032-11-23 22:59:00,SPAIN,"Warner Bros. Inc., Warner Media Direct, LLC"
+15,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 08:01:00,2032-11-23 22:59:00,NETHERLANDS,"Warner Bros. Inc., Warner Media Direct, LLC"
+16,Holiday Harmony,GY2P7nwk70IGhwwEAAADH,drama,acquired,2022-01-01,,6604.0,2022-11-24 08:01:00,2032-11-23 22:59:00,CZECHIA_SLOVAKIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+17,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-01-27 06:00:00,2030-01-27 02:59:00,BRAZIL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+18,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-01-27 06:00:00,2030-01-27 05:59:00,MEXICO,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+19,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-01-27 08:01:00,2032-01-26 22:59:00,NORDICS,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+20,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-01-27 06:00:00,2030-01-27 02:59:00,ARGENTINA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+21,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-03-08 00:00:00,2032-01-26 23:59:00,PORTUGAL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+22,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-01-27 06:00:00,2030-01-27 04:59:00,COLOMBIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+23,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-03-08 05:00:00,2032-01-26 22:59:59,POLAND,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+24,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-03-08 22:00:00,2032-01-26 22:59:00,CZECHIA_SLOVAKIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+25,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-03-07 23:00:00,2032-01-26 22:59:59,HUNGARY,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+26,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2021-01-10 22:00:00,2021-01-11 22:00:00,BULGARIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+27,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-01-27 08:01:00,2026-02-01 04:59:00,HBO MAX DOMESTIC,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+28,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2021-01-10 23:00:00,2021-01-11 23:00:00,ADRIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+29,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-03-08 20:00:00,2032-01-26 21:59:00,ROMANIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+30,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-03-08 22:00:00,2032-01-26 22:59:00,ADRIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+31,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2021-01-10 23:00:00,2021-01-11 23:00:00,CZECHIA_SLOVAKIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+32,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-03-07 22:00:00,2032-01-26 21:59:59,BULGARIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+33,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-01-27 06:00:00,2030-01-27 03:59:00,CARIBBEAN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+34,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-01-27 08:01:00,2032-01-26 22:59:00,SPAIN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+35,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2021-01-10 22:00:00,2021-01-11 22:00:00,ROMANIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+36,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-03-07 23:00:00,2032-01-26 22:59:00,NETHERLANDS,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+37,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2021-01-10 23:00:00,2021-01-11 23:00:00,HUNGARY,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+38,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2021-01-11 00:00:00,2021-01-12 00:00:00,PORTUGAL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+39,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2022-01-27 06:00:00,2030-01-27 02:59:00,REST OF LATAM,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+40,The Fallout,GYc3xuwu2x5rCFgEAAALb,drama,acquired,2022-01-27,,5643.0,2021-01-10 23:00:00,2021-01-11 23:00:00,POLAND,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+41,Funny Pages,GZA8uNgp3YZSgigEAABGo,comedy,acquired,2022-01-01,,4992.0,2023-04-16 22:00:00,2024-09-30 21:59:59,POLAND,A24
+42,Funny Pages,GZA8uNgp3YZSgigEAABGo,comedy,acquired,2022-01-01,,4992.0,2023-04-16 21:00:00,2024-09-30 20:59:59,BULGARIA,A24
+43,Funny Pages,GZA8uNgp3YZSgigEAABGo,comedy,acquired,2022-01-01,,4992.0,2023-04-16 21:00:00,2024-09-30 20:59:59,ROMANIA,A24
+44,Funny Pages,GZA8uNgp3YZSgigEAABGo,comedy,acquired,2022-01-01,,4992.0,2023-04-16 22:00:00,2024-09-30 21:59:59,CZECHIA_SLOVAKIA,A24
+45,Funny Pages,GZA8uNgp3YZSgigEAABGo,comedy,acquired,2022-01-01,,4992.0,2023-04-16 22:00:00,2024-09-30 21:59:59,ADRIA,A24
+46,Funny Pages,GZA8uNgp3YZSgigEAABGo,comedy,acquired,2022-01-01,,4992.0,2023-04-16 22:00:00,2024-09-30 21:59:59,HUNGARY,A24
+47,It Comes at Night,GYIjh8AKo1pGxLwEAAAKT,horror,acquired,2017-01-01,,5380.0,2021-05-31 03:00:00,2022-07-31 02:59:00,ARGENTINA,Mars Distribution|Roadshow Films|ANIMAL KINGDOM|A24
+48,It Comes at Night,GYIjh8AKo1pGxLwEAAAKT,horror,acquired,2017-01-01,,5380.0,2023-01-05 22:00:00,2024-06-30 20:59:59,ROMANIA,Mars Distribution|Roadshow Films|ANIMAL KINGDOM|A24
+49,It Comes at Night,GYIjh8AKo1pGxLwEAAAKT,horror,acquired,2017-01-01,,5380.0,2023-01-05 23:00:00,2024-06-30 21:59:59,HUNGARY,Mars Distribution|Roadshow Films|ANIMAL KINGDOM|A24
+50,It Comes at Night,GYIjh8AKo1pGxLwEAAAKT,horror,acquired,2017-01-01,,5380.0,2023-01-18 23:00:00,2024-06-30 21:59:59,ADRIA,Mars Distribution|Roadshow Films|ANIMAL KINGDOM|A24
+51,It Comes at Night,GYIjh8AKo1pGxLwEAAAKT,horror,acquired,2017-01-01,,5380.0,2023-01-05 23:00:00,2024-06-30 21:59:59,CZECHIA_SLOVAKIA,Mars Distribution|Roadshow Films|ANIMAL KINGDOM|A24
+52,It Comes at Night,GYIjh8AKo1pGxLwEAAAKT,horror,acquired,2017-01-01,,5380.0,2021-05-31 03:00:00,2022-07-31 02:59:00,CARIBBEAN,Mars Distribution|Roadshow Films|ANIMAL KINGDOM|A24
+53,It Comes at Night,GYIjh8AKo1pGxLwEAAAKT,horror,acquired,2017-01-01,,5380.0,2021-05-31 03:00:00,2022-07-31 02:59:00,REST OF LATAM,Mars Distribution|Roadshow Films|ANIMAL KINGDOM|A24
+54,It Comes at Night,GYIjh8AKo1pGxLwEAAAKT,horror,acquired,2017-01-01,,5380.0,2021-05-31 05:00:00,2022-07-31 02:59:00,MEXICO,Mars Distribution|Roadshow Films|ANIMAL KINGDOM|A24
+55,It Comes at Night,GYIjh8AKo1pGxLwEAAAKT,horror,acquired,2017-01-01,,5380.0,2021-05-31 03:00:00,2022-07-31 02:59:00,BRAZIL,Mars Distribution|Roadshow Films|ANIMAL KINGDOM|A24
+56,It Comes at Night,GYIjh8AKo1pGxLwEAAAKT,horror,acquired,2017-01-01,,5380.0,2021-05-31 05:00:00,2022-07-31 02:59:00,COLOMBIA,Mars Distribution|Roadshow Films|ANIMAL KINGDOM|A24
+57,It Comes at Night,GYIjh8AKo1pGxLwEAAAKT,horror,acquired,2017-01-01,,5380.0,2023-01-18 22:00:00,2024-06-30 20:59:59,BULGARIA,Mars Distribution|Roadshow Films|ANIMAL KINGDOM|A24
+58,Hoot,GYGdGYQr-lZc2NAEAAALq,action,acquired,2006-05-05,,5443.0,2021-05-17 03:00:00,2022-03-01 02:59:00,BRAZIL,New Line Cinema|Walden Media
+59,Hoot,GYGdGYQr-lZc2NAEAAALq,action,acquired,2006-05-05,,5443.0,2021-01-04 03:00:00,2021-01-05 02:59:00,ARGENTINA,New Line Cinema|Walden Media
+60,Hoot,GYGdGYQr-lZc2NAEAAALq,action,acquired,2006-05-05,,5443.0,2021-05-17 05:00:00,2022-03-01 05:59:00,MEXICO,New Line Cinema|Walden Media
+61,Hoot,GYGdGYQr-lZc2NAEAAALq,action,acquired,2006-05-05,,5443.0,2021-05-17 03:00:00,2022-03-01 02:59:00,REST OF LATAM,New Line Cinema|Walden Media
+62,Hoot,GYGdGYQr-lZc2NAEAAALq,action,acquired,2006-05-05,,5443.0,2021-05-17 03:00:00,2022-03-01 03:59:00,CARIBBEAN,New Line Cinema|Walden Media
+63,Hoot,GYGdGYQr-lZc2NAEAAALq,action,acquired,2006-05-05,,5443.0,2021-05-17 05:00:00,2022-03-01 04:59:00,COLOMBIA,New Line Cinema|Walden Media
+64,Hoot,GYGdGYQr-lZc2NAEAAALq,action,acquired,2006-05-05,,5443.0,2021-05-17 03:00:00,2022-03-01 02:59:00,ARGENTINA,New Line Cinema|Walden Media
+65,Hoot,GYGdGYQr-lZc2NAEAAALq,action,acquired,2006-05-05,,5443.0,2021-01-04 03:00:00,2021-01-05 02:59:00,BRAZIL,New Line Cinema|Walden Media
+66,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2022-03-06 23:00:00,2022-06-29 02:00:00,NETHERLANDS,"The Floating Opera Company, Warner Media Direct, LLC"
+67,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2021-01-10 23:00:00,2021-01-12 22:59:59,NORDICS,"The Floating Opera Company, Warner Media Direct, LLC"
+68,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2021-09-05 22:00:00,2022-06-29 02:00:00,NORDICS,"The Floating Opera Company, Warner Media Direct, LLC"
+69,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2022-01-23 22:00:00,2022-06-29 02:00:00,BULGARIA,"The Floating Opera Company, Warner Media Direct, LLC"
+70,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2021-06-01 05:00:00,2022-06-29 04:59:00,MEXICO,"The Floating Opera Company, Warner Media Direct, LLC"
+71,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2021-06-01 03:00:00,2022-06-29 02:59:00,CARIBBEAN,"The Floating Opera Company, Warner Media Direct, LLC"
+72,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2021-01-10 23:00:00,2021-01-12 22:59:00,NETHERLANDS,"The Floating Opera Company, Warner Media Direct, LLC"
+73,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2022-01-23 23:00:00,2022-06-29 02:00:00,CZECHIA_SLOVAKIA,"The Floating Opera Company, Warner Media Direct, LLC"
+74,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2021-09-05 22:00:00,2022-06-29 02:00:00,SPAIN,"The Floating Opera Company, Warner Media Direct, LLC"
+75,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2021-06-01 05:00:00,2022-06-29 04:59:00,COLOMBIA,"The Floating Opera Company, Warner Media Direct, LLC"
+76,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2022-01-23 22:00:00,2022-06-29 02:00:00,ROMANIA,"The Floating Opera Company, Warner Media Direct, LLC"
+77,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2022-01-23 23:00:00,2022-06-29 02:00:00,POLAND,"The Floating Opera Company, Warner Media Direct, LLC"
+78,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2021-06-01 03:00:00,2022-06-29 02:59:00,BRAZIL,"The Floating Opera Company, Warner Media Direct, LLC"
+79,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2022-01-23 23:00:00,2022-06-29 02:00:00,HUNGARY,"The Floating Opera Company, Warner Media Direct, LLC"
+80,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2022-01-25 00:00:00,2022-06-29 02:00:00,PORTUGAL,"The Floating Opera Company, Warner Media Direct, LLC"
+81,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2022-01-23 23:00:00,2022-06-29 02:00:00,ADRIA,"The Floating Opera Company, Warner Media Direct, LLC"
+82,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2021-01-14 08:01:00,2022-07-01 03:59:00,HBO MAX DOMESTIC,"The Floating Opera Company, Warner Media Direct, LLC"
+83,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2021-01-10 23:00:00,2021-01-12 22:59:59,SPAIN,"The Floating Opera Company, Warner Media Direct, LLC"
+84,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2021-06-01 03:00:00,2022-06-29 02:59:00,ARGENTINA,"The Floating Opera Company, Warner Media Direct, LLC"
+85,Locked Down,GX_3YsgTKcK_CSwEAAAAp,comedy,original,2021-01-14,,6857.0,2021-06-01 03:00:00,2022-06-29 02:59:00,REST OF LATAM,"The Floating Opera Company, Warner Media Direct, LLC"
+86,Snow Flower and the Secret Fan,GYrYecQ1HhMPDwwEAAAAC,drama,acquired,2022-03-01,,6262.0,2022-10-12 05:00:00,2024-09-01 02:59:00,BRAZIL,Fox Searchlight Pictures|Eagle Pictures|Twentieth Century Fox Home Entertainment
+87,Snow Flower and the Secret Fan,GYrYecQ1HhMPDwwEAAAAC,drama,acquired,2022-03-01,,6262.0,2022-10-12 05:00:00,2024-09-01 04:59:00,MEXICO,Fox Searchlight Pictures|Eagle Pictures|Twentieth Century Fox Home Entertainment
+88,Snow Flower and the Secret Fan,GYrYecQ1HhMPDwwEAAAAC,drama,acquired,2022-03-01,,6262.0,2022-10-12 05:00:00,2024-09-01 04:59:00,COLOMBIA,Fox Searchlight Pictures|Eagle Pictures|Twentieth Century Fox Home Entertainment
+89,Snow Flower and the Secret Fan,GYrYecQ1HhMPDwwEAAAAC,drama,acquired,2022-03-01,,6262.0,2022-10-12 05:00:00,2024-09-01 02:59:00,REST OF LATAM,Fox Searchlight Pictures|Eagle Pictures|Twentieth Century Fox Home Entertainment
+90,Snow Flower and the Secret Fan,GYrYecQ1HhMPDwwEAAAAC,drama,acquired,2022-03-01,,6262.0,2022-10-12 05:00:00,2024-09-01 02:59:00,CARIBBEAN,Fox Searchlight Pictures|Eagle Pictures|Twentieth Century Fox Home Entertainment
+91,Snow Flower and the Secret Fan,GYrYecQ1HhMPDwwEAAAAC,drama,acquired,2022-03-01,,6262.0,2022-10-12 05:00:00,2024-09-01 02:59:00,ARGENTINA,Fox Searchlight Pictures|Eagle Pictures|Twentieth Century Fox Home Entertainment
+92,In the Mouth of Madness,GYGQLpwG6JkQTOgEAAAAG,horror,acquired,1995-02-03,,5719.0,2021-02-01 06:00:00,2021-02-02 05:59:00,MEXICO,New Line Cinema|Metropolitan Filmexport|Katja Motion Picture Corporation|Warner Home Video
+93,In the Mouth of Madness,GYGQLpwG6JkQTOgEAAAAG,horror,acquired,1995-02-03,,5719.0,2021-02-01 03:00:00,2021-02-02 02:59:00,BRAZIL,New Line Cinema|Metropolitan Filmexport|Katja Motion Picture Corporation|Warner Home Video
+94,In the Mouth of Madness,GYGQLpwG6JkQTOgEAAAAG,horror,acquired,1995-02-03,,5719.0,2021-02-01 03:00:00,2021-02-02 02:59:00,ARGENTINA,New Line Cinema|Metropolitan Filmexport|Katja Motion Picture Corporation|Warner Home Video
+95,In the Mouth of Madness,GYGQLpwG6JkQTOgEAAAAG,horror,acquired,1995-02-03,,5719.0,2021-02-01 03:00:00,2021-02-02 02:59:00,REST OF LATAM,New Line Cinema|Metropolitan Filmexport|Katja Motion Picture Corporation|Warner Home Video
+96,In the Mouth of Madness,GYGQLpwG6JkQTOgEAAAAG,horror,acquired,1995-02-03,,5719.0,2021-02-01 05:00:00,2021-02-02 04:59:00,COLOMBIA,New Line Cinema|Metropolitan Filmexport|Katja Motion Picture Corporation|Warner Home Video
+97,In the Mouth of Madness,GYGQLpwG6JkQTOgEAAAAG,horror,acquired,1995-02-03,,5719.0,2021-02-01 04:00:00,2021-02-02 03:59:00,CARIBBEAN,New Line Cinema|Metropolitan Filmexport|Katja Motion Picture Corporation|Warner Home Video
+98,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2022-11-06 23:00:00,2022-12-13 23:00:00,SPAIN,New Line Cinema|Contrafilm
+99,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2021-05-03 05:00:00,2022-06-29 04:59:00,MEXICO,New Line Cinema|Contrafilm
+100,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2023-10-26 22:00:00,2024-09-30 21:59:00,SPAIN,New Line Cinema|Contrafilm
+101,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2021-01-04 03:00:00,2021-01-05 02:59:00,BRAZIL,New Line Cinema|Contrafilm
+102,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2022-10-19 05:00:00,2024-01-01 02:59:00,REST OF LATAM,New Line Cinema|Contrafilm
+103,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2022-10-19 05:00:00,2024-01-01 02:59:00,BRAZIL,New Line Cinema|Contrafilm
+104,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2021-05-03 03:00:00,2022-06-29 02:59:00,BRAZIL,New Line Cinema|Contrafilm
+105,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2021-01-04 03:00:00,2021-01-05 02:59:00,ARGENTINA,New Line Cinema|Contrafilm
+106,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2021-10-01 07:01:00,2022-04-01 07:00:00,HBO MAX DOMESTIC,New Line Cinema|Contrafilm
+107,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2022-10-19 05:00:00,2024-01-01 02:59:00,ARGENTINA,New Line Cinema|Contrafilm
+108,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2021-05-03 03:00:00,2022-06-29 02:59:00,CARIBBEAN,New Line Cinema|Contrafilm
+109,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2021-05-03 03:00:00,2022-06-29 02:59:00,ARGENTINA,New Line Cinema|Contrafilm
+110,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2021-05-03 03:00:00,2022-06-29 02:59:00,REST OF LATAM,New Line Cinema|Contrafilm
+111,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2022-10-19 05:00:00,2024-01-01 05:59:00,MEXICO,New Line Cinema|Contrafilm
+112,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2021-05-03 05:00:00,2022-06-29 04:59:00,COLOMBIA,New Line Cinema|Contrafilm
+113,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2022-10-19 05:00:00,2024-01-01 03:59:00,CARIBBEAN,New Line Cinema|Contrafilm
+114,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2022-10-19 05:00:00,2024-01-01 04:59:00,COLOMBIA,New Line Cinema|Contrafilm
+115,The Rite,GYKa7VgOEd7TCwgEAAAAD,horror,acquired,2011-01-28,,6726.0,2022-11-21 00:00:00,2024-04-30 22:59:00,PORTUGAL,New Line Cinema|Contrafilm
+116,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2022-03-30 22:00:00,2022-06-29 02:00:00,ADRIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+117,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2022-03-30 22:00:00,2022-06-29 02:00:00,HUNGARY,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+118,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2022-03-30 22:00:00,2022-06-29 02:00:00,POLAND,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+119,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2022-03-30 23:00:00,2022-06-29 02:00:00,PORTUGAL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+120,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2022-03-30 22:00:00,2022-06-29 02:00:00,NETHERLANDS,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+121,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2022-03-30 21:00:00,2022-06-29 02:00:00,ROMANIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+122,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2024-03-01 03:00:00,2024-03-02 02:59:00,ARGENTINA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+123,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2021-01-11 07:01:00,2021-01-12 00:00:00,PORTUGAL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+124,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2024-03-01 03:00:00,2024-03-02 02:59:00,BRAZIL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+125,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2024-03-01 03:00:00,2024-03-02 02:59:00,REST OF LATAM,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+126,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2024-03-01 06:00:00,2024-03-02 05:59:00,MEXICO,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+127,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2022-03-30 21:00:00,2022-06-29 02:00:00,BULGARIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+128,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2021-01-11 08:01:00,2021-01-11 23:00:00,NETHERLANDS,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+129,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2022-03-30 22:00:00,2022-06-29 02:00:00,NORDICS,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+130,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2024-03-01 05:00:00,2024-03-02 04:59:00,COLOMBIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+131,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2022-03-30 22:00:00,2022-06-29 02:00:00,CZECHIA_SLOVAKIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+132,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2022-03-30 22:00:00,2022-06-29 02:00:00,SPAIN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+133,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2022-03-31 07:01:00,2022-07-01 03:59:00,HBO MAX DOMESTIC,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+134,Moonshot,GYhfK9AxT1KKnnQEAAADT,comedy,acquired,2022-03-24,,6123.0,2024-03-01 04:00:00,2024-03-02 03:59:00,CARIBBEAN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+135,The Humans,GYyst8Q3wx61SwwEAAACW,horror,acquired,2021-01-01,,6129.0,2022-10-08 21:00:00,2023-10-08 20:59:00,ROMANIA,A24
+136,The Humans,GYyst8Q3wx61SwwEAAACW,horror,acquired,2021-01-01,,6129.0,2022-10-08 22:00:00,2023-10-08 21:59:00,HUNGARY,A24
+137,The Humans,GYyst8Q3wx61SwwEAAACW,horror,acquired,2021-01-01,,6129.0,2022-10-08 21:00:00,2023-10-08 20:59:00,BULGARIA,A24
+138,The Humans,GYyst8Q3wx61SwwEAAACW,horror,acquired,2021-01-01,,6129.0,2022-10-08 22:00:00,2023-10-08 21:59:00,CZECHIA_SLOVAKIA,A24
+139,The Humans,GYyst8Q3wx61SwwEAAACW,horror,acquired,2021-01-01,,6129.0,2023-11-02 23:00:00,2024-04-30 21:59:00,NORDICS,A24
+140,The Humans,GYyst8Q3wx61SwwEAAACW,horror,acquired,2021-01-01,,6129.0,2022-10-08 22:00:00,2023-10-08 21:59:00,ADRIA,A24
+141,The Humans,GYyst8Q3wx61SwwEAAACW,horror,acquired,2021-01-01,,6129.0,2022-10-08 22:00:00,2023-10-08 21:59:00,POLAND,A24
+142,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2022-03-07 22:00:00,2024-03-07 21:59:00,BULGARIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+143,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-07-01 07:01:00,2036-02-01 04:59:00,HBO MAX DOMESTIC,"Warner Bros. Inc., Warner Media Direct, LLC"
+144,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2022-03-08 22:00:00,2024-03-07 22:59:00,CZECHIA_SLOVAKIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+145,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-10-25 22:00:00,2026-10-25 22:59:00,NORDICS,"Warner Bros. Inc., Warner Media Direct, LLC"
+146,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-01-10 23:00:00,2021-01-11 23:00:00,POLAND,"Warner Bros. Inc., Warner Media Direct, LLC"
+147,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-01-10 22:00:00,2021-01-11 22:00:00,BULGARIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+148,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-01-10 22:00:00,2021-01-11 22:00:00,ROMANIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+149,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-10-25 22:00:00,2026-10-25 22:59:00,SPAIN,"Warner Bros. Inc., Warner Media Direct, LLC"
+150,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-01-11 00:00:00,2021-01-12 00:00:00,PORTUGAL,"Warner Bros. Inc., Warner Media Direct, LLC"
+151,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-07-01 03:00:00,2024-10-01 02:59:00,CARIBBEAN,"Warner Bros. Inc., Warner Media Direct, LLC"
+152,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2022-03-07 23:00:00,2024-03-07 22:59:00,HUNGARY,"Warner Bros. Inc., Warner Media Direct, LLC"
+153,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2022-03-07 23:00:00,2027-03-07 22:59:00,NETHERLANDS,"Warner Bros. Inc., Warner Media Direct, LLC"
+154,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-07-01 03:00:00,2024-10-01 02:59:00,BRAZIL,"Warner Bros. Inc., Warner Media Direct, LLC"
+155,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2022-03-08 00:00:00,2027-03-07 23:59:59,PORTUGAL,"Warner Bros. Inc., Warner Media Direct, LLC"
+156,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-01-10 23:00:00,2021-01-11 23:00:00,NETHERLANDS,"Warner Bros. Inc., Warner Media Direct, LLC"
+157,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-01-10 23:00:00,2021-01-11 23:00:00,CZECHIA_SLOVAKIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+158,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-07-01 03:00:00,2024-10-01 02:59:00,REST OF LATAM,"Warner Bros. Inc., Warner Media Direct, LLC"
+159,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-07-01 05:00:00,2024-10-01 05:59:00,MEXICO,"Warner Bros. Inc., Warner Media Direct, LLC"
+160,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2022-03-08 20:00:00,2024-03-07 21:59:00,ROMANIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+161,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-07-01 05:00:00,2024-10-01 04:59:00,COLOMBIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+162,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-01-10 23:00:00,2021-01-11 23:00:00,ADRIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+163,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2022-03-08 05:00:00,2024-03-07 22:59:00,POLAND,"Warner Bros. Inc., Warner Media Direct, LLC"
+164,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-01-10 23:00:00,2021-01-11 23:00:00,HUNGARY,"Warner Bros. Inc., Warner Media Direct, LLC"
+165,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2022-03-08 22:00:00,2024-03-07 22:59:00,ADRIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+166,No Sudden Move,GYMzEGg049ruJvQEAAAAW,crime,acquired,2021-07-01,,6765.0,2021-07-01 03:00:00,2024-10-01 02:59:00,ARGENTINA,"Warner Bros. Inc., Warner Media Direct, LLC"
+167,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2021-08-11 03:01:00,2022-06-29 02:59:00,REST OF LATAM,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+168,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2023-01-01 08:01:00,2023-02-01 04:59:00,HBO MAX DOMESTIC,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+169,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2021-08-11 05:01:00,2022-06-29 04:59:00,COLOMBIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+170,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2023-03-15 06:00:00,2024-01-01 03:59:00,CARIBBEAN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+171,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2021-01-10 23:00:00,2021-01-12 22:59:00,SPAIN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+172,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2023-03-15 06:00:00,2024-01-01 02:59:00,REST OF LATAM,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+173,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2021-08-11 03:00:00,2022-06-29 02:59:00,CARIBBEAN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+174,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2022-10-26 23:00:00,2023-03-07 23:59:59,PORTUGAL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+175,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2023-03-15 06:00:00,2024-01-01 05:59:00,MEXICO,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+176,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2022-02-08 23:00:00,2022-12-31 22:59:00,SPAIN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+177,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2021-08-11 05:00:00,2022-06-29 02:59:00,ARGENTINA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+178,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2021-01-11 00:00:00,2021-01-12 23:59:59,PORTUGAL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+179,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2023-03-15 06:00:00,2024-01-01 02:59:00,ARGENTINA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+180,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2023-05-01 07:01:00,2023-07-01 03:59:00,HBO MAX DOMESTIC,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+181,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2023-03-15 06:00:00,2024-01-01 04:59:00,COLOMBIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+182,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2023-03-15 06:00:00,2024-01-01 02:59:00,BRAZIL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+183,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2021-08-11 05:00:00,2022-06-29 02:59:00,BRAZIL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+184,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2022-01-01 08:01:00,2022-05-01 03:59:00,HBO MAX DOMESTIC,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+185,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2021-08-11 05:01:00,2022-06-29 04:59:00,MEXICO,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+186,Little Nicky,GYPW0-A4V68MloQEAAAEX,comedy,acquired,2020-07-01,,5303.0,2023-11-16 23:00:00,2024-10-31 22:59:00,SPAIN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+187,The Green Knight,GY_i8_gJ3FsPDwgEAAA_Y,fantasy & sci-fi,acquired,2023-02-01,,7632.0,2023-03-23 23:00:00,2024-02-29 22:59:00,HUNGARY,A24|Showtime Networks|Bron Studios|Sailor Bear|Ley Line Entertainment|Creative Wealth Media Finance
+188,The Green Knight,GY_i8_gJ3FsPDwgEAAA_Y,fantasy & sci-fi,acquired,2023-02-01,,7632.0,2023-04-07 06:00:00,2025-06-29 02:59:00,ARGENTINA,A24|Showtime Networks|Bron Studios|Sailor Bear|Ley Line Entertainment|Creative Wealth Media Finance
+189,The Green Knight,GY_i8_gJ3FsPDwgEAAA_Y,fantasy & sci-fi,acquired,2023-02-01,,7632.0,2023-03-23 23:00:00,2024-02-29 22:59:00,CZECHIA_SLOVAKIA,A24|Showtime Networks|Bron Studios|Sailor Bear|Ley Line Entertainment|Creative Wealth Media Finance
+190,The Green Knight,GY_i8_gJ3FsPDwgEAAA_Y,fantasy & sci-fi,acquired,2023-02-01,,7632.0,2023-04-07 06:00:00,2025-06-29 02:59:00,BRAZIL,A24|Showtime Networks|Bron Studios|Sailor Bear|Ley Line Entertainment|Creative Wealth Media Finance
+191,The Green Knight,GY_i8_gJ3FsPDwgEAAA_Y,fantasy & sci-fi,acquired,2023-02-01,,7632.0,2023-04-07 06:00:00,2025-06-29 04:59:00,COLOMBIA,A24|Showtime Networks|Bron Studios|Sailor Bear|Ley Line Entertainment|Creative Wealth Media Finance
+192,The Green Knight,GY_i8_gJ3FsPDwgEAAA_Y,fantasy & sci-fi,acquired,2023-02-01,,7632.0,2023-04-07 06:00:00,2025-06-29 02:59:00,REST OF LATAM,A24|Showtime Networks|Bron Studios|Sailor Bear|Ley Line Entertainment|Creative Wealth Media Finance
+193,The Green Knight,GY_i8_gJ3FsPDwgEAAA_Y,fantasy & sci-fi,acquired,2023-02-01,,7632.0,2023-03-23 22:00:00,2024-02-29 21:59:00,ROMANIA,A24|Showtime Networks|Bron Studios|Sailor Bear|Ley Line Entertainment|Creative Wealth Media Finance
+194,The Green Knight,GY_i8_gJ3FsPDwgEAAA_Y,fantasy & sci-fi,acquired,2023-02-01,,7632.0,2023-04-07 06:00:00,2025-06-29 05:59:00,MEXICO,A24|Showtime Networks|Bron Studios|Sailor Bear|Ley Line Entertainment|Creative Wealth Media Finance
+195,The Green Knight,GY_i8_gJ3FsPDwgEAAA_Y,fantasy & sci-fi,acquired,2023-02-01,,7632.0,2023-04-07 06:00:00,2025-06-29 02:59:00,CARIBBEAN,A24|Showtime Networks|Bron Studios|Sailor Bear|Ley Line Entertainment|Creative Wealth Media Finance
+196,The Green Knight,GY_i8_gJ3FsPDwgEAAA_Y,fantasy & sci-fi,acquired,2023-02-01,,7632.0,2023-03-23 23:00:00,2024-02-29 22:59:00,ADRIA,A24|Showtime Networks|Bron Studios|Sailor Bear|Ley Line Entertainment|Creative Wealth Media Finance
+197,The Green Knight,GY_i8_gJ3FsPDwgEAAA_Y,fantasy & sci-fi,acquired,2023-02-01,,7632.0,2023-03-23 22:00:00,2024-02-29 21:59:00,BULGARIA,A24|Showtime Networks|Bron Studios|Sailor Bear|Ley Line Entertainment|Creative Wealth Media Finance
+198,Step Up 2: The Streets,GYxEOkA8AZHcpuQEAAAmR,drama,acquired,2008-01-01,,5612.0,2022-09-09 22:00:00,2023-08-31 21:59:00,CZECHIA_SLOVAKIA,Summit Entertainment|Touchstone Pictures|Offspring Entertainment|Touch Pictures|The Walt Disney Studios
+199,Step Up 2: The Streets,GYxEOkA8AZHcpuQEAAAmR,drama,acquired,2008-01-01,,5612.0,2022-09-09 21:00:00,2023-08-31 20:59:00,ROMANIA,Summit Entertainment|Touchstone Pictures|Offspring Entertainment|Touch Pictures|The Walt Disney Studios
+200,Step Up 2: The Streets,GYxEOkA8AZHcpuQEAAAmR,drama,acquired,2008-01-01,,5612.0,2022-09-09 22:00:00,2023-08-31 21:59:00,ADRIA,Summit Entertainment|Touchstone Pictures|Offspring Entertainment|Touch Pictures|The Walt Disney Studios
+201,Step Up 2: The Streets,GYxEOkA8AZHcpuQEAAAmR,drama,acquired,2008-01-01,,5612.0,2022-09-09 22:00:00,2023-08-31 21:59:00,HUNGARY,Summit Entertainment|Touchstone Pictures|Offspring Entertainment|Touch Pictures|The Walt Disney Studios
+202,Step Up 2: The Streets,GYxEOkA8AZHcpuQEAAAmR,drama,acquired,2008-01-01,,5612.0,2022-09-09 22:00:00,2023-08-31 21:59:00,POLAND,Summit Entertainment|Touchstone Pictures|Offspring Entertainment|Touch Pictures|The Walt Disney Studios
+203,Step Up 2: The Streets,GYxEOkA8AZHcpuQEAAAmR,drama,acquired,2008-01-01,,5612.0,2022-09-09 21:00:00,2023-08-31 20:59:00,BULGARIA,Summit Entertainment|Touchstone Pictures|Offspring Entertainment|Touch Pictures|The Walt Disney Studios
+204,Havoc,GYt6pbAEssZHCwwEAAAAM,drama,acquired,2005-01-01,,5114.0,2022-10-26 05:00:00,2024-11-01 02:59:00,CARIBBEAN,Jack F. Murphy/Sammy Lee|New Line Cinema|Media 8 Entertainment|New Line|Jack F Murphy|Sammy Lee|The Works Uk Distribution|Imagem Filmes|KNM Home Entertainment|Vip Medienfonds (Germany)
+205,Havoc,GYt6pbAEssZHCwwEAAAAM,drama,acquired,2005-01-01,,5114.0,2022-10-26 05:00:00,2024-11-01 02:59:00,BRAZIL,Jack F. Murphy/Sammy Lee|New Line Cinema|Media 8 Entertainment|New Line|Jack F Murphy|Sammy Lee|The Works Uk Distribution|Imagem Filmes|KNM Home Entertainment|Vip Medienfonds (Germany)
+206,Havoc,GYt6pbAEssZHCwwEAAAAM,drama,acquired,2005-01-01,,5114.0,2022-10-26 05:00:00,2024-11-01 05:59:00,MEXICO,Jack F. Murphy/Sammy Lee|New Line Cinema|Media 8 Entertainment|New Line|Jack F Murphy|Sammy Lee|The Works Uk Distribution|Imagem Filmes|KNM Home Entertainment|Vip Medienfonds (Germany)
+207,Havoc,GYt6pbAEssZHCwwEAAAAM,drama,acquired,2005-01-01,,5114.0,2022-10-26 05:00:00,2024-11-01 04:59:00,COLOMBIA,Jack F. Murphy/Sammy Lee|New Line Cinema|Media 8 Entertainment|New Line|Jack F Murphy|Sammy Lee|The Works Uk Distribution|Imagem Filmes|KNM Home Entertainment|Vip Medienfonds (Germany)
+208,Havoc,GYt6pbAEssZHCwwEAAAAM,drama,acquired,2005-01-01,,5114.0,2022-10-26 05:00:00,2024-11-01 02:59:00,ARGENTINA,Jack F. Murphy/Sammy Lee|New Line Cinema|Media 8 Entertainment|New Line|Jack F Murphy|Sammy Lee|The Works Uk Distribution|Imagem Filmes|KNM Home Entertainment|Vip Medienfonds (Germany)
+209,Havoc,GYt6pbAEssZHCwwEAAAAM,drama,acquired,2005-01-01,,5114.0,2022-10-26 05:00:00,2024-11-01 02:59:00,REST OF LATAM,Jack F. Murphy/Sammy Lee|New Line Cinema|Media 8 Entertainment|New Line|Jack F Murphy|Sammy Lee|The Works Uk Distribution|Imagem Filmes|KNM Home Entertainment|Vip Medienfonds (Germany)
+210,Menashe,GYGiRjAnLpjassQEAAAAo,drama,acquired,2017-01-01,,4920.0,2021-10-13 05:00:00,2022-04-15 02:59:00,BRAZIL,A24|Mongrel Media|Maiden Voyage Pictures|Sophie Dulac Distribution|Shtick Film|Autumn Productions|Mindjazz Pictures|Maiden Voyage|Where's Eve|Sparks Next
+211,Menashe,GYGiRjAnLpjassQEAAAAo,drama,acquired,2017-01-01,,4920.0,2022-04-15 03:00:00,2025-04-15 02:59:00,ARGENTINA,A24|Mongrel Media|Maiden Voyage Pictures|Sophie Dulac Distribution|Shtick Film|Autumn Productions|Mindjazz Pictures|Maiden Voyage|Where's Eve|Sparks Next
+212,Menashe,GYGiRjAnLpjassQEAAAAo,drama,acquired,2017-01-01,,4920.0,2022-04-15 05:00:00,2025-04-15 04:59:00,COLOMBIA,A24|Mongrel Media|Maiden Voyage Pictures|Sophie Dulac Distribution|Shtick Film|Autumn Productions|Mindjazz Pictures|Maiden Voyage|Where's Eve|Sparks Next
+213,Menashe,GYGiRjAnLpjassQEAAAAo,drama,acquired,2017-01-01,,4920.0,2022-04-15 05:00:00,2025-04-15 04:59:00,MEXICO,A24|Mongrel Media|Maiden Voyage Pictures|Sophie Dulac Distribution|Shtick Film|Autumn Productions|Mindjazz Pictures|Maiden Voyage|Where's Eve|Sparks Next
+214,Menashe,GYGiRjAnLpjassQEAAAAo,drama,acquired,2017-01-01,,4920.0,2021-10-13 05:00:00,2022-04-15 02:59:00,CARIBBEAN,A24|Mongrel Media|Maiden Voyage Pictures|Sophie Dulac Distribution|Shtick Film|Autumn Productions|Mindjazz Pictures|Maiden Voyage|Where's Eve|Sparks Next
+215,Menashe,GYGiRjAnLpjassQEAAAAo,drama,acquired,2017-01-01,,4920.0,2021-10-13 05:00:00,2022-04-15 04:59:00,COLOMBIA,A24|Mongrel Media|Maiden Voyage Pictures|Sophie Dulac Distribution|Shtick Film|Autumn Productions|Mindjazz Pictures|Maiden Voyage|Where's Eve|Sparks Next
+216,Menashe,GYGiRjAnLpjassQEAAAAo,drama,acquired,2017-01-01,,4920.0,2021-10-13 05:00:00,2022-04-15 02:59:00,ARGENTINA,A24|Mongrel Media|Maiden Voyage Pictures|Sophie Dulac Distribution|Shtick Film|Autumn Productions|Mindjazz Pictures|Maiden Voyage|Where's Eve|Sparks Next
+217,Menashe,GYGiRjAnLpjassQEAAAAo,drama,acquired,2017-01-01,,4920.0,2021-10-13 05:00:00,2022-04-15 02:59:00,REST OF LATAM,A24|Mongrel Media|Maiden Voyage Pictures|Sophie Dulac Distribution|Shtick Film|Autumn Productions|Mindjazz Pictures|Maiden Voyage|Where's Eve|Sparks Next
+218,Menashe,GYGiRjAnLpjassQEAAAAo,drama,acquired,2017-01-01,,4920.0,2021-10-13 05:00:00,2022-04-15 04:59:00,MEXICO,A24|Mongrel Media|Maiden Voyage Pictures|Sophie Dulac Distribution|Shtick Film|Autumn Productions|Mindjazz Pictures|Maiden Voyage|Where's Eve|Sparks Next
+219,Menashe,GYGiRjAnLpjassQEAAAAo,drama,acquired,2017-01-01,,4920.0,2022-04-15 03:00:00,2025-04-15 02:59:00,CARIBBEAN,A24|Mongrel Media|Maiden Voyage Pictures|Sophie Dulac Distribution|Shtick Film|Autumn Productions|Mindjazz Pictures|Maiden Voyage|Where's Eve|Sparks Next
+220,Menashe,GYGiRjAnLpjassQEAAAAo,drama,acquired,2017-01-01,,4920.0,2022-04-15 03:00:00,2025-04-15 02:59:00,BRAZIL,A24|Mongrel Media|Maiden Voyage Pictures|Sophie Dulac Distribution|Shtick Film|Autumn Productions|Mindjazz Pictures|Maiden Voyage|Where's Eve|Sparks Next
+221,Menashe,GYGiRjAnLpjassQEAAAAo,drama,acquired,2017-01-01,,4920.0,2022-04-15 03:00:00,2025-04-15 02:59:00,REST OF LATAM,A24|Mongrel Media|Maiden Voyage Pictures|Sophie Dulac Distribution|Shtick Film|Autumn Productions|Mindjazz Pictures|Maiden Voyage|Where's Eve|Sparks Next
+222,Val,GY00Sewnn6pC_wwEAAAFc,documentary,acquired,2021-01-01,,6246.0,2022-11-16 23:00:00,2024-04-30 21:59:59,ADRIA,A24|Amazon Studios|Boardwalk Pictures|Cartel Film Production
+223,Val,GY00Sewnn6pC_wwEAAAFc,documentary,acquired,2021-01-01,,6246.0,2022-11-16 22:00:00,2024-04-30 20:59:59,ROMANIA,A24|Amazon Studios|Boardwalk Pictures|Cartel Film Production
+224,Val,GY00Sewnn6pC_wwEAAAFc,documentary,acquired,2021-01-01,,6246.0,2022-11-16 23:00:00,2024-04-30 21:59:59,CZECHIA_SLOVAKIA,A24|Amazon Studios|Boardwalk Pictures|Cartel Film Production
+225,Val,GY00Sewnn6pC_wwEAAAFc,documentary,acquired,2021-01-01,,6246.0,2022-11-16 23:00:00,2024-04-30 21:59:59,HUNGARY,A24|Amazon Studios|Boardwalk Pictures|Cartel Film Production
+226,Val,GY00Sewnn6pC_wwEAAAFc,documentary,acquired,2021-01-01,,6246.0,2022-11-16 22:00:00,2024-04-30 20:59:59,BULGARIA,A24|Amazon Studios|Boardwalk Pictures|Cartel Film Production
+227,Val,GY00Sewnn6pC_wwEAAAFc,documentary,acquired,2021-01-01,,6246.0,2022-11-16 23:00:00,2024-04-30 21:59:59,POLAND,A24|Amazon Studios|Boardwalk Pictures|Cartel Film Production
+228,False Positive,GY00Vww4usbqYkwEAAAFV,horror,acquired,2021-01-01,,5323.0,2022-11-17 22:00:00,2024-04-30 20:59:59,BULGARIA,Hulu|A24
+229,False Positive,GY00Vww4usbqYkwEAAAFV,horror,acquired,2021-01-01,,5323.0,2022-11-17 23:00:00,2024-04-30 21:59:59,HUNGARY,Hulu|A24
+230,False Positive,GY00Vww4usbqYkwEAAAFV,horror,acquired,2021-01-01,,5323.0,2022-11-17 22:00:00,2024-04-30 20:59:59,ROMANIA,Hulu|A24
+231,False Positive,GY00Vww4usbqYkwEAAAFV,horror,acquired,2021-01-01,,5323.0,2022-11-17 23:00:00,2024-04-30 21:59:59,ADRIA,Hulu|A24
+232,False Positive,GY00Vww4usbqYkwEAAAFV,horror,acquired,2021-01-01,,5323.0,2022-11-17 23:00:00,2024-04-30 21:59:59,CZECHIA_SLOVAKIA,Hulu|A24
+233,False Positive,GY00Vww4usbqYkwEAAAFV,horror,acquired,2021-01-01,,5323.0,2022-11-11 23:00:00,2024-04-30 21:59:59,POLAND,Hulu|A24
+234,Last Man Standing,GYGdcDQfa7Lm2wgEAAAQg,action,acquired,1996-09-20,,6059.0,2021-05-17 03:00:00,2021-11-01 02:59:00,BRAZIL,Lone Wolf Film|Arthur Sarkissian Production|New Line Cinema
+235,Last Man Standing,GYGdcDQfa7Lm2wgEAAAQg,action,acquired,1996-09-20,,6059.0,2021-05-17 03:00:00,2021-11-01 02:59:00,ARGENTINA,Lone Wolf Film|Arthur Sarkissian Production|New Line Cinema
+236,Last Man Standing,GYGdcDQfa7Lm2wgEAAAQg,action,acquired,1996-09-20,,6059.0,2021-05-17 05:00:00,2021-11-01 04:59:00,COLOMBIA,Lone Wolf Film|Arthur Sarkissian Production|New Line Cinema
+237,Last Man Standing,GYGdcDQfa7Lm2wgEAAAQg,action,acquired,1996-09-20,,6059.0,2021-05-17 03:00:00,2021-11-01 02:59:00,CARIBBEAN,Lone Wolf Film|Arthur Sarkissian Production|New Line Cinema
+238,Last Man Standing,GYGdcDQfa7Lm2wgEAAAQg,action,acquired,1996-09-20,,6059.0,2021-05-17 03:00:00,2021-11-01 02:59:00,REST OF LATAM,Lone Wolf Film|Arthur Sarkissian Production|New Line Cinema
+239,Last Man Standing,GYGdcDQfa7Lm2wgEAAAQg,action,acquired,1996-09-20,,6059.0,2021-01-04 03:00:00,2021-01-05 02:59:00,BRAZIL,Lone Wolf Film|Arthur Sarkissian Production|New Line Cinema
+240,Last Man Standing,GYGdcDQfa7Lm2wgEAAAQg,action,acquired,1996-09-20,,6059.0,2021-05-17 05:00:00,2021-11-01 05:59:00,MEXICO,Lone Wolf Film|Arthur Sarkissian Production|New Line Cinema
+241,Last Man Standing,GYGdcDQfa7Lm2wgEAAAQg,action,acquired,1996-09-20,,6059.0,2021-01-04 03:00:00,2021-01-05 02:59:00,ARGENTINA,Lone Wolf Film|Arthur Sarkissian Production|New Line Cinema
+242,The Number 23,GYKa20wrwCLjCQAEAAACP,drama,acquired,2007-02-23,,5763.0,2021-05-03 05:00:00,2022-06-29 04:59:00,COLOMBIA,New Line Cinema|New Line Home Entertainment|Contrafilm|Firm Films|Warner Home Video
+243,The Number 23,GYKa20wrwCLjCQAEAAACP,drama,acquired,2007-02-23,,5763.0,2021-05-03 03:00:00,2022-06-29 02:59:00,BRAZIL,New Line Cinema|New Line Home Entertainment|Contrafilm|Firm Films|Warner Home Video
+244,The Number 23,GYKa20wrwCLjCQAEAAACP,drama,acquired,2007-02-23,,5763.0,2021-05-03 03:00:00,2022-06-29 02:59:00,REST OF LATAM,New Line Cinema|New Line Home Entertainment|Contrafilm|Firm Films|Warner Home Video
+245,The Number 23,GYKa20wrwCLjCQAEAAACP,drama,acquired,2007-02-23,,5763.0,2021-05-03 05:00:00,2022-06-29 04:59:00,MEXICO,New Line Cinema|New Line Home Entertainment|Contrafilm|Firm Films|Warner Home Video
+246,The Number 23,GYKa20wrwCLjCQAEAAACP,drama,acquired,2007-02-23,,5763.0,2021-05-03 03:00:00,2022-06-29 02:59:00,ARGENTINA,New Line Cinema|New Line Home Entertainment|Contrafilm|Firm Films|Warner Home Video
+247,The Number 23,GYKa20wrwCLjCQAEAAACP,drama,acquired,2007-02-23,,5763.0,2021-05-03 03:00:00,2022-06-29 02:59:00,CARIBBEAN,New Line Cinema|New Line Home Entertainment|Contrafilm|Firm Films|Warner Home Video
+248,The Number 23,GYKa20wrwCLjCQAEAAACP,drama,acquired,2007-02-23,,5763.0,2021-09-13 22:00:00,2021-10-30 22:00:00,NORDICS,New Line Cinema|New Line Home Entertainment|Contrafilm|Firm Films|Warner Home Video
+249,Keanu,GYMCwIgxlnoe7vwEAAAAI,action,acquired,2016-04-29,,5985.0,2021-05-03 03:00:00,2022-06-29 02:59:00,CARIBBEAN,Warner Home Video|Detroit Pictures|RatPac Entertainment|Monkey Paw/Detroit Pictures|Monkeypaw Productions|New Line Cinema|Warner Bros.
+250,Keanu,GYMCwIgxlnoe7vwEAAAAI,action,acquired,2016-04-29,,5985.0,2021-05-03 05:00:00,2022-06-29 04:59:00,MEXICO,Warner Home Video|Detroit Pictures|RatPac Entertainment|Monkey Paw/Detroit Pictures|Monkeypaw Productions|New Line Cinema|Warner Bros.
+251,Keanu,GYMCwIgxlnoe7vwEAAAAI,action,acquired,2016-04-29,,5985.0,2021-05-03 03:00:00,2022-06-29 02:59:00,ARGENTINA,Warner Home Video|Detroit Pictures|RatPac Entertainment|Monkey Paw/Detroit Pictures|Monkeypaw Productions|New Line Cinema|Warner Bros.
+252,Keanu,GYMCwIgxlnoe7vwEAAAAI,action,acquired,2016-04-29,,5985.0,2021-05-03 03:00:00,2022-06-29 02:59:00,BRAZIL,Warner Home Video|Detroit Pictures|RatPac Entertainment|Monkey Paw/Detroit Pictures|Monkeypaw Productions|New Line Cinema|Warner Bros.
+253,Keanu,GYMCwIgxlnoe7vwEAAAAI,action,acquired,2016-04-29,,5985.0,2021-05-03 05:00:00,2022-06-29 04:59:00,COLOMBIA,Warner Home Video|Detroit Pictures|RatPac Entertainment|Monkey Paw/Detroit Pictures|Monkeypaw Productions|New Line Cinema|Warner Bros.
+254,Keanu,GYMCwIgxlnoe7vwEAAAAI,action,acquired,2016-04-29,,5985.0,2021-05-03 03:00:00,2022-06-29 02:59:00,REST OF LATAM,Warner Home Video|Detroit Pictures|RatPac Entertainment|Monkey Paw/Detroit Pictures|Monkeypaw Productions|New Line Cinema|Warner Bros.
+255,The Lighthouse,GYF4hcA4qAITCwgEAAALQ,drama,acquired,2019-01-01,,6561.0,2021-05-31 05:00:00,2021-09-18 04:59:00,MEXICO,New Regency|A24|New Regency Pictures|RT Features|New Regency Productions|Parts & Labor|Amazon Prime Video
+256,The Lighthouse,GYF4hcA4qAITCwgEAAALQ,drama,acquired,2019-01-01,,6561.0,2021-05-31 05:00:00,2021-09-18 04:59:00,COLOMBIA,New Regency|A24|New Regency Pictures|RT Features|New Regency Productions|Parts & Labor|Amazon Prime Video
+257,The Lighthouse,GYF4hcA4qAITCwgEAAALQ,drama,acquired,2019-01-01,,6561.0,2021-05-31 03:00:00,2021-09-18 02:59:00,REST OF LATAM,New Regency|A24|New Regency Pictures|RT Features|New Regency Productions|Parts & Labor|Amazon Prime Video
+258,The Lighthouse,GYF4hcA4qAITCwgEAAALQ,drama,acquired,2019-01-01,,6561.0,2021-05-31 03:00:00,2021-09-18 02:59:00,CARIBBEAN,New Regency|A24|New Regency Pictures|RT Features|New Regency Productions|Parts & Labor|Amazon Prime Video
+259,The Lighthouse,GYF4hcA4qAITCwgEAAALQ,drama,acquired,2019-01-01,,6561.0,2021-01-11 03:00:00,2021-01-11 03:00:00,BRAZIL,New Regency|A24|New Regency Pictures|RT Features|New Regency Productions|Parts & Labor|Amazon Prime Video
+260,The Lighthouse,GYF4hcA4qAITCwgEAAALQ,drama,acquired,2019-01-01,,6561.0,2021-05-31 03:00:00,2021-09-18 02:59:00,ARGENTINA,New Regency|A24|New Regency Pictures|RT Features|New Regency Productions|Parts & Labor|Amazon Prime Video
+261,The Good Liar,GXpTQtgV6ax-auwEAABc3,crime,acquired,2019-11-15,2019-11-15,6574.0,2020-06-14 00:00:00,2021-03-01 10:59:00,HBO MAX DOMESTIC,WARNER BROS. INC.
+262,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-03-07 22:00:00,2032-02-09 21:59:59,BULGARIA,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+263,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2021-01-11 00:00:00,2021-01-12 00:00:00,PORTUGAL,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+264,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2021-01-10 23:00:00,2021-01-11 23:00:00,HUNGARY,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+265,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-02-10 08:00:00,2030-02-10 03:59:00,CARIBBEAN,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+266,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-03-07 23:00:00,2032-02-09 22:59:59,HUNGARY,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+267,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-03-07 23:00:00,2032-02-09 22:59:00,CZECHIA_SLOVAKIA,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+268,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2021-01-10 23:00:00,2021-01-11 23:00:00,NORDICS,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+269,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-02-10 08:00:00,2030-02-10 02:59:00,BRAZIL,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+270,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2021-01-10 23:00:00,2021-01-11 23:00:00,ADRIA,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+271,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-02-10 08:01:00,2036-02-01 04:59:00,HBO MAX DOMESTIC,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+272,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-03-08 05:00:00,2032-02-09 22:59:59,POLAND,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+273,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-02-10 08:01:00,2032-02-09 22:59:00,NORDICS,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+274,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-03-07 23:00:00,2032-02-09 22:59:00,ADRIA,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+275,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-02-10 08:01:00,2032-02-09 22:59:00,SPAIN,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+276,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-03-08 00:00:00,2032-02-09 23:59:00,PORTUGAL,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+277,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2021-01-10 22:00:00,2021-01-11 22:00:00,BULGARIA,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+278,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-02-10 08:00:00,2030-02-10 04:59:00,COLOMBIA,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+279,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2021-01-10 22:00:00,2021-01-11 22:00:00,ROMANIA,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+280,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-02-10 08:00:00,2030-02-10 05:59:00,MEXICO,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+281,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2021-01-10 23:00:00,2021-01-11 23:00:00,CZECHIA_SLOVAKIA,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+282,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-03-07 23:00:00,2032-02-09 22:59:00,NETHERLANDS,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+283,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2021-01-10 23:00:00,2021-01-11 23:00:00,SPAIN,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+284,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-02-10 08:00:00,2030-02-10 02:59:00,ARGENTINA,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+285,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-02-10 08:00:00,2030-02-10 02:59:00,REST OF LATAM,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+286,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2022-03-07 22:00:00,2032-02-09 21:59:00,ROMANIA,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+287,Kimi,GYeB2LgKJ1cIOjAEAAABQ,crime,acquired,2022-01-01,,5237.0,2021-01-10 23:00:00,2021-01-11 23:00:00,POLAND,"New Line Productions, Inc., WarnerMedia Direct, LLC"
+288,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2024-10-26 21:59:00,NETHERLANDS,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+289,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2025-02-25 04:59:00,COLOMBIA,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+290,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2025-02-25 02:59:00,REST OF LATAM,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+291,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2025-04-26 20:59:00,BULGARIA,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+292,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2025-04-26 21:59:00,ADRIA,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+293,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2024-10-26 22:59:00,PORTUGAL,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+294,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2025-04-26 21:59:00,POLAND,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+295,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2025-02-25 02:59:00,BRAZIL,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+296,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2024-10-26 21:59:00,SPAIN,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+297,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2025-02-25 02:59:00,ARGENTINA,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+298,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2025-04-20 21:59:00,CZECHIA_SLOVAKIA,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+299,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2025-04-26 20:59:00,ROMANIA,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+300,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2024-10-26 21:59:00,NORDICS,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+301,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2025-02-25 03:59:00,CARIBBEAN,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+302,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2025-04-26 21:59:00,HUNGARY,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+303,The Nun II,GZNuevgZakcMrwwEAAAMd,horror,acquired,2023-08-09,,6581.0,2023-10-27 07:01:00,2025-02-25 05:59:00,MEXICO,New Line Cinema|Warner Bros|The Safran Company|Atomic Monster
+304,The Corruptor,GYGKgtQAs_MIcAQEAAAAD,crime,,1999-03-12,,6607.0,2022-02-12 06:00:00,2022-08-01 02:59:00,ARGENTINA,New Line Cinema|Illusion Entertainment Group production|James Foley Film
+305,The Corruptor,GYGKgtQAs_MIcAQEAAAAD,crime,,1999-03-12,,6607.0,2022-02-12 06:00:00,2022-08-01 02:59:00,CARIBBEAN,New Line Cinema|Illusion Entertainment Group production|James Foley Film
+306,The Corruptor,GYGKgtQAs_MIcAQEAAAAD,crime,,1999-03-12,,6607.0,2022-02-12 06:00:00,2022-08-01 04:59:00,COLOMBIA,New Line Cinema|Illusion Entertainment Group production|James Foley Film
+307,The Corruptor,GYGKgtQAs_MIcAQEAAAAD,crime,,1999-03-12,,6607.0,2022-02-12 06:00:00,2022-08-01 04:59:00,MEXICO,New Line Cinema|Illusion Entertainment Group production|James Foley Film
+308,The Corruptor,GYGKgtQAs_MIcAQEAAAAD,crime,,1999-03-12,,6607.0,2022-02-12 06:00:00,2022-08-01 02:59:00,BRAZIL,New Line Cinema|Illusion Entertainment Group production|James Foley Film
+309,The Corruptor,GYGKgtQAs_MIcAQEAAAAD,crime,,1999-03-12,,6607.0,2022-02-12 06:00:00,2022-08-01 02:59:00,REST OF LATAM,New Line Cinema|Illusion Entertainment Group production|James Foley Film
+310,Knockaround Guys,GYIjckQahooeedgEAAABi,action,acquired,2002-10-11,,5496.0,2022-02-07 04:00:00,2023-02-07 03:59:00,CARIBBEAN,New Line Cinema|Lawrence Bender Production
+311,Knockaround Guys,GYIjckQahooeedgEAAABi,action,acquired,2002-10-11,,5496.0,2022-02-07 03:00:00,2023-02-07 02:59:00,ARGENTINA,New Line Cinema|Lawrence Bender Production
+312,Knockaround Guys,GYIjckQahooeedgEAAABi,action,acquired,2002-10-11,,5496.0,2022-02-07 03:00:00,2023-02-07 02:59:00,BRAZIL,New Line Cinema|Lawrence Bender Production
+313,Knockaround Guys,GYIjckQahooeedgEAAABi,action,acquired,2002-10-11,,5496.0,2021-05-31 03:00:00,2022-02-07 03:59:00,CARIBBEAN,New Line Cinema|Lawrence Bender Production
+314,Knockaround Guys,GYIjckQahooeedgEAAABi,action,acquired,2002-10-11,,5496.0,2021-05-31 03:00:00,2022-02-07 02:59:00,BRAZIL,New Line Cinema|Lawrence Bender Production
+315,Knockaround Guys,GYIjckQahooeedgEAAABi,action,acquired,2002-10-11,,5496.0,2021-05-31 05:00:00,2022-02-07 05:59:00,MEXICO,New Line Cinema|Lawrence Bender Production
+316,Knockaround Guys,GYIjckQahooeedgEAAABi,action,acquired,2002-10-11,,5496.0,2021-05-31 05:00:00,2022-02-07 04:59:00,COLOMBIA,New Line Cinema|Lawrence Bender Production
+317,Knockaround Guys,GYIjckQahooeedgEAAABi,action,acquired,2002-10-11,,5496.0,2021-05-31 03:00:00,2022-02-07 02:59:00,ARGENTINA,New Line Cinema|Lawrence Bender Production
+318,Knockaround Guys,GYIjckQahooeedgEAAABi,action,acquired,2002-10-11,,5496.0,2022-02-07 03:00:00,2023-02-07 02:59:00,REST OF LATAM,New Line Cinema|Lawrence Bender Production
+319,Knockaround Guys,GYIjckQahooeedgEAAABi,action,acquired,2002-10-11,,5496.0,2021-05-31 03:00:00,2022-02-07 02:59:00,REST OF LATAM,New Line Cinema|Lawrence Bender Production
+320,Knockaround Guys,GYIjckQahooeedgEAAABi,action,acquired,2002-10-11,,5496.0,2022-02-07 05:00:00,2023-02-07 04:59:00,COLOMBIA,New Line Cinema|Lawrence Bender Production
+321,Knockaround Guys,GYIjckQahooeedgEAAABi,action,acquired,2002-10-11,,5496.0,2022-02-07 06:00:00,2023-02-07 05:59:00,MEXICO,New Line Cinema|Lawrence Bender Production
+322,Game Night,GYK0FNAd52b2ElQEAAABP,action,acquired,2018-02-23,,5838.0,2021-07-28 03:00:00,2025-01-01 02:59:00,ARGENTINA,New Line Cinema|Davis Entertainment|Aggregate Films
+323,Game Night,GYK0FNAd52b2ElQEAAABP,action,acquired,2018-02-23,,5838.0,2021-07-28 03:00:00,2025-01-01 02:59:00,REST OF LATAM,New Line Cinema|Davis Entertainment|Aggregate Films
+324,Game Night,GYK0FNAd52b2ElQEAAABP,action,acquired,2018-02-23,,5838.0,2021-12-09 23:00:00,2022-10-25 21:59:59,NORDICS,New Line Cinema|Davis Entertainment|Aggregate Films
+325,Game Night,GYK0FNAd52b2ElQEAAABP,action,acquired,2018-02-23,,5838.0,2021-07-28 03:00:00,2025-01-01 03:59:00,CARIBBEAN,New Line Cinema|Davis Entertainment|Aggregate Films
+326,Game Night,GYK0FNAd52b2ElQEAAABP,action,acquired,2018-02-23,,5838.0,2021-07-28 05:00:00,2025-01-01 04:59:00,COLOMBIA,New Line Cinema|Davis Entertainment|Aggregate Films
+327,Game Night,GYK0FNAd52b2ElQEAAABP,action,acquired,2018-02-23,,5838.0,2021-07-28 03:00:00,2025-01-01 02:59:00,BRAZIL,New Line Cinema|Davis Entertainment|Aggregate Films
+328,Game Night,GYK0FNAd52b2ElQEAAABP,action,acquired,2018-02-23,,5838.0,2022-06-03 22:00:00,2024-05-31 21:59:00,SPAIN,New Line Cinema|Davis Entertainment|Aggregate Films
+329,Game Night,GYK0FNAd52b2ElQEAAABP,action,acquired,2018-02-23,,5838.0,2022-11-20 23:00:00,2023-04-30 21:59:00,NETHERLANDS,New Line Cinema|Davis Entertainment|Aggregate Films
+330,Game Night,GYK0FNAd52b2ElQEAAABP,action,acquired,2018-02-23,,5838.0,2021-07-28 05:00:00,2025-01-01 05:59:00,MEXICO,New Line Cinema|Davis Entertainment|Aggregate Films
+331,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:01:00,2032-11-30 22:59:00,CZECHIA_SLOVAKIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+332,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:01:00,2036-02-01 04:59:00,HBO MAX DOMESTIC,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+333,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:01:00,2032-11-30 21:59:00,BULGARIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+334,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:00:00,2030-12-01 02:59:00,ARGENTINA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+335,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:01:00,2032-11-30 22:59:00,SPAIN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+336,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:00:00,2030-12-01 04:59:00,COLOMBIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+337,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:01:00,2032-11-30 22:59:00,POLAND,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+338,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:00:00,2030-12-01 02:59:00,REST OF LATAM,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+339,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:00:00,2030-12-01 05:59:00,MEXICO,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+340,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:00:00,2030-12-01 03:59:00,CARIBBEAN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+341,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 09:01:00,2032-11-30 23:59:00,PORTUGAL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+342,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:01:00,2032-11-30 22:59:00,NETHERLANDS,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+343,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:01:00,2032-11-30 22:59:00,NORDICS,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+344,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:01:00,2032-11-30 22:59:00,HUNGARY,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+345,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:01:00,2032-11-30 22:59:00,ADRIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+346,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:01:00,2032-11-30 21:59:00,ROMANIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+347,A Hollywood Christmas,GY1_uNgldOTqGwwEAAABU,comedy,acquired,2022-01-01,,5460.0,2022-12-01 08:00:00,2030-12-01 02:59:00,BRAZIL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+348,C'mon C'mon,GYx8Ahg3xWqfDXwEAAAA5,drama,acquired,2023-07-21,,6429.0,2023-07-07 06:00:00,2029-06-24 02:59:00,BRAZIL,A24
+349,C'mon C'mon,GYx8Ahg3xWqfDXwEAAAA5,drama,acquired,2023-07-21,,6429.0,2023-07-07 06:00:00,2029-06-24 05:59:00,MEXICO,A24
+350,C'mon C'mon,GYx8Ahg3xWqfDXwEAAAA5,drama,acquired,2023-07-21,,6429.0,2023-07-07 06:00:00,2029-06-24 02:59:00,CARIBBEAN,A24
+351,C'mon C'mon,GYx8Ahg3xWqfDXwEAAAA5,drama,acquired,2023-07-21,,6429.0,2022-10-01 22:00:00,2024-02-29 22:59:00,CZECHIA_SLOVAKIA,A24
+352,C'mon C'mon,GYx8Ahg3xWqfDXwEAAAA5,drama,acquired,2023-07-21,,6429.0,2022-10-01 22:00:00,2024-02-29 22:59:00,HUNGARY,A24
+353,C'mon C'mon,GYx8Ahg3xWqfDXwEAAAA5,drama,acquired,2023-07-21,,6429.0,2022-12-01 23:00:00,2023-11-30 22:59:59,POLAND,A24
+354,C'mon C'mon,GYx8Ahg3xWqfDXwEAAAA5,drama,acquired,2023-07-21,,6429.0,2022-10-01 21:00:00,2024-02-29 21:59:00,ROMANIA,A24
+355,C'mon C'mon,GYx8Ahg3xWqfDXwEAAAA5,drama,acquired,2023-07-21,,6429.0,2023-07-07 06:00:00,2029-06-24 02:59:00,REST OF LATAM,A24
+356,C'mon C'mon,GYx8Ahg3xWqfDXwEAAAA5,drama,acquired,2023-07-21,,6429.0,2023-07-07 06:00:00,2029-06-24 04:59:00,COLOMBIA,A24
+357,C'mon C'mon,GYx8Ahg3xWqfDXwEAAAA5,drama,acquired,2023-07-21,,6429.0,2023-07-07 06:00:00,2029-06-24 02:59:00,ARGENTINA,A24
+358,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-06-01 05:00:00,2024-12-29 05:59:00,MEXICO,New Line
+359,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-06-01 03:00:00,2024-12-29 03:59:00,CARIBBEAN,New Line
+360,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-06-01 05:00:00,2024-12-29 04:59:00,COLOMBIA,New Line
+361,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-01-04 03:00:00,2021-01-05 02:59:00,BRAZIL,New Line
+362,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-08-29 22:00:00,2022-10-24 22:00:00,NORDICS,New Line
+363,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-06-01 03:00:00,2024-12-29 02:59:00,BRAZIL,New Line
+364,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-06-01 03:00:00,2024-12-29 02:59:00,REST OF LATAM,New Line
+365,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2022-10-26 23:00:00,2023-03-07 23:59:59,PORTUGAL,New Line
+366,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-01-04 03:00:00,2021-01-05 02:59:00,REST OF LATAM,New Line
+367,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-01-04 05:00:00,2021-01-05 04:59:00,COLOMBIA,New Line
+368,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-01-04 06:00:00,2021-01-05 05:59:00,MEXICO,New Line
+369,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-01-04 04:00:00,2021-01-05 03:59:00,CARIBBEAN,New Line
+370,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-06-01 03:00:00,2024-12-29 02:59:00,ARGENTINA,New Line
+371,A History of Violence,GYJ54lwm83zynLQEAAAAC,action,acquired,2005-01-01,,5584.0,2021-01-04 03:00:00,2021-01-05 02:59:00,ARGENTINA,New Line
+372,Shoot 'Em Up,GYKRS7g0lIJeNKAEAAAAV,action,acquired,2007-09-07,,5192.0,2023-03-29 06:00:00,2024-06-01 02:59:00,BRAZIL,Angry Films|New Line Cinema
+373,Shoot 'Em Up,GYKRS7g0lIJeNKAEAAAAV,action,acquired,2007-09-07,,5192.0,2021-09-21 03:00:00,2022-09-01 02:59:00,BRAZIL,Angry Films|New Line Cinema
+374,Shoot 'Em Up,GYKRS7g0lIJeNKAEAAAAV,action,acquired,2007-09-07,,5192.0,2021-09-21 05:00:00,2022-09-01 04:59:00,MEXICO,Angry Films|New Line Cinema
+375,Shoot 'Em Up,GYKRS7g0lIJeNKAEAAAAV,action,acquired,2007-09-07,,5192.0,2021-09-21 05:00:00,2022-09-01 04:59:00,COLOMBIA,Angry Films|New Line Cinema
+376,Shoot 'Em Up,GYKRS7g0lIJeNKAEAAAAV,action,acquired,2007-09-07,,5192.0,2021-09-21 03:00:00,2022-09-01 02:59:00,ARGENTINA,Angry Films|New Line Cinema
+377,Shoot 'Em Up,GYKRS7g0lIJeNKAEAAAAV,action,acquired,2007-09-07,,5192.0,2023-03-29 06:00:00,2024-06-01 02:59:00,REST OF LATAM,Angry Films|New Line Cinema
+378,Shoot 'Em Up,GYKRS7g0lIJeNKAEAAAAV,action,acquired,2007-09-07,,5192.0,2023-03-29 06:00:00,2024-06-01 04:59:00,MEXICO,Angry Films|New Line Cinema
+379,Shoot 'Em Up,GYKRS7g0lIJeNKAEAAAAV,action,acquired,2007-09-07,,5192.0,2021-09-21 03:00:00,2022-09-01 02:59:00,CARIBBEAN,Angry Films|New Line Cinema
+380,Shoot 'Em Up,GYKRS7g0lIJeNKAEAAAAV,action,acquired,2007-09-07,,5192.0,2021-09-21 03:00:00,2022-09-01 02:59:00,REST OF LATAM,Angry Films|New Line Cinema
+381,Shoot 'Em Up,GYKRS7g0lIJeNKAEAAAAV,action,acquired,2007-09-07,,5192.0,2023-03-29 06:00:00,2024-06-01 04:59:00,COLOMBIA,Angry Films|New Line Cinema
+382,Shoot 'Em Up,GYKRS7g0lIJeNKAEAAAAV,action,acquired,2007-09-07,,5192.0,2023-03-29 06:00:00,2024-06-01 02:59:00,ARGENTINA,Angry Films|New Line Cinema
+383,Shoot 'Em Up,GYKRS7g0lIJeNKAEAAAAV,action,acquired,2007-09-07,,5192.0,2023-03-29 06:00:00,2024-06-01 02:59:00,CARIBBEAN,Angry Films|New Line Cinema
+384,Men,GY4izegD_yKaHgQEAAAQq,horror,acquired,2022-01-01,,5762.0,2022-12-22 22:00:00,2024-11-30 21:59:59,BULGARIA,DNA Films|A24
+385,Men,GY4izegD_yKaHgQEAAAQq,horror,acquired,2022-01-01,,5762.0,2022-12-22 23:00:00,2024-11-30 22:59:59,ADRIA,DNA Films|A24
+386,Men,GY4izegD_yKaHgQEAAAQq,horror,acquired,2022-01-01,,5762.0,2022-12-22 23:00:00,2024-11-30 22:59:59,HUNGARY,DNA Films|A24
+387,Men,GY4izegD_yKaHgQEAAAQq,horror,acquired,2022-01-01,,5762.0,2022-12-22 23:00:00,2024-11-30 22:59:59,POLAND,DNA Films|A24
+388,Men,GY4izegD_yKaHgQEAAAQq,horror,acquired,2022-01-01,,5762.0,2022-12-22 22:00:00,2024-11-30 21:59:59,ROMANIA,DNA Films|A24
+389,Men,GY4izegD_yKaHgQEAAAQq,horror,acquired,2022-01-01,,5762.0,2022-12-22 23:00:00,2024-11-30 22:59:59,CZECHIA_SLOVAKIA,DNA Films|A24
+390,Deepwater Horizon,GYQFuOACrk8LCwwEAAACu,action,acquired,2022-03-23,,6303.0,2022-04-13 05:00:00,2024-03-30 04:59:00,COLOMBIA,Summit Entertainment|Participant
+391,Deepwater Horizon,GYQFuOACrk8LCwwEAAACu,action,acquired,2022-03-23,,6303.0,2022-04-13 05:00:00,2024-03-30 02:59:00,ARGENTINA,Summit Entertainment|Participant
+392,Deepwater Horizon,GYQFuOACrk8LCwwEAAACu,action,acquired,2022-03-23,,6303.0,2022-04-13 05:00:00,2024-03-30 02:59:00,BRAZIL,Summit Entertainment|Participant
+393,Deepwater Horizon,GYQFuOACrk8LCwwEAAACu,action,acquired,2022-03-23,,6303.0,2022-04-13 05:00:00,2024-03-30 02:59:00,REST OF LATAM,Summit Entertainment|Participant
+394,Deepwater Horizon,GYQFuOACrk8LCwwEAAACu,action,acquired,2022-03-23,,6303.0,2021-08-01 22:00:00,2022-06-22 22:00:00,SPAIN,Summit Entertainment|Participant
+395,Deepwater Horizon,GYQFuOACrk8LCwwEAAACu,action,acquired,2022-03-23,,6303.0,2022-04-13 05:00:00,2024-03-30 02:59:00,CARIBBEAN,Summit Entertainment|Participant
+396,Deepwater Horizon,GYQFuOACrk8LCwwEAAACu,action,acquired,2022-03-23,,6303.0,2022-04-13 05:00:00,2024-03-30 05:59:00,MEXICO,Summit Entertainment|Participant
+397,Lost Souls,GYGdydwuQTMMfwwEAAACJ,horror,acquired,2000-10-13,,5874.0,2021-05-17 03:00:00,2022-11-03 02:59:00,BRAZIL,New Line Cinema|Prufrock Pictures
+398,Lost Souls,GYGdydwuQTMMfwwEAAACJ,horror,acquired,2000-10-13,,5874.0,2021-01-04 03:00:00,2021-01-04 03:01:00,ARGENTINA,New Line Cinema|Prufrock Pictures
+399,Lost Souls,GYGdydwuQTMMfwwEAAACJ,horror,acquired,2000-10-13,,5874.0,2021-05-17 05:00:00,2022-11-03 05:59:00,MEXICO,New Line Cinema|Prufrock Pictures
+400,Lost Souls,GYGdydwuQTMMfwwEAAACJ,horror,acquired,2000-10-13,,5874.0,2021-05-17 03:00:00,2022-11-03 02:59:00,REST OF LATAM,New Line Cinema|Prufrock Pictures
+401,Lost Souls,GYGdydwuQTMMfwwEAAACJ,horror,acquired,2000-10-13,,5874.0,2021-05-17 03:00:00,2022-11-03 02:59:00,ARGENTINA,New Line Cinema|Prufrock Pictures
+402,Lost Souls,GYGdydwuQTMMfwwEAAACJ,horror,acquired,2000-10-13,,5874.0,2021-05-17 05:00:00,2022-11-03 04:59:00,COLOMBIA,New Line Cinema|Prufrock Pictures
+403,Lost Souls,GYGdydwuQTMMfwwEAAACJ,horror,acquired,2000-10-13,,5874.0,2021-05-17 03:00:00,2022-11-03 02:59:00,CARIBBEAN,New Line Cinema|Prufrock Pictures
+404,Lost Souls,GYGdydwuQTMMfwwEAAACJ,horror,acquired,2000-10-13,,5874.0,2021-01-04 03:00:00,2021-01-04 03:01:00,BRAZIL,New Line Cinema|Prufrock Pictures
+405,House Party,GXwOYEAypSMMxPQEAAAAD,comedy,acquired,2020-08-01,,6243.0,2020-08-01 07:01:00,2020-11-01 03:59:00,HBO MAX DOMESTIC,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+406,House Party,GXwOYEAypSMMxPQEAAAAD,comedy,acquired,2020-08-01,,6243.0,2021-04-01 07:01:00,2021-05-01 03:59:00,HBO MAX DOMESTIC,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+407,House Party,GXwOYEAypSMMxPQEAAAAD,comedy,acquired,2020-08-01,,6243.0,2022-01-01 05:00:00,2023-05-01 03:59:00,HBO MAX DOMESTIC,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+408,House Party,GXwOYEAypSMMxPQEAAAAD,comedy,acquired,2020-08-01,,6243.0,2021-06-01 07:01:00,2022-01-01 04:59:00,HBO MAX DOMESTIC,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+409,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2022-02-02 22:00:00,2022-06-29 02:00:00,BULGARIA,"Warner Media Direct, LLC"
+410,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2022-02-02 23:00:00,2022-06-29 02:00:00,ADRIA,"Warner Media Direct, LLC"
+411,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2022-02-02 22:00:00,2022-06-29 02:00:00,ROMANIA,"Warner Media Direct, LLC"
+412,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2021-07-31 05:00:00,2022-06-29 04:59:00,COLOMBIA,"Warner Media Direct, LLC"
+413,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2022-03-02 23:00:00,2022-06-29 02:00:00,NORDICS,"Warner Media Direct, LLC"
+414,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2022-02-02 23:00:00,2022-06-29 02:00:00,HUNGARY,"Warner Media Direct, LLC"
+415,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2021-07-31 03:00:00,2022-06-29 02:59:00,REST OF LATAM,"Warner Media Direct, LLC"
+416,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2021-07-31 05:00:00,2022-06-29 04:59:00,MEXICO,"Warner Media Direct, LLC"
+417,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2020-10-22 07:01:00,2022-07-01 03:59:59,HBO MAX DOMESTIC,"Warner Media Direct, LLC"
+418,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2021-07-31 03:00:00,2022-06-29 02:59:00,CARIBBEAN,"Warner Media Direct, LLC"
+419,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2022-02-02 23:00:00,2022-06-29 02:00:00,POLAND,"Warner Media Direct, LLC"
+420,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2021-07-31 03:00:00,2022-06-29 02:59:00,BRAZIL,"Warner Media Direct, LLC"
+421,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2021-07-31 03:00:00,2022-06-29 02:59:00,ARGENTINA,"Warner Media Direct, LLC"
+422,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2022-02-02 23:00:00,2022-06-29 02:00:00,CZECHIA_SLOVAKIA,"Warner Media Direct, LLC"
+423,Roald Dahl’s The Witches,GX5A8JQnSPQ2QFgEAAAAC,comedy,original,2020-10-22,,6167.0,2022-06-23 23:00:00,2022-06-29 02:00:00,PORTUGAL,"Warner Media Direct, LLC"
+424,Tag,GYRaerQeoqDdFwwEAAAAj,comedy,acquired,2018-06-15,,5908.0,2021-09-22 05:00:00,2025-03-19 02:59:00,BRAZIL,New Line Cinema|Broken Road Production
+425,Tag,GYRaerQeoqDdFwwEAAAAj,comedy,acquired,2018-06-15,,5908.0,2021-09-22 03:00:00,2025-03-19 02:59:00,REST OF LATAM,New Line Cinema|Broken Road Production
+426,Tag,GYRaerQeoqDdFwwEAAAAj,comedy,acquired,2018-06-15,,5908.0,2021-09-22 05:00:00,2025-03-19 02:59:00,ARGENTINA,New Line Cinema|Broken Road Production
+427,Tag,GYRaerQeoqDdFwwEAAAAj,comedy,acquired,2018-06-15,,5908.0,2021-09-22 05:00:00,2025-03-19 04:59:00,COLOMBIA,New Line Cinema|Broken Road Production
+428,Tag,GYRaerQeoqDdFwwEAAAAj,comedy,acquired,2018-06-15,,5908.0,2022-05-22 22:00:00,2023-04-30 21:59:00,NETHERLANDS,New Line Cinema|Broken Road Production
+429,Tag,GYRaerQeoqDdFwwEAAAAj,comedy,acquired,2018-06-15,,5908.0,2022-03-28 22:00:00,2022-10-25 21:59:00,NORDICS,New Line Cinema|Broken Road Production
+430,Tag,GYRaerQeoqDdFwwEAAAAj,comedy,acquired,2018-06-15,,5908.0,2021-09-22 03:00:00,2025-03-19 02:59:00,CARIBBEAN,New Line Cinema|Broken Road Production
+431,Tag,GYRaerQeoqDdFwwEAAAAj,comedy,acquired,2018-06-15,,5908.0,2021-01-10 23:00:00,2021-01-12 22:59:00,NORDICS,New Line Cinema|Broken Road Production
+432,Tag,GYRaerQeoqDdFwwEAAAAj,comedy,acquired,2018-06-15,,5908.0,2021-09-22 05:00:00,2025-03-19 05:59:00,MEXICO,New Line Cinema|Broken Road Production
+433,The Cell,GYGKCdA2cHo_DMQEAAABC,horror,acquired,2000-08-18,,6415.0,2022-06-08 05:00:00,2022-06-29 02:59:00,BRAZIL,New Line
+434,The Cell,GYGKCdA2cHo_DMQEAAABC,horror,acquired,2000-08-18,,6415.0,2022-06-08 05:00:00,2022-06-29 02:59:00,ARGENTINA,New Line
+435,The Cell,GYGKCdA2cHo_DMQEAAABC,horror,acquired,2000-08-18,,6415.0,2022-06-08 05:00:00,2022-06-29 02:59:00,CARIBBEAN,New Line
+436,The Cell,GYGKCdA2cHo_DMQEAAABC,horror,acquired,2000-08-18,,6415.0,2022-06-08 05:00:00,2022-06-29 02:59:00,REST OF LATAM,New Line
+437,The Cell,GYGKCdA2cHo_DMQEAAABC,horror,acquired,2000-08-18,,6415.0,2021-08-08 22:00:00,2021-11-28 23:00:00,SPAIN,New Line
+438,The Cell,GYGKCdA2cHo_DMQEAAABC,horror,acquired,2000-08-18,,6415.0,2022-06-08 05:00:00,2022-06-29 04:59:00,COLOMBIA,New Line
+439,The Cell,GYGKCdA2cHo_DMQEAAABC,horror,acquired,2000-08-18,,6415.0,2022-06-08 05:00:00,2022-06-29 04:59:00,MEXICO,New Line
+440,John Q,GXtZ0GAMvfMPCwgEAAABv,action,acquired,2002-01-01,2002-02-15,6790.0,2021-07-07 05:00:00,2024-10-01 04:59:00,COLOMBIA,WARNER BROS. INC.
+441,John Q,GXtZ0GAMvfMPCwgEAAABv,action,acquired,2002-01-01,2002-02-15,6790.0,2021-07-07 03:00:00,2024-10-01 02:59:00,ARGENTINA,WARNER BROS. INC.
+442,John Q,GXtZ0GAMvfMPCwgEAAABv,action,acquired,2002-01-01,2002-02-15,6790.0,2021-12-09 23:00:00,2022-10-25 21:59:00,NORDICS,WARNER BROS. INC.
+443,John Q,GXtZ0GAMvfMPCwgEAAABv,action,acquired,2002-01-01,2002-02-15,6790.0,2021-07-07 05:00:00,2024-10-01 05:59:00,MEXICO,WARNER BROS. INC.
+444,John Q,GXtZ0GAMvfMPCwgEAAABv,action,acquired,2002-01-01,2002-02-15,6790.0,2021-07-07 03:00:00,2024-10-01 02:59:00,CARIBBEAN,WARNER BROS. INC.
+445,John Q,GXtZ0GAMvfMPCwgEAAABv,action,acquired,2002-01-01,2002-02-15,6790.0,2021-10-11 22:00:00,2022-10-24 22:00:00,SPAIN,WARNER BROS. INC.
+446,John Q,GXtZ0GAMvfMPCwgEAAABv,action,acquired,2002-01-01,2002-02-15,6790.0,2021-07-07 03:00:00,2024-10-01 02:59:00,REST OF LATAM,WARNER BROS. INC.
+447,John Q,GXtZ0GAMvfMPCwgEAAABv,action,acquired,2002-01-01,2002-02-15,6790.0,2021-07-07 03:00:00,2024-10-01 02:59:00,BRAZIL,WARNER BROS. INC.
+448,John Q,GXtZ0GAMvfMPCwgEAAABv,action,acquired,2002-01-01,2002-02-15,6790.0,2022-10-26 23:00:00,2023-03-07 23:59:59,PORTUGAL,WARNER BROS. INC.
+449,John Q,GXtZ0GAMvfMPCwgEAAABv,action,acquired,2002-01-01,2002-02-15,6790.0,2023-04-01 07:01:00,2023-06-30 03:59:00,HBO MAX DOMESTIC,WARNER BROS. INC.
+450,John Q,GXtZ0GAMvfMPCwgEAAABv,action,acquired,2002-01-01,2002-02-15,6790.0,2020-07-01 10:00:00,2021-02-01 10:59:00,HBO MAX DOMESTIC,WARNER BROS. INC.
+451,My Own Private Idaho,GYGQMvgqmx4jDXAEAAAJ9,drama,acquired,1991-09-29,,,2021-02-01 03:00:00,2021-02-01 03:59:00,REST OF LATAM,New Line Cinema|Fine Line Features|Warner Home Video|Idaho Productions
+452,My Own Private Idaho,GYGQMvgqmx4jDXAEAAAJ9,drama,acquired,1991-09-29,,,2021-02-01 05:00:00,2021-02-01 05:59:00,COLOMBIA,New Line Cinema|Fine Line Features|Warner Home Video|Idaho Productions
+453,My Own Private Idaho,GYGQMvgqmx4jDXAEAAAJ9,drama,acquired,1991-09-29,,,2021-02-01 04:00:00,2021-02-01 04:59:00,CARIBBEAN,New Line Cinema|Fine Line Features|Warner Home Video|Idaho Productions
+454,My Own Private Idaho,GYGQMvgqmx4jDXAEAAAJ9,drama,acquired,1991-09-29,,,2021-02-01 06:00:00,2021-02-01 06:59:00,MEXICO,New Line Cinema|Fine Line Features|Warner Home Video|Idaho Productions
+455,My Own Private Idaho,GYGQMvgqmx4jDXAEAAAJ9,drama,acquired,1991-09-29,,,2021-02-01 03:00:00,2021-02-01 03:59:00,BRAZIL,New Line Cinema|Fine Line Features|Warner Home Video|Idaho Productions
+456,My Own Private Idaho,GYGQMvgqmx4jDXAEAAAJ9,drama,acquired,1991-09-29,,,2021-02-01 03:00:00,2021-02-01 03:59:00,ARGENTINA,New Line Cinema|Fine Line Features|Warner Home Video|Idaho Productions
+457,Domino,GYWgsZw8FNhmKiwEAAABn,action,acquired,2005-10-14,2005-10-14,6815.0,2021-02-28 06:00:00,2021-03-01 05:59:00,MEXICO,"NEW LINE TELEVISION, INC."
+458,Domino,GYWgsZw8FNhmKiwEAAABn,action,acquired,2005-10-14,2005-10-14,6815.0,2021-02-28 03:00:00,2021-03-01 02:59:00,ARGENTINA,"NEW LINE TELEVISION, INC."
+459,Domino,GYWgsZw8FNhmKiwEAAABn,action,acquired,2005-10-14,2005-10-14,6815.0,2022-06-01 07:01:00,2022-12-01 08:00:00,HBO MAX DOMESTIC,"NEW LINE TELEVISION, INC."
+460,Domino,GYWgsZw8FNhmKiwEAAABn,action,acquired,2005-10-14,2005-10-14,6815.0,2021-02-28 04:00:00,2021-03-01 03:59:00,CARIBBEAN,"NEW LINE TELEVISION, INC."
+461,Domino,GYWgsZw8FNhmKiwEAAABn,action,acquired,2005-10-14,2005-10-14,6815.0,2021-02-28 05:00:00,2021-03-01 04:59:00,COLOMBIA,"NEW LINE TELEVISION, INC."
+462,Domino,GYWgsZw8FNhmKiwEAAABn,action,acquired,2005-10-14,2005-10-14,6815.0,2021-02-28 03:00:00,2021-03-01 02:59:00,REST OF LATAM,"NEW LINE TELEVISION, INC."
+463,Domino,GYWgsZw8FNhmKiwEAAABn,action,acquired,2005-10-14,2005-10-14,6815.0,2021-01-10 23:00:00,2021-01-11 23:00:00,SPAIN,"NEW LINE TELEVISION, INC."
+464,The Secret Life of Walter Mitty,GYiDXlgDabmOwaQEAAAAE,comedy,acquired,2013-12-25,2013-12-25,6871.0,2022-04-01 07:01:00,2023-04-01 07:00:00,HBO MAX DOMESTIC,TWENTIETH CENTURY FOX FILM CORPORATION
+465,Mr. Nice Guy,GYGQMtAo-HYW2XgEAAADs,action,acquired,1997-01-31,,5295.0,2021-02-01 04:00:00,2021-02-02 03:59:00,CARIBBEAN,New Line Cinema|Golden Harvest
+466,Mr. Nice Guy,GYGQMtAo-HYW2XgEAAADs,action,acquired,1997-01-31,,5295.0,2021-02-01 05:00:00,2021-02-02 04:59:00,COLOMBIA,New Line Cinema|Golden Harvest
+467,Mr. Nice Guy,GYGQMtAo-HYW2XgEAAADs,action,acquired,1997-01-31,,5295.0,2021-02-01 03:00:00,2021-02-02 02:59:00,REST OF LATAM,New Line Cinema|Golden Harvest
+468,Mr. Nice Guy,GYGQMtAo-HYW2XgEAAADs,action,acquired,1997-01-31,,5295.0,2021-02-01 03:00:00,2021-02-02 02:59:00,ARGENTINA,New Line Cinema|Golden Harvest
+469,Mr. Nice Guy,GYGQMtAo-HYW2XgEAAADs,action,acquired,1997-01-31,,5295.0,2021-02-01 03:00:00,2021-02-02 02:59:00,BRAZIL,New Line Cinema|Golden Harvest
+470,Mr. Nice Guy,GYGQMtAo-HYW2XgEAAADs,action,acquired,1997-01-31,,5295.0,2021-02-01 06:00:00,2021-02-02 05:59:00,MEXICO,New Line Cinema|Golden Harvest
+471,X,GY4oSLgFd-EG9tAEAAAOo,horror,acquired,2022-01-01,,6118.0,2023-01-12 23:00:00,2024-06-30 21:59:59,ADRIA,A24
+472,X,GY4oSLgFd-EG9tAEAAAOo,horror,acquired,2022-01-01,,6118.0,2023-01-12 22:00:00,2024-06-30 20:59:59,BULGARIA,A24
+473,X,GY4oSLgFd-EG9tAEAAAOo,horror,acquired,2022-01-01,,6118.0,2023-01-12 23:00:00,2024-06-30 21:59:59,CZECHIA_SLOVAKIA,A24
+474,X,GY4oSLgFd-EG9tAEAAAOo,horror,acquired,2022-01-01,,6118.0,2023-01-12 22:00:00,2024-06-30 20:59:59,ROMANIA,A24
+475,X,GY4oSLgFd-EG9tAEAAAOo,horror,acquired,2022-01-01,,6118.0,2023-01-12 23:00:00,2024-06-30 21:59:59,HUNGARY,A24
+476,X,GY4oSLgFd-EG9tAEAAAOo,horror,acquired,2022-01-01,,6118.0,2023-01-12 23:00:00,2024-06-30 21:59:59,POLAND,A24
+477,Life of the Party,GYPuuggkKbwqlwgEAAABC,comedy,acquired,2018-05-11,,6114.0,2022-09-21 23:00:00,2023-03-07 23:59:00,PORTUGAL,New Line Cinema|Warner Bros.|On the Day
+478,Life of the Party,GYPuuggkKbwqlwgEAAABC,comedy,acquired,2018-05-11,,6114.0,2022-04-07 22:00:00,2022-10-25 21:59:00,SPAIN,New Line Cinema|Warner Bros.|On the Day
+479,Life of the Party,GYPuuggkKbwqlwgEAAABC,comedy,acquired,2018-05-11,,6114.0,2021-09-08 03:00:00,2025-03-06 03:59:00,CARIBBEAN,New Line Cinema|Warner Bros.|On the Day
+480,Life of the Party,GYPuuggkKbwqlwgEAAABC,comedy,acquired,2018-05-11,,6114.0,2021-09-08 05:00:00,2025-03-06 02:59:00,ARGENTINA,New Line Cinema|Warner Bros.|On the Day
+481,Life of the Party,GYPuuggkKbwqlwgEAAABC,comedy,acquired,2018-05-11,,6114.0,2022-03-07 23:00:00,2023-03-07 22:59:00,NETHERLANDS,New Line Cinema|Warner Bros.|On the Day
+482,Life of the Party,GYPuuggkKbwqlwgEAAABC,comedy,acquired,2018-05-11,,6114.0,2021-09-08 03:00:00,2025-03-06 02:59:00,REST OF LATAM,New Line Cinema|Warner Bros.|On the Day
+483,Life of the Party,GYPuuggkKbwqlwgEAAABC,comedy,acquired,2018-05-11,,6114.0,2021-09-08 05:00:00,2025-03-06 02:59:00,BRAZIL,New Line Cinema|Warner Bros.|On the Day
+484,Life of the Party,GYPuuggkKbwqlwgEAAABC,comedy,acquired,2018-05-11,,6114.0,2022-02-08 23:00:00,2022-10-25 21:59:59,NORDICS,New Line Cinema|Warner Bros.|On the Day
+485,Life of the Party,GYPuuggkKbwqlwgEAAABC,comedy,acquired,2018-05-11,,6114.0,2021-09-08 05:00:00,2025-03-06 04:59:00,COLOMBIA,New Line Cinema|Warner Bros.|On the Day
+486,Life of the Party,GYPuuggkKbwqlwgEAAABC,comedy,acquired,2018-05-11,,6114.0,2021-09-08 05:00:00,2025-03-06 05:59:00,MEXICO,New Line Cinema|Warner Bros.|On the Day
+487,Eraser: Reborn,GYtUdUQtVN3mangEAAAox,action,acquired,2022-01-01,,6016.0,2023-10-12 22:00:00,2024-09-30 21:59:00,CZECHIA_SLOVAKIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+488,Eraser: Reborn,GYtUdUQtVN3mangEAAAox,action,acquired,2022-01-01,,6016.0,2023-10-12 22:00:00,2024-09-30 21:59:00,ADRIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+489,Eraser: Reborn,GYtUdUQtVN3mangEAAAox,action,acquired,2022-01-01,,6016.0,2023-10-12 21:00:00,2024-09-30 20:59:00,BULGARIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+490,Eraser: Reborn,GYtUdUQtVN3mangEAAAox,action,acquired,2022-01-01,,6016.0,2023-10-12 21:00:00,2024-09-30 20:59:00,ROMANIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+491,Eraser: Reborn,GYtUdUQtVN3mangEAAAox,action,acquired,2022-01-01,,6016.0,2022-08-12 22:00:00,2024-07-31 21:59:00,SPAIN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+492,Eraser: Reborn,GYtUdUQtVN3mangEAAAox,action,acquired,2022-01-01,,6016.0,2023-10-12 22:00:00,2024-09-30 21:59:00,HUNGARY,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+493,Eraser: Reborn,GYtUdUQtVN3mangEAAAox,action,acquired,2022-01-01,,6016.0,2023-10-12 22:00:00,2024-09-30 21:59:00,POLAND,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+494,Eraser: Reborn,GYtUdUQtVN3mangEAAAox,action,acquired,2022-01-01,,6016.0,2022-08-12 23:00:00,2023-07-31 22:59:00,PORTUGAL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+495,Eraser: Reborn,GYtUdUQtVN3mangEAAAox,action,acquired,2022-01-01,,6016.0,2022-10-05 07:01:00,2025-10-05 03:59:00,HBO MAX DOMESTIC,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+496,Emily the Criminal,GZIHeiwFQOFK9vQEAAAUV,crime,acquired,2023-07-14,,5816.0,2023-06-30 06:00:00,2024-09-01 02:59:00,CARIBBEAN,New Line Cinema|Low Spark Films
+497,Emily the Criminal,GZIHeiwFQOFK9vQEAAAUV,crime,acquired,2023-07-14,,5816.0,2023-06-30 06:00:00,2024-09-01 04:59:00,COLOMBIA,New Line Cinema|Low Spark Films
+498,Emily the Criminal,GZIHeiwFQOFK9vQEAAAUV,crime,acquired,2023-07-14,,5816.0,2023-06-30 06:00:00,2024-09-01 02:59:00,ARGENTINA,New Line Cinema|Low Spark Films
+499,Emily the Criminal,GZIHeiwFQOFK9vQEAAAUV,crime,acquired,2023-07-14,,5816.0,2023-06-30 06:00:00,2024-09-01 02:59:00,REST OF LATAM,New Line Cinema|Low Spark Films
+500,Emily the Criminal,GZIHeiwFQOFK9vQEAAAUV,crime,acquired,2023-07-14,,5816.0,2023-06-30 06:00:00,2024-09-01 05:59:00,MEXICO,New Line Cinema|Low Spark Films
+501,Fist Fight,GYJWd2Q2Tj8PCwgEAAAB3,comedy,acquired,2017-02-17,,5310.0,2021-05-03 05:00:00,2023-11-01 05:59:00,MEXICO,RatPac-Dune Entertainment|Village Roadshow Pictures|New Line Cinema
+502,Fist Fight,GYJWd2Q2Tj8PCwgEAAAB3,comedy,acquired,2017-02-17,,5310.0,2021-10-11 22:00:00,2022-10-24 22:00:00,SPAIN,RatPac-Dune Entertainment|Village Roadshow Pictures|New Line Cinema
+503,Fist Fight,GYJWd2Q2Tj8PCwgEAAAB3,comedy,acquired,2017-02-17,,5310.0,2021-05-03 03:00:00,2023-11-01 02:59:00,REST OF LATAM,RatPac-Dune Entertainment|Village Roadshow Pictures|New Line Cinema
+504,Fist Fight,GYJWd2Q2Tj8PCwgEAAAB3,comedy,acquired,2017-02-17,,5310.0,2021-01-11 00:00:00,2021-01-12 23:59:59,PORTUGAL,RatPac-Dune Entertainment|Village Roadshow Pictures|New Line Cinema
+505,Fist Fight,GYJWd2Q2Tj8PCwgEAAAB3,comedy,acquired,2017-02-17,,5310.0,2021-05-03 03:00:00,2023-11-01 02:59:00,BRAZIL,RatPac-Dune Entertainment|Village Roadshow Pictures|New Line Cinema
+506,Fist Fight,GYJWd2Q2Tj8PCwgEAAAB3,comedy,acquired,2017-02-17,,5310.0,2021-05-03 05:00:00,2023-11-01 04:59:00,COLOMBIA,RatPac-Dune Entertainment|Village Roadshow Pictures|New Line Cinema
+507,Fist Fight,GYJWd2Q2Tj8PCwgEAAAB3,comedy,acquired,2017-02-17,,5310.0,2021-05-03 03:00:00,2023-11-01 02:59:00,ARGENTINA,RatPac-Dune Entertainment|Village Roadshow Pictures|New Line Cinema
+508,Fist Fight,GYJWd2Q2Tj8PCwgEAAAB3,comedy,acquired,2017-02-17,,5310.0,2021-05-03 03:00:00,2023-11-01 02:59:00,CARIBBEAN,RatPac-Dune Entertainment|Village Roadshow Pictures|New Line Cinema
+509,Fist Fight,GYJWd2Q2Tj8PCwgEAAAB3,comedy,acquired,2017-02-17,,5310.0,2022-09-14 23:00:00,2023-03-07 23:59:00,PORTUGAL,RatPac-Dune Entertainment|Village Roadshow Pictures|New Line Cinema
+510,Mortal Kombat: The Journey Begins,GYKgbnwFR8MMApwEAAAAM,action,acquired,1995-01-01,,2356.0,2021-10-09 03:00:00,2023-06-29 02:59:00,REST OF LATAM,New Line Cinema
+511,Mortal Kombat: The Journey Begins,GYKgbnwFR8MMApwEAAAAM,action,acquired,1995-01-01,,2356.0,2021-10-09 03:00:00,2023-06-29 02:59:00,CARIBBEAN,New Line Cinema
+512,Mortal Kombat: The Journey Begins,GYKgbnwFR8MMApwEAAAAM,action,acquired,1995-01-01,,2356.0,2021-10-09 03:00:00,2023-06-29 02:59:00,ARGENTINA,New Line Cinema
+513,Mortal Kombat: The Journey Begins,GYKgbnwFR8MMApwEAAAAM,action,acquired,1995-01-01,,2356.0,2021-10-09 03:00:00,2023-06-29 02:59:00,BRAZIL,New Line Cinema
+514,Mortal Kombat: The Journey Begins,GYKgbnwFR8MMApwEAAAAM,action,acquired,1995-01-01,,2356.0,2021-10-09 05:00:00,2023-06-29 04:59:00,COLOMBIA,New Line Cinema
+515,Mortal Kombat: The Journey Begins,GYKgbnwFR8MMApwEAAAAM,action,acquired,1995-01-01,,2356.0,2021-10-09 05:00:00,2023-06-29 05:59:00,MEXICO,New Line Cinema
+516,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2021-06-01 03:00:00,2022-02-01 03:59:00,CARIBBEAN,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+517,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2021-01-11 00:00:00,2021-01-12 23:59:59,PORTUGAL,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+518,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2022-05-25 05:00:00,2024-11-01 02:59:00,BRAZIL,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+519,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2022-10-26 23:00:00,2024-03-07 23:59:00,PORTUGAL,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+520,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2022-05-25 05:00:00,2024-11-01 05:59:00,MEXICO,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+521,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2022-05-25 05:00:00,2024-11-01 02:59:00,ARGENTINA,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+522,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2022-05-25 05:00:00,2024-11-01 02:59:00,CARIBBEAN,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+523,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2021-06-01 05:00:00,2022-02-01 05:59:00,MEXICO,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+524,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2021-06-01 03:00:00,2022-02-01 02:59:00,BRAZIL,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+525,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2022-05-25 05:00:00,2024-11-01 02:59:00,REST OF LATAM,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+526,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2022-05-25 05:00:00,2024-11-01 04:59:00,COLOMBIA,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+527,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2021-06-01 03:00:00,2022-02-01 02:59:00,REST OF LATAM,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+528,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2021-06-01 03:00:00,2022-02-01 02:59:00,ARGENTINA,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+529,Pride and Glory,GYJ2XEAqFV74-twEAAAGG,crime,acquired,2008-01-01,,7647.0,2021-06-01 05:00:00,2022-02-01 04:59:00,COLOMBIA,New Line Cinema|Solaris Entertainment|O'Connor Brothers Production
+530,About Schmidt,GYGIJOw22xMNIbgEAAABE,comedy,acquired,2002-12-13,,7314.0,2021-04-19 05:00:00,2023-09-29 05:59:00,MEXICO,Michael Besman/Harry Gittes Production|New Line Cinema
+531,About Schmidt,GYGIJOw22xMNIbgEAAABE,comedy,acquired,2002-12-13,,7314.0,2022-10-26 23:00:00,2023-03-07 23:59:59,PORTUGAL,Michael Besman/Harry Gittes Production|New Line Cinema
+532,About Schmidt,GYGIJOw22xMNIbgEAAABE,comedy,acquired,2002-12-13,,7314.0,2021-04-19 03:00:00,2023-09-29 02:59:00,ARGENTINA,Michael Besman/Harry Gittes Production|New Line Cinema
+533,About Schmidt,GYGIJOw22xMNIbgEAAABE,comedy,acquired,2002-12-13,,7314.0,2021-04-19 03:00:00,2023-09-29 02:59:00,CARIBBEAN,Michael Besman/Harry Gittes Production|New Line Cinema
+534,About Schmidt,GYGIJOw22xMNIbgEAAABE,comedy,acquired,2002-12-13,,7314.0,2021-04-19 03:00:00,2023-09-29 02:59:00,REST OF LATAM,Michael Besman/Harry Gittes Production|New Line Cinema
+535,About Schmidt,GYGIJOw22xMNIbgEAAABE,comedy,acquired,2002-12-13,,7314.0,2021-12-31 23:00:00,2022-12-31 22:59:00,SPAIN,Michael Besman/Harry Gittes Production|New Line Cinema
+536,About Schmidt,GYGIJOw22xMNIbgEAAABE,comedy,acquired,2002-12-13,,7314.0,2021-01-11 00:00:00,2021-01-12 23:59:59,PORTUGAL,Michael Besman/Harry Gittes Production|New Line Cinema
+537,About Schmidt,GYGIJOw22xMNIbgEAAABE,comedy,acquired,2002-12-13,,7314.0,2021-04-19 05:00:00,2023-09-29 04:59:00,COLOMBIA,Michael Besman/Harry Gittes Production|New Line Cinema
+538,About Schmidt,GYGIJOw22xMNIbgEAAABE,comedy,acquired,2002-12-13,,7314.0,2021-04-19 03:00:00,2023-09-29 02:59:00,BRAZIL,Michael Besman/Harry Gittes Production|New Line Cinema
+539,Marcel the Shell with Shoes On,GZK1kwARcEcPCLwEAAB4M,comedy,acquired,2023-08-18,,5428.0,2023-08-18 06:00:00,2024-11-13 03:59:00,CARIBBEAN,A24
+540,Marcel the Shell with Shoes On,GZK1kwARcEcPCLwEAAB4M,comedy,acquired,2023-08-18,,5428.0,2023-08-18 06:00:00,2024-11-13 04:59:00,COLOMBIA,A24
+541,Marcel the Shell with Shoes On,GZK1kwARcEcPCLwEAAB4M,comedy,acquired,2023-08-18,,5428.0,2023-08-18 06:00:00,2024-11-13 02:59:00,ARGENTINA,A24
+542,Marcel the Shell with Shoes On,GZK1kwARcEcPCLwEAAB4M,comedy,acquired,2023-08-18,,5428.0,2023-08-18 06:00:00,2024-11-13 05:59:00,MEXICO,A24
+543,Marcel the Shell with Shoes On,GZK1kwARcEcPCLwEAAB4M,comedy,acquired,2023-08-18,,5428.0,2023-08-18 06:00:00,2024-11-13 02:59:00,REST OF LATAM,A24
+544,Step Up,GYxpA5AFVF3cpuQEAAAu9,drama,acquired,2006-01-01,,5932.0,2022-09-09 21:00:00,2023-08-31 20:59:00,BULGARIA,Touchstone Pictures|Summit Entertainment|Buena Vista|Offspring Entertainment
+545,Step Up,GYxpA5AFVF3cpuQEAAAu9,drama,acquired,2006-01-01,,5932.0,2022-09-09 22:00:00,2023-08-31 21:59:00,CZECHIA_SLOVAKIA,Touchstone Pictures|Summit Entertainment|Buena Vista|Offspring Entertainment
+546,Step Up,GYxpA5AFVF3cpuQEAAAu9,drama,acquired,2006-01-01,,5932.0,2022-09-09 22:00:00,2023-08-31 21:59:00,HUNGARY,Touchstone Pictures|Summit Entertainment|Buena Vista|Offspring Entertainment
+547,Step Up,GYxpA5AFVF3cpuQEAAAu9,drama,acquired,2006-01-01,,5932.0,2022-09-09 21:00:00,2023-08-31 20:59:00,ROMANIA,Touchstone Pictures|Summit Entertainment|Buena Vista|Offspring Entertainment
+548,Step Up,GYxpA5AFVF3cpuQEAAAu9,drama,acquired,2006-01-01,,5932.0,2022-09-09 22:00:00,2023-08-31 21:59:00,ADRIA,Touchstone Pictures|Summit Entertainment|Buena Vista|Offspring Entertainment
+549,Step Up,GYxpA5AFVF3cpuQEAAAu9,drama,acquired,2006-01-01,,5932.0,2022-09-09 22:00:00,2023-08-31 21:59:00,POLAND,Touchstone Pictures|Summit Entertainment|Buena Vista|Offspring Entertainment
+550,A United Kingdom,GYM39nw0cY4erwwEAAAAS,drama,acquired,2017-01-01,,6524.0,2021-08-08 22:00:00,2022-08-10 22:00:00,SPAIN,Yoruba Saxon Prods.|British Film Institute|Pathé|Fox Searchlight Pictures|BBC Films|Ingenious Media|Film United|Feelgood Entertainment|Canal Plus|Harbinger Pictures|British Broadcasting Corp.|Pathe Productions Ltd.|Perfect Weekend
+551,A United Kingdom,GYM39nw0cY4erwwEAAAAS,drama,acquired,2017-01-01,,6524.0,2021-04-19 03:00:00,2024-12-20 02:59:00,REST OF LATAM,Yoruba Saxon Prods.|British Film Institute|Pathé|Fox Searchlight Pictures|BBC Films|Ingenious Media|Film United|Feelgood Entertainment|Canal Plus|Harbinger Pictures|British Broadcasting Corp.|Pathe Productions Ltd.|Perfect Weekend
+552,A United Kingdom,GYM39nw0cY4erwwEAAAAS,drama,acquired,2017-01-01,,6524.0,2021-04-19 05:00:00,2024-12-20 04:59:00,COLOMBIA,Yoruba Saxon Prods.|British Film Institute|Pathé|Fox Searchlight Pictures|BBC Films|Ingenious Media|Film United|Feelgood Entertainment|Canal Plus|Harbinger Pictures|British Broadcasting Corp.|Pathe Productions Ltd.|Perfect Weekend
+553,A United Kingdom,GYM39nw0cY4erwwEAAAAS,drama,acquired,2017-01-01,,6524.0,2021-04-19 03:00:00,2024-12-20 03:59:00,CARIBBEAN,Yoruba Saxon Prods.|British Film Institute|Pathé|Fox Searchlight Pictures|BBC Films|Ingenious Media|Film United|Feelgood Entertainment|Canal Plus|Harbinger Pictures|British Broadcasting Corp.|Pathe Productions Ltd.|Perfect Weekend
+554,A United Kingdom,GYM39nw0cY4erwwEAAAAS,drama,acquired,2017-01-01,,6524.0,2021-04-19 03:00:00,2024-12-20 02:59:00,BRAZIL,Yoruba Saxon Prods.|British Film Institute|Pathé|Fox Searchlight Pictures|BBC Films|Ingenious Media|Film United|Feelgood Entertainment|Canal Plus|Harbinger Pictures|British Broadcasting Corp.|Pathe Productions Ltd.|Perfect Weekend
+555,A United Kingdom,GYM39nw0cY4erwwEAAAAS,drama,acquired,2017-01-01,,6524.0,2021-04-19 03:00:00,2024-12-20 02:59:00,ARGENTINA,Yoruba Saxon Prods.|British Film Institute|Pathé|Fox Searchlight Pictures|BBC Films|Ingenious Media|Film United|Feelgood Entertainment|Canal Plus|Harbinger Pictures|British Broadcasting Corp.|Pathe Productions Ltd.|Perfect Weekend
+556,A United Kingdom,GYM39nw0cY4erwwEAAAAS,drama,acquired,2017-01-01,,6524.0,2021-04-19 05:00:00,2024-12-20 05:59:00,MEXICO,Yoruba Saxon Prods.|British Film Institute|Pathé|Fox Searchlight Pictures|BBC Films|Ingenious Media|Film United|Feelgood Entertainment|Canal Plus|Harbinger Pictures|British Broadcasting Corp.|Pathe Productions Ltd.|Perfect Weekend
+557,Martian Child,GYGdylwnEScIVSQEAAAAb,comedy,acquired,2007-10-15,,6423.0,2021-05-17 03:00:00,2022-07-01 02:59:00,BRAZIL,New Line Cinema
+558,Martian Child,GYGdylwnEScIVSQEAAAAb,comedy,acquired,2007-10-15,,6423.0,2021-05-17 05:00:00,2022-07-01 04:59:00,COLOMBIA,New Line Cinema
+559,Martian Child,GYGdylwnEScIVSQEAAAAb,comedy,acquired,2007-10-15,,6423.0,2021-05-17 03:00:00,2022-07-01 02:59:00,CARIBBEAN,New Line Cinema
+560,Martian Child,GYGdylwnEScIVSQEAAAAb,comedy,acquired,2007-10-15,,6423.0,2021-01-04 03:00:00,2021-01-05 02:59:00,ARGENTINA,New Line Cinema
+561,Martian Child,GYGdylwnEScIVSQEAAAAb,comedy,acquired,2007-10-15,,6423.0,2021-01-04 03:00:00,2021-01-05 02:59:00,BRAZIL,New Line Cinema
+562,Martian Child,GYGdylwnEScIVSQEAAAAb,comedy,acquired,2007-10-15,,6423.0,2021-05-17 03:00:00,2022-07-01 02:59:00,ARGENTINA,New Line Cinema
+563,Martian Child,GYGdylwnEScIVSQEAAAAb,comedy,acquired,2007-10-15,,6423.0,2021-05-17 03:00:00,2022-07-01 02:59:00,REST OF LATAM,New Line Cinema
+564,Martian Child,GYGdylwnEScIVSQEAAAAb,comedy,acquired,2007-10-15,,6423.0,2021-05-17 05:00:00,2022-07-01 04:59:00,MEXICO,New Line Cinema
+565,Moonlight,GYF41gQTSdm6-wgEAAAMR,drama,acquired,2016-01-01,,6655.0,2021-05-31 03:00:00,2024-05-01 02:59:00,REST OF LATAM,Plan B Entertainment|PASTEL|A24|Mars Distribution|Roadshow Films|Phantom Film|Pastel Productions|Plan B/Pastel
+566,Moonlight,GYF41gQTSdm6-wgEAAAMR,drama,acquired,2016-01-01,,6655.0,2021-05-31 05:00:00,2024-05-01 04:59:00,COLOMBIA,Plan B Entertainment|PASTEL|A24|Mars Distribution|Roadshow Films|Phantom Film|Pastel Productions|Plan B/Pastel
+567,Moonlight,GYF41gQTSdm6-wgEAAAMR,drama,acquired,2016-01-01,,6655.0,2021-05-31 03:00:00,2024-05-01 02:59:00,BRAZIL,Plan B Entertainment|PASTEL|A24|Mars Distribution|Roadshow Films|Phantom Film|Pastel Productions|Plan B/Pastel
+568,Moonlight,GYF41gQTSdm6-wgEAAAMR,drama,acquired,2016-01-01,,6655.0,2021-05-31 05:00:00,2024-05-01 04:59:00,MEXICO,Plan B Entertainment|PASTEL|A24|Mars Distribution|Roadshow Films|Phantom Film|Pastel Productions|Plan B/Pastel
+569,Moonlight,GYF41gQTSdm6-wgEAAAMR,drama,acquired,2016-01-01,,6655.0,2021-05-31 03:00:00,2024-05-01 02:59:00,CARIBBEAN,Plan B Entertainment|PASTEL|A24|Mars Distribution|Roadshow Films|Phantom Film|Pastel Productions|Plan B/Pastel
+570,Moonlight,GYF41gQTSdm6-wgEAAAMR,drama,acquired,2016-01-01,,6655.0,2021-05-31 03:00:00,2024-05-01 02:59:00,ARGENTINA,Plan B Entertainment|PASTEL|A24|Mars Distribution|Roadshow Films|Phantom Film|Pastel Productions|Plan B/Pastel
+571,The Killing of a Sacred Deer,GYJ1qmAvgjazDWwEAAAB5,suspense,acquired,2017-01-01,,7247.0,2021-12-15 06:00:00,2025-06-03 04:59:00,COLOMBIA,Screen Ireland|A24 Films|Irish Film Board|Haut et Court|Element Pictures|Feelgood Entertainment|Channel Four Television Corp.|New Sparta Productions|New Sparta Films Limted|Ep Sacred Deer Limited|Film4|Hanway Films|Lucky Red
+572,The Killing of a Sacred Deer,GYJ1qmAvgjazDWwEAAAB5,suspense,acquired,2017-01-01,,7247.0,2021-12-15 06:00:00,2025-06-03 02:59:00,BRAZIL,Screen Ireland|A24 Films|Irish Film Board|Haut et Court|Element Pictures|Feelgood Entertainment|Channel Four Television Corp.|New Sparta Productions|New Sparta Films Limted|Ep Sacred Deer Limited|Film4|Hanway Films|Lucky Red
+573,The Killing of a Sacred Deer,GYJ1qmAvgjazDWwEAAAB5,suspense,acquired,2017-01-01,,7247.0,2021-12-15 06:00:00,2025-06-03 02:59:00,REST OF LATAM,Screen Ireland|A24 Films|Irish Film Board|Haut et Court|Element Pictures|Feelgood Entertainment|Channel Four Television Corp.|New Sparta Productions|New Sparta Films Limted|Ep Sacred Deer Limited|Film4|Hanway Films|Lucky Red
+574,The Killing of a Sacred Deer,GYJ1qmAvgjazDWwEAAAB5,suspense,acquired,2017-01-01,,7247.0,2021-12-15 06:00:00,2025-06-03 02:59:00,CARIBBEAN,Screen Ireland|A24 Films|Irish Film Board|Haut et Court|Element Pictures|Feelgood Entertainment|Channel Four Television Corp.|New Sparta Productions|New Sparta Films Limted|Ep Sacred Deer Limited|Film4|Hanway Films|Lucky Red
+575,The Killing of a Sacred Deer,GYJ1qmAvgjazDWwEAAAB5,suspense,acquired,2017-01-01,,7247.0,2021-12-15 06:00:00,2025-06-03 04:59:00,MEXICO,Screen Ireland|A24 Films|Irish Film Board|Haut et Court|Element Pictures|Feelgood Entertainment|Channel Four Television Corp.|New Sparta Productions|New Sparta Films Limted|Ep Sacred Deer Limited|Film4|Hanway Films|Lucky Red
+576,The Killing of a Sacred Deer,GYJ1qmAvgjazDWwEAAAB5,suspense,acquired,2017-01-01,,7247.0,2021-12-15 06:00:00,2025-06-03 02:59:00,ARGENTINA,Screen Ireland|A24 Films|Irish Film Board|Haut et Court|Element Pictures|Feelgood Entertainment|Channel Four Television Corp.|New Sparta Productions|New Sparta Films Limted|Ep Sacred Deer Limited|Film4|Hanway Films|Lucky Red
+577,The New World,GYGQM-wRot4jDXAEAAAKE,action,acquired,2005-12-25,,7961.0,2022-10-26 23:00:00,2024-03-07 23:59:00,PORTUGAL,Sunflower Productions LLC|Sarah Green Film Corp|New Line Cinema
+578,The New World,GYGQM-wRot4jDXAEAAAKE,action,acquired,2005-12-25,,7961.0,2021-06-01 03:00:00,2022-08-30 02:59:00,CARIBBEAN,Sunflower Productions LLC|Sarah Green Film Corp|New Line Cinema
+579,The New World,GYGQM-wRot4jDXAEAAAKE,action,acquired,2005-12-25,,7961.0,2021-06-01 03:00:00,2022-08-30 02:59:00,ARGENTINA,Sunflower Productions LLC|Sarah Green Film Corp|New Line Cinema
+580,The New World,GYGQM-wRot4jDXAEAAAKE,action,acquired,2005-12-25,,7961.0,2021-06-01 05:00:00,2022-08-30 04:59:00,MEXICO,Sunflower Productions LLC|Sarah Green Film Corp|New Line Cinema
+581,The New World,GYGQM-wRot4jDXAEAAAKE,action,acquired,2005-12-25,,7961.0,2021-06-01 05:00:00,2022-08-30 04:59:00,COLOMBIA,Sunflower Productions LLC|Sarah Green Film Corp|New Line Cinema
+582,The New World,GYGQM-wRot4jDXAEAAAKE,action,acquired,2005-12-25,,7961.0,2021-12-09 23:00:00,2022-10-25 21:59:59,NORDICS,Sunflower Productions LLC|Sarah Green Film Corp|New Line Cinema
+583,The New World,GYGQM-wRot4jDXAEAAAKE,action,acquired,2005-12-25,,7961.0,2021-01-11 00:00:00,2021-01-12 23:59:59,PORTUGAL,Sunflower Productions LLC|Sarah Green Film Corp|New Line Cinema
+584,The New World,GYGQM-wRot4jDXAEAAAKE,action,acquired,2005-12-25,,7961.0,2021-06-01 03:00:00,2022-08-30 02:59:00,REST OF LATAM,Sunflower Productions LLC|Sarah Green Film Corp|New Line Cinema
+585,The New World,GYGQM-wRot4jDXAEAAAKE,action,acquired,2005-12-25,,7961.0,2021-06-01 03:00:00,2022-08-30 02:59:00,BRAZIL,Sunflower Productions LLC|Sarah Green Film Corp|New Line Cinema
+586,The Kitchen,GXhzsZA8cqx_DTgEAAADY,crime,acquired,2019-09-20,2019-09-20,6153.0,2020-03-29 00:00:00,2020-12-01 10:59:00,HBO MAX DOMESTIC,WARNER BROS. INC.
+587,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:00:00,2100-01-01 03:59:00,CARIBBEAN,"Warner Bros. Inc., Warner Media Direct, LLC"
+588,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:01:00,2032-11-23 21:59:00,ROMANIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+589,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:00:00,2100-01-01 02:59:00,ARGENTINA,"Warner Bros. Inc., Warner Media Direct, LLC"
+590,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:00:00,2100-01-01 05:59:00,MEXICO,"Warner Bros. Inc., Warner Media Direct, LLC"
+591,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:01:00,2032-11-23 21:59:00,BULGARIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+592,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:01:00,2026-05-06 03:59:00,HBO MAX DOMESTIC,"Warner Bros. Inc., Warner Media Direct, LLC"
+593,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:01:00,2032-11-23 22:59:00,NETHERLANDS,"Warner Bros. Inc., Warner Media Direct, LLC"
+594,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:01:00,2032-11-23 22:59:00,ADRIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+595,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:01:00,2032-11-23 22:59:00,SPAIN,"Warner Bros. Inc., Warner Media Direct, LLC"
+596,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:00:00,2100-01-01 02:59:00,BRAZIL,"Warner Bros. Inc., Warner Media Direct, LLC"
+597,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:01:00,2032-11-23 22:59:00,NORDICS,"Warner Bros. Inc., Warner Media Direct, LLC"
+598,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:01:00,2032-11-23 23:59:00,PORTUGAL,"Warner Bros. Inc., Warner Media Direct, LLC"
+599,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:00:00,2100-01-01 02:59:00,REST OF LATAM,"Warner Bros. Inc., Warner Media Direct, LLC"
+600,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:00:00,2100-01-01 04:59:00,COLOMBIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+601,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:01:00,2032-11-23 22:59:00,CZECHIA_SLOVAKIA,"Warner Bros. Inc., Warner Media Direct, LLC"
+602,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:01:00,2032-11-23 22:59:00,POLAND,"Warner Bros. Inc., Warner Media Direct, LLC"
+603,A Christmas Mystery,GY2QUhg4BOJ_DwgEAAAD-,comedy,acquired,2022-01-01,,5224.0,2022-11-24 08:01:00,2032-11-23 22:59:00,HUNGARY,"Warner Bros. Inc., Warner Media Direct, LLC"
+604,Life As A House,GYIjcnwBLS7K9wgEAAABu,comedy,acquired,2001-10-26,,7520.0,2021-05-31 03:00:00,2022-01-01 02:59:00,ARGENTINA,New Line Cinema|Avery Pix
+605,Life As A House,GYIjcnwBLS7K9wgEAAABu,comedy,acquired,2001-10-26,,7520.0,2021-05-31 03:00:00,2022-01-01 03:59:00,CARIBBEAN,New Line Cinema|Avery Pix
+606,Life As A House,GYIjcnwBLS7K9wgEAAABu,comedy,acquired,2001-10-26,,7520.0,2021-05-31 05:00:00,2022-01-01 05:59:00,MEXICO,New Line Cinema|Avery Pix
+607,Life As A House,GYIjcnwBLS7K9wgEAAABu,comedy,acquired,2001-10-26,,7520.0,2021-05-31 03:00:00,2022-01-01 02:59:00,REST OF LATAM,New Line Cinema|Avery Pix
+608,Life As A House,GYIjcnwBLS7K9wgEAAABu,comedy,acquired,2001-10-26,,7520.0,2021-05-31 03:00:00,2022-01-01 02:59:00,BRAZIL,New Line Cinema|Avery Pix
+609,Life As A House,GYIjcnwBLS7K9wgEAAABu,comedy,acquired,2001-10-26,,7520.0,2021-05-31 05:00:00,2022-01-01 04:59:00,COLOMBIA,New Line Cinema|Avery Pix
+610,Boiler Room,GYGbliAIoO6-skgEAAAAu,crime,acquired,2000-02-18,,7169.0,2021-08-01 03:01:00,2022-11-03 02:59:00,CARIBBEAN,New Line Cinema
+611,Boiler Room,GYGbliAIoO6-skgEAAAAu,crime,acquired,2000-02-18,,7169.0,2021-02-28 03:00:00,2021-03-01 02:59:00,BRAZIL,New Line Cinema
+612,Boiler Room,GYGbliAIoO6-skgEAAAAu,crime,acquired,2000-02-18,,7169.0,2021-08-01 05:01:00,2022-11-03 04:59:00,COLOMBIA,New Line Cinema
+613,Boiler Room,GYGbliAIoO6-skgEAAAAu,crime,acquired,2000-02-18,,7169.0,2021-02-28 03:00:00,2021-03-01 02:59:00,ARGENTINA,New Line Cinema
+614,Boiler Room,GYGbliAIoO6-skgEAAAAu,crime,acquired,2000-02-18,,7169.0,2021-08-01 05:01:00,2022-11-03 02:59:00,ARGENTINA,New Line Cinema
+615,Boiler Room,GYGbliAIoO6-skgEAAAAu,crime,acquired,2000-02-18,,7169.0,2021-08-01 03:01:00,2022-11-03 02:59:00,REST OF LATAM,New Line Cinema
+616,Boiler Room,GYGbliAIoO6-skgEAAAAu,crime,acquired,2000-02-18,,7169.0,2021-02-28 04:00:00,2021-03-01 03:59:00,CARIBBEAN,New Line Cinema
+617,Boiler Room,GYGbliAIoO6-skgEAAAAu,crime,acquired,2000-02-18,,7169.0,2021-08-01 05:01:00,2022-11-03 02:59:00,BRAZIL,New Line Cinema
+618,Boiler Room,GYGbliAIoO6-skgEAAAAu,crime,acquired,2000-02-18,,7169.0,2021-08-01 05:01:00,2022-11-03 05:59:00,MEXICO,New Line Cinema
+619,Boiler Room,GYGbliAIoO6-skgEAAAAu,crime,acquired,2000-02-18,,7169.0,2021-02-28 03:00:00,2021-03-01 02:59:00,REST OF LATAM,New Line Cinema
+620,Boiler Room,GYGbliAIoO6-skgEAAAAu,crime,acquired,2000-02-18,,7169.0,2021-02-28 06:00:00,2021-03-01 05:59:00,MEXICO,New Line Cinema
+621,Boiler Room,GYGbliAIoO6-skgEAAAAu,crime,acquired,2000-02-18,,7169.0,2021-02-28 05:00:00,2021-03-01 04:59:00,COLOMBIA,New Line Cinema
+622,Now You See Me,GYSVFDQdYcW1AigEAAAN9,action,acquired,2013-05-31,,6779.0,2022-07-06 05:00:00,2023-03-02 04:59:00,COLOMBIA,Summit Entertainment
+623,Now You See Me,GYSVFDQdYcW1AigEAAAN9,action,acquired,2013-05-31,,6779.0,2021-09-06 22:00:00,2021-11-04 23:00:00,SPAIN,Summit Entertainment
+624,Now You See Me,GYSVFDQdYcW1AigEAAAN9,action,acquired,2013-05-31,,6779.0,2023-11-01 07:01:00,2024-07-01 03:59:00,HBO MAX DOMESTIC,Summit Entertainment
+625,Now You See Me,GYSVFDQdYcW1AigEAAAN9,action,acquired,2013-05-31,,6779.0,2022-07-06 05:00:00,2023-03-02 02:59:00,BRAZIL,Summit Entertainment
+626,Now You See Me,GYSVFDQdYcW1AigEAAAN9,action,acquired,2013-05-31,,6779.0,2022-07-06 05:00:00,2023-03-02 05:59:00,MEXICO,Summit Entertainment
+627,Now You See Me,GYSVFDQdYcW1AigEAAAN9,action,acquired,2013-05-31,,6779.0,2022-07-06 05:00:00,2023-03-02 02:59:00,ARGENTINA,Summit Entertainment
+628,Now You See Me,GYSVFDQdYcW1AigEAAAN9,action,acquired,2013-05-31,,6779.0,2022-07-06 05:00:00,2023-03-02 02:59:00,REST OF LATAM,Summit Entertainment
+629,Now You See Me,GYSVFDQdYcW1AigEAAAN9,action,acquired,2013-05-31,,6779.0,2021-08-29 22:00:00,2022-05-23 22:00:00,NORDICS,Summit Entertainment
+630,Now You See Me,GYSVFDQdYcW1AigEAAAN9,action,acquired,2013-05-31,,6779.0,2022-07-06 05:00:00,2023-03-02 03:59:00,CARIBBEAN,Summit Entertainment
+631,Koyaanisqatsi,GZOXlzwwgzZaQVgEAAAeC,documentary,acquired,1982-01-01,,4957.0,2023-10-15 21:00:00,2024-09-30 20:59:00,ROMANIA,Institute for Regional Education|MGM Studios|Folkets Bio|MGM Home Entertainment|Image Entertainment|New Line Cinema
+632,Koyaanisqatsi,GZOXlzwwgzZaQVgEAAAeC,documentary,acquired,1982-01-01,,4957.0,2023-10-15 22:00:00,2024-09-30 21:59:00,ADRIA,Institute for Regional Education|MGM Studios|Folkets Bio|MGM Home Entertainment|Image Entertainment|New Line Cinema
+633,Koyaanisqatsi,GZOXlzwwgzZaQVgEAAAeC,documentary,acquired,1982-01-01,,4957.0,2023-10-15 22:00:00,2024-09-30 21:59:00,HUNGARY,Institute for Regional Education|MGM Studios|Folkets Bio|MGM Home Entertainment|Image Entertainment|New Line Cinema
+634,Koyaanisqatsi,GZOXlzwwgzZaQVgEAAAeC,documentary,acquired,1982-01-01,,4957.0,2023-10-15 22:00:00,2024-09-30 21:59:00,POLAND,Institute for Regional Education|MGM Studios|Folkets Bio|MGM Home Entertainment|Image Entertainment|New Line Cinema
+635,Koyaanisqatsi,GZOXlzwwgzZaQVgEAAAeC,documentary,acquired,1982-01-01,,4957.0,2023-10-15 22:00:00,2024-09-30 21:59:00,CZECHIA_SLOVAKIA,Institute for Regional Education|MGM Studios|Folkets Bio|MGM Home Entertainment|Image Entertainment|New Line Cinema
+636,Koyaanisqatsi,GZOXlzwwgzZaQVgEAAAeC,documentary,acquired,1982-01-01,,4957.0,2023-10-15 21:00:00,2024-09-30 20:59:00,BULGARIA,Institute for Regional Education|MGM Studios|Folkets Bio|MGM Home Entertainment|Image Entertainment|New Line Cinema
+637,50/50,GYr22VwVeNniVwwEAAAAM,comedy,acquired,2011-01-01,,5755.0,2022-07-05 22:00:00,2023-06-29 21:59:00,NORDICS,Summit Entertainment|Point Grey|Metropolitan Filmexport|Film1|Mandate Pictures|Point Grey Pictures|Entertainment One
+638,50/50,GYr22VwVeNniVwwEAAAAM,comedy,acquired,2011-01-01,,5755.0,2023-02-20 23:00:00,2023-09-07 21:59:00,NETHERLANDS,Summit Entertainment|Point Grey|Metropolitan Filmexport|Film1|Mandate Pictures|Point Grey Pictures|Entertainment One
+639,50/50,GYr22VwVeNniVwwEAAAAM,comedy,acquired,2011-01-01,,5755.0,2021-01-10 23:00:00,2021-01-12 22:59:00,NETHERLANDS,Summit Entertainment|Point Grey|Metropolitan Filmexport|Film1|Mandate Pictures|Point Grey Pictures|Entertainment One
+640,The Death Of Dick Long,GY-zxSQRXnqKZwgEAAAIk,comedy,acquired,2019-01-01,,5769.0,2023-03-02 23:00:00,2024-08-31 21:59:00,CZECHIA_SLOVAKIA,A24
+641,The Death Of Dick Long,GY-zxSQRXnqKZwgEAAAIk,comedy,acquired,2019-01-01,,5769.0,2023-03-02 22:00:00,2024-08-31 20:59:00,ROMANIA,A24
+642,The Death Of Dick Long,GY-zxSQRXnqKZwgEAAAIk,comedy,acquired,2019-01-01,,5769.0,2023-03-02 22:00:00,2024-08-31 20:59:00,BULGARIA,A24
+643,The Death Of Dick Long,GY-zxSQRXnqKZwgEAAAIk,comedy,acquired,2019-01-01,,5769.0,2023-03-02 23:00:00,2024-08-31 21:59:00,HUNGARY,A24
+644,The Death Of Dick Long,GY-zxSQRXnqKZwgEAAAIk,comedy,acquired,2019-01-01,,5769.0,2023-03-02 23:00:00,2024-08-31 21:59:00,POLAND,A24
+645,The Death Of Dick Long,GY-zxSQRXnqKZwgEAAAIk,comedy,acquired,2019-01-01,,5769.0,2023-03-02 23:00:00,2024-08-31 21:59:00,ADRIA,A24
+646,Bodies Bodies Bodies,GY7SGbgLrwMPDwgEAAAir,horror,acquired,2022-01-01,,5559.0,2023-05-11 22:00:00,2024-05-06 21:59:00,POLAND,A24|2AM
+647,Bodies Bodies Bodies,GY7SGbgLrwMPDwgEAAAir,horror,acquired,2022-01-01,,5559.0,2023-05-11 22:00:00,2024-05-06 21:59:00,CZECHIA_SLOVAKIA,A24|2AM
+648,Bodies Bodies Bodies,GY7SGbgLrwMPDwgEAAAir,horror,acquired,2022-01-01,,5559.0,2023-02-03 06:00:00,2024-05-03 02:59:00,BRAZIL,A24|2AM
+649,Bodies Bodies Bodies,GY7SGbgLrwMPDwgEAAAir,horror,acquired,2022-01-01,,5559.0,2023-05-11 21:00:00,2024-05-06 20:59:00,ROMANIA,A24|2AM
+650,Bodies Bodies Bodies,GY7SGbgLrwMPDwgEAAAir,horror,acquired,2022-01-01,,5559.0,2023-05-11 22:00:00,2024-05-06 21:59:00,HUNGARY,A24|2AM
+651,Bodies Bodies Bodies,GY7SGbgLrwMPDwgEAAAir,horror,acquired,2022-01-01,,5559.0,2023-02-03 06:00:00,2024-05-03 02:59:00,REST OF LATAM,A24|2AM
+652,Bodies Bodies Bodies,GY7SGbgLrwMPDwgEAAAir,horror,acquired,2022-01-01,,5559.0,2023-02-03 06:00:00,2024-05-03 04:59:00,COLOMBIA,A24|2AM
+653,Bodies Bodies Bodies,GY7SGbgLrwMPDwgEAAAir,horror,acquired,2022-01-01,,5559.0,2023-02-03 06:00:00,2024-05-03 04:59:00,MEXICO,A24|2AM
+654,Bodies Bodies Bodies,GY7SGbgLrwMPDwgEAAAir,horror,acquired,2022-01-01,,5559.0,2023-05-11 22:00:00,2024-05-06 21:59:00,ADRIA,A24|2AM
+655,Bodies Bodies Bodies,GY7SGbgLrwMPDwgEAAAir,horror,acquired,2022-01-01,,5559.0,2023-02-03 06:00:00,2024-05-03 02:59:00,CARIBBEAN,A24|2AM
+656,Bodies Bodies Bodies,GY7SGbgLrwMPDwgEAAAir,horror,acquired,2022-01-01,,5559.0,2023-05-11 21:00:00,2024-05-06 20:59:00,BULGARIA,A24|2AM
+657,Bodies Bodies Bodies,GY7SGbgLrwMPDwgEAAAir,horror,acquired,2022-01-01,,5559.0,2023-02-03 06:00:00,2024-05-03 02:59:00,ARGENTINA,A24|2AM
+658,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2022-11-02 06:00:00,2024-02-01 05:59:00,MEXICO,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+659,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2022-11-02 06:00:00,2024-02-01 02:59:00,ARGENTINA,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+660,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2021-11-10 06:00:00,2022-08-18 04:59:00,MEXICO,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+661,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2022-11-02 05:00:00,2024-02-01 03:59:00,CARIBBEAN,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+662,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2021-11-10 06:00:00,2022-08-18 02:59:00,ARGENTINA,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+663,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2021-10-01 07:01:00,2022-01-01 04:59:00,HBO MAX DOMESTIC,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+664,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2022-11-02 06:00:00,2024-02-01 04:59:00,COLOMBIA,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+665,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2022-11-02 06:00:00,2024-02-01 02:59:00,REST OF LATAM,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+666,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2022-11-02 06:00:00,2024-02-01 02:59:00,BRAZIL,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+667,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2021-11-10 06:00:00,2022-08-18 02:59:00,CARIBBEAN,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+668,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2022-01-01 05:00:00,2023-01-01 04:59:00,HBO MAX DOMESTIC,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+669,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2020-11-01 08:01:00,2021-01-01 04:59:00,HBO MAX DOMESTIC,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+670,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2020-06-01 07:01:00,2020-08-01 03:59:00,HBO MAX DOMESTIC,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+671,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2021-11-10 06:00:00,2022-08-18 04:59:00,COLOMBIA,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+672,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2021-11-10 06:00:00,2022-08-18 02:59:00,REST OF LATAM,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+673,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2021-11-10 06:00:00,2022-08-18 02:59:00,BRAZIL,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+674,The Time Traveler's Wife,GXrHxIweO4a2brQEAAAC7,fantasy & sci-fi,acquired,2009-08-14,,6355.0,2023-03-16 23:00:00,2023-09-07 21:59:00,NETHERLANDS,New Line Cinema|Plan B Entertainment|Nick Wechsler Productions
+675,The Last Witch Hunter,GYOfdrQUJEsI-wgEAAAUy,horror,acquired,2021-07-07,,6230.0,2022-05-23 22:00:00,2023-04-30 21:59:00,SPAIN,Canton Productions|BF Distribution|ONE RACE FILMS|Goldmann Pictures|Summit Entertainment|Atmosphere Entertainment MM|Entertainment One
+676,The Last Witch Hunter,GYOfdrQUJEsI-wgEAAAUy,horror,acquired,2021-07-07,,6230.0,2021-07-28 03:00:00,2023-07-01 02:59:00,CARIBBEAN,Canton Productions|BF Distribution|ONE RACE FILMS|Goldmann Pictures|Summit Entertainment|Atmosphere Entertainment MM|Entertainment One
+677,The Last Witch Hunter,GYOfdrQUJEsI-wgEAAAUy,horror,acquired,2021-07-07,,6230.0,2021-07-28 05:00:00,2023-07-01 05:59:00,MEXICO,Canton Productions|BF Distribution|ONE RACE FILMS|Goldmann Pictures|Summit Entertainment|Atmosphere Entertainment MM|Entertainment One
+678,The Last Witch Hunter,GYOfdrQUJEsI-wgEAAAUy,horror,acquired,2021-07-07,,6230.0,2021-07-28 05:00:00,2023-07-01 04:59:00,COLOMBIA,Canton Productions|BF Distribution|ONE RACE FILMS|Goldmann Pictures|Summit Entertainment|Atmosphere Entertainment MM|Entertainment One
+679,The Last Witch Hunter,GYOfdrQUJEsI-wgEAAAUy,horror,acquired,2021-07-07,,6230.0,2021-07-28 03:00:00,2023-07-01 02:59:00,ARGENTINA,Canton Productions|BF Distribution|ONE RACE FILMS|Goldmann Pictures|Summit Entertainment|Atmosphere Entertainment MM|Entertainment One
+680,The Last Witch Hunter,GYOfdrQUJEsI-wgEAAAUy,horror,acquired,2021-07-07,,6230.0,2021-07-28 03:00:00,2023-07-01 02:59:00,BRAZIL,Canton Productions|BF Distribution|ONE RACE FILMS|Goldmann Pictures|Summit Entertainment|Atmosphere Entertainment MM|Entertainment One
+681,The Last Witch Hunter,GYOfdrQUJEsI-wgEAAAUy,horror,acquired,2021-07-07,,6230.0,2021-01-10 23:00:00,2021-01-12 22:59:00,SPAIN,Canton Productions|BF Distribution|ONE RACE FILMS|Goldmann Pictures|Summit Entertainment|Atmosphere Entertainment MM|Entertainment One
+682,The Last Witch Hunter,GYOfdrQUJEsI-wgEAAAUy,horror,acquired,2021-07-07,,6230.0,2021-07-28 03:00:00,2023-07-01 02:59:00,REST OF LATAM,Canton Productions|BF Distribution|ONE RACE FILMS|Goldmann Pictures|Summit Entertainment|Atmosphere Entertainment MM|Entertainment One
+683,The Last Witch Hunter,GYOfdrQUJEsI-wgEAAAUy,horror,acquired,2021-07-07,,6230.0,2022-08-13 22:00:00,2024-03-31 21:59:00,NETHERLANDS,Canton Productions|BF Distribution|ONE RACE FILMS|Goldmann Pictures|Summit Entertainment|Atmosphere Entertainment MM|Entertainment One
+684,Pearl,GZNYJ6AjY1wetOgEAAAAC,horror,acquired,2022-09-16,,6152.0,2023-10-06 06:00:00,2024-12-25 03:59:00,CARIBBEAN,BRON Creative|Little Lamb|A24
+685,Pearl,GZNYJ6AjY1wetOgEAAAAC,horror,acquired,2022-09-16,,6152.0,2023-10-06 06:00:00,2024-12-25 02:59:00,REST OF LATAM,BRON Creative|Little Lamb|A24
+686,Pearl,GZNYJ6AjY1wetOgEAAAAC,horror,acquired,2022-09-16,,6152.0,2023-10-06 06:00:00,2024-12-25 04:59:00,COLOMBIA,BRON Creative|Little Lamb|A24
+687,Pearl,GZNYJ6AjY1wetOgEAAAAC,horror,acquired,2022-09-16,,6152.0,2023-10-06 06:00:00,2024-12-25 05:59:00,MEXICO,BRON Creative|Little Lamb|A24
+688,Pearl,GZNYJ6AjY1wetOgEAAAAC,horror,acquired,2022-09-16,,6152.0,2023-10-06 06:00:00,2024-12-25 02:59:00,ARGENTINA,BRON Creative|Little Lamb|A24
+689,Hot Pursuit,GZOXlfwfbusMrwwEAAAcG,comedy,,2015-01-01,,5034.0,2023-09-30 22:00:00,2024-09-30 21:59:00,HUNGARY,Metro-Goldwyn-Mayer|New Line Cinema|Warner Bros Pictures|Warner Home Video|Warner Bros.|Pacific Standard|MGM Studios|Foxy
+690,Hot Pursuit,GZOXlfwfbusMrwwEAAAcG,comedy,,2015-01-01,,5034.0,2023-09-30 21:00:00,2024-09-30 20:59:00,BULGARIA,Metro-Goldwyn-Mayer|New Line Cinema|Warner Bros Pictures|Warner Home Video|Warner Bros.|Pacific Standard|MGM Studios|Foxy
+691,Hot Pursuit,GZOXlfwfbusMrwwEAAAcG,comedy,,2015-01-01,,5034.0,2023-09-30 22:00:00,2024-09-30 21:59:00,POLAND,Metro-Goldwyn-Mayer|New Line Cinema|Warner Bros Pictures|Warner Home Video|Warner Bros.|Pacific Standard|MGM Studios|Foxy
+692,Hot Pursuit,GZOXlfwfbusMrwwEAAAcG,comedy,,2015-01-01,,5034.0,2023-09-30 21:00:00,2024-09-30 20:59:00,ROMANIA,Metro-Goldwyn-Mayer|New Line Cinema|Warner Bros Pictures|Warner Home Video|Warner Bros.|Pacific Standard|MGM Studios|Foxy
+693,Hot Pursuit,GZOXlfwfbusMrwwEAAAcG,comedy,,2015-01-01,,5034.0,2023-09-30 22:00:00,2024-09-30 21:59:00,ADRIA,Metro-Goldwyn-Mayer|New Line Cinema|Warner Bros Pictures|Warner Home Video|Warner Bros.|Pacific Standard|MGM Studios|Foxy
+694,Hot Pursuit,GZOXlfwfbusMrwwEAAAcG,comedy,,2015-01-01,,5034.0,2023-09-30 22:00:00,2024-09-30 21:59:00,CZECHIA_SLOVAKIA,Metro-Goldwyn-Mayer|New Line Cinema|Warner Bros Pictures|Warner Home Video|Warner Bros.|Pacific Standard|MGM Studios|Foxy
+695,Gods of Egypt,GYQFvlgidZ660hQEAAACs,action,acquired,2021-11-17,,7423.0,2021-11-24 06:00:00,2023-09-01 02:59:00,ARGENTINA,Pyramania|Summit Entertainment
+696,Gods of Egypt,GYQFvlgidZ660hQEAAACs,action,acquired,2021-11-17,,7423.0,2021-11-24 06:00:00,2023-09-01 02:59:00,REST OF LATAM,Pyramania|Summit Entertainment
+697,Gods of Egypt,GYQFvlgidZ660hQEAAACs,action,acquired,2021-11-17,,7423.0,2021-08-01 22:00:00,2022-01-17 23:00:00,SPAIN,Pyramania|Summit Entertainment
+698,Gods of Egypt,GYQFvlgidZ660hQEAAACs,action,acquired,2021-11-17,,7423.0,2021-11-24 06:00:00,2023-09-01 02:59:00,CARIBBEAN,Pyramania|Summit Entertainment
+699,Gods of Egypt,GYQFvlgidZ660hQEAAACs,action,acquired,2021-11-17,,7423.0,2021-11-24 06:00:00,2023-09-01 02:59:00,BRAZIL,Pyramania|Summit Entertainment
+700,Gods of Egypt,GYQFvlgidZ660hQEAAACs,action,acquired,2021-11-17,,7423.0,2021-11-24 06:00:00,2023-09-01 04:59:00,COLOMBIA,Pyramania|Summit Entertainment
+701,Gods of Egypt,GYQFvlgidZ660hQEAAACs,action,acquired,2021-11-17,,7423.0,2022-06-08 23:00:00,2023-11-12 23:59:00,PORTUGAL,Pyramania|Summit Entertainment
+702,Gods of Egypt,GYQFvlgidZ660hQEAAACs,action,acquired,2021-11-17,,7423.0,2021-11-24 06:00:00,2023-09-01 05:59:00,MEXICO,Pyramania|Summit Entertainment
+703,Willard,GXk2j4Arr-I7CZgEAACRd,horror,acquired,1971-01-01,1971-01-01,5705.0,2021-01-01 11:00:00,2021-10-01 07:00:00,HBO MAX DOMESTIC,"SHOUT FACTORY, LLC"
+704,Low Tide,GY00UMwpMk5C_wwEAAAFe,drama,acquired,2019-01-01,,4944.0,2022-11-03 22:00:00,2024-04-30 20:59:59,BULGARIA,Odenkirk Provissiero|Mister Smith Entertainment|Neighborhood Watch|Odenkirk Provissiero Entertainment|Automatik|A24 Films|Head Gear Films|A24
+705,Low Tide,GY00UMwpMk5C_wwEAAAFe,drama,acquired,2019-01-01,,4944.0,2022-11-03 22:00:00,2024-04-30 20:59:59,ROMANIA,Odenkirk Provissiero|Mister Smith Entertainment|Neighborhood Watch|Odenkirk Provissiero Entertainment|Automatik|A24 Films|Head Gear Films|A24
+706,Low Tide,GY00UMwpMk5C_wwEAAAFe,drama,acquired,2019-01-01,,4944.0,2022-11-03 23:00:00,2024-04-30 21:59:59,ADRIA,Odenkirk Provissiero|Mister Smith Entertainment|Neighborhood Watch|Odenkirk Provissiero Entertainment|Automatik|A24 Films|Head Gear Films|A24
+707,Low Tide,GY00UMwpMk5C_wwEAAAFe,drama,acquired,2019-01-01,,4944.0,2022-11-03 23:00:00,2024-04-30 21:59:59,HUNGARY,Odenkirk Provissiero|Mister Smith Entertainment|Neighborhood Watch|Odenkirk Provissiero Entertainment|Automatik|A24 Films|Head Gear Films|A24
+708,Low Tide,GY00UMwpMk5C_wwEAAAFe,drama,acquired,2019-01-01,,4944.0,2022-11-03 23:00:00,2024-04-30 21:59:59,POLAND,Odenkirk Provissiero|Mister Smith Entertainment|Neighborhood Watch|Odenkirk Provissiero Entertainment|Automatik|A24 Films|Head Gear Films|A24
+709,Low Tide,GY00UMwpMk5C_wwEAAAFe,drama,acquired,2019-01-01,,4944.0,2022-11-03 23:00:00,2024-04-30 21:59:59,CZECHIA_SLOVAKIA,Odenkirk Provissiero|Mister Smith Entertainment|Neighborhood Watch|Odenkirk Provissiero Entertainment|Automatik|A24 Films|Head Gear Films|A24
+710,The Disaster Artist,GYW8XuAgnycPCJwEAAAAD,comedy,acquired,2017-12-01,,6078.0,2022-04-13 05:00:00,2022-06-29 02:59:00,REST OF LATAM,New Line Cinema|A24 Good Universe
+711,The Disaster Artist,GYW8XuAgnycPCJwEAAAAD,comedy,acquired,2017-12-01,,6078.0,2022-04-13 05:00:00,2022-06-29 02:59:00,ARGENTINA,New Line Cinema|A24 Good Universe
+712,The Disaster Artist,GYW8XuAgnycPCJwEAAAAD,comedy,acquired,2017-12-01,,6078.0,2021-02-28 06:00:00,2021-03-01 03:59:00,CARIBBEAN,New Line Cinema|A24 Good Universe
+713,The Disaster Artist,GYW8XuAgnycPCJwEAAAAD,comedy,acquired,2017-12-01,,6078.0,2022-04-13 05:00:00,2022-06-29 02:59:00,BRAZIL,New Line Cinema|A24 Good Universe
+714,The Disaster Artist,GYW8XuAgnycPCJwEAAAAD,comedy,acquired,2017-12-01,,6078.0,2022-06-02 22:00:00,2023-04-30 21:59:00,NETHERLANDS,New Line Cinema|A24 Good Universe
+715,The Disaster Artist,GYW8XuAgnycPCJwEAAAAD,comedy,acquired,2017-12-01,,6078.0,2022-04-13 05:00:00,2022-06-29 04:59:00,COLOMBIA,New Line Cinema|A24 Good Universe
+716,The Disaster Artist,GYW8XuAgnycPCJwEAAAAD,comedy,acquired,2017-12-01,,6078.0,2022-04-13 05:00:00,2022-06-29 04:59:00,MEXICO,New Line Cinema|A24 Good Universe
+717,The Disaster Artist,GYW8XuAgnycPCJwEAAAAD,comedy,acquired,2017-12-01,,6078.0,2021-12-09 23:00:00,2022-10-25 21:59:59,NORDICS,New Line Cinema|A24 Good Universe
+718,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-04 22:00:00,2023-02-12 22:59:00,CZECHIA_SLOVAKIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+719,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-05 05:01:00,2024-09-01 04:59:00,COLOMBIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+720,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-05 05:01:00,2024-09-01 05:59:00,MEXICO,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+721,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-04 22:00:00,2024-06-19 21:59:00,SPAIN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+722,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2020-06-26 07:01:00,2027-01-01 04:59:00,HBO MAX DOMESTIC,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+723,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-04 22:00:00,2023-02-12 22:59:00,HUNGARY,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+724,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-05 03:01:00,2024-09-01 02:59:00,BRAZIL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+725,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-05 03:01:00,2024-09-01 02:59:00,ARGENTINA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+726,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-04 21:00:00,2023-02-12 21:59:00,ROMANIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+727,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-04 21:00:00,2023-02-12 21:59:00,BULGARIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+728,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2021-01-10 23:00:00,2021-01-11 23:00:00,NORDICS,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+729,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-09-30 22:00:00,2024-03-31 21:59:00,NETHERLANDS,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+730,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-04 22:00:00,2023-02-12 22:59:00,POLAND,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+731,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-05 03:01:00,2024-09-01 02:59:00,CARIBBEAN,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+732,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-04 23:00:00,2023-01-03 23:59:00,PORTUGAL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+733,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-04 22:00:00,2023-02-12 22:59:00,ADRIA,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+734,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2023-02-03 23:00:00,2024-01-31 22:59:00,NORDICS,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+735,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2023-02-25 00:00:00,2024-02-16 23:59:00,PORTUGAL,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+736,Scoob!,GXtf0UwTqw8JHjQEAAAbT,comedy,acquired,2020-01-01,,5470.0,2022-10-05 03:01:00,2024-09-01 02:59:00,REST OF LATAM,"Warner Bros. Domestic Television Distribution, Warner Media Direct, LLC"
+737,Zola,GYk7_Hwa5mL61wwEAAAAO,crime,acquired,2020-01-24,,5184.0,2022-04-11 05:00:00,2024-06-01 02:59:00,REST OF LATAM,Gigi Films|A24|Killer Films|Ramona Films
+738,Zola,GYk7_Hwa5mL61wwEAAAAO,crime,acquired,2020-01-24,,5184.0,2022-04-11 05:00:00,2024-06-01 02:59:00,ARGENTINA,Gigi Films|A24|Killer Films|Ramona Films
+739,Zola,GYk7_Hwa5mL61wwEAAAAO,crime,acquired,2020-01-24,,5184.0,2022-04-11 05:00:00,2024-06-01 02:59:00,CARIBBEAN,Gigi Films|A24|Killer Films|Ramona Films
+740,Zola,GYk7_Hwa5mL61wwEAAAAO,crime,acquired,2020-01-24,,5184.0,2022-04-11 05:00:00,2024-06-01 04:59:00,COLOMBIA,Gigi Films|A24|Killer Films|Ramona Films
+741,Zola,GYk7_Hwa5mL61wwEAAAAO,crime,acquired,2020-01-24,,5184.0,2022-04-11 05:00:00,2024-06-01 04:59:00,MEXICO,Gigi Films|A24|Killer Films|Ramona Films
+742,Zola,GYk7_Hwa5mL61wwEAAAAO,crime,acquired,2020-01-24,,5184.0,2022-04-11 05:00:00,2024-06-01 02:59:00,BRAZIL,Gigi Films|A24|Killer Films|Ramona Films
+743,2047: Sights of Death,GYJH0ywjHJsPCTQEAAAB0,action,acquired,2014-01-01,,5370.0,2021-05-31 03:00:00,2023-07-01 02:59:00,BRAZIL,AMBI Pictures|Red New Line|Canal+
+744,2047: Sights of Death,GYJH0ywjHJsPCTQEAAAB0,action,acquired,2014-01-01,,5370.0,2021-05-31 03:00:00,2023-07-01 02:59:00,CARIBBEAN,AMBI Pictures|Red New Line|Canal+
+745,2047: Sights of Death,GYJH0ywjHJsPCTQEAAAB0,action,acquired,2014-01-01,,5370.0,2021-05-31 05:00:00,2023-07-01 04:59:00,COLOMBIA,AMBI Pictures|Red New Line|Canal+
+746,2047: Sights of Death,GYJH0ywjHJsPCTQEAAAB0,action,acquired,2014-01-01,,5370.0,2021-05-31 03:00:00,2023-07-01 02:59:00,ARGENTINA,AMBI Pictures|Red New Line|Canal+
+747,2047: Sights of Death,GYJH0ywjHJsPCTQEAAAB0,action,acquired,2014-01-01,,5370.0,2021-05-31 05:00:00,2023-07-01 05:59:00,MEXICO,AMBI Pictures|Red New Line|Canal+
+748,2047: Sights of Death,GYJH0ywjHJsPCTQEAAAB0,action,acquired,2014-01-01,,5370.0,2021-05-31 03:00:00,2023-07-01 02:59:00,REST OF LATAM,AMBI Pictures|Red New Line|Canal+
+749,A Ghost Story,GYsgbcAryPGB2wgEAAAAC,drama,acquired,2022-07-01,,5561.0,2022-07-20 05:00:00,2023-10-01 02:59:00,REST OF LATAM,A24 Films
+750,A Ghost Story,GYsgbcAryPGB2wgEAAAAC,drama,acquired,2022-07-01,,5561.0,2022-07-20 05:00:00,2023-10-01 05:59:00,MEXICO,A24 Films
+751,A Ghost Story,GYsgbcAryPGB2wgEAAAAC,drama,acquired,2022-07-01,,5561.0,2022-07-20 05:00:00,2023-10-01 02:59:00,ARGENTINA,A24 Films
+752,A Ghost Story,GYsgbcAryPGB2wgEAAAAC,drama,acquired,2022-07-01,,5561.0,2022-07-20 05:00:00,2023-10-01 02:59:00,CARIBBEAN,A24 Films
+753,A Ghost Story,GYsgbcAryPGB2wgEAAAAC,drama,acquired,2022-07-01,,5561.0,2022-07-20 05:00:00,2023-10-01 04:59:00,COLOMBIA,A24 Films
+754,Don Juan DeMarco,GYGLZhgtYo1iPYQEAAABw,comedy,acquired,1995-04-07,,5827.0,2021-06-29 03:00:00,2021-09-01 02:59:00,REST OF LATAM,American Zoetrope Production|New Line Productions
+755,Don Juan DeMarco,GYGLZhgtYo1iPYQEAAABw,comedy,acquired,1995-04-07,,5827.0,2021-06-29 03:00:00,2021-09-01 02:59:00,CARIBBEAN,American Zoetrope Production|New Line Productions
+756,Don Juan DeMarco,GYGLZhgtYo1iPYQEAAABw,comedy,acquired,1995-04-07,,5827.0,2021-06-29 05:00:00,2021-09-01 04:59:00,COLOMBIA,American Zoetrope Production|New Line Productions
+757,Don Juan DeMarco,GYGLZhgtYo1iPYQEAAABw,comedy,acquired,1995-04-07,,5827.0,2021-06-29 05:00:00,2021-09-01 04:59:00,MEXICO,American Zoetrope Production|New Line Productions
+758,Don Juan DeMarco,GYGLZhgtYo1iPYQEAAABw,comedy,acquired,1995-04-07,,5827.0,2021-06-29 03:00:00,2021-09-01 02:59:00,BRAZIL,American Zoetrope Production|New Line Productions
+759,Don Juan DeMarco,GYGLZhgtYo1iPYQEAAABw,comedy,acquired,1995-04-07,,5827.0,2021-06-29 03:00:00,2021-09-01 02:59:00,ARGENTINA,American Zoetrope Production|New Line Productions
+760,"Good Luck to You, Leo Grande",GY8FYvAl506-1mgEAAArj,comedy,acquired,2022-01-01,,5578.0,2023-02-02 23:00:00,2024-01-31 22:59:00,CZECHIA_SLOVAKIA,Hulu|Searchlight Pictures|Genesius Pictures|Cornerstone Films|Align
+761,"Good Luck to You, Leo Grande",GY8FYvAl506-1mgEAAArj,comedy,acquired,2022-01-01,,5578.0,2023-02-02 23:00:00,2024-01-31 22:59:00,HUNGARY,Hulu|Searchlight Pictures|Genesius Pictures|Cornerstone Films|Align
+762,"Good Luck to You, Leo Grande",GY8FYvAl506-1mgEAAArj,comedy,acquired,2022-01-01,,5578.0,2023-05-11 21:00:00,2024-04-30 20:59:00,BULGARIA,Hulu|Searchlight Pictures|Genesius Pictures|Cornerstone Films|Align
+763,"Good Luck to You, Leo Grande",GY8FYvAl506-1mgEAAArj,comedy,acquired,2022-01-01,,5578.0,2023-05-11 22:00:00,2024-04-30 21:59:00,ADRIA,Hulu|Searchlight Pictures|Genesius Pictures|Cornerstone Films|Align
+764,"Good Luck to You, Leo Grande",GY8FYvAl506-1mgEAAArj,comedy,acquired,2022-01-01,,5578.0,2023-02-02 22:00:00,2024-01-31 21:59:00,ROMANIA,Hulu|Searchlight Pictures|Genesius Pictures|Cornerstone Films|Align
+765,How to Be Single,GV-BPaQSKT8JMwwEAAACP,comedy,acquired,2016-02-12,2016-02-12,6586.0,2021-06-01 07:01:00,2022-06-01 07:00:00,HBO MAX DOMESTIC,WARNER BROS. INC.
+766,Climax,GYpUGOQuc6sLDBgEAAABG,horror,acquired,2018-01-01,,5572.0,2022-06-02 22:00:00,2025-05-31 21:59:59,POLAND,Wild Bunch International|Vice Media|Les Cinemas de la Zone|Rectangle Productions|A24|Wild Bunch Distribution|Arte France Cinéma|Eskwad|Artemis Productions
+767,La Vie En Rose,GYd6fegaNu4G-wgEAAAfe,drama,acquired,2007-06-10,,8067.0,2022-01-11 00:00:00,2022-06-29 22:59:59,PORTUGAL,TF1 FILMS|New Line
+768,In Love and War,GZBNExw5Pu5fDVQEAABIm,drama,acquired,1996-01-01,,6526.0,2023-04-06 23:00:00,2024-03-31 22:59:00,PORTUGAL,New Line Productions|New Line Home Entertainment|Metropolitan Filmexport|In Association With Dimitri Villard Productions|Dimitri Villard Productions|Warner Home Video|Entertainment Film Distributors|New Line Cinema
+769,Rock of Ages,GX42i2wFVsqDDwwEAAAAF,comedy,acquired,2012-06-15,2012-06-15,7401.0,2020-12-01 11:00:00,2021-07-01 07:00:00,HBO MAX DOMESTIC,WARNER BROS. INC.
+770,The Man,GY3byBgsUiMPCLwEAAAEM,drama,acquired,2017-01-01,,5387.0,2022-12-01 23:00:00,2023-04-30 21:59:00,NORDICS,Nimbus Film
+771,Midsommar,GYh-RzwgoC6_DfgEAAAAD,horror,acquired,2019-01-01,,8459.0,2022-03-07 23:00:00,2023-09-07 21:59:00,NETHERLANDS,A24
+772,First Reformed,GZO4fBwQUmIu7uAEAAAAa,drama,acquired,2017-01-01,,6525.0,2023-10-19 22:00:00,2024-09-30 21:59:00,POLAND,A24|Killer Films|Arclight Films|Omeira Studio Partners|Fibonacci Films|Arclight Films International
+773,Everything Everywhere All at Once,GZJrONAIWo7DCLQEAAA7T,action,acquired,2022-01-01,,8017.0,2023-06-30 23:00:00,2024-06-30 22:59:00,PORTUGAL,A24|IAC Films|AGBO
+774,The Kill Team,GYuFN8AWHlL3CaQEAAA06,action,acquired,2019-01-01,,5064.0,2022-08-26 22:00:00,2024-03-31 21:59:00,NETHERLANDS,A24|Corner Stone Films|Nostromo Pictures|Temple Hill Entertainment
+775,Lights Out,GWZsaUQkr0bXCLwEAAABn,horror,acquired,2016-07-22,2016-07-22,4755.0,2020-06-01 10:00:00,2020-12-11 10:59:00,HBO MAX DOMESTIC,WARNER BROS. INC.
+776,Lights Out,GWZsaUQkr0bXCLwEAAABn,horror,acquired,2016-07-22,2016-07-22,4755.0,2021-09-06 22:00:00,2022-05-30 22:00:00,SPAIN,WARNER BROS. INC.
+777,Naked,GY1ZnkQK4JpZQjgEAAAFn,comedy,acquired,1993-01-01,,7558.0,2022-11-08 23:00:00,2024-10-31 22:59:00,NORDICS,New Line Cinema|Fine Line Features|British Screen|Warner Home Video|Sony Pictures Home Entertainment|Film Four International|Thin Man Films|First Independent|Thin Man Productions
+778,The Farewell,GYrQ6rg066IaJrAEAAAEA,comedy,acquired,2019-01-01,,5760.0,2022-09-13 22:00:00,2022-12-30 23:00:00,NORDICS,A24|Big Beach|Depth of Field Productions|Kindred Spirit|Big Beach Films|Depth of Field|ADS Service
+779,First Cow,GZJrN-AFtU06aKQEAAA77,drama,acquired,2020-01-01,,7009.0,2023-07-20 22:00:00,2023-12-31 22:59:00,NORDICS,A24|Film Science|IAC Films|Scott Rudin Productions
+780,Magnolia,GXrQWiQPZl77DwgEAAABw,drama,acquired,1999-12-17,1999-12-17,11314.0,2020-07-01 10:00:00,2021-02-01 10:59:00,HBO MAX DOMESTIC,WARNER BROS. INC.
