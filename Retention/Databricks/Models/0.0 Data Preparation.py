@@ -15,7 +15,7 @@ with meta_data as (
      FROM bolt_dcp_brd_prod.gold.content_metadata_reporting_asset_dim_combined rad
      where asset_type = 'FEATURE'
      and rad.PROGRAM_ID_SOURCE not in ('HBO_MAX')
-     and series_title_long not null
+     and series_title_long is not null
      GROUP BY ALL)
 
 
@@ -78,7 +78,8 @@ medal = spark.sql('''
                   SELECT DISTINCT
                   WBD_MAX_SERIES_ID_OR_HBOMAX_TITLE_ID as ckg_series_id
                   , COALESCE(c.season_number, 0) as season_number
-                  , MAX(c.cumulative_viewing_subscribers/p.viewing_subscribers*100) as percent_cumulative_viewing_subscribers
+                  , MAX(c.cumulative_viewing_subscribers) AS cumulative_viewing_subscribers
+                  , MAX(c.cumulative_viewing_subscribers/p.viewing_subscribers) as percent_cumulative_viewing_subscribers
                   , MAX(c.cumulative_subscription_first_views/p.subscription_first_views*100) as percent_cumulative_first_views
                   FROM bolt_dai_ce_prod.gold.cumulative_content_viewership_pst c
                   JOIN bolt_cus_dev.bronze.cumulative_platform_viewership_pst p
@@ -100,6 +101,8 @@ medal = spark.sql('''
                         when percent_cumulative_viewing_subscribers > 5 or percent_cumulative_first_views > 2.5 then 'Silver'
                         else 'Bronze'
                         end as observed_medal
+                  , percent_cumulative_viewing_subscribers
+                  , cumulative_viewing_subscribers
                   FROM viewership
                   ''').toPandas()
 
@@ -111,9 +114,9 @@ title_info = title_info.merge(medal, on = ['ckg_series_id', 'season_number'], ho
 
 # COMMAND ----------
 
-# title_info_df = spark.createDataFrame(title_info)
-# spark.sql('DROP TABLE bolt_cus_dev.bronze.cip_title_series_level_metadata')
-# title_info_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_series_level_metadata")
+title_info_df = spark.createDataFrame(title_info)
+spark.sql('DROP TABLE bolt_cus_dev.bronze.cip_title_series_level_metadata')
+title_info_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_series_level_metadata")
 
 # COMMAND ----------
 
@@ -127,12 +130,6 @@ title_info = spark.sql('''
 ### SANITY CHECK ####
 title_test = title_info.groupby(['ckg_series_id', 'season_number']).count()
 title_test[title_test['title_name'] == 2]
-
-# COMMAND ----------
-
-spark.sql('''SELECT * FROM 
-          bolt_dai_subs_prod.gold.max_legacy_user_mapping_global
-          LIMIT 10''')
 
 # COMMAND ----------
 
@@ -306,6 +303,13 @@ data.head()
 
 # COMMAND ----------
 
+data.columns = [i.replace(' ', '').replace('&', '_') for i in data.columns]
+data_df = spark.createDataFrame(data)
+spark.sql('drop table bolt_cus_dev.bronze.cip_title_segment_viewership_training_data')
+data_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_segment_viewership_training_data")
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC CORRELATION
 
@@ -377,8 +381,8 @@ sns.heatmap(corr, mask=np.zeros_like(corr, dtype=np.bool), cmap=sns.diverging_pa
 
 data.columns = [i.replace(' ', '').replace('&', '_') for i in data.columns]
 data_df = spark.createDataFrame(data)
-spark.sql('drop table bolt_cus_dev.bronze.cip_title_segment_viewership_training_data')
-data_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_segment_viewership_training_data")
+# spark.sql('drop table bolt_cus_dev.bronze.cip_title_segment_viewership_training_data')
+# data_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_segment_viewership_training_data")
 
 # COMMAND ----------
 

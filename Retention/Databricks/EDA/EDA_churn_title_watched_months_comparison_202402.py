@@ -70,8 +70,8 @@ def get_equal_churn_bin(df_in, grpby):
     df['title_viewed_bin_bucket'] = pd.cut(df['monthly_title_viewed'], bins,include_lowest =True)
     df['churn'] = 1*df['is_cancel']  
     
-    df_bin = df.groupby(['title_viewed_bin_bucket']+grpby).agg({'churn':'mean', 'user_id':'count',
-                                                         'is_cancel':'sum','monthly_title_viewed':'sum'}).reset_index()
+    df_bin = df.groupby(['title_viewed_bin_bucket']+grpby).agg({'churn':'mean','invol_churn':'mean','vol_churn':'mean',
+                                                                'user_id':'count', 'is_cancel':'sum','monthly_title_viewed':'sum'}).reset_index()
     
     df_bin['user_dist'] = df_bin['user_id']/df_bin['user_id'].sum()
     df_bin['title_viewed_bin'] = df_bin['title_viewed_bin_bucket'].apply(lambda x: (x.left+x.right)/2)
@@ -278,10 +278,61 @@ def get_churn_slope_plot_simple(df_i, title, params, x_med=0):
 
 # COMMAND ----------
 
-target_month = '2023-12-01'
+# target_month = '2023-12-01'
+# df_60_00 = spark.sql('''
+#       WITH new_library AS (
+#       SELECT s.*
+#                      , CASE WHEN r.start_date <= '{target_month}' and r.recency_window_end >= '{target_month}' and 
+#                         (year('{target_month}') = r.median_release_year OR year('{target_month}') = r.release_year_plusone)
+#                         THEN 'current'
+#                         ELSE 'library'
+#                         END AS old_new
+#       FROM bolt_cus_dev.bronze.cip_churn_user_stream60d_genpop_20231201 s
+#       left join bolt_cus_dev.bronze.cip_recency_title_offering_table r
+#          on s.ckg_program_id = r.ckg_program_id
+#       )
+#       SELECT user_id, profile_id, is_cancel, is_voluntary, sub_month
+#             , sum(hours_viewed) as hours_viewed
+#             , count(distinct ckg_series_id) as titles_viewed
+#             , count(distinct (CASE WHEN old_new = 'current' THEN ckg_series_id else null END)) 
+#                as new_titles_viewed
+#             , count(distinct (CASE WHEN old_new = 'library' THEN ckg_series_id else null END)) 
+#                as library_titles_viewed
+#       FROM new_library
+#       GROUP BY ALL
+#                      '''.format(target_month = target_month)).toPandas()
+# # cip_churn_user_stream60d_genpop_new_lib_202401
+# # cip_churn_user_stream60d_genpop_new_lib_202310
 
 # COMMAND ----------
 
+# target_month = '2023-10-01'
+# df_60_00 = spark.sql('''
+#       WITH new_library AS (
+#       SELECT s.*
+#                      , CASE WHEN r.start_date <= '{target_month}' and r.recency_window_end >= '{target_month}' and 
+#                         (year('{target_month}') = r.median_release_year OR year('{target_month}') = r.release_year_plusone)
+#                         THEN 'current'
+#                         ELSE 'library'
+#                         END AS old_new
+#       FROM bolt_cus_dev.bronze.cip_churn_user_stream60d_genpop_20231001 s
+#       left join bolt_cus_dev.bronze.cip_recency_title_offering_table r
+#          on s.ckg_program_id = r.ckg_program_id
+#       )
+#       SELECT user_id, profile_id, is_cancel, is_voluntary, sub_month
+#             , sum(hours_viewed) as hours_viewed
+#             , count(distinct ckg_series_id) as titles_viewed
+#             , count(distinct (CASE WHEN old_new = 'current' THEN ckg_series_id else null END)) 
+#                as new_titles_viewed
+#             , count(distinct (CASE WHEN old_new = 'library' THEN ckg_series_id else null END)) 
+#                as library_titles_viewed
+#       FROM new_library
+#       GROUP BY ALL
+#                      '''.format(target_month = target_month)).toPandas()
+
+# COMMAND ----------
+
+target_month = '2024-02-01'
 df_60_00 = spark.sql('''
       WITH new_library AS (
       SELECT s.*
@@ -290,7 +341,7 @@ df_60_00 = spark.sql('''
                         THEN 'current'
                         ELSE 'library'
                         END AS old_new
-      FROM bolt_cus_dev.bronze.cip_churn_user_stream60d_genpop_20231201 s
+      FROM bolt_cus_dev.bronze.cip_churn_user_stream60d_genpop_20240201 s
       left join bolt_cus_dev.bronze.cip_recency_title_offering_table r
          on s.ckg_program_id = r.ckg_program_id
       )
@@ -304,14 +355,16 @@ df_60_00 = spark.sql('''
       FROM new_library
       GROUP BY ALL
                      '''.format(target_month = target_month)).toPandas()
-# cip_churn_user_stream60d_genpop_new_lib_202401
-# cip_churn_user_stream60d_genpop_new_lib_202310
+
+# COMMAND ----------
+
+df_60_00.head()
 
 # COMMAND ----------
 
 metric_cols = ['hours_viewed', 'titles_viewed', 'new_titles_viewed', 'library_titles_viewed']
 df_60_00=get_df_test(df_60_00, metric_cols)
-df_list = get_df_60_h([df_60_00]) #, df_60_0, df_60_1, df_60_2])
+df_list = get_df_60_h([df_60_00])#, df_60_1, df_60_2])
 df_60 = pd.concat(df_list)
 display(df_60.head())
 
@@ -321,13 +374,12 @@ df_60.user_id.nunique()
 
 # COMMAND ----------
 
-df_60 = df_60[df_60['titles_viewed'] > 0].copy()
-df_60 = df_60[df_60.tenure_months>1]
+df_60 = df_60[df_60['titles_viewed']>0]
 
 # COMMAND ----------
 
 df_60[(df_60['is_voluntary'] == 0)&(df_60['is_cancel'] == 1)].user_id.nunique()/df_60[(df_60['is_cancel'] == 1)].user_id.nunique()
-###### Invol churn distribution #####
+###### Invol churn distribution ##### 0.37
 
 # COMMAND ----------
 
@@ -348,130 +400,14 @@ df_60_s = get_equal_churn_bin(df_60_t, [])
 
 # COMMAND ----------
 
-# df_60_s = get_churn_bin(df_60_t, [])
+df_60_s = get_churn_bin(df_60_t, [])
 # ## Get median 
-# med_x= df_60_t.monthly_title_viewed.median()
+med_x= df_60_t.monthly_title_viewed.median()
 
 # Plot the Churve 
 fig, params = get_churn_plot_simple(df_60_s[(df_60_s['title_viewed_bin']<15)], 
                                     seg_name, param_dict, np.array(med_x))
 med_dict[seg_name] = med_x
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC # Distribution
-
-# COMMAND ----------
-
-df_60['monthly_hours_viewed'] = df_60['monthly_hours_viewed'].astype('float')
-df_60['monthly_title_viewed'] = df_60['monthly_title_viewed'].astype('float')
-df_60_t = df_60.groupby(by=['user_id','is_cancel','sub_month',])\
-            [['monthly_hours_viewed', 'monthly_title_viewed']].sum().reset_index()
-df_60_s = get_churn_bin(df_60_t, [])
-
-user_total = df_60_s.groupby(['sub_month'])['user_id'].transform('sum')
-df_60_s['Composition'] = df_60_s['user_id']/user_total
-
-# df_60_s[df_60_s['title_viewed_bin_mid']<10].Composition.sum()/6 ##  91% people watched < 10 titles
-
-# COMMAND ----------
-
-fig = px.bar(df_60_s[(df_60_s['title_viewed_bin']<10) & (df_60_s['sub_month']<10) & (df_60_s['sub_month']>1)], 
-             x="title_viewed_bin", y="Composition",
-             color='sub_month', barmode='group',
-             height=400)
-fig.layout.yaxis.tickformat = ',.0%'
-fig.show()
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC # BY TENURE
-
-# COMMAND ----------
-
-# ####
-# df_60_00 = spark.sql('SELECT * FROM bolt_cus_dev.bronze.churn_user_stream60d_segmented_20231201').toPandas()
-# df_60_00['tenure_months'] = df_60_00['sub_month']
-# df_60_00['monthly_title_viewed'] = np.where(df_60_00['tenure_months']>1, df_60_00['titles_viewed']/2, df_60_00['titles_viewed'])
-# df_60_00['monthly_hours_viewed'] = np.where(df_60_00['tenure_months']>1, df_60_00['hours_viewed']/2, df_60_00['hours_viewed'])
-
-# df_60_00['monthly_hours_viewed']  = df_60_00['monthly_hours_viewed'].astype(float)
-
-# COMMAND ----------
-
-df_60_final = df_60.copy()
-# df_60_final = df_60_final[df_60_final['sub_month'] == 1]
-# df_60_final.loc[df_60_final['sub_month']>=10, 'sub_month'] = '10+'
-# df_60_final['sub_month'] = df_60_final['sub_month'].astype(str)
-
-# COMMAND ----------
-
-mapping_dict = {1:'month_1_to_3', 2:'month_2_to_3', 3:'month_2_to_3', 4:'month_4_to_6', 5:'month_4_to_6', 6:'month_4_to_6', 7:'month_7_to_12', 8:'month_7_to_12', 9:'month_7_to_12', 10:'month_7_to_12', 11:'month_7_to_12', 12:'month_7_to_12'}
-df_60_final['tenure_bucket'] = df_60_final['sub_month'].map(mapping_dict).fillna('month_13+')
-
-# COMMAND ----------
-
-param_dict = {}
-med_dict = {}
-
-for i in df_60_final['tenure_bucket'].unique():
-    df_seg_amw= df_60_final[df_60_final['tenure_bucket'] == i]
-
-    df_60_t = df_seg_amw.groupby(by=['user_id','is_cancel','sub_month'])[['monthly_hours_viewed', 'monthly_title_viewed']].sum().reset_index()
-    df_60_s = get_churn_bin(df_60_t, [])
-
-    med_x= df_60_t.monthly_title_viewed.median()
-    fig, params = get_churn_plot_simple(df_60_s[df_60_s['title_viewed_bin']<15], 
-                                        i, param_dict, np.array(med_x))
-    
-    med_dict[i] = med_x
-
-# COMMAND ----------
-
-fig = go.Figure()
-i = 0
-for m in df_60_final['tenure_bucket'].unique():
-    color_discrete_sequence=["red", "green", "blue", "goldenrod", "magenta", "orange", "purple"]+px.colors.qualitative.Plotly
-    color_cur = color_discrete_sequence[i]
-
-    df_seg_amw= df_60_final[df_60_final['tenure_bucket'] == m]
-    df_60_t = df_seg_amw.groupby(by=['user_id','is_cancel','sub_month'])[['monthly_hours_viewed', 'monthly_title_viewed']].sum().reset_index()
-    df_60_s = get_churn_bin(df_60_t, [])
-    med_x= df_60_t.monthly_title_viewed.median()
-
-    fig.add_trace(
-        go.Scatter(
-            mode='lines',
-            x=df_60_s.title_viewed_bin,
-            y=df_60_s.churn,
-            marker=dict(
-                color=color_cur,
-                size=20,
-                line=dict(
-                    color=color_cur,
-                    width=2
-                )
-            ),
-            showlegend=True,
-            name = 'month '+ m
-        )
-    )   
-    
-    i = i+1
-
-fig.update_layout(
-    template='simple_white',
-    # showlegend=True,
-    xaxis=dict(range=[0,45]),
-    
-) 
-fig.show()
-
-# COMMAND ----------
-
-df_60_s ## >20, 11000/284593
 
 # COMMAND ----------
 
@@ -483,33 +419,6 @@ df_60_s ## >20, 11000/284593
 df_60['tenure_bucket'] = 'tenure month 2+'
 df_60 = df_60[df_60['sub_month'] > 1]
 df_60.new_titles_viewed.sum()/df_60.groupby(['tenure_bucket']).titles_viewed.sum()
-
-# COMMAND ----------
-
-df_60_t = df_60.groupby(by=['user_id','tenure_bucket'])[['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
-df_60_t_content = df_60.groupby(by=['user_id','is_cancel', 'tenure_bucket', 'old_new'])[['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
-
-# COMMAND ----------
-
-df_final = df_60_t_content.merge(df_60_t.rename(columns = {'monthly_title_viewed':'total_title_viewed', 'monthly_hours_viewed':'total_hours_viewed'}), 
-                                on = ['user_id','tenure_bucket'])
-df_final['frac'] = df_final['monthly_title_viewed']/df_final['total_title_viewed']
-
-# COMMAND ----------
-
-df_final.head()
-
-# COMMAND ----------
-
-df_final = df_final[df_final['frac'].notnull()]
-
-# COMMAND ----------
-
-df_final[df_final['frac'] < 1]['user_id'].nunique()/df_final['user_id'].nunique() # 53% users watched mixed content
-
-# COMMAND ----------
-
-df_final[(df_final['frac'] < 1) & (df_final['old_new'] == 'current')]['monthly_title_viewed'].sum()/df_final[df_final['frac'] < 1]['monthly_title_viewed'].sum() ### OUT OF THE MIXED CONTENT WATCHED, 14% of the content watched are new content
 
 # COMMAND ----------
 
@@ -566,9 +475,10 @@ def churn_plot_new_library(df_60, m, groupby_col=[], exclusive = False):
 
 
     ##### ADD BY Category ######
-    for i in df_60[groupby_col].unique():
+    for i in ['monthly_new_titles_viewed', 'monthly_library_titles_viewed']:
         
-        df_seg_amw= df_60[(df_60[groupby_col] == i)]
+        df_seg_amw= df_60.copy()
+        df_seg_amw['monthly_title_viewed'] = df_seg_amw[i]
 
         if exclusive == True:
             print( 'Mutually Exclusive')
@@ -578,7 +488,7 @@ def churn_plot_new_library(df_60, m, groupby_col=[], exclusive = False):
                 df_seg_amw = df_seg_amw[~df_seg_amw['user_id'].isin(df_library.user_id)]
 
 
-        df_60_t = df_seg_amw.groupby(by=['user_id','is_cancel','sub_month'])[['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
+        df_60_t = df_seg_amw.groupby(by=['user_id','is_cancel','sub_month']+groupby_col)[['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
         df_60_s = get_equal_churn_bin(df_60_t, [])
         df_60_s['title_viewed_bin'] = df_60_s['title_viewed_bin'].astype(float)
         output_df[i] = df_60_s
@@ -605,9 +515,9 @@ def churn_plot_new_library(df_60, m, groupby_col=[], exclusive = False):
         fig.add_trace(go.Scatter(x=x_fit, y=y_fit, mode='lines', showlegend=True, name = i+' content', line_color = color))
         # fig.add_scatter(x=df_60_s.title_viewed_bin, y=df_60_s.churn, showlegend=False)
         fig.add_scatter(x=np.array(med_x), y=np.array(y_med), mode='markers', marker=dict(size=10, color='red', line=dict(color='black', width=1)), showlegend=False)
-        fig.add_scatter(x=df_60_s.title_viewed_bin, y=exponential_decay(df_60_s.title_viewed_bin, a_fit, b_fit, c_fit), 
-                        showlegend=False, error_y = dict(type = 'data', array = df_60_s.sdv, visible = True),
-                        name = i+' error bars', mode='markers', marker = dict(color = color))
+        # fig.add_scatter(x=df_60_s.title_viewed_bin, y=exponential_decay(df_60_s.title_viewed_bin, a_fit, b_fit, c_fit), 
+        #                 showlegend=False, error_y = dict(type = 'data', array = df_60_s.sdv, visible = True),
+        #                 name = i+' error bars', mode='markers', marker = dict(color = color))
 
 
     fig.update_layout(
@@ -625,11 +535,48 @@ df_60['monthly_title_viewed'] = df_60['monthly_title_viewed'].astype('float')
 
 # COMMAND ----------
 
+df_60.loc[(df_60['is_voluntary'] == 1) & (df_60['is_cancel']==1), 'vol_churn'] = 1
+df_60.loc[(df_60['is_voluntary'] == 0) & (df_60['is_cancel']==1), 'invol_churn'] = 1
+df_60['vol_churn'] = df_60['vol_churn'].fillna(0)
+df_60['invol_churn'] = df_60['invol_churn'].fillna(0)
+
+# COMMAND ----------
+
+df_60.head()
+
+# COMMAND ----------
+
+def get_equal_churn_bin(df_in, grpby):
+    # df = df_in[df_in.monthly_hours_viewed<=60]
+    # df = df_in.groupby(by=['user_id','sub_month']+ grpby +['is_cancel']).sum().reset_index()
+    # nbins = int(df.monthly_title_viewed.max())
+    # df['title_viewed_bin_bucket'] = pd.cut(df['monthly_title_viewed'], np.linspace(0,nbins,2*nbins+1))
+    df = df_in
+    
+    bins =[-0.01]
+    bins = bins + np.arange(0, 12.5, 0.5).tolist()
+    bins = bins + np.arange(13, 17, 1.0).tolist()
+    bins = bins + [19.0, df.monthly_title_viewed.max()]
+
+    df['title_viewed_bin_bucket'] = pd.cut(df['monthly_title_viewed'], bins,include_lowest =True)
+    df['churn'] = 1*df['is_cancel']  
+    
+    df_bin = df.groupby(['title_viewed_bin_bucket']+grpby).agg({'churn':'mean','invol_churn':'mean','vol_churn':'mean',
+                                                                'user_id':'count', 'is_cancel':'sum','monthly_title_viewed':'sum'}).reset_index()
+    
+    df_bin['user_dist'] = df_bin['user_id']/df_bin['user_id'].sum()
+    df_bin['title_viewed_bin'] = df_bin['title_viewed_bin_bucket'].apply(lambda x: (x.left+x.right)/2)
+    df_bin['title_viewed_bin'] = df_bin['title_viewed_bin'].astype('float')
+    return(df_bin)
+
+# COMMAND ----------
+
 
 def churn_plot_new_library_ouputtable(df_60, m, groupby_col=[], exclusive = False):
 
     # ########## add seg total ####################
-    df_60_t = df_60.groupby(by=['user_id','is_cancel','sub_month'])[['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
+    df_60_t = df_60.groupby(by=['user_id','is_cancel','sub_month', 'invol_churn', 'vol_churn'])\
+                            [['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
     df_60_s = get_equal_churn_bin(df_60_t, [])
     df_60_s['title_viewed_bin'] = df_60_s['title_viewed_bin'].astype(float)
     output_df['total'] = df_60_s
@@ -640,34 +587,38 @@ def churn_plot_new_library_ouputtable(df_60, m, groupby_col=[], exclusive = Fals
         
         df_seg_amw= df_60.copy()
         df_seg_amw['monthly_title_viewed'] = df_seg_amw[i]
-        df_60_t = df_seg_amw.groupby(by=['user_id','is_cancel','sub_month'])[['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
+        df_60_t = df_seg_amw.groupby(by=['user_id','is_cancel','sub_month', 'invol_churn', 'vol_churn'])\
+                            [['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
         df_60_s = get_equal_churn_bin(df_60_t, [])
         df_60_s['title_viewed_bin'] = df_60_s['title_viewed_bin'].astype(float)
         output_df[i] = df_60_s
 
 # COMMAND ----------
 
-groupby_col = 'old_new'
+groupby_col = ['invol_churn', 'vol_churn']
 m = 'tenure 2+'
 output_df = {}
 churn_plot_new_library_ouputtable(df_60,m, groupby_col, exclusive = False)
 
 # COMMAND ----------
 
-output_df.keys()
+for i in output_df.keys():
+    df = output_df[i].copy()
+    df['title_viewed_lower_bound'] = df['title_viewed_bin_bucket'].apply(lambda x: (x.left)).astype(float)
+    df['title_viewed_upper_bound'] = df['title_viewed_bin_bucket'].apply(lambda x: (x.right)).astype(float)
+    df['expiration_month'] = '2024-02'
+    df['level'] = i
+    df = df[['expiration_month', 'level', 'title_viewed_lower_bound', 'title_viewed_upper_bound' , 'title_viewed_bin', 'churn', 'vol_churn', 'invol_churn', 'user_dist', 'user_id', 'is_cancel',]]
+
+    df = spark.createDataFrame(df)
+    df.write.mode("append").saveAsTable("bolt_cus_dev.bronze.cip_monthly_viewers_and_churn_buckets")
+    # break
 
 # COMMAND ----------
 
-output_df['monthly_library_titles_viewed'][['title_viewed_bin_bucket', 'title_viewed_bin', 'churn', 'user_dist', 'user_id', 'is_cancel',]]
-
-# COMMAND ----------
-
-df_test = df_60.groupby(by=['user_id'])[['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
-df_test = df_test[df_test['monthly_title_viewed'] == 1]
-df_1 = df_60[df_60['user_id'].isin(df_test.user_id)]
-df_1 = df_60.groupby(['user_id', 'old_new'])[['monthly_hours_viewed']].sum()/df_60.groupby(['user_id'])[['monthly_hours_viewed']].sum()
-df_1 = df_1.reset_index()
-df_library = df_1[(df_1['old_new']=='library') & (df_1['monthly_hours_viewed']>=0.85)] #80% of the population
+# df_1 = df_60.groupby(['user_id', 'old_new'])[['monthly_hours_viewed']].sum()/df_60.groupby(['user_id'])[['monthly_hours_viewed']].sum()
+# df_1 = df_1.reset_index()
+# df_library = df_1[(df_1['old_new']=='library') & (df_1['monthly_hours_viewed']>=0.85)] #80% of the population
 
 # COMMAND ----------
 

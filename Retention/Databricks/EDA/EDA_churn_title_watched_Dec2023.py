@@ -301,6 +301,10 @@ med_dict = {}
 
 # COMMAND ----------
 
+df_60 = df_60[df_60['titles_viewed'] > 0].copy()
+
+# COMMAND ----------
+
 seg_name = 'gen_pop'
 df_60['monthly_hours_viewed'] = df_60['monthly_hours_viewed'].astype('float')
 df_60['monthly_title_viewed'] = df_60['monthly_title_viewed'].astype('float')
@@ -332,10 +336,6 @@ med_x= df_60_t.monthly_title_viewed.median()
 fig, params = get_churn_plot_simple(df_60_s[(df_60_s['title_viewed_bin']<15)], 
                                     seg_name, param_dict, np.array(med_x))
 med_dict[seg_name] = med_x
-
-# COMMAND ----------
-
-df_60_s
 
 # COMMAND ----------
 
@@ -376,6 +376,11 @@ for seg_name in segment_info['entertainment_segment_lifetime'].unique():
     med_dict[seg_name] = med_x
     # break
         
+
+# COMMAND ----------
+
+param_dict.to_csv(file_path + 'param_dict.csv')
+med_dict.to_csv(file_path + 'med_dict.csv')
 
 # COMMAND ----------
 
