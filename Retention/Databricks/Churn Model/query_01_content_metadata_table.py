@@ -1,72 +1,79 @@
 # Databricks notebook source
-# MAGIC %sql
-# MAGIC CREATE OR REPLACE TABLE bolt_cus_dev.bronze.cip_recency_title_season_level_metadata
-# MAGIC with series_first as (
-# MAGIC     SELECT
-# MAGIC     a.ckg_series_id
-# MAGIC     , min(first_offered_date) as series_window_start
-# MAGIC     , max(first_offered_date) as series_window_end
-# MAGIC     FROM bolt_dai_ckg_prod.gold.reporting_asset_dim_combined a 
-# MAGIC     JOIN bolt_dai_ckg_prod.gold.reporting_asset_offering_dim_combined b 
-# MAGIC         on a.ckg_program_id = b.ckg_program_id 
-# MAGIC         and b.country_code = 'US' 
-# MAGIC     where asset_type = 'FEATURE' 
-# MAGIC     group by all
-# MAGIC )
-# MAGIC
-# MAGIC , metadata as (
-# MAGIC     SELECT 
-# MAGIC     rad.series_title_long as  title_name
-# MAGIC     , rad.ckg_series_id
-# MAGIC     , COALESCE(rad.season_number, 0) as season_number
-# MAGIC     , rad.SERIES_TYPE
-# MAGIC     , mode(rad.PRIMARY_GENRE) as primary_genre
-# MAGIC     , mode(rad.program_type) as program_type
-# MAGIC     , rad.EVER_POPCORN_TITLE AS is_popcorn
-# MAGIC     , CASE WHEN THEATRICAL_RELEASE_DATE IS NOT NULL THEN 1 ELSE 0 END AS is_pay_1
-# MAGIC     , sum(ASSET_RUN_TIME/3600.00) as RUN_TIME_HOURS
-# MAGIC     , MIN(first_offered_date) AS season_window_start
-# MAGIC     , MAX(first_offered_date) AS season_window_end
-# MAGIC      FROM bolt_dcp_brd_prod.gold.content_metadata_reporting_asset_dim_combined rad
-# MAGIC      JOIN bolt_dai_ckg_prod.gold.reporting_asset_offering_dim_combined b 
-# MAGIC         on rad.ckg_program_id = b.ckg_program_id 
-# MAGIC         and b.country_code = 'US' 
-# MAGIC      where asset_type = 'FEATURE'
-# MAGIC      and series_title_long is not null
-# MAGIC      GROUP BY ALL)
-# MAGIC
-# MAGIC , medal_data as (
-# MAGIC   SELECT title_id as ckg_series_id
-# MAGIC   , season_number
-# MAGIC   , medal_us as medal
-# MAGIC   , lob
-# MAGIC   , mode(category) as category
-# MAGIC   FROM bolt_cus_dev.gold.delphi_titles
-# MAGIC   group by all
-# MAGIC ) 
-# MAGIC
-# MAGIC SELECT m.title_name
-# MAGIC , m.ckg_series_id
-# MAGIC , m.season_number
-# MAGIC , m.series_type
-# MAGIC , m.primary_genre
-# MAGIC , m.program_type
-# MAGIC , m.is_popcorn
-# MAGIC , m.is_pay_1
-# MAGIC , m.run_time_hours
-# MAGIC , m.season_window_start
-# MAGIC , m.season_window_end
-# MAGIC , s.series_window_start
-# MAGIC , s.series_window_end
-# MAGIC , CASE WHEN medal.medal IS NULL THEN 'Bronze' ELSE medal.medal END AS medal
-# MAGIC , medal.lob
-# MAGIC , medal.category
-# MAGIC FROM metadata m
-# MAGIC JOIN series_first s ON s.ckg_series_id = m.ckg_series_id
-# MAGIC LEFT JOIN medal_data medal 
-# MAGIC     on medal.ckg_series_id = m.ckg_series_id
-# MAGIC     and medal.season_number = m.season_number
+create_df = spark.sql('''
+CREATE OR REPLACE TABLE bolt_cus_dev.bronze.cip_recency_title_season_level_metadata
+with series_first as (
+    SELECT
+    a.ckg_series_id
+    , min(first_offered_date) as series_window_start
+    , max(first_offered_date) as series_window_end
+    FROM bolt_dai_ckg_prod.gold.reporting_asset_dim_combined a 
+    JOIN bolt_dai_ckg_prod.gold.reporting_asset_offering_dim_combined b 
+        on a.ckg_program_id = b.ckg_program_id 
+        and b.country_code = 'US' 
+    where asset_type = 'FEATURE' 
+    group by all
+)
+
+, metadata as (
+    SELECT 
+    rad.series_title_long as  title_name
+    , rad.ckg_series_id
+    , COALESCE(rad.season_number, 0) as season_number
+    , rad.SERIES_TYPE
+    , mode(rad.PRIMARY_GENRE) as primary_genre
+    , mode(rad.program_type) as program_type
+    , rad.EVER_POPCORN_TITLE AS is_popcorn
+    , CASE WHEN THEATRICAL_RELEASE_DATE IS NOT NULL THEN 1 ELSE 0 END AS is_pay_1
+    , sum(ASSET_RUN_TIME/3600.00) as RUN_TIME_HOURS
+    , MIN(first_offered_date) AS season_window_start
+    , MAX(first_offered_date) AS season_window_end
+     FROM bolt_dcp_brd_prod.gold.content_metadata_reporting_asset_dim_combined rad
+     JOIN bolt_dai_ckg_prod.gold.reporting_asset_offering_dim_combined b 
+        on rad.ckg_program_id = b.ckg_program_id 
+        and b.country_code = 'US' 
+     where asset_type = 'FEATURE'
+     and series_title_long is not null
+     GROUP BY ALL)
+
+, medal_data as (
+  SELECT title_id as ckg_series_id
+  , season_number
+  , medal_us as medal
+  , lob
+  , mode(category) as category
+  FROM bolt_cus_dev.gold.delphi_titles
+  group by all
+) 
+
+SELECT m.title_name
+, m.ckg_series_id
+, m.season_number
+, m.series_type
+, m.primary_genre
+, m.program_type
+, m.is_popcorn
+, m.is_pay_1
+, m.run_time_hours
+, m.season_window_start
+, m.season_window_end
+, s.series_window_start
+, s.series_window_end
+, CASE WHEN medal.medal IS NULL THEN 'Bronze' ELSE medal.medal END AS medal
+, medal.lob
+, medal.category
+FROM metadata m
+JOIN series_first s ON s.ckg_series_id = m.ckg_series_id
+LEFT JOIN medal_data medal 
+    on medal.ckg_series_id = m.ckg_series_id
+    and medal.season_number = m.season_number
+''')
 
 # COMMAND ----------
 
-
+qc = spark.sql('''
+               SELECT ckg_series_id, season_number, count(*) as record_count
+               FROM bolt_cus_dev.bronze.cip_recency_title_season_level_metadata
+               GROUP BY ALL
+               HAVING  record_count > 1
+               ''').toPandas()
+assert len(qc) == 0
