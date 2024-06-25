@@ -1,5 +1,5 @@
 # Databricks notebook source
-create_df = spark.sql('''
+spark.sql('''
 CREATE OR REPLACE TABLE bolt_cus_dev.bronze.cip_recency_title_season_level_metadata
 with series_first as (
     SELECT

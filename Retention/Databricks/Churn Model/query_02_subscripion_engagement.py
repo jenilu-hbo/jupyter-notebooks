@@ -1,5 +1,5 @@
 # Databricks notebook source
-create_df = spark.sql('''
+spark.sql('''
 CREATE OR REPLACE TABLE bolt_cus_dev.bronze.cip_user_stream_subscription_metric
 USING DELTA
 PARTITIONED BY (request_date)
@@ -17,8 +17,8 @@ and hb.CONTENT_MINUTES_WATCHED >= 2
 and hb.video_type = 'main'
 and hb.territory = 'HBO MAX DOMESTIC'
 and hb.CATEGORY = 'retail'
--- and hb.request_date_local >= '2022-01-01'
-and hb.request_date_local = '2023-06-01'
+and hb.request_date_local >= '2022-01-01'
+--and hb.request_date_local = '2023-06-01'
 )
 
 SELECT 

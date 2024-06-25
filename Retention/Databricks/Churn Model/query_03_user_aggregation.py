@@ -1,5 +1,5 @@
 # Databricks notebook source
-create_df = spark.sql('''
+spark.sql('''
 CREATE OR REPLACE TABLE bolt_cus_dev.bronze.cip_user_stream_subscription_metric_agg
 USING DELTA
 PARTITIONED BY (expiration_month)
@@ -30,7 +30,7 @@ coalesce(sub_id_max, sub_id_legacy) as sub_id
 , count(distinct case when series_type = 'series' then ckg_series_id else null end) as series_viewed
 , count(distinct case when series_type = 'movie' then ckg_series_id else null end) as movie_viewed
 , count(distinct case when series_type = 'livesports' then ckg_series_id else null end) as livesports_viewed
-FROM bolt_cus_dev.bronze.cip_user_stream_subscription_metric_dec2023 hb
+FROM bolt_cus_dev.bronze.cip_user_stream_subscription_metric hb
 LEFT JOIN (SELECT DISTINCT user_id, profile_id                -- to get default profile id
           FROM bolt_dai_subs_prod.gold.max_profile_dim_current
           where default_profile_ind = true) mp
