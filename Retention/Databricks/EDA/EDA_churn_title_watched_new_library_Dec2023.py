@@ -31,7 +31,7 @@ def get_df_test(df_test, metric_cols):
     user_total = df_test.groupby(['user_id'])['monthly_title_viewed'].transform('sum')
     df_test['frc'] = df_test['monthly_title_viewed'] / user_total
 
-    df_test = df_test[df_test.tenure_months>1]
+    # df_test = df_test[df_test.tenure_months>1]
     df_test = df_test.fillna(0)
     return(df_test)
 
@@ -317,7 +317,7 @@ display(df_60.head())
 
 # COMMAND ----------
 
-df_60.user_id.nunique()
+df_60.user_id.nunique() #8716058
 
 # COMMAND ----------
 
@@ -401,15 +401,20 @@ fig.show()
 
 # COMMAND ----------
 
-df_60_final = df_60.copy()
-# df_60_final = df_60_final[df_60_final['sub_month'] == 1]
-# df_60_final.loc[df_60_final['sub_month']>=10, 'sub_month'] = '10+'
-# df_60_final['sub_month'] = df_60_final['sub_month'].astype(str)
+df_60_final = df_60[df_60['sub_month']>1].copy()
 
 # COMMAND ----------
 
-mapping_dict = {1:'month_1_to_3', 2:'month_2_to_3', 3:'month_2_to_3', 4:'month_4_to_6', 5:'month_4_to_6', 6:'month_4_to_6', 7:'month_7_to_12', 8:'month_7_to_12', 9:'month_7_to_12', 10:'month_7_to_12', 11:'month_7_to_12', 12:'month_7_to_12'}
+mapping_dict = {1:'month_1_to_3', 2:'month_1_to_3', 3:'month_1_to_3', 4:'month_4_to_6', 5:'month_4_to_6', 6:'month_4_to_6', 7:'month_7_to_12', 8:'month_7_to_12', 9:'month_7_to_12', 10:'month_7_to_12', 11:'month_7_to_12', 12:'month_7_to_12'}
 df_60_final['tenure_bucket'] = df_60_final['sub_month'].map(mapping_dict).fillna('month_13+')
+
+# COMMAND ----------
+
+(df_60_final[df_60_final['new_titles_viewed']>0].groupby(['tenure_bucket'])['user_id'].nunique()/df_60_final.groupby(['tenure_bucket'])['user_id'].nunique())+0.2
+
+# COMMAND ----------
+
+df_60_final[df_60_final['library_titles_viewed']>0].groupby(['tenure_bucket'])['user_id'].nunique()/df_60_final.groupby(['tenure_bucket'])['user_id'].nunique()
 
 # COMMAND ----------
 
@@ -481,7 +486,7 @@ df_60_s ## >20, 11000/284593
 # COMMAND ----------
 
 df_60['tenure_bucket'] = 'tenure month 2+'
-df_60 = df_60[df_60['sub_month'] > 1]
+# df_60 = df_60[df_60['sub_month'] > 1]
 df_60.new_titles_viewed.sum()/df_60.groupby(['tenure_bucket']).titles_viewed.sum()
 
 # COMMAND ----------
@@ -535,7 +540,7 @@ def get_churn_bin_sdv(df_in, grpby, nbins = 100):
 
 # COMMAND ----------
 
-def churn_plot_new_library(df_60, m, groupby_col=[], exclusive = False):
+def churn_plot_new_library(df_60, m, exclusive = False):
     p0 = [0.5, -0.1, 0.01] 
     param_bounds = ([0, -0.8, 0.01], [np.inf, -0.1, np.inf])
 
@@ -558,17 +563,18 @@ def churn_plot_new_library(df_60, m, groupby_col=[], exclusive = False):
     print('y= {:.2f} * e^({:.2f} * title_viewed) + {:.2f}'.format(a_fit, b_fit, c_fit))
 
 
-    fig = px.scatter(title=m, width=600, height=400)
+    fig = px.scatter(title=m)
     fig.add_trace(go.Scatter(x=x_fit, y=y_fit, mode='lines', showlegend=True, name = 'segment total'))
-    fig.add_scatter(x=np.array(med_x), y=np.array(y_med), mode='markers', marker=dict(size=14, color='red', line=dict(color='black', width=2)), showlegend=False)
+    # fig.add_scatter(x=np.array(med_x), y=np.array(y_med), mode='markers', marker=dict(size=14, color='red', line=dict(color='black', width=2)), showlegend=False)
     # fig.add_scatter(x=df_60_s.title_viewed_bin, y=df_60_s.churn, showlegend=True, name = 'Segment Total Raw Data Points', mode='markers')
 
 
 
     ##### ADD BY Category ######
-    for i in df_60[groupby_col].unique():
+    for i in ['monthly_new_titles_viewed', 'monthly_library_titles_viewed']:
         
-        df_seg_amw= df_60[(df_60[groupby_col] == i)]
+        df_seg_amw= df_60.copy()
+        df_seg_amw['monthly_title_viewed'] = df_seg_amw[i]
 
         if exclusive == True:
             print( 'Mutually Exclusive')
@@ -579,9 +585,8 @@ def churn_plot_new_library(df_60, m, groupby_col=[], exclusive = False):
 
 
         df_60_t = df_seg_amw.groupby(by=['user_id','is_cancel','sub_month'])[['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
-        df_60_s = get_equal_churn_bin(df_60_t, [])
+        df_60_s = get_churn_bin(df_60_t, [])
         df_60_s['title_viewed_bin'] = df_60_s['title_viewed_bin'].astype(float)
-        output_df[i] = df_60_s
         df_60_s = df_60_s[df_60_s['title_viewed_bin']<=15]
         med_x= df_60_t.monthly_title_viewed.median()
 
@@ -597,25 +602,42 @@ def churn_plot_new_library(df_60, m, groupby_col=[], exclusive = False):
         print(i+' slope: ' + str('{:.3f}'.format(y_med_slope*100))+'%')
         print('y= {:.2f} * e^({:.2f} * title_viewed) + {:.2f}'.format(a_fit, b_fit, c_fit))
     
-        if i == 'current': 
+        if i == 'monthly_new_titles_viewed': 
             i = 'new'
             color = 'pink'
         else:
             color = 'red'
         fig.add_trace(go.Scatter(x=x_fit, y=y_fit, mode='lines', showlegend=True, name = i+' content', line_color = color))
-        # fig.add_scatter(x=df_60_s.title_viewed_bin, y=df_60_s.churn, showlegend=False)
-        fig.add_scatter(x=np.array(med_x), y=np.array(y_med), mode='markers', marker=dict(size=10, color='red', line=dict(color='black', width=1)), showlegend=False)
-        fig.add_scatter(x=df_60_s.title_viewed_bin, y=exponential_decay(df_60_s.title_viewed_bin, a_fit, b_fit, c_fit), 
-                        showlegend=False, error_y = dict(type = 'data', array = df_60_s.sdv, visible = True),
-                        name = i+' error bars', mode='markers', marker = dict(color = color))
+        fig.add_scatter(x=df_60_s.title_viewed_bin, y=df_60_s.churn, showlegend=True, mode='markers', name = i+'_raw', line_color = color)
+        # fig.add_scatter(x=np.array(med_x), y=np.array(y_med), mode='markers', marker=dict(size=10, color='red', line=dict(color='black', width=1)), showlegend=False)
+        # fig.add_scatter(x=df_60_s.title_viewed_bin, y=exponential_decay(df_60_s.title_viewed_bin, a_fit, b_fit, c_fit), 
+        #                 showlegend=False, error_y = dict(type = 'data', array = df_60_s.sdv, visible = True),
+        #                 name = i+' error bars', mode='markers', marker = dict(color = color))
 
 
     fig.update_layout(
     template='simple_white',
     # showlegend=True,
-    xaxis=dict(range=[0.25,15]),
+    xaxis=dict(range=[0.01,15]),
+    # yaxis=dict(range=[0.00,0.08])
     ) 
     fig.show()
+
+
+# COMMAND ----------
+
+# df_test = df_60.groupby(by=['user_id'])[['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
+# df_test = df_test[df_test['monthly_title_viewed'] == 1]
+# df_1 = df_60[df_60['user_id'].isin(df_test.user_id)]
+# df_1 = df_60.groupby(['user_id', 'old_new'])[['monthly_hours_viewed']].sum()/df_60.groupby(['user_id'])[['monthly_hours_viewed']].sum()
+# df_1 = df_1.reset_index()
+# df_library = df_1[(df_1['old_new']=='library') & (df_1['monthly_hours_viewed']>=0.85)] #80% of the population
+
+# COMMAND ----------
+
+m = 'tenure 2+'
+df_60_2_plus = df_60[(df_60['sub_month'] > 1) & (df_60['titles_viewed'] > 0)]
+churn_plot_new_library(df_60_2_plus, m, exclusive = False)
 
 
 # COMMAND ----------
@@ -626,7 +648,7 @@ df_60['monthly_title_viewed'] = df_60['monthly_title_viewed'].astype('float')
 # COMMAND ----------
 
 
-def churn_plot_new_library_ouputtable(df_60, m, groupby_col=[], exclusive = False):
+def churn_plot_new_library_ouputtable(df_60, m, exclusive = False):
 
     # ########## add seg total ####################
     df_60_t = df_60.groupby(by=['user_id','is_cancel','sub_month'])[['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
@@ -647,31 +669,42 @@ def churn_plot_new_library_ouputtable(df_60, m, groupby_col=[], exclusive = Fals
 
 # COMMAND ----------
 
-groupby_col = 'old_new'
+def get_equal_churn_bin(df_in, grpby):
+    # df = df_in[df_in.monthly_hours_viewed<=60]
+    df = df_in.groupby(by=['user_id','sub_month']+ grpby +['is_cancel']).sum().reset_index()
+    # nbins = int(df.monthly_title_viewed.max())
+    # df['title_viewed_bin_bucket'] = pd.cut(df['monthly_title_viewed'], np.linspace(0,nbins,2*nbins+1))
+    
+    bins =[-0.01]
+    bins = bins + np.arange(0, 12.5, 0.5).tolist()
+    bins = bins + np.arange(13, 17, 1.0).tolist()
+    bins = bins + [19.0, df.monthly_title_viewed.max()]
+
+    df['title_viewed_bin_bucket'] = pd.cut(df['monthly_title_viewed'], bins,include_lowest =True)
+    df['churn'] = 1*df['is_cancel']  
+    
+    df_bin = df.groupby(['title_viewed_bin_bucket']+grpby).agg({'churn':'mean', 'user_id':'count',
+                                                         'is_cancel':'sum','monthly_title_viewed':'sum'}).reset_index()
+    
+    df_bin['user_dist'] = df_bin['user_id']/df_bin['user_id'].sum()
+    df_bin['title_viewed_bin'] = df_bin['title_viewed_bin_bucket'].apply(lambda x: (x.left+x.right)/2)
+    df_bin['title_viewed_bin'] = df_bin['title_viewed_bin'].astype('float')
+    return(df_bin)
+
+# COMMAND ----------
+
 m = 'tenure 2+'
 output_df = {}
-churn_plot_new_library_ouputtable(df_60,m, groupby_col, exclusive = False)
+df_60_test = df_60[df_60['sub_month']>1]
+churn_plot_new_library_ouputtable(df_60_test,m, exclusive = False)
 
 # COMMAND ----------
 
-output_df.keys()
+output_df['monthly_new_titles_viewed'][['title_viewed_bin_bucket', 'title_viewed_bin', 'churn', 'user_dist', 'user_id', 'is_cancel',]]
 
 # COMMAND ----------
 
-output_df['monthly_library_titles_viewed'][['title_viewed_bin_bucket', 'title_viewed_bin', 'churn', 'user_dist', 'user_id', 'is_cancel',]]
-
-# COMMAND ----------
-
-df_test = df_60.groupby(by=['user_id'])[['monthly_title_viewed', 'monthly_hours_viewed']].sum().reset_index()
-df_test = df_test[df_test['monthly_title_viewed'] == 1]
-df_1 = df_60[df_60['user_id'].isin(df_test.user_id)]
-df_1 = df_60.groupby(['user_id', 'old_new'])[['monthly_hours_viewed']].sum()/df_60.groupby(['user_id'])[['monthly_hours_viewed']].sum()
-df_1 = df_1.reset_index()
-df_library = df_1[(df_1['old_new']=='library') & (df_1['monthly_hours_viewed']>=0.85)] #80% of the population
-
-# COMMAND ----------
-
-churn_plot_new_library(df_60, m, groupby_col, exclusive = False)
+output_df['monthly_new_titles_viewed'][['title_viewed_bin_bucket', 'title_viewed_bin', 'churn', 'user_dist', 'user_id', 'is_cancel',]]
 
 # COMMAND ----------
 
@@ -732,7 +765,7 @@ def churn_plot_new_library_with_raw(df_60, m, groupby_col=[], exclusive = False)
 
     fig = px.scatter(title=m, width=600, height=400)
     fig.add_trace(go.Scatter(x=x_fit, y=y_fit, mode='lines', showlegend=True, name = 'segment total'))
-    fig.add_scatter(x=np.array(med_x), y=np.array(y_med), mode='markers', marker=dict(size=14, color='red', line=dict(color='black', width=2)), showlegend=False)
+    # fig.add_scatter(x=np.array(med_x), y=np.array(y_med), mode='markers', marker=dict(size=14, color='red', line=dict(color='black', width=2)), showlegend=False)
     fig.add_scatter(x=df_60_s.title_viewed_bin, y=df_60_s.churn, showlegend=True, name = 'Segment Total Raw Data Points', mode='markers')
 
 

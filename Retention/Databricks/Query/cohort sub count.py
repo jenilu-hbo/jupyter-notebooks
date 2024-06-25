@@ -94,4 +94,31 @@ spark.sql('''
 
 # COMMAND ----------
 
-
+# MAGIC %sql
+# MAGIC CREATE OR REPLACE TABLE bolt_cus_dev.bronze.cip_user_title_hours_watched_subs_count_wbd_avod_svod (
+# MAGIC         
+# MAGIC         SELECT dt.start_date 
+# MAGIC         , dt.end_date
+# MAGIC         , DATEDIFF(DAY, dt.start_date::DATE, dt.end_date::DATE) as DAYS_ON_HBO_MAX
+# MAGIC         , entertainment_segment_lifetime
+# MAGIC         , count(distinct c.user_id) as subs
+# MAGIC         FROM bolt_cus_dev.bronze.calendar_date_tracker dt
+# MAGIC         JOIN bolt_dai_subs_prod.gold.max_profile_dim_current up 
+# MAGIC         JOIN bolt_cus_dev.bronze.user_retain_churn_list_test_wbd_max c
+# MAGIC             on c.user_id = up.user_id
+# MAGIC             and c.cycle_expire_date >= dt.start_date
+# MAGIC             and c.cycle_start_date <= dt.end_date
+# MAGIC         LEFT JOIN (SELECT USER_ID, PROFILE_ID, MAX(entertainment_segment_lifetime) as entertainment_segment_lifetime
+# MAGIC                                          FROM bolt_growthml_int.gold.max_content_preference_v3_segment_assignments_360_landing_table
+# MAGIC                                          GROUP BY all
+# MAGIC                                         ) seg
+# MAGIC                 ON seg.profile_id = up.profile_id
+# MAGIC         WHERE 1=1
+# MAGIC         and START_DATE >= '2023-05-23'
+# MAGIC         AND up.default_profile_ind=True
+# MAGIC         AND (DATEDIFF(DAY, dt.start_date::DATE, dt.end_date::DATE) = 28
+# MAGIC             or DATEDIFF(DAY, dt.start_date::DATE, dt.end_date::DATE) = 60
+# MAGIC             or DATEDIFF(DAY, dt.start_date::DATE, dt.end_date::DATE) = 90
+# MAGIC         )
+# MAGIC         GROUP BY all
+# MAGIC )

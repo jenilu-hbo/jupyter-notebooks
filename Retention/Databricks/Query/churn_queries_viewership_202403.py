@@ -92,25 +92,26 @@ where s.user_id not in (SELECT DISTINCT user_id FROM streaming_subset)
 
 # COMMAND ----------
 
-target_month = '2023-08-01'
-target_month_end = (pd.to_datetime(target_month) + pd.DateOffset(months=1)- pd.DateOffset(days=1)).strftime('%Y-%m-%d')
-table_name = target_month.replace('-', '')
+# target_month = '2023-08-01'
+# target_month_end = (pd.to_datetime(target_month) + pd.DateOffset(months=1)- pd.DateOffset(days=1)).strftime('%Y-%m-%d')
+# table_name = target_month.replace('-', '')
 
-while target_month <= '2024-04-01':
-    target_month_end = (pd.to_datetime(target_month) + pd.DateOffset(months=1)- pd.DateOffset(days=1)).strftime('%Y-%m-%d')
-    table_name = target_month.replace('-', '')
+# while target_month <= '2024-04-01':
+#     target_month_end = (pd.to_datetime(target_month) + pd.DateOffset(months=1)- pd.DateOffset(days=1)).strftime('%Y-%m-%d')
+#     table_name = target_month.replace('-', '')
 
-    queries = sql.format(table_name = table_name,
-           target_month = target_month,
-           target_month_end = target_month_end
-           )
-    print(queries)
-    spark.sql(queries)
-    target_month = (pd.to_datetime(target_month) + pd.DateOffset(months=2)).strftime('%Y-%m-%d')
+#     queries = sql.format(table_name = table_name,
+#            target_month = target_month,
+#            target_month_end = target_month_end
+#            )
+#     print(queries)
+#     spark.sql(queries)
+#     target_month = (pd.to_datetime(target_month) + pd.DateOffset(months=2)).strftime('%Y-%m-%d')
     
 
 # COMMAND ----------
 
+#### Viewership Generation Queries #########
 # user_stream_60d_genpop_all_months = spark.sql('''
 # CREATE OR REPLACE TABLE bolt_cus_dev.bronze.cip_churn_user_stream60d_genpop_savod AS (
 # with subs as(
@@ -185,11 +186,11 @@ while target_month <= '2024-04-01':
 # from subs s
 # left join streaming_subset ss ON s.expiration_month = ss.expiration_month and s.user_id = ss.user_id
 # where ss.user_id IS NULL
-)                                                           
-'''.format(table_name = table_name,
-           target_month = target_month,
-           target_month_end = target_month_end
-           ))
+# )                                                           
+# '''.format(table_name = table_name,
+#            target_month = target_month,
+#            target_month_end = target_month_end
+#            ))
 
 # COMMAND ----------
 

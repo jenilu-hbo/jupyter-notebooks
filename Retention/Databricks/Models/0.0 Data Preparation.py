@@ -80,7 +80,7 @@ medal = spark.sql('''
                   , COALESCE(c.season_number, 0) as season_number
                   , MAX(c.cumulative_viewing_subscribers) AS cumulative_viewing_subscribers
                   , MAX(c.cumulative_viewing_subscribers/p.viewing_subscribers) as percent_cumulative_viewing_subscribers
-                  , MAX(c.cumulative_subscription_first_views/p.subscription_first_views*100) as percent_cumulative_first_views
+                  , MAX(c.cumulative_subscription_first_views/p.subscription_first_views) as percent_cumulative_first_views
                   FROM bolt_dai_ce_prod.gold.cumulative_content_viewership_pst c
                   JOIN bolt_cus_dev.bronze.cumulative_platform_viewership_pst p
                     ON date_format(c.OFFERING_START_DATE_PST, 'yyyy-MM-dd')= p.start_date::DATE
@@ -93,7 +93,8 @@ medal = spark.sql('''
                   and days_on_hbo_max_and_wbd_max = 28
                   GROUP BY ALL
                   )
-                
+                  
+                  , observed_medal AS (
                   SELECT ckg_series_id
                   , season_number
                   , case when percent_cumulative_viewing_subscribers > 20 or percent_cumulative_first_views > 10 then 'Platinum'
@@ -103,13 +104,69 @@ medal = spark.sql('''
                         end as observed_medal
                   , percent_cumulative_viewing_subscribers
                   , cumulative_viewing_subscribers
-                  FROM viewership
+                  FROM 
+                  viewership
+                  )
+
+                 , data_final as(
+                  SELECT 
+                 COALESCE(o.ckg_series_id, p.title_id) as ckg_series_id
+                 , COALESCE(o.season_number, p.season_number) as season_number
+                 , COALESCE(p.medal_us, o.observed_medal) as predicted_medal
+                 , percent_cumulative_viewing_subscribers
+                 , cumulative_viewing_subscribers 
+                 , p.production_cost
+                 , p.marketing_spend
+                 FROM bolt_cus_dev.gold.delphi_titles p
+                 FULL OUTER JOIN observed_medal o 
+                    ON p.title_id = o.ckg_series_id
+                    and p.season_number = o.season_number
+                 )
+                 SELECT ckg_series_id
+                 , season_number
+                 , max(predicted_medal) as predicted_medal
+                 , max(percent_cumulative_viewing_subscribers) as percent_cumulative_viewing_subscribers
+                 , max(cumulative_viewing_subscribers) as cumulative_viewing_subscribers
+                 , sum(production_cost) as production_cost
+                 , sum(marketing_spend) as marketing_spend
+                 FROM data_final
+                 GROUP BY 1,2
                   ''').toPandas()
 
 # COMMAND ----------
 
-medal['season_number'] = medal['season_number'].astype(int)
-title_info['season_number'] = title_info['season_number'].astype(int)
+# MAGIC %sql
+# MAGIC                   SELECT DISTINCT
+# MAGIC                   WBD_MAX_SERIES_ID_OR_HBOMAX_TITLE_ID as ckg_series_id
+# MAGIC                   , COALESCE(c.season_number, 0) as season_number
+# MAGIC                   , MAX(c.cumulative_viewing_subscribers) AS cumulative_viewing_subscribers
+# MAGIC                   , MAX(c.cumulative_viewing_subscribers/p.viewing_subscribers) as percent_cumulative_viewing_subscribers
+# MAGIC                   , MAX(c.cumulative_subscription_first_views/p.subscription_first_views) as percent_cumulative_first_views
+# MAGIC                   FROM bolt_dai_ce_prod.gold.cumulative_content_viewership_pst c
+# MAGIC                   JOIN bolt_cus_dev.bronze.cumulative_platform_viewership_pst p
+# MAGIC                     ON date_format(c.OFFERING_START_DATE_PST, 'yyyy-MM-dd')= p.start_date::DATE
+# MAGIC                     and c.geo_value = p.geo_value
+# MAGIC                     and c.days_on_hbo_max_and_wbd_max = p.days_since_release
+# MAGIC                   WHERE 1 = 1
+# MAGIC                   and title_level = 'Seasons and Movies'
+# MAGIC                   and c.geo_value = 'HBO MAX DOMESTIC'
+# MAGIC                   and offering_window_num = 1 
+# MAGIC                   and days_on_hbo_max_and_wbd_max = 28
+# MAGIC                   and WBD_MAX_SERIES_ID_OR_HBOMAX_TITLE_ID = 'b139d21e-b9bb-4329-8512-78f00b145abb'
+# MAGIC                   GROUP BY ALL
+
+# COMMAND ----------
+
+title_info.head()
+
+# COMMAND ----------
+
+title_info.content_category.unique()
+
+# COMMAND ----------
+
+medal['season_number'] = medal['season_number'].astype(float)
+title_info['season_number'] = title_info['season_number'].astype(float)
 title_info = title_info.merge(medal, on = ['ckg_series_id', 'season_number'], how = 'left')
 
 # COMMAND ----------
@@ -127,14 +184,18 @@ title_info = spark.sql('''
 
 # COMMAND ----------
 
+title_info[title_info['ckg_series_id'] == 'cfad0209-ac6d-46d5-ba24-0e6ca22ced30']
+
+# COMMAND ----------
+
 ### SANITY CHECK ####
 title_test = title_info.groupby(['ckg_series_id', 'season_number']).count()
 title_test[title_test['title_name'] == 2]
 
 # COMMAND ----------
 
-# ###### union the viewership first and then aggregate #######
-# hours_df_60 = spark.sql('''
+# %sql
+# CREATE OR REPLACE TABLE bolt_cus_dev.bronze.cip_title_hours_watched_season_segment_agg_28d_avod_svod
 # WITH viewership AS (
 #         --------- POST_MAX LAUNCH -------------------------
 #         SELECT m.ckg_series_id
@@ -147,7 +208,7 @@ title_test[title_test['title_name'] == 2]
 #             , date_diff(DAY, m.offering_start_date, h.request_date) AS days_on_hbo_max
 #             , h.hours_viewed
 #         FROM bolt_cus_dev.bronze.cip_title_series_level_metadata m
-#         JOIN bolt_cus_dev.bronze.user_title_hours_watched_season_wbd h 
+#         JOIN bolt_cus_dev.bronze.cip_user_title_hours_watched_season_wbd_avod_svod h 
 #             ON m.ckg_series_id = h.ckg_series_id
 #             AND COALESCE(m.season_number, 0) = COALESCE(h.season_number, 0)
 #         JOIN bolt_growthml_int.gold.max_content_preference_v3_segment_assignments_360_landing_table seg
@@ -168,7 +229,7 @@ title_test[title_test['title_name'] == 2]
 #             , date_diff(DAY, m.offering_start_date, h.request_date) AS days_on_hbo_max
 #             , h.hours_viewed
 #         FROM bolt_cus_dev.bronze.cip_title_series_level_metadata m
-#         JOIN bolt_cus_dev.bronze.user_title_hours_watched_season_legacy h 
+#         JOIN bolt_cus_dev.bronze.cip_user_title_hours_watched_season_legacy_avod_svod h 
 #             ON m.ckg_series_id = h.ckg_series_id
 #             AND COALESCE(m.season_number, 0) = COALESCE(h.season_number, 0)
 #             AND date_diff(DAY, m.offering_start_date, h.request_date) < 60
@@ -183,11 +244,11 @@ title_test[title_test['title_name'] == 2]
 # )
 # ,denom AS (
 #     SELECT *
-#     FROM bolt_cus_dev.bronze.user_title_hours_watched_subs_count_wbd
+#     FROM bolt_cus_dev.bronze.cip_user_title_hours_watched_subs_count_wbd_avod_svod
 #     WHERE start_date >= '2023-05-23'
 #     UNION
 #     SELECT *
-#     FROM bolt_cus_dev.bronze.user_title_hours_watched_subs_count_legacy
+#     FROM bolt_cus_dev.bronze.cip_user_title_hours_watched_subs_count_legacy_avod_svod
 #     WHERE start_date < '2023-05-23'
 # )
 
@@ -204,21 +265,18 @@ title_test[title_test['title_name'] == 2]
 #             ON v.offering_start_date::DATE = denom.start_date::DATE
 #             AND V.entertainment_segment_lifetime = denom.entertainment_segment_lifetime
 #         WHERE 1=1
-#         AND v.days_on_hbo_max < 60
-#         AND denom.days_on_hbo_max = 60
+#         AND v.days_on_hbo_max <=28
+#         AND denom.days_on_hbo_max = 28
 #         GROUP BY 1, 2, 3, 4, subs
-# ''')
-
-# # hours_df_60.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_hours_watched_season_segment_agg_60d")
 
 # COMMAND ----------
 
 
-hours_df_60 = spark.sql('SELECT * FROM bolt_cus_dev.bronze.cip_title_hours_watched_season_segment_agg_60d').toPandas()
+hours_df_60 = spark.sql('SELECT * FROM bolt_cus_dev.bronze.cip_title_hours_watched_season_segment_agg_28d_avod_svod').toPandas()
 
 # COMMAND ----------
 
-hours_df_60.offering_start_date.min()
+hours_df_60[hours_df_60['offering_start_date'] == '2023-05-23']
 
 # COMMAND ----------
 
@@ -236,7 +294,7 @@ import numpy as np
 
 # COMMAND ----------
 
-title_info = title_info.rename(columns = {'observed_medal':'medal', 'primary_genre':'genre'})
+title_info = title_info.rename(columns = {'predicted_medal':'medal', 'primary_genre':'genre'})
 title_info = title_info[title_info['title_name'].notnull()]
 
 # COMMAND ----------
@@ -274,7 +332,8 @@ title_series_info=pd.concat([title_series_info, genre_onehot], axis = 1)
 # COMMAND ----------
 
 # Medal Data
-medal_dict = {'Silver':2, 'Bronze':3, 'Gold':1 , 'Platinum':0, 'None':np.NaN}
+medal_dict = {'Silver':2, 'Bronze':3, 'Gold':1 , 'Platinum':0, 'None':'Bronze'}
+title_series_info['medal'] = title_series_info['medal'].fillna('Bronze')
 title_series_info['medal_number'] = title_series_info['medal'].replace(medal_dict)
 
 # COMMAND ----------
@@ -299,14 +358,20 @@ data['pct_hours_viewed_per_runtime'] = data['percent_hours_viewed'].astype(float
 
 # COMMAND ----------
 
-data.head()
+data[data['offering_start_date'] == '2023-05-23']
 
 # COMMAND ----------
 
 data.columns = [i.replace(' ', '').replace('&', '_') for i in data.columns]
+for i in data.columns:
+    data[i] = data[i].astype(str)
+
+# COMMAND ----------
+
+# data.columns = [i.replace(' ', '').replace('&', '_') for i in data.columns]
 data_df = spark.createDataFrame(data)
-spark.sql('drop table bolt_cus_dev.bronze.cip_title_segment_viewership_training_data')
-data_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_segment_viewership_training_data")
+spark.sql('drop table bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_avod_svod')
+data_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_avod_svod")
 
 # COMMAND ----------
 
