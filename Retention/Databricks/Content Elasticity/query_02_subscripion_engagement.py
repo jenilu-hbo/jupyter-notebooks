@@ -39,12 +39,7 @@ SELECT
 , m.title_name
 , m.ckg_series_id
 , m.season_number
-, CASE WHEN m.medal = 'WB | Same Day Premiere' then 'Platinum'
-       WHEN m.medal = 'A' then 'Gold'
-       WHEN m.medal = 'B' then 'Silver'
-       WHEN m.medal = 'C' then 'Bronze'
-       ELSE 'Bronze'
-  END AS medal
+, m.medal
 , sum(hb.CONTENT_MINUTES_WATCHED)/60 as hours_viewed
 , CASE WHEN m.series_type LIKE ('%series%') THEN 'series'
         WHEN m.series_type IN ('movie', 'standalone') THEN 'movie'
@@ -77,5 +72,6 @@ and u.provider = 'Direct'
 and u.payment_period = 'PERIOD_MONTH'
 and (u.signup_offer is null or u.signup_offer = 'no_free_trial')
 and u.region = 'NORTH AMERICA'
+and date_trunc('MONTH', u.period_end_ts)::DATE >= '2022-01-01'
 GROUP BY ALL
 ''')

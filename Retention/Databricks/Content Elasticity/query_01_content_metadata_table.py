@@ -4,12 +4,14 @@ CREATE OR REPLACE TABLE bolt_cus_dev.bronze.cip_recency_title_season_level_metad
 with series_first as (
     SELECT
     a.ckg_series_id
-    , min(first_offered_date) as series_window_start
-    , max(first_offered_date) as series_window_end
+    , b.country_code
+    , min(CONVERT_TIMEZONE('UTC', geo_map.TIME_ZONE_DESC, first_offered_date)::date) as series_window_start
+    , max(CONVERT_TIMEZONE('UTC', geo_map.TIME_ZONE_DESC, first_offered_date)::date) as series_window_end
     FROM bolt_dai_ckg_prod.gold.reporting_asset_dim_combined a 
     JOIN bolt_dai_ckg_prod.gold.reporting_asset_offering_dim_combined b 
         on a.ckg_program_id = b.ckg_program_id 
         and b.country_code = 'US' 
+    LEFT JOIN bolt_dai_ckg_prod.gold.geo_map geo_map on geo_map.country_iso_code = b.country_code
     where asset_type = 'FEATURE' 
     group by all
 )
@@ -19,18 +21,20 @@ with series_first as (
     rad.series_title_long as  title_name
     , rad.ckg_series_id
     , COALESCE(rad.season_number, 0) as season_number
+    , b.country_code
     , rad.SERIES_TYPE
     , mode(rad.PRIMARY_GENRE) as primary_genre
     , mode(rad.program_type) as program_type
     , rad.EVER_POPCORN_TITLE AS is_popcorn
     , CASE WHEN THEATRICAL_RELEASE_DATE IS NOT NULL THEN 1 ELSE 0 END AS is_pay_1
     , sum(ASSET_RUN_TIME/3600.00) as RUN_TIME_HOURS
-    , MIN(first_offered_date) AS season_window_start
-    , MAX(first_offered_date) AS season_window_end
+    , min(CONVERT_TIMEZONE('UTC', geo_map.TIME_ZONE_DESC, first_offered_date)::date) AS season_window_start
+    , max(CONVERT_TIMEZONE('UTC', geo_map.TIME_ZONE_DESC, first_offered_date)::date) AS season_window_end
      FROM bolt_dcp_brd_prod.gold.content_metadata_reporting_asset_dim_combined rad
      JOIN bolt_dai_ckg_prod.gold.reporting_asset_offering_dim_combined b 
         on rad.ckg_program_id = b.ckg_program_id 
         and b.country_code = 'US' 
+     LEFT JOIN bolt_dai_ckg_prod.gold.geo_map geo_map on geo_map.country_iso_code = b.country_code
      where asset_type = 'FEATURE'
      and series_title_long is not null
      GROUP BY ALL)
@@ -58,11 +62,16 @@ SELECT m.title_name
 , m.season_window_end
 , s.series_window_start
 , s.series_window_end
-, CASE WHEN medal.medal IS NULL THEN 'Bronze' ELSE medal.medal END AS medal
+, CASE WHEN medal = 'WB | Same Day Premiere' then 'Platinum'
+       WHEN medal = 'A' then 'Gold'
+       WHEN medal = 'B' then 'Silver'
+       WHEN medal = 'C' then 'Bronze'
+       ELSE medal
+  END AS medal
 , medal.lob
 , medal.category
 FROM metadata m
-JOIN series_first s ON s.ckg_series_id = m.ckg_series_id
+JOIN series_first s ON s.ckg_series_id = m.ckg_series_id and s.country_code = s.country_code
 LEFT JOIN medal_data medal 
     on medal.ckg_series_id = m.ckg_series_id
     and medal.season_number = m.season_number
