@@ -10,15 +10,13 @@ SELECT hb.request_date_local, hb.request_time_local
 , hb.WBD_MAX_PROFILE_ID, hb.HBOMAX_PROFILE_ID
 , hb.SUB_ID, hb.HBOMAX_SUBSCRIPTION_ID
 ,PROGRAM_ID_OR_VIEWABLE_ID,hb.CONTENT_MINUTES_WATCHED 
+,SESSION_COUNTRY AS country, REGION 
 FROM bolt_dai_ce_prod.gold.combined_video_stream hb
 WHERE 1=1
 and hb.PROGRAM_ID_OR_VIEWABLE_ID IS NOT NULL 
 and hb.CONTENT_MINUTES_WATCHED >= 2
 and hb.video_type = 'main'
-and hb.territory = 'HBO MAX DOMESTIC'
-and hb.CATEGORY = 'retail'
-and hb.request_date_local >= '2022-01-01'
---and hb.request_date_local = '2023-06-01'
+-- and hb.request_date_local >= '2022-01-01'
 )
 
 SELECT 
@@ -26,16 +24,21 @@ SELECT
 , u.sub_id_legacy
 , u.user_id 
 , u.hurley_user_id
+, u.sub_paid_start as subscription_start_date
 , u.period_start_ts as cycle_start_date
 , u.period_end_ts as cycle_expire_date
 , date_trunc('MONTH', u.period_end_ts)::DATE as expiration_month
 , u.seamless_paid_tenure_months as tenure
 , u.sub_number as number_of_reconnects
-, CASE WHEN u.cancelled_ind THEN 1 ELSE 0 END AS is_cancel
-, CASE WHEN u.vol_cancel_ind and u.cancelled_ind THEN 1 ELSE 0 END AS is_vol_cancel
+, CASE WHEN u.terminated_ind_imputed THEN 1 ELSE 0 END AS is_cancel
+, CASE WHEN u.vol_cancel_ind and u.terminated_ind_imputed THEN 1 ELSE 0 END AS is_vol_cancel
 , u.provider
 , u.ad_strategy as sku
+, u.payment_period
+, u.signup_offer
 , hb.request_date_local as request_date
+, u.region
+, hb.country
 , m.title_name
 , m.ckg_series_id
 , m.season_number
@@ -62,16 +65,23 @@ FROM bolt_cus_dev.silver.max_ltv_period_combined u  --Subcription level metric
 LEFT JOIN VIEWERSHIP hb                             -- JOIN with viewership data
     ON hb.request_time_local between u.period_start_ts and u.period_end_ts
     AND (hb.hbomax_subscription_id = u.sub_id_legacy or hb.sub_id = u.sub_id_max)
+    AND hb.region = u.region
 LEFT JOIN bolt_analytics_prod.gold.v_r_content_metadata_reporting_asset_dim_combined rad  -- map program to series and season level
     ON hb.PROGRAM_ID_OR_VIEWABLE_ID = rad.ckg_program_id
-LEFT JOIN bolt_cus_dev.bronze.cip_recency_title_season_level_metadata m  --title season level metadata
+LEFT JOIN 
+    bolt_cus_dev.bronze.cip_recency_title_season_level_metadata m --title season level metadata
     ON rad.ckg_series_id = m.ckg_series_id 
     AND coalesce(rad.season_number, 0) = m.season_number
+    AND m.region = u.region
+    AND m.country_code = hb.country
 WHERE 1=1
-and u.provider = 'Direct'
-and u.payment_period = 'PERIOD_MONTH'
-and (u.signup_offer is null or u.signup_offer = 'no_free_trial')
-and u.region = 'NORTH AMERICA'
-and date_trunc('MONTH', u.period_end_ts)::DATE >= '2022-01-01'
+-- and u.provider = 'Direct'
+-- and u.payment_period = 'PERIOD_MONTH'
+-- and (u.signup_offer is null or u.signup_offer = 'no_free_trial')
+-- and u.region = 'NORTH AMERICA'
 GROUP BY ALL
 ''')
+
+# COMMAND ----------
+
+

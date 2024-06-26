@@ -43,6 +43,12 @@ LEFT JOIN bolt_dai_subs_prod.gold.max_legacy_profile_mapping_global mapping
       ON mapping.hurley_profile_id = lp.hurley_profile_id
 LEFT JOIN  bolt_growthml_int.gold.max_content_preference_v3_segment_assignments_360_landing_table seg
       ON coalesce(mp.profile_id, mapping.profile_id, lp.hurley_profile_id) = seg.profile_id
+WHERE 1=1
+and hb.provider = 'Direct'
+and hb.payment_period = 'PERIOD_MONTH'
+and (hb.signup_offer is null or hb.signup_offer = 'no_free_trial')
+and hb.region = 'NORTH AMERICA'
+and expiration_month >= '2022-01-01'
 GROUP BY ALL
 ''')
 

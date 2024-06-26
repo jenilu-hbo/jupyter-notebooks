@@ -10,7 +10,6 @@ with series_first as (
     FROM bolt_dai_ckg_prod.gold.reporting_asset_dim_combined a 
     JOIN bolt_dai_ckg_prod.gold.reporting_asset_offering_dim_combined b 
         on a.ckg_program_id = b.ckg_program_id 
-        and b.country_code = 'US' 
     LEFT JOIN bolt_dai_ckg_prod.gold.geo_map geo_map on geo_map.country_iso_code = b.country_code
     where asset_type = 'FEATURE' 
     group by all
@@ -22,6 +21,7 @@ with series_first as (
     , rad.ckg_series_id
     , COALESCE(rad.season_number, 0) as season_number
     , b.country_code
+    , geo_map.region
     , rad.SERIES_TYPE
     , mode(rad.PRIMARY_GENRE) as primary_genre
     , mode(rad.program_type) as program_type
@@ -33,7 +33,6 @@ with series_first as (
      FROM bolt_dcp_brd_prod.gold.content_metadata_reporting_asset_dim_combined rad
      JOIN bolt_dai_ckg_prod.gold.reporting_asset_offering_dim_combined b 
         on rad.ckg_program_id = b.ckg_program_id 
-        and b.country_code = 'US' 
      LEFT JOIN bolt_dai_ckg_prod.gold.geo_map geo_map on geo_map.country_iso_code = b.country_code
      where asset_type = 'FEATURE'
      and series_title_long is not null
@@ -45,6 +44,7 @@ with series_first as (
   , medal_us as medal
   , lob
   , mode(category) as category
+  , imdb_id
   FROM bolt_cus_dev.gold.delphi_titles
   group by all
 ) 
@@ -62,6 +62,8 @@ SELECT m.title_name
 , m.season_window_end
 , s.series_window_start
 , s.series_window_end
+, m.country_code
+, m.region
 , CASE WHEN medal = 'WB | Same Day Premiere' then 'Platinum'
        WHEN medal = 'A' then 'Gold'
        WHEN medal = 'B' then 'Silver'
@@ -70,8 +72,9 @@ SELECT m.title_name
   END AS medal
 , medal.lob
 , medal.category
+, medal.imdb_id
 FROM metadata m
-JOIN series_first s ON s.ckg_series_id = m.ckg_series_id and s.country_code = s.country_code
+JOIN series_first s ON s.ckg_series_id = m.ckg_series_id and s.country_code = m.country_code
 LEFT JOIN medal_data medal 
     on medal.ckg_series_id = m.ckg_series_id
     and medal.season_number = m.season_number
@@ -80,9 +83,13 @@ LEFT JOIN medal_data medal
 # COMMAND ----------
 
 qc = spark.sql('''
-               SELECT ckg_series_id, season_number, count(*) as record_count
+               SELECT ckg_series_id, season_number, country_code, count(*) as record_count
                FROM bolt_cus_dev.bronze.cip_recency_title_season_level_metadata
                GROUP BY ALL
                HAVING  record_count > 1
                ''').toPandas()
 assert len(qc) == 0
+
+# COMMAND ----------
+
+
