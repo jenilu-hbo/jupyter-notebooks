@@ -273,13 +273,16 @@ def get_churn_slope_plot_simple(df_i, title, params, x_med=0):
 
 # COMMAND ----------
 
-df_60_00 = spark.sql('''SELECT user_id, profile_id, is_cancel, is_voluntary, sub_month
+df_60_00 = spark.sql('''SELECT s.user_id, s.profile_id, is_cancel, is_voluntary, sub_month
+                     , seg.entertainment_segment_lifetime as entertainment_segment_lifetime
                      , case when datediff(DAY, rad.air_date, '2023-01-01') >=365 then 'library' else 'current' end as old_new
                      , sum(hours_viewed) as hours_viewed
                      , count(distinct s.ckg_series_id) as titles_viewed
                      FROM bolt_cus_dev.bronze.cip_churn_user_stream60d_genpop_20231201 s
                      LEFT JOIN bolt_analytics_prod.gold.v_r_content_metadata_reporting_asset_dim_combined rad
                         on s.ckg_program_id = rad.ckg_program_id
+                     LEFT JOIN bolt_growthml_int.gold.max_content_preference_v3_segment_assignments_360_landing_table seg
+                        on seg.PROFILE_ID = s.profile_id
                      GROUP BY ALL
                      ''').toPandas()
 
@@ -292,12 +295,20 @@ display(df_60.head())
 
 # COMMAND ----------
 
+df_60_00.head()
+
+# COMMAND ----------
+
 df_60.user_id.nunique() #7229540
 
 # COMMAND ----------
 
 param_dict = {}
 med_dict = {}
+
+# COMMAND ----------
+
+df_60 = df_60[df_60['titles_viewed'] > 0].copy()
 
 # COMMAND ----------
 
@@ -335,10 +346,6 @@ med_dict[seg_name] = med_x
 
 # COMMAND ----------
 
-df_60_s
-
-# COMMAND ----------
-
 # MAGIC %md
 # MAGIC # BY Segment
 
@@ -356,7 +363,11 @@ order by user_count desc
 
 # COMMAND ----------
 
-segment_info.tail(10)
+segment_info
+
+# COMMAND ----------
+
+df_60.head()
 
 # COMMAND ----------
 
@@ -368,14 +379,27 @@ for seg_name in segment_info['entertainment_segment_lifetime'].unique():
         df_60_s = get_churn_bin(df_60_t,[], 100)
     else:
         df_60_s = get_churn_bin(df_60_t,[], 10)
+    df_60_s = df_60_s[df_60_s['churn'].notnull()]
 
     med_x= df_60_t.monthly_title_viewed.median()
-    fig, params = get_churn_plot_simple(df_60_s[df_60_s['title_viewed_bin']<15], 
-                                        seg_name, param_dict, np.array(med_x))
+
+    try:
+        fig, params = get_churn_plot_simple(df_60_s[df_60_s['title_viewed_bin']<15], 
+                                            seg_name, param_dict, np.array(med_x))
+    except:
+        print(df_60_s)
+
     # slope = get_churn_slope_plot_simple(df_60_s, , params, np.array(med_x))
     med_dict[seg_name] = med_x
     # break
         
+
+# COMMAND ----------
+
+param_df = pd.DataFrame(param_dict)
+param_df.to_csv(file_path + 'param_dict.csv')
+med_df = pd.DataFrame(med_dict, index=[0])
+med_df.to_csv(file_path + 'med_dict.csv')
 
 # COMMAND ----------
 

@@ -37,7 +37,7 @@ select
     , episode_number_in_season 
     --using title_first_offered for movies, using individual start_dates for all other categories 
     , coalesce(season_first_offered_date,title_first_offered_date) as start_date 
-    , dateadd(day, 365, window_end) as recency_window_end 
+    , dateadd(day, 30, window_end) as recency_window_end 
     , release_year 
     --some metadata has inconsistent release year's within a series (abbott S1), using median to mask that, and converting to an int to perform conditions on 
     , median(release_year) over (partition by a.ckg_series_id, a.season_number)::int as median_release_year 

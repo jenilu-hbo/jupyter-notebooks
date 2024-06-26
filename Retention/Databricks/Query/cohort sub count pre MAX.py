@@ -88,4 +88,33 @@ while (t>=pd.to_datetime('2020-05-01') and t<pd.to_datetime('2021-01-01')):
 
 # COMMAND ----------
 
-
+# MAGIC %sql
+# MAGIC CREATE OR REPLACE TABLE bolt_cus_dev.bronze.cip_user_title_hours_watched_subs_count_legacy_avod_svod (
+# MAGIC
+# MAGIC SELECT dt.start_date 
+# MAGIC         , dt.end_date
+# MAGIC         , DATEDIFF(DAY, dt.start_date::DATE, dt.end_date::DATE) as DAYS_ON_HBO_MAX
+# MAGIC         , entertainment_segment_lifetime
+# MAGIC         , count(distinct c.hurley_user_id) as subs
+# MAGIC         FROM bolt_cus_dev.bronze.calendar_date_tracker dt
+# MAGIC         JOIN bolt_cus_dev.bronze.legacy_user_profile_dim_current up 
+# MAGIC         JOIN bolt_cus_dev.bronze.user_retain_churn_list_test c
+# MAGIC             on c.hurley_user_id = up.hurley_user_id
+# MAGIC             and c.cycle_expire_date >= dt.start_date
+# MAGIC             and c.cycle_start_date <= dt.end_date
+# MAGIC         JOIN bolt_dai_subs_prod.gold.max_legacy_profile_mapping_global map
+# MAGIC                 ON map.hurley_profile_id = up.hurley_profile_id
+# MAGIC         LEFT JOIN (SELECT USER_ID, PROFILE_ID, MAX(entertainment_segment_lifetime) as entertainment_segment_lifetime
+# MAGIC                 FROM bolt_growthml_int.gold.max_content_preference_v3_segment_assignments_360_landing_table
+# MAGIC                 GROUP BY all
+# MAGIC         ) seg
+# MAGIC                 ON seg.profile_id = map.profile_id
+# MAGIC         WHERE END_DATE <= '2023-08-01'
+# MAGIC         and START_DATE >= '2023-01-01'
+# MAGIC         AND (DATEDIFF(DAY, dt.start_date::DATE, dt.end_date::DATE) = 28
+# MAGIC             or DATEDIFF(DAY, dt.start_date::DATE, dt.end_date::DATE) = 60
+# MAGIC             or DATEDIFF(DAY, dt.start_date::DATE, dt.end_date::DATE) = 90
+# MAGIC         )
+# MAGIC         and up.IS_PRIMARY_PROFILE=1
+# MAGIC         GROUP BY all
+# MAGIC )
