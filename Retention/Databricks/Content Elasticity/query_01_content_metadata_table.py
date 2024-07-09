@@ -22,7 +22,10 @@ with series_first as (
     , COALESCE(rad.season_number, 0) as season_number
     , b.country_code
     , geo_map.region
-    , rad.SERIES_TYPE
+    , CASE WHEN rad.series_type LIKE ('%series%') THEN 'series'
+        WHEN rad.series_type IN ('movie', 'standalone') THEN 'movie'
+        ELSE rad.series_type
+        END AS series_type
     , mode(rad.PRIMARY_GENRE) as primary_genre
     , mode(rad.program_type) as program_type
     , rad.EVER_POPCORN_TITLE AS is_popcorn
@@ -89,6 +92,20 @@ qc = spark.sql('''
                HAVING  record_count > 1
                ''').toPandas()
 assert len(qc) == 0
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC WITH TEMP AS (
+# MAGIC SELECT expiration_month, library_titles_viewed, count(distinct sub_id) AS sub_count
+# MAGIC FROM bolt_cus_dev.bronze.cip_user_stream_subscription_metric_agg
+# MAGIC where expiration_month = '2023-12-01'
+# MAGIC GROUP BY ALL
+# MAGIC )
+# MAGIC
+# MAGIC SELECT library_titles_viewed, avg(sub_count) as sub_count
+# MAGIC FROM TEMP
+# MAGIC GROUP BY ALL
 
 # COMMAND ----------
 
