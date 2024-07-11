@@ -86,6 +86,11 @@ for i in FEATURE_COLS+ONEHOT_COLS:
 
 # COMMAND ----------
 
+sub_data['hours_viewed_scaled'] = sub_data['hours_viewed_scaled'].fillna(0)
+sub_data['hours_viewed'] = sub_data['hours_viewed'].fillna(0)
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ## Correlation
 
@@ -118,7 +123,7 @@ plt.title('Correlation Heatmap', fontsize=14, weight='bold');
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## Logistic regression
+# MAGIC ## Causal Logistics
 
 # COMMAND ----------
 
@@ -127,70 +132,6 @@ from xgboost import XGBRegressor
 from sklearn.linear_model import LogisticRegression
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import GroupKFold
-
-# COMMAND ----------
-
-sub_data['hours_viewed'] = sub_data['hours_viewed'].fillna(0)
-sub_data['hours_viewed_scaled'] = sub_data['hours_viewed_scaled'].fillna(0)
-
-# COMMAND ----------
-
-x_train = sub_data[FINAL_FEATURE_COL]
-y_train = sub_data[TARGET_COL]
-
-# COMMAND ----------
-
-clf = LogisticRegression()  
-clf.fit(x_train,y_train)  
-
-weight = clf.coef_  
-
-# COMMAND ----------
-
-coef_df = pd.DataFrame(
-    {'feature': FINAL_FEATURE_COL,
-     'coef': weight[0]
-    })
-
-# COMMAND ----------
-
-coef_df = coef_df.set_index(coef_df.feature).drop(['feature'], axis = 1)
-
-# COMMAND ----------
-
-coef_df
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC ## Linear Regression
-
-# COMMAND ----------
-
-clf = LinearRegression()  
-clf.fit(x_train,y_train)  
-
-weight = clf.coef_  
-
-# COMMAND ----------
-
-coef_df = pd.DataFrame(
-    {'feature': FINAL_FEATURE_COL,
-     'coef': weight[0]
-    })
-
-# COMMAND ----------
-
-coef_df = coef_df.set_index(coef_df.feature).drop(['feature'], axis = 1)
-
-# COMMAND ----------
-
-coef_df
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC ## Causal Logistics
 
 # COMMAND ----------
 
@@ -227,16 +168,12 @@ model_logit.summary()
 
 # COMMAND ----------
 
-model_logit.bse[1]
-
-# COMMAND ----------
-
-def get_casual_impact(lower, upper, sub_data, treatment_col, base_churn):
+def get_casual_impact(lower, upper, sub_data, treatment_col):
     level_data = sub_data[(sub_data[treatment_col]>=lower)
                          &(sub_data[treatment_col]<=upper)]
 
-    if len(level_data) == 0 or level_data[treatment_col].nunique() < 2:
-        return np.NaN, np.NaN
+    if len(level_data) <= 30 or level_data[treatment_col].nunique() < 2:
+        return np.NaN, np.NaN, np.NaN
 
     ############ Scale the new dataset ###########
     for i in FEATURE_COLS+ONEHOT_COLS:
@@ -274,10 +211,9 @@ def get_casual_impact(lower, upper, sub_data, treatment_col, base_churn):
     ############ Denoise Step ###########
     # model = LinearRegression()
     # model.fit(data_denoise[['titles_res']], data_denoise['cancel_res'])
-
+    # return model.coef_[0], model.intercept_, model.conf_int(0.05)
     model = sm.OLS(data_denoise['cancel_res'], sm.add_constant(data_denoise[['titles_res']])).fit()
 
-    # return model.coef_[0], model.intercept_, model.conf_int(0.05)
     # print(model.summary())
     return model.params[1], model.params[0], model.bse[1]
 
@@ -311,7 +247,12 @@ confounding_factor = ['tenure_scaled',
 
 # COMMAND ----------
 
-get_casual_impact(0, 1, sub_data, 'new_titles_viewed', 0.0525)
+# get_casual_impact(0, 1, sub_data, 'new_titles_viewed', 0.0525)
+
+# COMMAND ----------
+
+# sub_data_total = sub_data.copy()
+# sub_data = sub_data[sub_data['tenure']>=2].copy()
 
 # COMMAND ----------
 
@@ -319,21 +260,21 @@ treatment_col = 'new_titles_viewed'
 
 base_churn = 0.0525 #sub_data[sub_data[treatment_col] == 0][TARGET_COL[0]].mean()
 
-casual_df = pd.DataFrame([[0, 0, np.NaN,  np.NaN, np.NaN, base_churn,  np.NaN, np.NaN]]
-    , columns=['index_lower', 'index_upper', 'coef', 'intercept', 'churn_diff', 'churn', 'churn_diff_low', 'churn_diff_upper']) 
+casual_df = pd.DataFrame([[0, 0, np.NaN,  np.NaN, np.NaN, base_churn]]  #,  np.NaN, np.NaN]]
+    , columns=['index_lower', 'index_upper', 'coef', 'intercept', 'churn_diff', 'churn',])  # 'churn_diff_low', 'churn_diff_upper']) 
 
 new_churn = base_churn
 
-for i in range(0, 15, 1):
-    coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col, base_churn)
+for i in range(0, int(sub_data[treatment_col].max()+1), 1):
+    coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col)
     intercept = intercept - np.log((0.95/0.05)*(1))
     churn_diff = convert_odds_change_to_prob_change(coef, intercept)
-    churn_diff_low = convert_odds_change_to_prob_change(coef-1.96*se, intercept)
-    churn_diff_upper = convert_odds_change_to_prob_change(coef+1.96*se, intercept)
+    # churn_diff_low = convert_odds_change_to_prob_change(coef-1.96*se, intercept)
+    # churn_diff_upper = convert_odds_change_to_prob_change(coef+1.96*se, intercept)
 
     new_churn = new_churn+churn_diff
-    df = pd.DataFrame([[i, i+1, coef, intercept, churn_diff,new_churn, churn_diff_low, churn_diff_upper]]
-    , columns=['index_lower', 'index_upper', 'coef', 'intercept' , 'churn_diff', 'churn', 'churn_diff_low', 'churn_diff_upper']) 
+    df = pd.DataFrame([[i, i+1, coef, intercept, churn_diff,new_churn]]         # , churn_diff_low, churn_diff_upper]]
+    , columns=['index_lower', 'index_upper', 'coef', 'intercept' , 'churn_diff', 'churn'])  # , 'churn_diff_low', 'churn_diff_upper']) 
     casual_df = casual_df.append(df)
 
 casual_df_new = casual_df
@@ -341,6 +282,10 @@ casual_df_new = casual_df
 # COMMAND ----------
 
 casual_df_new
+
+# COMMAND ----------
+
+casual_df_new.to_csv('casual_df_new.csv')
 
 # COMMAND ----------
 
@@ -392,28 +337,28 @@ treatment_col = 'library_titles_viewed'
 
 base_churn = 0.0559 #sub_data[sub_data[treatment_col] == 0][TARGET_COL[0]].mean()
 
-casual_df = pd.DataFrame([[0, 0, np.NaN,  np.NaN, np.NaN, base_churn,  np.NaN, np.NaN]]
-    , columns=['index_lower', 'index_upper', 'coef', 'intercept', 'churn_diff', 'churn', 'churn_diff_low', 'churn_diff_upper']) 
+casual_df = pd.DataFrame([[0, 0, np.NaN,  np.NaN, np.NaN, base_churn]]  #,  np.NaN, np.NaN]]
+    , columns=['index_lower', 'index_upper', 'coef', 'intercept', 'churn_diff', 'churn',])  # 'churn_diff_low', 'churn_diff_upper']) 
 
 new_churn = base_churn
 
-for i in range(0, 15, 1):
-    coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col, base_churn)
+for i in range(0, int(sub_data[treatment_col].max()+1), 1):
+    coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col)
     intercept = intercept - np.log((0.95/0.05)*(1))
     churn_diff = convert_odds_change_to_prob_change(coef, intercept)
-    churn_diff_low = convert_odds_change_to_prob_change(coef-1.96*se, intercept)
-    churn_diff_upper = convert_odds_change_to_prob_change(coef+1.96*se, intercept)
+    # churn_diff_low = convert_odds_change_to_prob_change(coef-1.96*se, intercept)
+    # churn_diff_upper = convert_odds_change_to_prob_change(coef+1.96*se, intercept)
 
     new_churn = new_churn+churn_diff
-    df = pd.DataFrame([[i, i+1, coef, intercept, churn_diff,new_churn, churn_diff_low, churn_diff_upper]]
-    , columns=['index_lower', 'index_upper', 'coef', 'intercept' , 'churn_diff', 'churn', 'churn_diff_low', 'churn_diff_upper']) 
+    df = pd.DataFrame([[i, i+1, coef, intercept, churn_diff,new_churn]]         # , churn_diff_low, churn_diff_upper]]
+    , columns=['index_lower', 'index_upper', 'coef', 'intercept' , 'churn_diff', 'churn'])  # , 'churn_diff_low', 'churn_diff_upper']) 
     casual_df = casual_df.append(df)
 
 casual_df_lib = casual_df
 
 # COMMAND ----------
 
-casual_df_lib
+casual_df_lib.to_csv('casual_df_lib.csv')
 
 # COMMAND ----------
 
@@ -525,9 +470,8 @@ def exponential_decay(x, a, b,c):
     return a * np.exp(b * x) + c
 
 def fit_exponential(x_data, y_data, p0, param_bounds):
-    x_fit = np.linspace(0, x_data.max(), 100)   
     params, _ = curve_fit(exponential_decay, np.array(x_data), y_data, p0, bounds=param_bounds)
-    return x_fit, params
+    return params
 
 # COMMAND ----------
 
@@ -538,11 +482,11 @@ def fit_churn_curve(df_i):
     param_bounds = ([0, -np.inf, 0], [np.inf,0, np.inf])
 
 
-    x_fit, params = fit_exponential(x_var, y_data, p0, param_bounds)
+    params = fit_exponential(x_var, y_data, p0, param_bounds)
     a_fit, b_fit, c_fit = params
-    print(a_fit, b_fit, c_fit)
+    x_fit = np.linspace(0, x_var.max(), 100)   
     y_fit = exponential_decay(x_fit, a_fit, b_fit, c_fit)
-    return x_fit, y_fit
+    return a_fit, b_fit, c_fit
 
 # COMMAND ----------
 
@@ -633,19 +577,42 @@ fig.update_layout(
 
 # COMMAND ----------
 
-casual_df_new
+# MAGIC %md
+# MAGIC # By Segments
 
 # COMMAND ----------
 
-casual_df_lib
+sub_data_orig = spark.sql('''
+SELECT *
+FROM bolt_cus_dev.bronze.cip_user_stream_subscription_metric_agg
+order by rand()
+limit 1000000
+'''
+).toPandas()
 
 # COMMAND ----------
 
-casual_df_total
+sub_data['new_titles_viewed'].mean()
 
 # COMMAND ----------
 
+sub_data_orig['new_titles_viewed'].mean()
 
+# COMMAND ----------
+
+curve_df = pd.DataFrame(columns=['a', 'b', 'c', 'agg_level', 'mean', 'entertainment_segment_lifetime'])
+
+# COMMAND ----------
+
+a,b,c = fit_churn_curve(casual_df_new[casual_df_new['index_upper']<=15])
+curve_df.loc[0] = [a,b,c, 'new',  sub_data_orig['new_titles_viewed'].mean(), 'genpop']
+
+a,b,c = fit_churn_curve(casual_df_lib[casual_df_lib['index_upper']<=15])
+curve_df.loc[1] = [a,b,c, 'library',  sub_data_orig['library_titles_viewed'].mean(), 'genpop']
+
+# COMMAND ----------
+
+curve_df
 
 # COMMAND ----------
 
@@ -653,86 +620,108 @@ confounding_factor = ['tenure_scaled',
                         'number_of_reconnects_scaled',
                         'titles_viewed_scaled',
                         # 'new_titles_viewed_scaled',
-                        # 'library_titles_viewed_scaled',
+                        'library_titles_viewed_scaled',
                         'number_of_weeks_viewed_scaled',
-                        # 'platinum_titles_viewed_scaled',
+                        'platinum_titles_viewed_scaled',
                         'gold_titles_viewed_scaled',
                         'silver_titles_viewed_scaled',
                         'series_viewed_scaled',
                         'movie_viewed_scaled',
                         'livesports_viewed_scaled',
-                        # 'hours_viewed_scaled',
+                        'hours_viewed_scaled',
                         # 'provider_Direct_scaled',
                         'sku_ad_free_scaled',
                         'sku_ad_lite_scaled',
                         'sku_premium_ad_free_scaled']
-
-# COMMAND ----------
-
-treatment_col = 'platinum_titles_viewed'
-
-base_churn = 0.0593 #sub_data[sub_data[treatment_col] == 0][TARGET_COL[0]].mean()
-
-casual_df = pd.DataFrame([[0, 0, np.NaN,  np.NaN, np.NaN, base_churn]]
-    , columns=['index_lower', 'index_upper', 'coef', 'intercept', 'churn_diff', 'churn']) 
-
-new_churn = base_churn
-
-for i in range(0, 15, 1):
-    coef, intercept = get_casual_impact(i, i+1, sub_data, treatment_col, base_churn)
-    churn_diff = convert_odds_change_to_prob_change(coef, intercept)
-    new_churn = new_churn+churn_diff
-    df = pd.DataFrame([[i, i+1, coef, intercept, churn_diff,new_churn]]
-    , columns=['index_lower', 'index_upper', 'coef', 'intercept', 'churn_diff', 'churn']) 
-    casual_df = casual_df.append(df)
-
-casual_df
+treatment_col = 'new_titles_viewed'
 
 # COMMAND ----------
 
 
+def output_casual_parameters(sub_data, sub_data_orig):
+    base_churn = sub_data_orig[sub_data_orig[treatment_col] == 0][TARGET_COL[0]].mean()
+
+    casual_df = pd.DataFrame([[0, 0, np.NaN,  np.NaN, np.NaN, base_churn]] 
+        , columns=['index_lower', 'index_upper', 'coef', 'intercept', 'churn_diff', 'churn',])  # 'churn_diff_low', 'churn_diff_upper']) 
+
+    new_churn = base_churn
+
+    for i in range(0, 15, 1):
+        coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col)
+        intercept = intercept - np.log((0.95/0.05)*(1))
+        churn_diff = convert_odds_change_to_prob_change(coef, intercept)
+
+        new_churn = new_churn+churn_diff
+        df = pd.DataFrame([[i, i+1, coef, intercept, churn_diff,new_churn]]        
+        , columns=['index_lower', 'index_upper', 'coef', 'intercept' , 'churn_diff', 'churn']) 
+        casual_df = casual_df.append(df)
+
+    return casual_df
 
 # COMMAND ----------
 
+def plot_curve_and_mean(casual_df, a,b,c,mean, seg):
+    print('y= {:.2f} * e^({:.2f} * title_viewed) + {:.2f}'.format(a, b, c))
+
+    x = casual_df.index_upper
+    y = casual_df.churn
+    x_fit = np.linspace(0, x.max(), 100) 
+    y_fit = exponential_decay(x_fit, a, b, c)
+    x_med = mean
+    y_med = exponential_decay(x_med, a, b, c)
+
+
+    fig = px.scatter(x=x, y=y,  title=seg, width=1000, height=400)
+    fig.add_scatter(x=x_fit, y=y_fit)
+    fig.add_scatter(x=[x_med], y=[y_med],mode='markers',marker=dict(size=14, color='red', line=dict(color='black', width=2)))
+
+    fig.update_layout(
+        template='simple_white',
+        showlegend=False,
+        xaxis=dict(range=[0.25,15]),
+        annotations=[
+        dict(
+            x=x_med+0.2,  # x-coordinate for the text
+            y=y_med+0.01,  # y-coordinate for the text
+            text='{:.2f}, {:.2f}'.format(x_med, y_med),  # the text to display
+            showarrow=False,  # disable arrow for the annotation
+            xanchor='left',
+            font=dict(
+                family='Arial',  # specify font family
+                size=18,  # specify font size
+                color='black'  # specify font color
+            )
+        )
+    ]
+) 
+    fig.show()
+    return fig
 
 
 # COMMAND ----------
 
-# level_data = sub_data[sub_data['new_titles_viewed']<=1]
+for seg in sub_data[sub_data['entertainment_segment_lifetime'].notnull()].entertainment_segment_lifetime.unique():
+    print(seg)
+    seg_data = sub_data[sub_data['entertainment_segment_lifetime'] == seg]
+    seg_data_orig = sub_data_orig[sub_data_orig['entertainment_segment_lifetime'] == seg]
 
-# for i in FEATURE_COLS+ONEHOT_COLS:
-#     min_max_scaler = preprocessing.MinMaxScaler()
-#     scaled_col = min_max_scaler.fit_transform(level_data[[i]])
-#     level_data[i+'_scaled'] = scaled_col
+    casual_df = output_casual_parameters(seg_data, seg_data_orig)
+    a,b,c = fit_churn_curve(casual_df[(casual_df['index_upper']<=15)
+                                      &(casual_df['churn'].notnull())])
+    curve_df.loc[len(curve_df)] = [a,b,c, 'new',  seg_data_orig[treatment_col].mean(), seg]
 
-# # Debiasing Step
-# model = LogisticRegression(penalty='none', max_iter=400)
-# debiasing_model = model.fit(level_data[confounding_factor], level_data['new_titles_viewed_scaled'])
-# titles_deb = level_data.assign(
-# # for visualization, avg(T) is added to the residuals
-# titles_res= level_data['new_titles_viewed_scaled'] - debiasing_model.predict_proba(level_data[confounding_factor])[:, 0]
-# )
-
-# model = LogisticRegression(penalty='none', max_iter=400)
-# denoising_model = model.fit(titles_deb[confounding_factor], titles_deb[TARGET_COL])
-# data_denoise = titles_deb.assign(cancel_res= titles_deb[TARGET_COL[0]] - denoising_model.predict_proba(level_data[confounding_factor])[:, 0])
-
-# # Final Model
-# model = LinearRegression()
-# model.fit(data_denoise[['titles_res']], data_denoise['cancel_res'])
+    print(seg_data_orig[treatment_col].mean())
+    plot_curve_and_mean(casual_df, a,b,c,seg_data_orig[treatment_col].mean(), seg)
 
 # COMMAND ----------
 
-# debiasing_model = sm.Logit(level_data[['new_titles_viewed_scaled']], 
-#                             level_data[confounding_factor]).fit(method='bfgs')
-# titles_deb = level_data.assign(
-# # for visualization, avg(T) is added to the residuals
-# titles_res=debiasing_model.resid_generalized + level_data["new_titles_viewed_scaled"].mean()
-# )
+curve_df.to_csv('curve_df.csv')
 
-############ Denoise Step ###########
-# denoising_model = sm.Logit(titles_deb[TARGET_COL], 
-#                        titles_deb[confounding_factor]).fit(method='bfgs')
-# data_denoise = titles_deb.assign(
-# cancel_res=denoising_model.resid_generalized + titles_deb["is_vol_cancel"].mean()
-# )
+# COMMAND ----------
+
+outut_df = spark.createDataFrame(curve_df)
+outut_df.write.mode('overwrite').saveAsTable('bolt_cus_dev.bronze.cip_churn_curve_parameters_v2')
+
+# COMMAND ----------
+
+sub_data_orig[sub_data_orig['entertainment_segment_lifetime'].isnull()].count()/sub_data_orig.count()

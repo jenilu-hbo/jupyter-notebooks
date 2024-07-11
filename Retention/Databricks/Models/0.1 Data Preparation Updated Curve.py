@@ -70,11 +70,11 @@ file_path = '/Workspace/Users/jeni.lu@wbd.com/Retention/files/'
 # COMMAND ----------
 
 
-hours_df_60 = spark.sql('SELECT * FROM bolt_cus_dev.bronze.cip_title_hours_watched_season_segment_agg_30d').toPandas()
+hours_df_30 = spark.sql('SELECT * FROM bolt_cus_dev.bronze.cip_title_hours_watched_season_segment_agg_30d').toPandas()
 
 # COMMAND ----------
 
-hours_df_60.head()
+hours_df_30.head()
 
 # COMMAND ----------
 
@@ -88,12 +88,12 @@ content_category = content_category.rename(columns = {'1. Names and IDs CKG Seri
 
 # COMMAND ----------
 
-df = hours_df_60.merge(content_category[['ckg_series_id', 'content_category']], 
+df = hours_df_30.merge(content_category[['ckg_series_id', 'content_category']], 
                        on = ['ckg_series_id'], how = 'left')
 
 # COMMAND ----------
 
-content_pillar = pd.read_csv(file_path + '2024.07.03 - Past Titles Mapped to Pillar.csv')
+content_pillar = pd.read_csv(file_path + '2024.07.11 - Latest Pillar Designation for Past Titles.csv')
 content_pillar.head()
 
 # COMMAND ----------
@@ -109,6 +109,19 @@ df = df.merge(content_pillar[['ckg_series_id', 'content_pillar', 'content_sub_pi
 
 # COMMAND ----------
 
+content_churn_curve = spark.sql('SELECT * FROM bolt_cus_dev.bronze.cip_churn_curve_parameters_v2').toPandas()
+content_churn_curve = content_churn_curve[content_churn_curve['agg_level'] == 'new']
+
+# COMMAND ----------
+
+content_churn_curve.head()
+
+# COMMAND ----------
+
+df = df.merge(content_churn_curve, on='entertainment_segment_lifetime', how='left')
+
+# COMMAND ----------
+
 df.head()
 
 # COMMAND ----------
@@ -118,153 +131,43 @@ df.head()
 
 # COMMAND ----------
 
-import pandas as pd
-import numpy as np
+df.loc[df['series_type'].str.contains('live'), 'series_type'] = 'livesports'
+content_category_onehot = pd.get_dummies(df['series_type'], prefix='series_type')
+title_series_info=pd.concat([df, content_category_onehot], axis = 1)
 
 # COMMAND ----------
-
-title_info.loc[title_info['content_category'].str.contains('series'), 'content_category'] = 'series'
-title_info.loc[title_info['content_category'].str.contains('live'), 'content_category'] = 'live'
-title_info.loc[title_info['content_category']=='standalone', 'content_category'] = 'movie'
-
-content_category_onehot = pd.get_dummies(title_info['content_category'], prefix='content_category')
-title_series_info=pd.concat([title_info, content_category_onehot], axis = 1)
-
-# COMMAND ----------
-
 
 program_type_onehot = pd.get_dummies(title_series_info['program_type'], prefix='program_type')
 title_series_info=pd.concat([title_series_info, program_type_onehot], axis = 1)
 
 # COMMAND ----------
 
-# title_series_info.loc[title_series_info['genre'] == 'Action', 'genre'] = 'action'
-# title_series_info.loc[title_series_info['genre'] == 'Comedy', 'genre'] = 'comedy'
-# title_series_info.loc[title_series_info['genre'] == 'Drama', 'genre'] = 'drama'
-# title_series_info.loc[~title_series_info['genre'].isin(['action', 'comedy', 'drama']), 'genre'] = 'other'
-
-genre_onehot = pd.get_dummies(title_series_info['genre'], prefix='genre')
-title_series_info=pd.concat([title_series_info, genre_onehot], axis = 1)
+# genre_onehot = pd.get_dummies(title_series_info['genre'], prefix='genre')
+# title_series_info=pd.concat([title_series_info, genre_onehot], axis = 1)
 
 # COMMAND ----------
 
 # Medal Data
+title_series_info.loc[title_series_info['medal'].isin(['Direct-to-MAX', 'WB Pay-1 | Short Window']), 'medal'] = 'Gold'
+title_series_info.loc[title_series_info['title_name'] == 'House of the Dragon'] = 'Platinum'
 medal_dict = {'Silver':2, 'Bronze':3, 'Gold':1 , 'Platinum':0, 'None':'Bronze'}
 title_series_info['medal'] = title_series_info['medal'].fillna('Bronze')
 title_series_info['medal_number'] = title_series_info['medal'].replace(medal_dict)
 
 # COMMAND ----------
 
-title_series_info['is_new_content'] = 0
-
-### Air date and Release date < 1 year
-title_series_info.loc[(pd.to_datetime(title_series_info['offering_start_date'])-
-                      pd.to_datetime(title_series_info['air_date']))/np.timedelta64(1, 'Y') <= 1,
-                      'is_new_content']=1
+# title_series_info['age_of_content'] = (pd.to_datetime(title_series_info['offering_start_date'])-
+#                       pd.to_datetime(title_series_info['air_date']))/np.timedelta64(1, 'Y')
 
 # COMMAND ----------
 
-title_series_info['age_of_content'] = (pd.to_datetime(title_series_info['offering_start_date'])-
-                      pd.to_datetime(title_series_info['air_date']))/np.timedelta64(1, 'Y')
+title_series_info['offering_start_date'] = title_series_info['offering_start_date'].astype(str)
 
 # COMMAND ----------
 
-data = hours_df_60[['ckg_series_id', 'season_number','entertainment_segment_lifetime', 'percent_hours_viewed', 'percent_viewing_subs']].merge(
-       title_series_info, on = ['ckg_series_id', 'season_number'])
-data['pct_hours_viewed_per_runtime'] = data['percent_hours_viewed'].astype(float)/data['asset_run_time_hours'].astype(float)
-
-# COMMAND ----------
-
-data[data['offering_start_date'] == '2023-05-23']
-
-# COMMAND ----------
-
-data.columns = [i.replace(' ', '').replace('&', '_') for i in data.columns]
-for i in data.columns:
-    data[i] = data[i].astype(str)
-
-# COMMAND ----------
-
-# data.columns = [i.replace(' ', '').replace('&', '_') for i in data.columns]
-data_df = spark.createDataFrame(data)
-spark.sql('drop table bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_avod_svod')
-data_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_avod_svod")
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC Add Churn Curves
-
-# COMMAND ----------
-
-import matplotlib.pyplot as plt 
-import seaborn as sns
-
-# COMMAND ----------
-
-META_COLS = ['title_name', 'title_id', 'season_number', 'offering_start_date', 'asset_run_time_hours']
-FEATURE_COLS = ['is_pay_1', 'is_popcorn', 'is_new_content', 
-                'medal_number', 'age_of_content', 
-               'budget', 'content_category_live', 'content_category_movie',
-               'content_category_series',
-               'program_type_Acquired', 'program_type_Original', ''
-               'genre_Action', 'genre_Adult Animation', 'genre_Adventure & Survival',
-               'genre_Comedy', 'genre_Documentaries', 'genre_Drama', 'genre_Events',
-               'genre_Fantasy & Sci-Fi', 'genre_Food & Home', 'genre_Horror', 'genre_Kids & Family'
-               ,'genre_News', 'genre_Sports', 'entertainment_segment_lifetime'
-               ]
-
-# COMMAND ----------
-
-for i in FEATURE_COLS:
-    if i not in (['budget', 'entertainment_segment_lifetime', 'age_of_content']):
-        try:
-            data[i] = data[i].astype(int, errors='ignore')
-        except Exception as e:
-            print (i)
-            print (e)
-    
-
-# COMMAND ----------
-
-
-TARGET_COL = ['percent_viewing_subs'] #cumulative_hours_viewed
-
-# COMMAND ----------
-
-np.bool = np.bool_
-
-# COMMAND ----------
-
-plot_data=data[data['entertainment_segment_lifetime'] == 'Drama Originals Watchers'][FEATURE_COLS+TARGET_COL]
-corr = plot_data.corr()[TARGET_COL]
-mask=np.zeros_like(corr, dtype=np.bool)
-corr.loc['dummy_value'] = -1
-# corr.sort_values(by = TARGET_COL)
-
-# COMMAND ----------
-
-corr['abs_value'] = np.abs(corr[TARGET_COL])
-corr.sort_values(by = 'abs_value', ascending=False).head(12)
-
-# COMMAND ----------
-
-
-f, ax = plt.subplots(figsize=(10, 8))
-sns.heatmap(corr, mask=np.zeros_like(corr, dtype=np.bool), cmap=sns.diverging_palette(220, 10, as_cmap=True),
-            square=True, ax=ax)
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC # Write to table
-
-# COMMAND ----------
-
-data.columns = [i.replace(' ', '').replace('&', '_') for i in data.columns]
-data_df = spark.createDataFrame(data)
-# spark.sql('drop table bolt_cus_dev.bronze.cip_title_segment_viewership_training_data')
-# data_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_segment_viewership_training_data")
+data_df = spark.createDataFrame(title_series_info)
+# spark.sql('drop table bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_avod_svod')
+data_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_20240710")
 
 # COMMAND ----------
 

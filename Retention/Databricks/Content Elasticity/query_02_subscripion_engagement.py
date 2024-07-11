@@ -44,25 +44,30 @@ SELECT
 , m.series_window_end::DATE
 , m.lob
 , m.category
-, case when hb.request_date_local between m.season_window_start and dateadd(DAY, 30, m.season_window_end) THEN 1 ELSE 0 END AS in_season_window
-, case when hb.request_date_local between m.series_window_start and dateadd(DAY, 30, m.series_window_end) THEN 1 ELSE 0 END AS in_series_window
+, case when recency.in_season_window = 1 THEN 1 ELSE 0 END AS in_season_window
+, case when recency.in_series_window = 1 THEN 1 ELSE 0 END AS in_series_window
 FROM bolt_cus_dev.silver.max_ltv_period_combined u  --Subcription level metric
 LEFT JOIN bolt_dai_ce_prod.gold.combined_video_stream hb                             -- JOIN with viewership data
     ON hb.request_date_local between u.period_start_ts::DATE and u.period_end_ts::DATE
     AND hb.request_date_local >= DATEADD(MONTH, -1, u.period_end_ts::DATE)
     AND (hb.hbomax_subscription_id = u.sub_id_legacy or hb.sub_id = u.sub_id_max)
     AND hb.region = u.region
-    AND and hb.PROGRAM_ID_OR_VIEWABLE_ID IS NOT NULL 
+    AND hb.PROGRAM_ID_OR_VIEWABLE_ID IS NOT NULL 
     AND hb.CONTENT_MINUTES_WATCHED >= 2
     AND hb.video_type = 'main' 
 LEFT JOIN bolt_analytics_prod.gold.v_r_content_metadata_reporting_asset_dim_combined rad  -- map program to series and season level
     ON hb.PROGRAM_ID_OR_VIEWABLE_ID = rad.ckg_program_id
-LEFT JOIN 
-    bolt_cus_dev.bronze.cip_recency_title_season_level_metadata m --title season level metadata
+LEFT JOIN bolt_cus_dev.bronze.cip_recency_title_season_level_metadata m --title season level metadata
     ON rad.ckg_series_id = m.ckg_series_id 
     AND coalesce(rad.season_number, 0) = m.season_number
     AND m.region = u.region
     AND m.country_code = hb.session_country
+LEFT JOIN bolt_cus_dev.bronze.cip_recency_title_series_level_new_library_indicator recency --title season level recency indicator
+    ON rad.ckg_series_id = m.ckg_series_id 
+    AND coalesce(rad.season_number, 0) = m.season_number
+    AND m.region = u.region
+    AND m.country_code = hb.session_country
+    AND hb.request_date_local = recency.request_date
 WHERE 1=1
 -- and u.provider = 'Direct'
 -- and u.payment_period = 'PERIOD_MONTH'
@@ -141,6 +146,12 @@ GROUP BY ALL
 # MAGIC     AND coalesce(rad.season_number, 0) = m.season_number
 # MAGIC     -- AND m.region = u.region
 # MAGIC     AND m.country_code = hb.session_country
+# MAGIC LEFT JOIN bolt_cus_dev.bronze.cip_recency_title_series_level_new_library_indicator recency --title season level recency indicator
+# MAGIC     ON rad.ckg_series_id = m.ckg_series_id 
+# MAGIC     AND coalesce(rad.season_number, 0) = m.season_number
+# MAGIC     AND m.region = u.region
+# MAGIC     AND m.country_code = hb.session_country
+# MAGIC     AND hb.request_date_local = recency.request_date
 # MAGIC WHERE 1=1
 # MAGIC and u.provider = 'Direct'
 # MAGIC and u.payment_period = 'PERIOD_MONTH'

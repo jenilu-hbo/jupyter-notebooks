@@ -670,3 +670,34 @@ casual_df_new['churn_diff_2'] = casual_df_new.apply(lambda x: convert_odds_to_pr
 # data_denoise = titles_deb.assign(
 # cancel_res=denoising_model.resid_generalized + titles_deb["is_vol_cancel"].mean()
 # )
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC User distribution
+
+# COMMAND ----------
+
+sub_data = spark.sql('''
+SELECT *
+FROM bolt_cus_dev.bronze.cip_user_stream_subscription_metric_agg
+order by rand()
+limit 1000000
+'''
+).toPandas()
+
+# COMMAND ----------
+
+sub_data = sub_data[sub_data['tenure'] >=2]
+
+# COMMAND ----------
+
+pd.DataFrame(sub_data.groupby(['library_titles_viewed'])['sub_id'].count())
+
+# COMMAND ----------
+
+sub_data[sub_data['library_titles_viewed'] == 0]['is_vol_cancel'].mean()
+
+# COMMAND ----------
+
+
