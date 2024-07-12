@@ -592,11 +592,11 @@ limit 1000000
 
 # COMMAND ----------
 
-sub_data['new_titles_viewed'].mean()
+sub_data['new_titles_viewed'].mean() #2.038
 
 # COMMAND ----------
 
-sub_data_orig['new_titles_viewed'].mean()
+sub_data_orig['new_titles_viewed'].mean() #2.429853
 
 # COMMAND ----------
 

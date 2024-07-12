@@ -59,10 +59,15 @@ content_viewership_final = content_viewership_final[(content_viewership_final['t
                                                     &(content_viewership_final['agg_level'] == 'new')
                                                     # &(content_viewership_final['entertainment_segment_lifetime']!='gen_pop')
                                                     # &(~content_viewership_final['content_strategy_category'].isin(['News', 'Sports']))
-                                                    &(~content_viewership_final['title_name'].isin(['Walker: Independence', 'Sesame Street']))
+                                                    &(~content_viewership_final['title_name'].isin(['Walker: Independence', 'Sesame Street'])) #, 'Rick and Morty', 'Velma', 'Perry Mason']))
                                                     &(content_viewership_final['offering_start_date'].astype(str)!='2023-05-23')
                                                     &(content_viewership_final['offering_start_date'].astype(str)>='2023-01-01')
                                                     ].copy()
+
+# COMMAND ----------
+
+content_viewership_final.loc[content_viewership_final['title_name'].isin(['Succession',
+                                                                          'House of the Dragon',]), 'medal'] = 'Platinum'
 
 # COMMAND ----------
 
@@ -171,7 +176,7 @@ content_cost = content_viewership_final[['ckg_series_id', 'season_number','title
 # COMMAND ----------
 
 ########## CREATE COST TABLE ################
-cost_table = content_cost.groupby([ 'content_sub_pillar', 'medal'])[['content_cost']].median().reset_index()
+cost_table = content_cost.groupby([ 'content_sub_pillar', 'medal']).agg({'content_cost':'median', 'ckg_series_id':'count'}).reset_index()
 
 cost_medal = content_cost.groupby([ 'medal'])[['content_cost']].median().reset_index()
 cost_medal.rename(columns={'content_cost':'medal_cost'}, inplace = True)
@@ -185,12 +190,12 @@ cost_table = cost_table[cost_table['content_sub_pillar'].notnull()]
 
 # COMMAND ----------
 
-cost_table.sort_values(by = ['content_sub_pillar', 'medal', ])
+cost_table = cost_table[cost_table['content_sub_pillar']!='NaN']
+seg_viewership = seg_viewership[seg_viewership['content_sub_pillar']!='NaN']
 
 # COMMAND ----------
 
-cost_table = cost_table[cost_table['content_sub_pillar']!='NaN']
-seg_viewership = seg_viewership[seg_viewership['content_sub_pillar']!='NaN']
+cost_table.sort_values(by = ['content_sub_pillar', 'medal', ])
 
 # COMMAND ----------
 
@@ -228,7 +233,7 @@ def geometric_progression_sum(n, q):
 
 # COMMAND ----------
 
-budget = 4.5*1000000000     #/18 ####/
+budget = 3.3*1000000000     #/18 ####/
 
 # COMMAND ----------
 
@@ -259,7 +264,7 @@ cost_table['variable'] = x
 
 viewership = cost_table[['content_sub_pillar', 'medal', 'variable']]\
             .merge(seg_viewership, on = ['content_sub_pillar', 'medal'])
-viewership['decay'] = viewership.apply(lambda x: geometric_progression_sum(x.variable, 0.9), axis = 1)
+viewership['decay'] = viewership.apply(lambda x: geometric_progression_sum(x.variable, 0.99), axis = 1)
 viewership['total_viewership'] = viewership['percent_viewing_subs'] * viewership['decay'] #*viewership['decay']
 
 p = [0 for i in range(len(viewership))]
@@ -305,6 +310,10 @@ df = pd.DataFrame([x[i].value for i in range(n)])
 df[0] = df[0].astype(int)
 df.to_csv('final_results.csv')
 # df
+
+# COMMAND ----------
+
+df
 
 # COMMAND ----------
 

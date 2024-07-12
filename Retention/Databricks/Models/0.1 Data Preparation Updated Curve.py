@@ -114,7 +114,7 @@ content_churn_curve = content_churn_curve[content_churn_curve['agg_level'] == 'n
 
 # COMMAND ----------
 
-content_churn_curve.head()
+content_churn_curve.head() #0.01168905	-0.44522673	0.0411347
 
 # COMMAND ----------
 

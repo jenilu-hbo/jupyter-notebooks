@@ -55,24 +55,27 @@ LEFT JOIN bolt_dai_ce_prod.gold.combined_video_stream hb                        
     AND hb.PROGRAM_ID_OR_VIEWABLE_ID IS NOT NULL 
     AND hb.CONTENT_MINUTES_WATCHED >= 2
     AND hb.video_type = 'main' 
+    and hb.region = 'NORTH AMERICA'
 LEFT JOIN bolt_analytics_prod.gold.v_r_content_metadata_reporting_asset_dim_combined rad  -- map program to series and season level
     ON hb.PROGRAM_ID_OR_VIEWABLE_ID = rad.ckg_program_id
 LEFT JOIN bolt_cus_dev.bronze.cip_recency_title_season_level_metadata m --title season level metadata
     ON rad.ckg_series_id = m.ckg_series_id 
     AND coalesce(rad.season_number, 0) = m.season_number
-    AND m.region = u.region
+    -- AND m.region = u.region
+    and m.region = 'NORTH AMERICA'
     AND m.country_code = hb.session_country
 LEFT JOIN bolt_cus_dev.bronze.cip_recency_title_series_level_new_library_indicator recency --title season level recency indicator
-    ON rad.ckg_series_id = m.ckg_series_id 
-    AND coalesce(rad.season_number, 0) = m.season_number
-    AND m.region = u.region
-    AND m.country_code = hb.session_country
+    ON rad.ckg_series_id = recency.ckg_series_id 
+    AND coalesce(rad.season_number, 0) = recency.season_number
+    -- AND recency.region = u.region
+    AND recency.country_code = hb.session_country
+    and recency.region = 'NORTH AMERICA'
     AND hb.request_date_local = recency.request_date
 WHERE 1=1
 -- and u.provider = 'Direct'
 -- and u.payment_period = 'PERIOD_MONTH'
 -- and (u.signup_offer is null or u.signup_offer = 'no_free_trial')
--- and u.region = 'NORTH AMERICA'
+and u.region = 'NORTH AMERICA'
 -- and date_trunc('MONTH', u.period_end_ts)::DATE >= '2022-01-01'
 GROUP BY ALL
 ''')
