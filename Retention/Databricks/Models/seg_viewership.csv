@@ -1,0 +1,438 @@
+,entertainment_segment_lifetime,medal,content_sub_pillar,percent_viewing_subs
+0,Adult Animation Watchers,Bronze,Buzz/Prestige/Brand Support,0.0039987582105064975
+1,Adult Animation Watchers,Bronze,Engagement Anchor,0.046344660932317976
+2,Adult Animation Watchers,Bronze,Experimentation,0.01315609047085685
+4,Adult Animation Watchers,Bronze,News & Sports,0.0020494925049744147
+5,Adult Animation Watchers,Bronze,Supporter: Broad Library,0.008616747726149886
+6,Adult Animation Watchers,Bronze,Supporter: New Content,0.011601570387323778
+7,Adult Animation Watchers,Bronze,Supporter: Segment-Specific Library,0.0012574074044733275
+8,Adult Animation Watchers,Gold,Engagement Anchor,0.05658998120963987
+9,Adult Animation Watchers,Gold,Experimentation,0.027182629065681592
+10,Adult Animation Watchers,Gold,Supporter: New Content,0.1273103199551474
+11,Adult Animation Watchers,Gold,Tentpole Anchor,0.04948550813758045
+12,Adult Animation Watchers,Platinum,Engagement Anchor,0.19940270380731626
+14,Adult Animation Watchers,Platinum,Supporter: New Content,0.1438610855797223
+15,Adult Animation Watchers,Platinum,Tentpole Anchor,0.5508919151970018
+16,Adult Animation Watchers,Silver,Buzz/Prestige/Brand Support,0.016719350137341705
+17,Adult Animation Watchers,Silver,Engagement Anchor,0.034977833181744654
+18,Adult Animation Watchers,Silver,Experimentation,0.0883611930528717
+20,Adult Animation Watchers,Silver,Supporter: Broad Library,0.38979264866371005
+21,Adult Animation Watchers,Silver,Supporter: New Content,0.029260237099238542
+22,Armchair Detectives,Bronze,Buzz/Prestige/Brand Support,0.010872732732421841
+23,Armchair Detectives,Bronze,Engagement Anchor,0.10784395028966105
+24,Armchair Detectives,Bronze,Experimentation,0.007487983540986472
+26,Armchair Detectives,Bronze,News & Sports,0.002466302188530209
+27,Armchair Detectives,Bronze,Supporter: Broad Library,0.007583189355585166
+28,Armchair Detectives,Bronze,Supporter: New Content,0.021420891791179408
+29,Armchair Detectives,Bronze,Supporter: Segment-Specific Library,0.002813346303170458
+30,Armchair Detectives,Gold,Engagement Anchor,0.10512690543230177
+31,Armchair Detectives,Gold,Experimentation,0.03263491106421465
+32,Armchair Detectives,Gold,Supporter: New Content,0.08197535396586814
+33,Armchair Detectives,Gold,Tentpole Anchor,0.0582876991511156
+34,Armchair Detectives,Platinum,Engagement Anchor,0.19799820615049335
+36,Armchair Detectives,Platinum,Supporter: New Content,0.14361253326336818
+37,Armchair Detectives,Platinum,Tentpole Anchor,0.5286016606372032
+38,Armchair Detectives,Silver,Buzz/Prestige/Brand Support,0.020338739715975482
+39,Armchair Detectives,Silver,Engagement Anchor,0.08757616410847732
+40,Armchair Detectives,Silver,Experimentation,0.06349764374637117
+42,Armchair Detectives,Silver,Supporter: Broad Library,0.14249562249971243
+43,Armchair Detectives,Silver,Supporter: New Content,0.04725027588381385
+44,Comedy Originals Watchers,Bronze,Buzz/Prestige/Brand Support,0.007300445205102775
+45,Comedy Originals Watchers,Bronze,Engagement Anchor,0.06546784712409706
+46,Comedy Originals Watchers,Bronze,Experimentation,0.005324024875777561
+48,Comedy Originals Watchers,Bronze,News & Sports,0.0021781543109172913
+49,Comedy Originals Watchers,Bronze,Supporter: Broad Library,0.004448350882502556
+50,Comedy Originals Watchers,Bronze,Supporter: New Content,0.009709768873597747
+51,Comedy Originals Watchers,Bronze,Supporter: Segment-Specific Library,0.0007365390164592421
+52,Comedy Originals Watchers,Gold,Engagement Anchor,0.11547689456165053
+53,Comedy Originals Watchers,Gold,Experimentation,0.030102628652108183
+54,Comedy Originals Watchers,Gold,Supporter: New Content,0.09341991244527215
+55,Comedy Originals Watchers,Gold,Tentpole Anchor,0.06574037033072085
+56,Comedy Originals Watchers,Platinum,Engagement Anchor,0.19452962747223956
+58,Comedy Originals Watchers,Platinum,Supporter: New Content,0.0736948354926657
+59,Comedy Originals Watchers,Platinum,Tentpole Anchor,0.47701145512030485
+60,Comedy Originals Watchers,Silver,Buzz/Prestige/Brand Support,0.03229295087942226
+61,Comedy Originals Watchers,Silver,Engagement Anchor,0.06303541475890659
+62,Comedy Originals Watchers,Silver,Experimentation,0.04538555634189819
+64,Comedy Originals Watchers,Silver,Supporter: Broad Library,0.11134495573780868
+65,Comedy Originals Watchers,Silver,Supporter: New Content,0.0453513458243053
+66,DC Superfans,Bronze,Buzz/Prestige/Brand Support,0.0031395543175152573
+67,DC Superfans,Bronze,Engagement Anchor,0.020114942528735632
+68,DC Superfans,Bronze,Experimentation,0.007489763021288424
+70,DC Superfans,Bronze,News & Sports,0.0022552552617832494
+71,DC Superfans,Bronze,Supporter: Broad Library,0.005471852103933213
+72,DC Superfans,Bronze,Supporter: New Content,0.014416363350712965
+73,DC Superfans,Bronze,Supporter: Segment-Specific Library,0.001628616205506606
+74,DC Superfans,Gold,Engagement Anchor,0.03918447401050327
+75,DC Superfans,Gold,Experimentation,0.020970440602342443
+76,DC Superfans,Gold,Supporter: New Content,0.06955165633125114
+77,DC Superfans,Gold,Tentpole Anchor,0.03176620076238882
+78,DC Superfans,Platinum,Engagement Anchor,0.17435203876800076
+80,DC Superfans,Platinum,Supporter: New Content,0.13083731332476367
+81,DC Superfans,Platinum,Tentpole Anchor,0.4987221189591078
+82,DC Superfans,Silver,Buzz/Prestige/Brand Support,0.014897346019028543
+83,DC Superfans,Silver,Engagement Anchor,0.025946671206878935
+84,DC Superfans,Silver,Experimentation,0.15860402768547616
+86,DC Superfans,Silver,Supporter: Broad Library,0.18062378613046956
+87,DC Superfans,Silver,Supporter: New Content,0.03297209341298352
+88,Drama Originals Watchers,Bronze,Buzz/Prestige/Brand Support,0.005878925879586737
+89,Drama Originals Watchers,Bronze,Engagement Anchor,0.08352776124316472
+90,Drama Originals Watchers,Bronze,Experimentation,0.0064395923866429
+92,Drama Originals Watchers,Bronze,News & Sports,0.0027773819687978824
+93,Drama Originals Watchers,Bronze,Supporter: Broad Library,0.006859476832544867
+94,Drama Originals Watchers,Bronze,Supporter: New Content,0.01134854874154581
+95,Drama Originals Watchers,Bronze,Supporter: Segment-Specific Library,0.0010303611722140634
+96,Drama Originals Watchers,Gold,Engagement Anchor,0.12347200087215936
+97,Drama Originals Watchers,Gold,Experimentation,0.0296234963495062
+98,Drama Originals Watchers,Gold,Supporter: New Content,0.10592063171757299
+99,Drama Originals Watchers,Gold,Tentpole Anchor,0.10653537798066226
+100,Drama Originals Watchers,Platinum,Engagement Anchor,0.20170962699122846
+102,Drama Originals Watchers,Platinum,Supporter: New Content,0.10103020207712254
+103,Drama Originals Watchers,Platinum,Tentpole Anchor,0.5950135048998253
+104,Drama Originals Watchers,Silver,Buzz/Prestige/Brand Support,0.018868712471834016
+105,Drama Originals Watchers,Silver,Engagement Anchor,0.08298553841569827
+106,Drama Originals Watchers,Silver,Experimentation,0.05065044351253838
+108,Drama Originals Watchers,Silver,Supporter: Broad Library,0.1642175029637034
+109,Drama Originals Watchers,Silver,Supporter: New Content,0.04247089876332132
+110,Factual,Bronze,Buzz/Prestige/Brand Support,0.005096211651556234
+111,Factual,Bronze,Engagement Anchor,0.061273230525899565
+112,Factual,Bronze,Experimentation,0.012079434725577686
+114,Factual,Bronze,News & Sports,0.002558968557634628
+115,Factual,Bronze,Supporter: Broad Library,0.009391639542704954
+116,Factual,Bronze,Supporter: New Content,0.015606510002740099
+117,Factual,Bronze,Supporter: Segment-Specific Library,0.002981945436796991
+118,Factual,Gold,Engagement Anchor,0.0688164781722549
+119,Factual,Gold,Experimentation,0.02332640296163732
+120,Factual,Gold,Supporter: New Content,0.08781642366037629
+121,Factual,Gold,Tentpole Anchor,0.04773426319077101
+122,Factual,Platinum,Engagement Anchor,0.24400925644007523
+124,Factual,Platinum,Supporter: New Content,0.15619227748051517
+125,Factual,Platinum,Tentpole Anchor,0.5536210493709058
+126,Factual,Silver,Buzz/Prestige/Brand Support,0.011140056707782207
+127,Factual,Silver,Engagement Anchor,0.048337667432822286
+128,Factual,Silver,Experimentation,0.07794485663778856
+130,Factual,Silver,Supporter: Broad Library,0.161583945529475
+131,Factual,Silver,Supporter: New Content,0.035342272784420634
+132,Family Animation Watchers,Bronze,Buzz/Prestige/Brand Support,0.0025663336647164556
+133,Family Animation Watchers,Bronze,Engagement Anchor,0.01010713563776026
+134,Family Animation Watchers,Bronze,Experimentation,0.004096606964478752
+136,Family Animation Watchers,Bronze,News & Sports,0.002071062679623507
+137,Family Animation Watchers,Bronze,Supporter: Broad Library,0.00388081803130577
+138,Family Animation Watchers,Bronze,Supporter: New Content,0.0060950812300232405
+139,Family Animation Watchers,Bronze,Supporter: Segment-Specific Library,0.0010347194608076188
+140,Family Animation Watchers,Gold,Engagement Anchor,0.020852535358720628
+141,Family Animation Watchers,Gold,Experimentation,0.01720324404030474
+142,Family Animation Watchers,Gold,Supporter: New Content,0.029683439515378843
+143,Family Animation Watchers,Gold,Tentpole Anchor,0.009315424610051993
+144,Family Animation Watchers,Platinum,Engagement Anchor,0.10689636872874059
+146,Family Animation Watchers,Platinum,Supporter: New Content,0.04458665378295015
+147,Family Animation Watchers,Platinum,Tentpole Anchor,0.41249367728882147
+148,Family Animation Watchers,Silver,Buzz/Prestige/Brand Support,0.005373355567908097
+149,Family Animation Watchers,Silver,Engagement Anchor,0.010970815255304685
+150,Family Animation Watchers,Silver,Experimentation,0.04991395799418024
+152,Family Animation Watchers,Silver,Supporter: Broad Library,0.11200401808136615
+153,Family Animation Watchers,Silver,Supporter: New Content,0.008782942442807369
+154,Family Movie Watchers,Bronze,Buzz/Prestige/Brand Support,0.0016298279006398489
+155,Family Movie Watchers,Bronze,Engagement Anchor,0.009019607843137255
+156,Family Movie Watchers,Bronze,Experimentation,0.0034408709085193925
+158,Family Movie Watchers,Bronze,News & Sports,0.002716061777469395
+159,Family Movie Watchers,Bronze,Supporter: Broad Library,0.005547278696747179
+160,Family Movie Watchers,Bronze,Supporter: New Content,0.00462754837722156
+161,Family Movie Watchers,Bronze,Supporter: Segment-Specific Library,0.0012230621986981237
+162,Family Movie Watchers,Gold,Engagement Anchor,0.02528830446218162
+163,Family Movie Watchers,Gold,Experimentation,0.019618430525557954
+164,Family Movie Watchers,Gold,Supporter: New Content,0.031039247752150514
+165,Family Movie Watchers,Gold,Tentpole Anchor,0.010422698320787493
+166,Family Movie Watchers,Platinum,Engagement Anchor,0.10746451918266743
+168,Family Movie Watchers,Platinum,Supporter: New Content,0.06762442478456117
+169,Family Movie Watchers,Platinum,Tentpole Anchor,0.38173652694610777
+170,Family Movie Watchers,Silver,Buzz/Prestige/Brand Support,0.0031909671084928816
+171,Family Movie Watchers,Silver,Engagement Anchor,0.010122007011142922
+172,Family Movie Watchers,Silver,Experimentation,0.0355839606647519
+174,Family Movie Watchers,Silver,Supporter: Broad Library,0.07489393100903892
+175,Family Movie Watchers,Silver,Supporter: New Content,0.008911731450246197
+176,Fantasy Footballers,Bronze,Buzz/Prestige/Brand Support,0.004866955078576609
+177,Fantasy Footballers,Bronze,Engagement Anchor,0.06880913284854172
+178,Fantasy Footballers,Bronze,Experimentation,0.003706542087416479
+180,Fantasy Footballers,Bronze,News & Sports,0.002315322218932831
+181,Fantasy Footballers,Bronze,Supporter: Broad Library,0.004329330294128306
+182,Fantasy Footballers,Bronze,Supporter: New Content,0.00883906289048097
+183,Fantasy Footballers,Bronze,Supporter: Segment-Specific Library,0.0007669474289797071
+184,Fantasy Footballers,Gold,Engagement Anchor,0.06847586276193053
+185,Fantasy Footballers,Gold,Experimentation,0.028258491781663446
+186,Fantasy Footballers,Gold,Supporter: New Content,0.06110988275130569
+187,Fantasy Footballers,Gold,Tentpole Anchor,0.1440566541260398
+188,Fantasy Footballers,Platinum,Engagement Anchor,0.11403438541512638
+190,Fantasy Footballers,Platinum,Supporter: New Content,0.08559422042283447
+191,Fantasy Footballers,Platinum,Tentpole Anchor,0.45155164427975913
+192,Fantasy Footballers,Silver,Buzz/Prestige/Brand Support,0.01423909337403192
+193,Fantasy Footballers,Silver,Engagement Anchor,0.03772804073075698
+194,Fantasy Footballers,Silver,Experimentation,0.034358742246186715
+196,Fantasy Footballers,Silver,Supporter: Broad Library,0.10188944171423339
+197,Fantasy Footballers,Silver,Supporter: New Content,0.025690253963771514
+198,Food & Home Watchers,Bronze,Buzz/Prestige/Brand Support,0.006804090817201018
+199,Food & Home Watchers,Bronze,Engagement Anchor,0.0601129988620256
+200,Food & Home Watchers,Bronze,Experimentation,0.009906814614719357
+202,Food & Home Watchers,Bronze,News & Sports,0.0029002807050515517
+203,Food & Home Watchers,Bronze,Supporter: Broad Library,0.006936263712703483
+204,Food & Home Watchers,Bronze,Supporter: New Content,0.017204843545480627
+205,Food & Home Watchers,Bronze,Supporter: Segment-Specific Library,0.004230545277499167
+206,Food & Home Watchers,Gold,Engagement Anchor,0.09392210612845933
+207,Food & Home Watchers,Gold,Experimentation,0.030736520995585957
+208,Food & Home Watchers,Gold,Supporter: New Content,0.08375919433917584
+209,Food & Home Watchers,Gold,Tentpole Anchor,0.05511386874420182
+210,Food & Home Watchers,Platinum,Engagement Anchor,0.23105119181071007
+212,Food & Home Watchers,Platinum,Supporter: New Content,0.12039577346039715
+213,Food & Home Watchers,Platinum,Tentpole Anchor,0.5131871661571039
+214,Food & Home Watchers,Silver,Buzz/Prestige/Brand Support,0.022157287715767474
+215,Food & Home Watchers,Silver,Engagement Anchor,0.05794319352985529
+216,Food & Home Watchers,Silver,Experimentation,0.07002828667586579
+218,Food & Home Watchers,Silver,Supporter: Broad Library,0.12859869010036282
+219,Food & Home Watchers,Silver,Supporter: New Content,0.04303289341671787
+220,Ghost Hunters,Bronze,Buzz/Prestige/Brand Support,0.004654238758479432
+221,Ghost Hunters,Bronze,Engagement Anchor,0.03682928629419145
+222,Ghost Hunters,Bronze,Experimentation,0.010833548692750153
+224,Ghost Hunters,Bronze,News & Sports,0.0023864587321482367
+225,Ghost Hunters,Bronze,Supporter: Broad Library,0.010532141569367753
+226,Ghost Hunters,Bronze,Supporter: New Content,0.015514820399060856
+227,Ghost Hunters,Bronze,Supporter: Segment-Specific Library,0.005208469728413073
+228,Ghost Hunters,Gold,Engagement Anchor,0.0588338837638668
+229,Ghost Hunters,Gold,Experimentation,0.03201724619745299
+230,Ghost Hunters,Gold,Supporter: New Content,0.08407011365828249
+231,Ghost Hunters,Gold,Tentpole Anchor,0.030280704339497533
+232,Ghost Hunters,Platinum,Engagement Anchor,0.2337512035651256
+234,Ghost Hunters,Platinum,Supporter: New Content,0.2172266703719133
+235,Ghost Hunters,Platinum,Tentpole Anchor,0.5968074800993978
+236,Ghost Hunters,Silver,Buzz/Prestige/Brand Support,0.008718626155878468
+237,Ghost Hunters,Silver,Engagement Anchor,0.03674065759659047
+238,Ghost Hunters,Silver,Experimentation,0.07947314484868362
+240,Ghost Hunters,Silver,Supporter: Broad Library,0.17508486360476055
+241,Ghost Hunters,Silver,Supporter: New Content,0.029087886151472668
+242,Nostalgia Comedy Watchers,Bronze,Buzz/Prestige/Brand Support,0.0034149647146875135
+243,Nostalgia Comedy Watchers,Bronze,Engagement Anchor,0.030521751227920422
+244,Nostalgia Comedy Watchers,Bronze,Experimentation,0.00809706230156252
+246,Nostalgia Comedy Watchers,Bronze,News & Sports,0.002322252602371111
+247,Nostalgia Comedy Watchers,Bronze,Supporter: Broad Library,0.008026491924061671
+248,Nostalgia Comedy Watchers,Bronze,Supporter: New Content,0.009888087620983815
+249,Nostalgia Comedy Watchers,Bronze,Supporter: Segment-Specific Library,0.0011994177052905954
+250,Nostalgia Comedy Watchers,Gold,Engagement Anchor,0.0606097431276063
+251,Nostalgia Comedy Watchers,Gold,Experimentation,0.02713060516678629
+252,Nostalgia Comedy Watchers,Gold,Supporter: New Content,0.07388624355860174
+253,Nostalgia Comedy Watchers,Gold,Tentpole Anchor,0.043167994719222974
+254,Nostalgia Comedy Watchers,Platinum,Engagement Anchor,0.22766418436369273
+256,Nostalgia Comedy Watchers,Platinum,Supporter: New Content,0.13003392178325307
+257,Nostalgia Comedy Watchers,Platinum,Tentpole Anchor,0.47484047155526715
+258,Nostalgia Comedy Watchers,Silver,Buzz/Prestige/Brand Support,0.01032332277017807
+259,Nostalgia Comedy Watchers,Silver,Engagement Anchor,0.033427873669030314
+260,Nostalgia Comedy Watchers,Silver,Experimentation,0.05582942412367941
+262,Nostalgia Comedy Watchers,Silver,Supporter: Broad Library,0.1261599510784374
+263,Nostalgia Comedy Watchers,Silver,Supporter: New Content,0.025527531399684063
+264,Nostalgia Drama Watchers,Bronze,Buzz/Prestige/Brand Support,0.0023914670338912266
+265,Nostalgia Drama Watchers,Bronze,Engagement Anchor,0.02231006043099844
+266,Nostalgia Drama Watchers,Bronze,Experimentation,0.006364402131866902
+268,Nostalgia Drama Watchers,Bronze,News & Sports,0.0019849065941877657
+269,Nostalgia Drama Watchers,Bronze,Supporter: Broad Library,0.00804976222074609
+270,Nostalgia Drama Watchers,Bronze,Supporter: New Content,0.008211469988194414
+271,Nostalgia Drama Watchers,Bronze,Supporter: Segment-Specific Library,0.0010649530755964631
+272,Nostalgia Drama Watchers,Gold,Engagement Anchor,0.06257482661237393
+273,Nostalgia Drama Watchers,Gold,Experimentation,0.030947009981829542
+274,Nostalgia Drama Watchers,Gold,Supporter: New Content,0.07341003915667163
+275,Nostalgia Drama Watchers,Gold,Tentpole Anchor,0.037576054831358056
+276,Nostalgia Drama Watchers,Platinum,Engagement Anchor,0.215443769508917
+278,Nostalgia Drama Watchers,Platinum,Supporter: New Content,0.14165694017927688
+279,Nostalgia Drama Watchers,Platinum,Tentpole Anchor,0.47653932162726526
+280,Nostalgia Drama Watchers,Silver,Buzz/Prestige/Brand Support,0.008508340333613345
+281,Nostalgia Drama Watchers,Silver,Engagement Anchor,0.026997674940545852
+282,Nostalgia Drama Watchers,Silver,Experimentation,0.05138098077332957
+284,Nostalgia Drama Watchers,Silver,Supporter: Broad Library,0.10358866103739445
+285,Nostalgia Drama Watchers,Silver,Supporter: New Content,0.021390473004884232
+286,Nostalgia Millennial Watchers,Bronze,Buzz/Prestige/Brand Support,0.007088789749890391
+287,Nostalgia Millennial Watchers,Bronze,Engagement Anchor,0.03379416282642089
+288,Nostalgia Millennial Watchers,Bronze,Experimentation,0.016930530516887837
+290,Nostalgia Millennial Watchers,Bronze,News & Sports,0.006957100613077448
+291,Nostalgia Millennial Watchers,Bronze,Supporter: Broad Library,0.015109562548877858
+292,Nostalgia Millennial Watchers,Bronze,Supporter: New Content,0.014923586779093091
+293,Nostalgia Millennial Watchers,Bronze,Supporter: Segment-Specific Library,0.0038648529979677443
+294,Nostalgia Millennial Watchers,Gold,Engagement Anchor,0.06867275451961731
+295,Nostalgia Millennial Watchers,Gold,Experimentation,0.02997275204359673
+296,Nostalgia Millennial Watchers,Gold,Supporter: New Content,0.1049764485067753
+297,Nostalgia Millennial Watchers,Gold,Tentpole Anchor,0.03430619559651818
+298,Nostalgia Millennial Watchers,Platinum,Engagement Anchor,0.2794999547738406
+300,Nostalgia Millennial Watchers,Platinum,Supporter: New Content,0.1929768423959048
+301,Nostalgia Millennial Watchers,Platinum,Tentpole Anchor,0.5679775280898877
+302,Nostalgia Millennial Watchers,Silver,Buzz/Prestige/Brand Support,0.011211959423384944
+303,Nostalgia Millennial Watchers,Silver,Engagement Anchor,0.03755262414500433
+304,Nostalgia Millennial Watchers,Silver,Experimentation,0.08702801832702399
+306,Nostalgia Millennial Watchers,Silver,Supporter: Broad Library,0.1746384872080089
+307,Nostalgia Millennial Watchers,Silver,Supporter: New Content,0.03201113618053022
+308,OWN Watchers,Bronze,Buzz/Prestige/Brand Support,0.008268593848498682
+309,OWN Watchers,Bronze,Engagement Anchor,0.08059023836549375
+310,OWN Watchers,Bronze,Experimentation,0.00746692426318894
+312,OWN Watchers,Bronze,News & Sports,0.0033675729885114473
+313,OWN Watchers,Bronze,Supporter: Broad Library,0.010817881122495576
+314,OWN Watchers,Bronze,Supporter: New Content,0.02288023615302956
+315,OWN Watchers,Bronze,Supporter: Segment-Specific Library,0.005551262446225133
+316,OWN Watchers,Gold,Engagement Anchor,0.14379176046651962
+317,OWN Watchers,Gold,Experimentation,0.04614844709598175
+318,OWN Watchers,Gold,Supporter: New Content,0.10726439656075755
+319,OWN Watchers,Gold,Tentpole Anchor,0.09133679428942246
+320,OWN Watchers,Platinum,Engagement Anchor,0.28034133694884855
+322,OWN Watchers,Platinum,Supporter: New Content,0.20568628413767526
+323,OWN Watchers,Platinum,Tentpole Anchor,0.5570603105814373
+324,OWN Watchers,Silver,Buzz/Prestige/Brand Support,0.09023024268823895
+325,OWN Watchers,Silver,Engagement Anchor,0.09990814800891877
+326,OWN Watchers,Silver,Experimentation,0.11386039758989697
+328,OWN Watchers,Silver,Supporter: Broad Library,0.10880829015544041
+329,OWN Watchers,Silver,Supporter: New Content,0.05662477335762585
+330,Pay-1 Movie Watchers,Bronze,Buzz/Prestige/Brand Support,0.002835896445694774
+331,Pay-1 Movie Watchers,Bronze,Engagement Anchor,0.02852494791746871
+332,Pay-1 Movie Watchers,Bronze,Experimentation,0.007569581235068175
+334,Pay-1 Movie Watchers,Bronze,News & Sports,0.002205813106097058
+335,Pay-1 Movie Watchers,Bronze,Supporter: Broad Library,0.01105135490826848
+336,Pay-1 Movie Watchers,Bronze,Supporter: New Content,0.010288806790309466
+337,Pay-1 Movie Watchers,Bronze,Supporter: Segment-Specific Library,0.0009815332238787043
+338,Pay-1 Movie Watchers,Gold,Engagement Anchor,0.06782956492504733
+339,Pay-1 Movie Watchers,Gold,Experimentation,0.03343441196697175
+340,Pay-1 Movie Watchers,Gold,Supporter: New Content,0.08360561367980927
+341,Pay-1 Movie Watchers,Gold,Tentpole Anchor,0.051650464576838244
+342,Pay-1 Movie Watchers,Platinum,Engagement Anchor,0.302596441752463
+344,Pay-1 Movie Watchers,Platinum,Supporter: New Content,0.20286254460001002
+345,Pay-1 Movie Watchers,Platinum,Tentpole Anchor,0.605357642923109
+346,Pay-1 Movie Watchers,Silver,Buzz/Prestige/Brand Support,0.01144585188985653
+347,Pay-1 Movie Watchers,Silver,Engagement Anchor,0.03546939403451198
+348,Pay-1 Movie Watchers,Silver,Experimentation,0.06471522363735442
+350,Pay-1 Movie Watchers,Silver,Supporter: Broad Library,0.12765136407968591
+351,Pay-1 Movie Watchers,Silver,Supporter: New Content,0.027130696475174715
+352,Procedurals Watchers,Bronze,Buzz/Prestige/Brand Support,0.0035661980426307726
+353,Procedurals Watchers,Bronze,Engagement Anchor,0.03194601124100271
+354,Procedurals Watchers,Bronze,Experimentation,0.005457550863780734
+356,Procedurals Watchers,Bronze,News & Sports,0.0019037652273681848
+357,Procedurals Watchers,Bronze,Supporter: Broad Library,0.006145886746771416
+358,Procedurals Watchers,Bronze,Supporter: New Content,0.009158648976974583
+359,Procedurals Watchers,Bronze,Supporter: Segment-Specific Library,0.0013817475067162762
+360,Procedurals Watchers,Gold,Engagement Anchor,0.10259354234583823
+361,Procedurals Watchers,Gold,Experimentation,0.02002870493271607
+362,Procedurals Watchers,Gold,Supporter: New Content,0.06173363824980233
+363,Procedurals Watchers,Gold,Tentpole Anchor,0.03561485266088553
+364,Procedurals Watchers,Platinum,Engagement Anchor,0.18136971032663537
+366,Procedurals Watchers,Platinum,Supporter: New Content,0.1150306814315179
+367,Procedurals Watchers,Platinum,Tentpole Anchor,0.5281021450914475
+368,Procedurals Watchers,Silver,Buzz/Prestige/Brand Support,0.009698948070037515
+369,Procedurals Watchers,Silver,Engagement Anchor,0.058338339212551694
+370,Procedurals Watchers,Silver,Experimentation,0.05459711306703149
+372,Procedurals Watchers,Silver,Supporter: Broad Library,0.09532613600096845
+373,Procedurals Watchers,Silver,Supporter: New Content,0.028801476019217558
+374,Reality Drama Divas,Bronze,Buzz/Prestige/Brand Support,0.007643797838185905
+375,Reality Drama Divas,Bronze,Engagement Anchor,0.0873232066731305
+376,Reality Drama Divas,Bronze,Experimentation,0.008266941500948954
+378,Reality Drama Divas,Bronze,News & Sports,0.0028511277041016313
+379,Reality Drama Divas,Bronze,Supporter: Broad Library,0.008319480569468744
+380,Reality Drama Divas,Bronze,Supporter: New Content,0.019845138936647223
+381,Reality Drama Divas,Bronze,Supporter: Segment-Specific Library,0.004096429901532834
+382,Reality Drama Divas,Gold,Engagement Anchor,0.1016468206366003
+383,Reality Drama Divas,Gold,Experimentation,0.03763258757465015
+384,Reality Drama Divas,Gold,Supporter: New Content,0.09900078478609509
+385,Reality Drama Divas,Gold,Tentpole Anchor,0.050184570094250196
+386,Reality Drama Divas,Platinum,Engagement Anchor,0.23935059646406756
+388,Reality Drama Divas,Platinum,Supporter: New Content,0.1581328701398324
+389,Reality Drama Divas,Platinum,Tentpole Anchor,0.5565524992169796
+390,Reality Drama Divas,Silver,Buzz/Prestige/Brand Support,0.032663545826519653
+391,Reality Drama Divas,Silver,Engagement Anchor,0.07369191076176834
+392,Reality Drama Divas,Silver,Experimentation,0.07222698682970304
+394,Reality Drama Divas,Silver,Supporter: Broad Library,0.1611134849132249
+395,Reality Drama Divas,Silver,Supporter: New Content,0.04209399663726282
+396,Satirical Comedy Watchers,Bronze,Buzz/Prestige/Brand Support,0.012420571823959625
+397,Satirical Comedy Watchers,Bronze,Engagement Anchor,0.14435049961568025
+398,Satirical Comedy Watchers,Bronze,Experimentation,0.010163221527855301
+400,Satirical Comedy Watchers,Bronze,News & Sports,0.003728024547506504
+401,Satirical Comedy Watchers,Bronze,Supporter: Broad Library,0.005962834956699864
+402,Satirical Comedy Watchers,Bronze,Supporter: New Content,0.018395134090572408
+403,Satirical Comedy Watchers,Bronze,Supporter: Segment-Specific Library,0.0019828778072750134
+404,Satirical Comedy Watchers,Gold,Engagement Anchor,0.15394757647621923
+405,Satirical Comedy Watchers,Gold,Experimentation,0.03636508678161574
+406,Satirical Comedy Watchers,Gold,Supporter: New Content,0.14885697101368045
+407,Satirical Comedy Watchers,Gold,Tentpole Anchor,0.12103302563312766
+408,Satirical Comedy Watchers,Platinum,Engagement Anchor,0.22996356734230902
+410,Satirical Comedy Watchers,Platinum,Supporter: New Content,0.11821210888425104
+411,Satirical Comedy Watchers,Platinum,Tentpole Anchor,0.6513899939158515
+412,Satirical Comedy Watchers,Silver,Buzz/Prestige/Brand Support,0.04453475359904418
+413,Satirical Comedy Watchers,Silver,Engagement Anchor,0.10356468125207223
+414,Satirical Comedy Watchers,Silver,Experimentation,0.0749446922890266
+416,Satirical Comedy Watchers,Silver,Supporter: Broad Library,0.1958483126522092
+417,Satirical Comedy Watchers,Silver,Supporter: New Content,0.06818512455502276
+418,Sci-Fi & Fantasy Watchers,Bronze,Buzz/Prestige/Brand Support,0.0025049256405293673
+419,Sci-Fi & Fantasy Watchers,Bronze,Engagement Anchor,0.021459972904854355
+420,Sci-Fi & Fantasy Watchers,Bronze,Experimentation,0.00794614366322201
+422,Sci-Fi & Fantasy Watchers,Bronze,News & Sports,0.0016371768628909997
+423,Sci-Fi & Fantasy Watchers,Bronze,Supporter: Broad Library,0.006022564462700848
+424,Sci-Fi & Fantasy Watchers,Bronze,Supporter: New Content,0.008572383202802564
+425,Sci-Fi & Fantasy Watchers,Bronze,Supporter: Segment-Specific Library,0.0009887860906667104
+426,Sci-Fi & Fantasy Watchers,Gold,Engagement Anchor,0.0501975576612898
+427,Sci-Fi & Fantasy Watchers,Gold,Experimentation,0.021064287166355965
+428,Sci-Fi & Fantasy Watchers,Gold,Supporter: New Content,0.07204076925868412
+429,Sci-Fi & Fantasy Watchers,Gold,Tentpole Anchor,0.033739840541940874
+430,Sci-Fi & Fantasy Watchers,Platinum,Engagement Anchor,0.20906601282318255
+432,Sci-Fi & Fantasy Watchers,Platinum,Supporter: New Content,0.1252639495145493
+433,Sci-Fi & Fantasy Watchers,Platinum,Tentpole Anchor,0.5641157968261312
+434,Sci-Fi & Fantasy Watchers,Silver,Buzz/Prestige/Brand Support,0.00916243973258294
+435,Sci-Fi & Fantasy Watchers,Silver,Engagement Anchor,0.026602769358781385
+436,Sci-Fi & Fantasy Watchers,Silver,Experimentation,0.06332683182560357
+438,Sci-Fi & Fantasy Watchers,Silver,Supporter: Broad Library,0.124791998661748
+439,Sci-Fi & Fantasy Watchers,Silver,Supporter: New Content,0.023131330325898564
+440,Seasonal Movies,Bronze,Buzz/Prestige/Brand Support,0.003678451529597415
+441,Seasonal Movies,Bronze,Engagement Anchor,0.027266925421344654
+442,Seasonal Movies,Bronze,Experimentation,0.008726575883689981
+444,Seasonal Movies,Bronze,News & Sports,0.00166505755469785
+445,Seasonal Movies,Bronze,Supporter: Broad Library,0.011564345971520762
+446,Seasonal Movies,Bronze,Supporter: New Content,0.009026844573309286
+447,Seasonal Movies,Bronze,Supporter: Segment-Specific Library,0.0010956093550071836
+448,Seasonal Movies,Gold,Engagement Anchor,0.055935634003398765
+449,Seasonal Movies,Gold,Experimentation,0.03245875223315935
+450,Seasonal Movies,Gold,Supporter: New Content,0.08158742372125366
+451,Seasonal Movies,Gold,Tentpole Anchor,0.0242163387031659
+452,Seasonal Movies,Platinum,Engagement Anchor,0.19871725182766467
+454,Seasonal Movies,Platinum,Supporter: New Content,0.18941461504316118
+455,Seasonal Movies,Platinum,Tentpole Anchor,0.5239636262465039
+456,Seasonal Movies,Silver,Buzz/Prestige/Brand Support,0.011806401759443636
+457,Seasonal Movies,Silver,Engagement Anchor,0.026750451715358326
+458,Seasonal Movies,Silver,Experimentation,0.0673238594306239
+460,Seasonal Movies,Silver,Supporter: Broad Library,0.14769360678965524
+461,Seasonal Movies,Silver,Supporter: New Content,0.023951688925261668
+462,Supernatural Sleuths,Bronze,Buzz/Prestige/Brand Support,0.002910654912390183
+463,Supernatural Sleuths,Bronze,Engagement Anchor,0.02518407854017714
+464,Supernatural Sleuths,Bronze,Experimentation,0.006098207995761224
+466,Supernatural Sleuths,Bronze,News & Sports,0.002224922215069788
+467,Supernatural Sleuths,Bronze,Supporter: Broad Library,0.007531828323432691
+468,Supernatural Sleuths,Bronze,Supporter: New Content,0.00941170866666352
+469,Supernatural Sleuths,Bronze,Supporter: Segment-Specific Library,0.004302533523481887
+470,Supernatural Sleuths,Gold,Engagement Anchor,0.0696599040301547
+471,Supernatural Sleuths,Gold,Experimentation,0.024498352800239594
+472,Supernatural Sleuths,Gold,Supporter: New Content,0.06776301658970867
+473,Supernatural Sleuths,Gold,Tentpole Anchor,0.032491755419797805
+474,Supernatural Sleuths,Platinum,Engagement Anchor,0.212779262848111
+476,Supernatural Sleuths,Platinum,Supporter: New Content,0.17109148935451063
+477,Supernatural Sleuths,Platinum,Tentpole Anchor,0.644441659355809
+478,Supernatural Sleuths,Silver,Buzz/Prestige/Brand Support,0.00989794663715726
+479,Supernatural Sleuths,Silver,Engagement Anchor,0.0376047104394123
+480,Supernatural Sleuths,Silver,Experimentation,0.06364486669030513
+482,Supernatural Sleuths,Silver,Supporter: Broad Library,0.10236606595562094
+483,Supernatural Sleuths,Silver,Supporter: New Content,0.024637127494621915
+484,Wizards & Hobbits,Bronze,Buzz/Prestige/Brand Support,0.0023060748822081294
+485,Wizards & Hobbits,Bronze,Engagement Anchor,0.014731793265465936
+486,Wizards & Hobbits,Bronze,Experimentation,0.009296183730200228
+488,Wizards & Hobbits,Bronze,News & Sports,0.0018059274580323507
+489,Wizards & Hobbits,Bronze,Supporter: Broad Library,0.0042070189325309785
+490,Wizards & Hobbits,Bronze,Supporter: New Content,0.005214826005421718
+491,Wizards & Hobbits,Bronze,Supporter: Segment-Specific Library,0.0009474727982226452
+492,Wizards & Hobbits,Gold,Engagement Anchor,0.051777497238301655
+493,Wizards & Hobbits,Gold,Experimentation,0.022258942457231725
+494,Wizards & Hobbits,Gold,Supporter: New Content,0.039317245904770065
+495,Wizards & Hobbits,Gold,Tentpole Anchor,0.018772738297356293
+496,Wizards & Hobbits,Platinum,Engagement Anchor,0.12034788650032809
+498,Wizards & Hobbits,Platinum,Supporter: New Content,0.06348882268441505
+499,Wizards & Hobbits,Platinum,Tentpole Anchor,0.4629899864137272
+500,Wizards & Hobbits,Silver,Buzz/Prestige/Brand Support,0.004509191814082553
+501,Wizards & Hobbits,Silver,Engagement Anchor,0.02045946362902889
+502,Wizards & Hobbits,Silver,Experimentation,0.035518429870477417
+504,Wizards & Hobbits,Silver,Supporter: Broad Library,0.08580760095011876
+505,Wizards & Hobbits,Silver,Supporter: New Content,0.013346489374724465
