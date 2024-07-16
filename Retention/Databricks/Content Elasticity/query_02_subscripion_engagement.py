@@ -44,8 +44,7 @@ SELECT
 , m.series_window_end::DATE
 , m.lob
 , m.category
-, case when recency.in_season_window = 1 THEN 1 ELSE 0 END AS in_season_window
-, case when recency.in_series_window = 1 THEN 1 ELSE 0 END AS in_series_window
+, case when recency.ckg_series_id IS NULL then 1 else 0 end as is_recent
 FROM bolt_cus_dev.silver.max_ltv_period_combined u  --Subcription level metric
 LEFT JOIN bolt_dai_ce_prod.gold.combined_video_stream hb                             -- JOIN with viewership data
     ON hb.request_date_local between u.period_start_ts::DATE and u.period_end_ts::DATE
@@ -64,12 +63,11 @@ LEFT JOIN bolt_cus_dev.bronze.cip_recency_title_season_level_metadata m --title 
     -- AND m.region = u.region
     and m.region = 'NORTH AMERICA'
     AND m.country_code = hb.session_country
-LEFT JOIN bolt_cus_dev.bronze.cip_recency_title_series_level_new_library_indicator recency --title season level recency indicator
+LEFT JOIN bolt_cus_dev.bronze.cip_recency_title_offering_table_season_level recency --title season level recency indicator
     ON rad.ckg_series_id = recency.ckg_series_id 
     AND coalesce(rad.season_number, 0) = recency.season_number
     -- AND recency.region = u.region
     AND recency.country_code = hb.session_country
-    and recency.region = 'NORTH AMERICA'
     AND hb.request_date_local = recency.request_date
 WHERE 1=1
 -- and u.provider = 'Direct'
@@ -128,8 +126,7 @@ GROUP BY ALL
 # MAGIC , m.series_window_end::DATE
 # MAGIC , m.lob
 # MAGIC , m.category
-# MAGIC , case when hb.request_date_local between m.season_window_start and dateadd(DAY, 30, m.season_window_end) THEN 1 ELSE 0 END AS in_season_window
-# MAGIC , case when hb.request_date_local between m.series_window_start and dateadd(DAY, 30, m.series_window_end) THEN 1 ELSE 0 END AS in_series_window
+# MAGIC , case when recency.ckg_series_id IS NULL then 1 else 0 end as is_recent
 # MAGIC FROM bolt_cus_dev.silver.max_ltv_period_combined u  --Subcription level metric
 # MAGIC LEFT JOIN bolt_dai_ce_prod.gold.combined_video_stream hb                             -- JOIN with viewership data
 # MAGIC     ON hb.request_date_local between u.period_start_ts::DATE and u.period_end_ts::DATE
@@ -149,11 +146,11 @@ GROUP BY ALL
 # MAGIC     AND coalesce(rad.season_number, 0) = m.season_number
 # MAGIC     -- AND m.region = u.region
 # MAGIC     AND m.country_code = hb.session_country
-# MAGIC LEFT JOIN bolt_cus_dev.bronze.cip_recency_title_series_level_new_library_indicator recency --title season level recency indicator
-# MAGIC     ON rad.ckg_series_id = m.ckg_series_id 
-# MAGIC     AND coalesce(rad.season_number, 0) = m.season_number
-# MAGIC     AND m.region = u.region
-# MAGIC     AND m.country_code = hb.session_country
+# MAGIC LEFT JOIN bolt_cus_dev.bronze.cip_recency_title_offering_table_season_level recency --title season level recency indicator
+# MAGIC     ON rad.ckg_series_id = recency.ckg_series_id 
+# MAGIC     AND coalesce(rad.season_number, 0) = recency.season_number
+# MAGIC     -- AND recency.region = u.region
+# MAGIC     AND recency.country_code = hb.session_country
 # MAGIC     AND hb.request_date_local = recency.request_date
 # MAGIC WHERE 1=1
 # MAGIC and u.provider = 'Direct'

@@ -167,8 +167,5 @@ title_series_info['offering_start_date'] = title_series_info['offering_start_dat
 
 data_df = spark.createDataFrame(title_series_info)
 # spark.sql('drop table bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_avod_svod')
-data_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_20240710")
-
-# COMMAND ----------
-
-
+# data_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_20240710")
+data_df.write.mode("overwrite").saveAsTable("bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_20240715")

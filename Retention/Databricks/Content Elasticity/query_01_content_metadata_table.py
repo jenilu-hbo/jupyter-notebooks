@@ -85,36 +85,6 @@ LEFT JOIN medal_data medal
 
 # COMMAND ----------
 
-spark.sql('''
-CREATE OR REPLACE TABLE bolt_cus_dev.bronze.cip_recency_title_series_level_new_library_indicator
-
-WITH calendar_season AS (
-    SELECT t.date as request_date, ckg_series_id, season_number, region, country_code
-    , case when t.date between m.season_window_start and dateadd(DAY, 30, m.season_window_end) THEN 1 ELSE 0 END AS in_season_window
-    FROM bolt_cus_dev.bronze.cip_daily_date_tracker t
-    LEFT JOIN  bolt_cus_dev.bronze.cip_recency_title_season_level_metadata m
-    WHERE t.date >= m.season_window_start
-    and t.date <= GETDATE()
-)
-
-, calendar_series AS (
-    SELECT request_date, ckg_series_id, region, country_code
-           , MAX(in_season_window) as in_series_window
-    FROM calendar_season
-    GROUP BY ALL
-)
-
-SELECT ss.*, s.in_series_window
-FROM calendar_season ss
-JOIN calendar_series s
-ON s.ckg_series_id = ss.ckg_series_id
-and s.region = ss.region
-and s.country_code = ss.country_code
-and s.request_date = ss.request_date
-''')
-
-# COMMAND ----------
-
 qc = spark.sql('''
                SELECT ckg_series_id, season_number, country_code, count(*) as record_count
                FROM bolt_cus_dev.bronze.cip_recency_title_season_level_metadata
@@ -126,7 +96,105 @@ assert len(qc) == 0
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC SELECT *
-# MAGIC FROM bolt_cus_dev.gold.delphi_titles
-# MAGIC WHERE title_id = 'a8484031-f244-4661-9fb7-0932bd1ba872'
-# MAGIC -- and country_code = 'US'
+# MAGIC create or replace table bolt_cus_dev.bronze.cip_recency_title_offering_table_season_level 
+# MAGIC USING DELTA
+# MAGIC PARTITIONED BY (request_date)
+# MAGIC
+# MAGIC with first as (
+# MAGIC SELECT
+# MAGIC     a.ckg_series_id
+# MAGIC     , a.season_number
+# MAGIC     , country_code
+# MAGIC     ,max(first_offered_date) as window_end
+# MAGIC FROM bolt_dcp_brd_prod.gold.content_metadata_reporting_asset_dim_combined a 
+# MAGIC inner join bolt_dai_ckg_prod.gold.reporting_asset_offering_dim_combined b 
+# MAGIC     on a.ckg_program_id = b.ckg_program_id 
+# MAGIC where asset_type = 'FEATURE' 
+# MAGIC     and (case when content_category = 'episode' and episode_number_in_season is null then 0
+# MAGIC     else 1 end) = 1
+# MAGIC group by all
+# MAGIC ),
+# MAGIC second as
+# MAGIC (select  
+# MAGIC     series_title_long 
+# MAGIC     , a.ckg_series_id 
+# MAGIC     , content_category 
+# MAGIC     , a.season_number 
+# MAGIC     , a.ckg_program_id 
+# MAGIC     , a.legacy_hbomax_viewable_id
+# MAGIC     , episode_number_in_season 
+# MAGIC     --using title_first_offered for movies, using individual start_dates for all other categories 
+# MAGIC     , release_year
+# MAGIC     , b.country_code
+# MAGIC     , coalesce(season_first_offered_date,title_first_offered_date) as start_date 
+# MAGIC     , dateadd(day, 30, window_end) as recency_window_end 
+# MAGIC     , median(release_year) over (partition by a.ckg_series_id, a.season_number)::int as median_release_year 
+# MAGIC     , median_release_year+1 as release_year_plusone 
+# MAGIC from bolt_dcp_brd_prod.gold.content_metadata_reporting_asset_dim_combined a 
+# MAGIC inner join bolt_dai_ckg_prod.gold.reporting_asset_offering_dim_combined b 
+# MAGIC     on a.ckg_program_id = b.ckg_program_id 
+# MAGIC left join first c 
+# MAGIC     on a.ckg_series_id=c.ckg_series_id 
+# MAGIC     and ifnull(a.season_number,0)=ifnull(c.season_number,0)
+# MAGIC     and c.country_code = b.country_code
+# MAGIC where asset_type = 'FEATURE' 
+# MAGIC     and title_first_offered_date is not null 
+# MAGIC     and (case when content_category = 'episode' and episode_number_in_season is null then 0 else 1 end) = 1
+# MAGIC group by 1,2,3,4,5,6,7,8,9,10,11)
+# MAGIC ,third as
+# MAGIC (SELECT
+# MAGIC     b.series_title_long 
+# MAGIC     , b.ckg_series_id 
+# MAGIC     , b.content_category 
+# MAGIC     , b.season_number 
+# MAGIC     , b.ckg_program_id 
+# MAGIC     , b.legacy_hbomax_viewable_id
+# MAGIC     , b.episode_number_in_season 
+# MAGIC     , b.country_code
+# MAGIC     , a.start_date 
+# MAGIC     , a.recency_window_end 
+# MAGIC     , a.median_release_year 
+# MAGIC     , a.release_year_plusone     
+# MAGIC FROM second a
+# MAGIC inner join second b 
+# MAGIC     on a.ckg_series_id=b.ckg_series_id 
+# MAGIC     and a.season_number>b.season_number 
+# MAGIC     and a.start_date<>b.start_date
+# MAGIC     and a.country_code = b.country_code
+# MAGIC group by all
+# MAGIC )
+# MAGIC , fourth as ( 
+# MAGIC SELECT 
+# MAGIC     series_title_long 
+# MAGIC     , ckg_series_id 
+# MAGIC     , content_category 
+# MAGIC     , season_number 
+# MAGIC     , ckg_program_id 
+# MAGIC     , legacy_hbomax_viewable_id
+# MAGIC     , episode_number_in_season 
+# MAGIC     , country_code
+# MAGIC     , start_date 
+# MAGIC     , recency_window_end 
+# MAGIC     , median_release_year 
+# MAGIC     , release_year_plusone     
+# MAGIC FROM second
+# MAGIC UNION ALL
+# MAGIC SELECT * FROM third
+# MAGIC )
+# MAGIC , fifth as (
+# MAGIC SELECT
+# MAGIC     date as request_date
+# MAGIC FROM bolt_cus_dev.bronze.cip_daily_date_tracker
+# MAGIC where date < current_date()
+# MAGIC group by all)
+# MAGIC SELECT distinct
+# MAGIC     a.request_date
+# MAGIC     , b.ckg_series_id
+# MAGIC     , b.season_number
+# MAGIC     , b.country_code
+# MAGIC FROM fifth a
+# MAGIC left join fourth b 
+# MAGIC     on a.request_date between to_date(b.start_date) and to_date(recency_window_end) 
+# MAGIC     and year(a.request_date) between median_release_year and release_year_plusone
+# MAGIC where 1=1
+# MAGIC group by all

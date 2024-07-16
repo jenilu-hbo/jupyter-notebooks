@@ -47,7 +47,9 @@ def write_to_sf(df, file_name):
 
 # COMMAND ----------
 
-content_viewership_final = spark.sql('SELECT * FROM bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_20240710').toPandas()
+# content_viewership_final = spark.sql('SELECT * FROM bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_20240710').toPandas()
+content_viewership_final = spark.sql('SELECT * FROM bolt_cus_dev.bronze.cip_title_segment_viewership_training_data_20240715').toPandas()
+
 
 # COMMAND ----------
 
@@ -233,13 +235,13 @@ def geometric_progression_sum(n, q):
 
 # COMMAND ----------
 
-budget = 3.3*1000000000     #/18 ####/
+budget = 3.4*1000000000     #/18 ####/
 
 # COMMAND ----------
 
 m.cleanup()
 n = len(cost_table)
-m = GEKKO(remote=True,server='https://byu.apmonitor.com')
+m = GEKKO(remote=False)#True,server='https://byu.apmonitor.com')
 m.solver_options = ['minlp_gap_tol 1.0e-4',\
                     'minlp_maximum_iterations 15000',\
                     'minlp_max_iter_with_int_sol 15000',
