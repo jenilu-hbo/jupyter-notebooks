@@ -79,12 +79,20 @@ hours_df_30.head()
 # COMMAND ----------
 
 content_category = pd.read_csv(file_path + 'Content Strategy Category Tags.csv')
+
+# COMMAND ----------
+
+content_category = content_category.rename(columns = {'1. Names and IDs CKG Series ID':'ckg_series_id', '1. Names and IDs Title Name (Series-Level)':'title_name', 'Content Strategy Category':'content_strategy_category'})
+content_category.columns = [i.replace(" ", "_") for i in content_category.columns]
+
+# COMMAND ----------
+
 content_category.head()
 
 # COMMAND ----------
 
-content_category = content_category.rename(columns = {'1. Names and IDs CKG Series ID':'ckg_series_id',
-                                                      'Content Strategy Category':'content_category'})
+content_category_df = spark.createDataFrame(content_category)
+content_category_df.write.mode("overwrite").option("mergeSchema", "true").saveAsTable("bolt_cus_dev.bronze.cip_content_strategy_category_tags")
 
 # COMMAND ----------
 
@@ -93,14 +101,40 @@ df = hours_df_30.merge(content_category[['ckg_series_id', 'content_category']],
 
 # COMMAND ----------
 
-content_pillar = pd.read_csv(file_path + '2024.07.11 - Latest Pillar Designation for Past Titles.csv')
-content_pillar.head()
+content_pillar = pd.read_csv(file_path + '2024.07.18 - Latest Pillar Mapping to Past Titles.csv')
 
 # COMMAND ----------
 
 content_pillar = content_pillar.rename(columns = {'1. Names and IDs CKG Series ID':'ckg_series_id',
+                                                  '1. Names and IDs Title Name (Series-Level)':'title_name',
                                                       'ROI Pillar':'content_pillar',
                                                       'ROI Sub-Pillar':'content_sub_pillar'})
+content_pillar.columns = [i.replace(" ", "_") for i in content_pillar.columns]
+
+# COMMAND ----------
+
+content_pillar.head()
+
+# COMMAND ----------
+
+content_pillar = content_pillar[(content_pillar['content_sub_pillar'].notnull())
+                                &(content_pillar['content_sub_pillar']!= '0')].copy()
+content_pillar.loc[content_pillar['Pillar_x_Content_Strategy_Category'].str.contains('Flagship'), 'rank'] = 1
+content_pillar.loc[content_pillar['Pillar_x_Content_Strategy_Category'].str.contains('Engagement'), 'rank'] = 2
+content_pillar.loc[content_pillar['Pillar_x_Content_Strategy_Category'].str.contains('Segment'), 'rank'] = 3
+content_pillar.loc[content_pillar['Pillar_x_Content_Strategy_Category'].str.contains('New'), 'rank'] = 4
+content_pillar.loc[content_pillar['Pillar_x_Content_Strategy_Category'].str.contains('Library'), 'rank'] = 5
+content_pillar.loc[content_pillar['Pillar_x_Content_Strategy_Category'].str.contains('Experimentation'), 'rank'] = 6
+content_pillar.loc[content_pillar['Pillar_x_Content_Strategy_Category'].str.contains('Brand Halo'), 'rank'] = 7
+
+# COMMAND ----------
+
+content_pillar.head()
+
+# COMMAND ----------
+
+content_pillar_df = spark.createDataFrame(content_pillar)
+content_pillar_df.write.mode("overwrite").option("mergeSchema", "true").saveAsTable("bolt_cus_dev.bronze.cip_content_pillar_designation_for_past_titles")
 
 # COMMAND ----------
 
