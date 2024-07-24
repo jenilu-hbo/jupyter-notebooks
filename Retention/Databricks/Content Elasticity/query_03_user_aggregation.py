@@ -19,8 +19,8 @@ coalesce(sub_id_max, sub_id_legacy) as sub_id
 , mode(entertainment_segment_lifetime) as entertainment_segment_lifetime
 , count(distinct weekofyear(request_date)) as number_of_weeks_viewed
 , count(distinct ckg_series_id) as titles_viewed
-, count(distinct case when in_series_window = 1 then ckg_series_id else null end) as new_titles_viewed
-, count(distinct case when in_series_window = 0 then ckg_series_id else null end) as library_titles_viewed
+, count(distinct case when is_recent = 1 then ckg_series_id else null end) as new_titles_viewed
+, count(distinct case when is_recent = 0 then ckg_series_id else null end) as library_titles_viewed
 , count(distinct case when medal = 'Platinum' then ckg_series_id else null end) as platinum_titles_viewed
 , count(distinct case when medal = 'Gold' then ckg_series_id else null end) as gold_titles_viewed
 , count(distinct case when medal = 'Silver' then ckg_series_id else null end) as silver_titles_viewed
@@ -28,15 +28,15 @@ coalesce(sub_id_max, sub_id_legacy) as sub_id
 , count(distinct case when series_type = 'movie' then ckg_series_id else null end) as movie_viewed
 , count(distinct case when series_type IN ('livesports', 'live') then ckg_series_id else null end) as livesports_viewed
 , sum(hours_viewed) as hours_viewed
-, sum(case when in_series_window = 1 then hours_viewed else null end) as new_titles_hours_viewed
-, sum(case when in_series_window = 0 then hours_viewed else null end) as library_titles_hours_viewed
+, sum(case when is_recent = 1 then hours_viewed else null end) as new_titles_hours_viewed
+, sum(case when is_recent = 0 then hours_viewed else null end) as library_titles_hours_viewed
 , sum(case when medal = 'Platinum' then hours_viewed else null end) as platinum_hours_viewed
 , sum(case when medal = 'Gold' then hours_viewed else null end) as gold_hours_viewed
 , sum(case when medal = 'Silver' then hours_viewed else null end) as silver_hours_viewed
 , sum(case when series_type = 'series' then hours_viewed else null end) as series_hours_viewed
 , sum(case when series_type = 'movie' then hours_viewed else null end) as movie_hours_viewed
 , sum(case when series_type IN ('livesports', 'live') then hours_viewed else null end) as livesports_hours_viewed
-FROM bolt_cus_dev.bronze.cip_user_stream_subscription_metric hb
+FROM bolt_cus_dev.bronze.cip_user_stream_subscription_metric_us hb
 LEFT JOIN (SELECT DISTINCT user_id, profile_id                -- to get default profile id
           FROM bolt_dai_subs_prod.gold.max_profile_dim_current
           where default_profile_ind = true) mp
@@ -50,11 +50,11 @@ LEFT JOIN bolt_dai_subs_prod.gold.max_legacy_profile_mapping_global mapping
 LEFT JOIN  bolt_growthml_int.gold.max_content_preference_v3_segment_assignments_360_landing_table seg
       ON coalesce(mp.profile_id, mapping.profile_id, lp.hurley_profile_id) = seg.profile_id
 WHERE 1=1
--- and hb.provider = 'Direct'
--- and hb.payment_period = 'PERIOD_MONTH'
--- and (hb.signup_offer is null or hb.signup_offer = 'no_free_trial')
--- and hb.region = 'NORTH AMERICA'
--- and expiration_month >= '2022-01-01'
+and hb.provider = 'Direct'
+and hb.payment_period = 'PERIOD_MONTH'
+and (hb.signup_offer is null or hb.signup_offer = 'no_free_trial')
+and hb.region = 'NORTH AMERICA'
+and expiration_month >= '2022-01-01'
 GROUP BY ALL
 ''')
 

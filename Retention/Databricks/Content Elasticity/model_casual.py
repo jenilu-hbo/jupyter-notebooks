@@ -168,7 +168,7 @@ model_logit.summary()
 
 # COMMAND ----------
 
-def get_casual_impact(lower, upper, sub_data, treatment_col):
+def get_casual_impact(lower, upper, sub_data, treatment_col, confounding_factor):
     level_data = sub_data[(sub_data[treatment_col]>=lower)
                          &(sub_data[treatment_col]<=upper)]
 
@@ -247,12 +247,8 @@ confounding_factor = ['tenure_scaled',
 
 # COMMAND ----------
 
-# get_casual_impact(0, 1, sub_data, 'new_titles_viewed', 0.0525)
-
-# COMMAND ----------
-
-sub_data_total = sub_data.copy()
-sub_data = sub_data[sub_data['tenure']>=2].copy()
+# sub_data_total = sub_data.copy()
+# sub_data = sub_data[sub_data['tenure']>=2].copy()
 
 # COMMAND ----------
 
@@ -266,7 +262,7 @@ casual_df = pd.DataFrame([[0, 0, np.NaN,  np.NaN, np.NaN, base_churn]]  #,  np.N
 new_churn = base_churn
 
 for i in range(0, int(sub_data[treatment_col].max()+1), 1):
-    coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col)
+    coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col, confounding_factor)
     intercept = intercept - np.log((0.95/0.05)*(1))
     churn_diff = convert_odds_change_to_prob_change(coef, intercept)
     # churn_diff_low = convert_odds_change_to_prob_change(coef-1.96*se, intercept)
@@ -281,7 +277,7 @@ casual_df_new = casual_df
 
 # COMMAND ----------
 
-casual_df_new.to_csv('casual_df_new.csv')
+casual_df_new
 
 # COMMAND ----------
 
@@ -339,7 +335,7 @@ casual_df = pd.DataFrame([[0, 0, np.NaN,  np.NaN, np.NaN, base_churn]]  #,  np.N
 new_churn = base_churn
 
 for i in range(0, int(sub_data[treatment_col].max()+1), 1):
-    coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col)
+    coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col, confounding_factor)
     intercept = intercept - np.log((0.95/0.05)*(1))
     churn_diff = convert_odds_change_to_prob_change(coef, intercept)
     # churn_diff_low = convert_odds_change_to_prob_change(coef-1.96*se, intercept)
@@ -388,7 +384,7 @@ casual_df = pd.DataFrame([[0, 0, np.NaN,  np.NaN, np.NaN, base_churn,  np.NaN, n
 new_churn = base_churn
 
 for i in range(0, 15, 1):
-    coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col, base_churn)
+    coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col, confounding_factor)
     intercept = intercept - np.log((0.95/0.05)*(1))
     churn_diff = convert_odds_change_to_prob_change(coef, intercept)
     churn_diff_low = convert_odds_change_to_prob_change(coef-1.96*se, intercept)
@@ -478,43 +474,43 @@ def fit_churn_curve(df_i):
 
 # COMMAND ----------
 
-fig = px.scatter(title='chur difference vs titles viewed Exponential Fit',
-                  width=1000, height=400)
+# fig = px.scatter(title='chur difference vs titles viewed Exponential Fit',
+#                   width=1000, height=400)
 
 
-color_discrete_sequence=px.colors.qualitative.D3
+# color_discrete_sequence=px.colors.qualitative.D3
 
-i = 0
-# fig.add_scatter(x=casual_df_total['index_upper']
-#                 , y=casual_df_total['churn'], mode='markers'
-#                 , showlegend = True, name = 'total', line_color = color_discrete_sequence[i])
-# x_fit, y_fit = fit_churn_curve(casual_df_total)
+# i = 0
+# # fig.add_scatter(x=casual_df_total['index_upper']
+# #                 , y=casual_df_total['churn'], mode='markers'
+# #                 , showlegend = True, name = 'total', line_color = color_discrete_sequence[i])
+# # x_fit, y_fit = fit_churn_curve(casual_df_total)
+# # fig.add_scatter(x=x_fit, y=y_fit
+# #                 , showlegend = False, name = 'total', line_color = color_discrete_sequence[i])
+
+# i = i+1
+# fig.add_scatter(x=casual_df_new['index_upper']
+#                 , y=casual_df_new['churn'], mode='markers'
+#                 , showlegend = True, name = 'new', line_color = color_discrete_sequence[i])
+# x_fit, y_fit = fit_churn_curve(casual_df_new[casual_df_new['churn_diff'].notnull()])
 # fig.add_scatter(x=x_fit, y=y_fit
 #                 , showlegend = False, name = 'total', line_color = color_discrete_sequence[i])
 
-i = i+1
-fig.add_scatter(x=casual_df_new['index_upper']
-                , y=casual_df_new['churn'], mode='markers'
-                , showlegend = True, name = 'new', line_color = color_discrete_sequence[i])
-x_fit, y_fit = fit_churn_curve(casual_df_new[casual_df_new['churn_diff'].notnull()])
-fig.add_scatter(x=x_fit, y=y_fit
-                , showlegend = False, name = 'total', line_color = color_discrete_sequence[i])
-
-i = i+1
-fig.add_scatter(x=casual_df_lib['index_upper']
-                , y=casual_df_lib['churn'], mode='markers'
-                , showlegend = True, name = 'lib', line_color = color_discrete_sequence[i])
-x_fit, y_fit = fit_churn_curve(casual_df_lib)
-fig.add_scatter(x=x_fit, y=y_fit
-                , showlegend = False, name = 'total', line_color = color_discrete_sequence[i])
+# i = i+1
+# fig.add_scatter(x=casual_df_lib['index_upper']
+#                 , y=casual_df_lib['churn'], mode='markers'
+#                 , showlegend = True, name = 'lib', line_color = color_discrete_sequence[i])
+# x_fit, y_fit = fit_churn_curve(casual_df_lib)
+# fig.add_scatter(x=x_fit, y=y_fit
+#                 , showlegend = False, name = 'total', line_color = color_discrete_sequence[i])
 
 
-fig.update_layout(
-    template='simple_white',
-    showlegend=True,
-    xaxis=dict(range=[0,15]),
-    # yaxis=dict(range=[0.2,0.65]),
-) 
+# fig.update_layout(
+#     template='simple_white',
+#     showlegend=True,
+#     xaxis=dict(range=[0,15]),
+#     # yaxis=dict(range=[0.2,0.65]),
+# ) 
 
 # COMMAND ----------
 
@@ -523,45 +519,45 @@ import scipy.interpolate as inter
 
 # COMMAND ----------
 
-fig = px.scatter(title='chur difference vs titles viewed Spline fit',
-                  width=1000, height=400)
+# fig = px.scatter(title='chur difference vs titles viewed Spline fit',
+#                   width=1000, height=400)
 
-color_discrete_sequence=px.colors.qualitative.D3
+# color_discrete_sequence=px.colors.qualitative.D3
 
-i = 0
-fig.add_scatter(x=casual_df_total['index_upper']
-                , y=casual_df_total['churn'], mode='markers'
-                , showlegend = True, name = 'total', line_color = color_discrete_sequence[i])
-x_fit, y_fit = fit_churn_curve(casual_df_total)
-y_fit = inter.UnivariateSpline(casual_df_total.index_upper, casual_df_total.churn, s = 0.1)(x_fit)
-fig.add_scatter(x=x_fit, y=y_fit
-                , showlegend = False, name = 'total', line_color = color_discrete_sequence[i])
+# i = 0
+# fig.add_scatter(x=casual_df_total['index_upper']
+#                 , y=casual_df_total['churn'], mode='markers'
+#                 , showlegend = True, name = 'total', line_color = color_discrete_sequence[i])
+# x_fit, y_fit = fit_churn_curve(casual_df_total)
+# y_fit = inter.UnivariateSpline(casual_df_total.index_upper, casual_df_total.churn, s = 0.1)(x_fit)
+# fig.add_scatter(x=x_fit, y=y_fit
+#                 , showlegend = False, name = 'total', line_color = color_discrete_sequence[i])
 
-i = i+1
-fig.add_scatter(x=casual_df_new['index_upper']
-                , y=casual_df_new['churn'], mode='markers'
-                , showlegend = True, name = 'new', line_color = color_discrete_sequence[i])
-x_fit, y_fit = fit_churn_curve(casual_df_new)
-y_fit = inter.UnivariateSpline(casual_df_new.index_upper, casual_df_new.churn, s = 0.1)(x_fit)
-fig.add_scatter(x=x_fit, y=y_fit
-                , showlegend = False, name = 'total', line_color = color_discrete_sequence[i])
+# i = i+1
+# fig.add_scatter(x=casual_df_new['index_upper']
+#                 , y=casual_df_new['churn'], mode='markers'
+#                 , showlegend = True, name = 'new', line_color = color_discrete_sequence[i])
+# x_fit, y_fit = fit_churn_curve(casual_df_new)
+# y_fit = inter.UnivariateSpline(casual_df_new.index_upper, casual_df_new.churn, s = 0.1)(x_fit)
+# fig.add_scatter(x=x_fit, y=y_fit
+#                 , showlegend = False, name = 'total', line_color = color_discrete_sequence[i])
 
-i = i+1
-fig.add_scatter(x=casual_df_lib['index_upper']
-                , y=casual_df_lib['churn'], mode='markers'
-                , showlegend = True, name = 'lib', line_color = color_discrete_sequence[i])
-x_fit, y_fit = fit_churn_curve(casual_df_lib)
-y_fit = inter.UnivariateSpline(casual_df_lib.index_upper, casual_df_lib.churn, s = 0.1)(x_fit)
-fig.add_scatter(x=x_fit, y=y_fit
-                , showlegend = False, name = 'total', line_color = color_discrete_sequence[i])
+# i = i+1
+# fig.add_scatter(x=casual_df_lib['index_upper']
+#                 , y=casual_df_lib['churn'], mode='markers'
+#                 , showlegend = True, name = 'lib', line_color = color_discrete_sequence[i])
+# x_fit, y_fit = fit_churn_curve(casual_df_lib)
+# y_fit = inter.UnivariateSpline(casual_df_lib.index_upper, casual_df_lib.churn, s = 0.1)(x_fit)
+# fig.add_scatter(x=x_fit, y=y_fit
+#                 , showlegend = False, name = 'total', line_color = color_discrete_sequence[i])
 
 
-fig.update_layout(
-    template='simple_white',
-    showlegend=True,
-    xaxis=dict(range=[0,15]),
-    # yaxis=dict(range=[0.2,0.65]),
-) 
+# fig.update_layout(
+#     template='simple_white',
+#     showlegend=True,
+#     xaxis=dict(range=[0,15]),
+#     # yaxis=dict(range=[0.2,0.65]),
+# ) 
 
 # COMMAND ----------
 
@@ -580,11 +576,7 @@ limit 1000000
 
 # COMMAND ----------
 
-sub_data['new_titles_viewed'].mean() #1.7761535
-
-# COMMAND ----------
-
-sub_data_orig['new_titles_viewed'].mean() #2.140111
+sub_data['new_titles_viewed'].mean() #0.9072745
 
 # COMMAND ----------
 
@@ -604,6 +596,7 @@ curve_df #0.0102	-0.6428	0.0426
 
 # COMMAND ----------
 
+treatment_col = 'new_titles_viewed'
 confounding_factor = ['tenure_scaled',
                         'number_of_reconnects_scaled',
                         'titles_viewed_scaled',
@@ -621,7 +614,6 @@ confounding_factor = ['tenure_scaled',
                         'sku_ad_free_scaled',
                         'sku_ad_lite_scaled',
                         'sku_premium_ad_free_scaled']
-treatment_col = 'new_titles_viewed'
 
 # COMMAND ----------
 
@@ -635,7 +627,7 @@ def output_casual_parameters(sub_data, sub_data_orig):
     new_churn = base_churn
 
     for i in range(0, 15, 1):
-        coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col)
+        coef, intercept, se = get_casual_impact(i, i+1, sub_data, treatment_col, confounding_factor)
         intercept = intercept - np.log((0.95/0.05)*(1))
         churn_diff = convert_odds_change_to_prob_change(coef, intercept)
 
@@ -666,7 +658,8 @@ def plot_curve_and_mean(casual_df, a,b,c,mean, seg):
     fig.update_layout(
         template='simple_white',
         showlegend=False,
-        xaxis=dict(range=[0.25,15]),
+        xaxis=dict(range=[0,10]),
+        yaxis=dict(range=[0,0.4]),
         annotations=[
         dict(
             x=x_med+0.2,  # x-coordinate for the text
@@ -688,7 +681,8 @@ def plot_curve_and_mean(casual_df, a,b,c,mean, seg):
 
 # COMMAND ----------
 
-curve_df.head()
+# curve_df = curve_df[curve_df['entertainment_segment_lifetime'] == 'genpop']
+curve_df
 
 # COMMAND ----------
 
@@ -701,6 +695,43 @@ for seg in sub_data[sub_data['entertainment_segment_lifetime'].notnull()].entert
     a,b,c = fit_churn_curve(casual_df[(casual_df['index_upper']<=8)
                                       &(casual_df['churn'].notnull())])
     curve_df.loc[len(curve_df)] = [a,b,c, 'new',  seg_data_orig[treatment_col].mean(), seg]
+
+    print(seg_data_orig[treatment_col].mean())
+    plot_curve_and_mean(casual_df, a,b,c,seg_data_orig[treatment_col].mean(), seg)
+
+# COMMAND ----------
+
+####### Confounding for library titles #############
+treatment_col = 'library_titles_viewed'
+confounding_factor = ['tenure_scaled',
+                        'number_of_reconnects_scaled',
+                        'titles_viewed_scaled',
+                        'new_titles_viewed_scaled',
+                        # 'library_titles_viewed_scaled',
+                        'number_of_weeks_viewed_scaled',
+                        'platinum_titles_viewed_scaled',
+                        'gold_titles_viewed_scaled',
+                        'silver_titles_viewed_scaled',
+                        'series_viewed_scaled',
+                        'movie_viewed_scaled',
+                        'livesports_viewed_scaled',
+                        # 'hours_viewed_scaled',
+                        # 'provider_Direct_scaled',
+                        'sku_ad_free_scaled',
+                        'sku_ad_lite_scaled',
+                        'sku_premium_ad_free_scaled']
+
+# COMMAND ----------
+
+for seg in sub_data[sub_data['entertainment_segment_lifetime'].notnull()].entertainment_segment_lifetime.unique():
+    print(seg)
+    seg_data = sub_data[sub_data['entertainment_segment_lifetime'] == seg]
+    seg_data_orig = sub_data_orig[sub_data_orig['entertainment_segment_lifetime'] == seg]
+
+    casual_df = output_casual_parameters(seg_data, seg_data_orig)
+    a,b,c = fit_churn_curve(casual_df[(casual_df['index_upper']<=8)
+                                      &(casual_df['churn'].notnull())])
+    curve_df.loc[len(curve_df)] = [a,b,c, 'library',  seg_data_orig[treatment_col].mean(), seg]
 
     print(seg_data_orig[treatment_col].mean())
     plot_curve_and_mean(casual_df, a,b,c,seg_data_orig[treatment_col].mean(), seg)
